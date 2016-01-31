@@ -3,6 +3,9 @@
 set -e
 
 # ROM, CHAIN""
+./UEF2ROM.py -m -s ~/Games/UEFs/games/A-M/3DPool_E.uef ROMs/3DPool-1.rom ROMs/3DPool-2.rom
+
+# ROM, CHAIN""
 ./UEF2ROM.py -m -s ~/Games/UEFs/games/A-M/Arcadians.uef ROMs/Arcadians-1.rom ROMs/Arcadians-2.rom
 
 # ROM, CHAIN""
@@ -69,14 +72,16 @@ set -e
 ./UEF2ROM.py -s ~/Games/UEFs/games/A-M/KarateCombat.uef ROMs/KarateCombat-1.rom ROMs/KarateCombat-2.rom
 
 # MGCROM, CHAIN""
-./UEF2ROM.py -w 39f -s -t ~/Games/UEFs/games/A-M/KissinCousins_E.uef ROMs/KissinCousins-1.rom ROMs/KissinCousins-2.rom
-
-# MGCROM, CHAIN""
 ./UEF2ROM.py ~/Games/UEFs/games/A-M/KillerGorilla.uef ROMs/KillerGorilla.rom
 
-# ROM, */
-./UEF2ROM.py -f 0-3,6 -m ~/Games/UEFs/games/A-M/LastOfTheFree.uef ROMs/LastOfTheFree-1.rom
-./UEF2ROM.py -f 4-5 -m ~/Games/UEFs/games/A-M/LastOfTheFree.uef ROMs/LastOfTheFree-2.rom
+# MGCROM, CHAIN""
+./UEF2ROM.py -w 120 -s -t ~/Games/UEFs/games/A-M/KissinCousins_E.uef ROMs/KissinCousins-1.rom ROMs/KissinCousins-2.rom
+
+## ROM, */
+#./UEF2ROM.py -f 0-3,6 -m ~/Games/UEFs/games/A-M/LastOfTheFree.uef ROMs/LastOfTheFree-1.rom
+#./UEF2ROM.py -f 4-5 -m ~/Games/UEFs/games/A-M/LastOfTheFree.uef ROMs/LastOfTheFree-2.rom
+# ROM, */FREE
+./UEF2ROM.py -s -m ~/Games/UEFs/games/A-M/LastOfTheFree.uef ROMs/LastOfTheFree-1.rom ROMs/LastOfTheFree-2.rom
 
 # ROM, CHAIN""
 ./UEF2ROM.py -m ~/Games/UEFs/games/A-M/LunarRescue_E.uef ROMs/LunarRescue.rom
@@ -89,6 +94,9 @@ set -e
 
 # MGCROM, CHAIN""
 ./UEF2ROM.py -w 39f ~/Games/UEFs/games/A-M/MoonBuggy.uef ROMs/MoonBuggy-1.rom ROMs/MoonBuggy-2.rom
+
+# ROM, CHAIN""
+./UEF2ROM.py -m -s ~/Games/UEFs/games/MoonRaider_E.uef ROMs/MoonRaider-1.rom ROMs/MoonRaider-2.rom
 
 # MGCROM, CHAIN""
 ./UEF2ROM.py ~/Games/UEFs/games/N-Z/Overdrive.uef ROMs/Overdrive.rom
@@ -123,6 +131,9 @@ set -e
 # ROM, CHAIN""
 ./UEF2ROM.py -m -s ~/Games/UEFs/games/N-Z/Saracoid.uef ROMs/Saracoid-1.rom ROMs/Saracoid-2.rom
 
+# ROM, CHAIN""
+./UEF2ROM.py -m -s ~/Games/UEFs/Shark_E.uef ROMs/Shark-1.rom ROMs/Shark-2.rom
+
 # MGCROM, CHAIN""
 ./UEF2ROM.py -w 880 ~/Games/UEFs/games/N-Z/Sim_Tape.uef ROMs/Sim.rom
 
@@ -145,7 +156,7 @@ set -e
 ./UEF2ROM.py -s ~/Games/UEFs/games/N-Z/Thrust_Tape.uef ROMs/Thrust-1.rom ROMs/Thrust-2.rom
 
 # MGCROM, CHAIN""
-./UEF2ROM.py ~/Games/UEFs/games/N-Z/VideosRevenge.uef ROMs/VideosRevenge-1.rom ROMs/VideosRevenge-2.rom
+./UEF2ROM.py -w 120 ~/Games/UEFs/games/N-Z/VideosRevenge.uef ROMs/VideosRevenge-1.rom ROMs/VideosRevenge-2.rom
 
 # ROM, CHAIN""
 ./UEF2ROM.py -s -m ~/Games/UEFs/games/N-Z/Village.uef ROMs/Village-1.rom ROMs/Village-2.rom
