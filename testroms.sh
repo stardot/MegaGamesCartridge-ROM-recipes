@@ -22,8 +22,16 @@ set -e
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DangerUXB.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DareDevilDenis.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DeathStar.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DiamondMine.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DiamondMine2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DrainMania-1.rom -rom1 ROMs/DrainMania-2.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Draughts.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Elixir-1.rom -rom1 ROMs/Elixir-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/EMBA.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Erbert.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/FelixInTheFactory.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/FelixMeetsTheEvilWeevils-1.rom -rom1 ROMs/FelixMeetsTheEvilWeevils-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Firebug-1.rom -rom1 ROMs/Firebug-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Firetrack-1.rom -rom1 ROMs/Firetrack-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Frak-1.rom -rom1 ROMs/Frak-2.rom
@@ -58,6 +66,7 @@ set -e
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Repton-1.rom -rom1 ROMs/Repton-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Reversi.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/RubbleTrouble-1.rom -rom1 ROMs/RubbleTrouble-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Saracoid-1.rom -rom1 ROMs/Saracoid-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Shark-1.rom -rom1 ROMs/Shark-2.rom
