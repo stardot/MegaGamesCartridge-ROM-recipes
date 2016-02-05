@@ -2,6 +2,7 @@
 
 set -e
 
+./UEF2ROM.py -a ~/Games/UEFs/games/A-M/3DDotty_E.uef ROMs/3DDotty.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/A-M/3DPool_E.uef ROMs/3DPool-1.rom ROMs/3DPool-2.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/A-M/Arcadians.uef ROMs/Arcadians-1.rom ROMs/Arcadians-2.rom
 ./UEF2ROM.py -a -b -w 39f ~/Games/UEFs/games/A-M/AstroPlumber_E.uef ROMs/AstroPlumber.rom
@@ -9,23 +10,38 @@ set -e
 ./UEF2ROM.py -a -b -r -m -s ~/Games/UEFs/games/A-M/Boffin2-modified_BE.uef ROMs/Boffin2-1.rom ROMs/Boffin2-2.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/A-M/Boxer.uef ROMs/Boxer-1.rom ROMs/Boxer-2.rom
 ./UEF2ROM.py -a -b -r -s -w 860 -t ~/Games/UEFs/games/A-M/Breakthrough_RUN_E.uef ROMs/Breakthrough-1.rom ROMs/Breakthrough-2.rom
+./UEF2ROM.py -a -s -t ~/Games/UEFs/games/A-M/BrianJacksSuperstarChallenge_E.uef ROMs/BrianJacksSuperstarChallenge-1.rom ROMs/BrianJacksSuperstarChallenge-2.rom
 ./UEF2ROM.py -a -b -w 880 ~/Games/UEFs/games/A-M/BugBlast.uef ROMs/BugBlast-1.rom ROMs/BugBlast-2.rom
+./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Bugs_E.uef ROMs/Bugs.rom
 ./UEF2ROM.py -a -b -s -m ~/Games/UEFs/games/A-M/BumbleBee_E.uef ROMs/BumbleBee-1.rom ROMs/BumbleBee-2.rom
 ./UEF2ROM.py -a -b -w 880 ~/Games/UEFs/games/A-M/CastleAssault_E.uef ROMs/CastleAssault.rom
 ./UEF2ROM.py -a -b -s -m ~/Games/UEFs/games/A-M/CastleOfRiddles_E.uef ROMs/CastleOfRiddles-1.rom ROMs/CastleOfRiddles-2.rom
+./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Caterpillar-Romik_E.uef ROMs/Caterpillar.rom
 ./UEF2ROM.py -a -b -w 39f ~/Games/UEFs/games/A-M/CavemanCapers.uef ROMs/CavemanCapers.rom
+./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Centibug_E.uef ROMs/Centibug.rom
+./UEF2ROM.py -a -s ~/Games/UEFs/games/A-M/Chess-Acornsoft_E.uef ROMs/Chess-Acornsoft-1.rom ROMs/Chess-Acornsoft-2.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/Chess-Micropower_E.uef ROMs/Chess-Micropower.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/Chess-Superior_BE.uef ROMs/Chess-Superior.rom
 ./UEF2ROM.py -a -b -m ~/Games/UEFs/games/A-M/ChuckieEgg_E.uef ROMs/ChuckieEgg.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/A-M/Citadel-PIASRR_E.uef ROMs/Citadel-1.rom ROMs/Citadel-2.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/CosmicCamouflage_Tape.uef ROMs/CosmicCamouflage-1.rom ROMs/CosmicCamouflage-2.rom
 ./UEF2ROM.py -a -b -m ~/Games/UEFs/games/A-M/CrazyTracer_E.uef ROMs/CrazyTracer.rom
+./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Croaker_E.uef ROMs/Croaker.rom
+./UEF2ROM.py -a -p -t -w 39f ~/Games/UEFs/games/A-M/CrystalCastles_E.uef ROMs/CrystalCastles-1.rom ROMs/CrystalCastles-2.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/CybertronMission_Tape.uef ROMs/CybertronMission.rom
+./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/CylonAttack_E.uef ROMs/CylonAttack-1.rom ROMs/CylonAttack-2.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/DangerUXB_Tape.uef ROMs/DangerUXB.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/DareDevilDenis.uef ROMs/DareDevilDenis.rom
 ./UEF2ROM.py -a -b -w 1000 ~/Games/UEFs/games/A-M/DeathStar.uef ROMs/DeathStar.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/DespatchRider_E.uef ROMs/DespatchRider-1.rom ROMs/DespatchRider-2.rom
 ./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/DiamondMine-MRM_E.uef ROMs/DiamondMine.rom
 ./UEF2ROM.py -a -w 39f ~/Games/UEFs/games/A-M/DiamondMine2-BlueRibbon_E.uef ROMs/DiamondMine2.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/Dominoes_E.uef ROMs/Dominoes.rom
 ./UEF2ROM.py -a -b -w 39f ~/Games/UEFs/games/A-M/DrainMania.uef ROMs/DrainMania-1.rom ROMs/DrainMania-2.rom
-./UEF2ROM.py -a ~/Games/UEFs/games/A-M/DAR-Draughts_E.uef ROMs/Draughts.rom
+./UEF2ROM.py -a ~/Games/UEFs/games/A-M/DAR-Draughts_E.uef ROMs/Draughts-Acornsoft.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/Draughts-ComputerConcepts_BE.uef ROMs/Draughts-ComputerConcepts.rom
+./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Draughts-Superior_E.uef ROMs/Draughts-Superior.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/ElectronInvaders_E.uef ROMs/ElectronInvaders.rom
 ./UEF2ROM.py -a -s -t -w 39f ~/Games/UEFs/games/A-M/Elixir_E.uef ROMs/Elixir-1.rom ROMs/Elixir-2.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/EMBA.uef ROMs/EMBA.rom
 ./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Erbert_E.uef ROMs/Erbert.rom
@@ -40,6 +56,8 @@ set -e
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/Gauntlet_E.uef ROMs/Gauntlet-1.rom ROMs/Gauntlet-2.rom
 ./UEF2ROM.py -a -b -m ~/Games/UEFs/games/A-M/Go_E.uef ROMs/Go-1.rom ROMs/Go-2.rom
 ./UEF2ROM.py -a -b -w 39f -t ~/Games/UEFs/games/A-M/Guardian_E.uef ROMs/Guardian.rom
+./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/Gunfighter_BE.uef ROMs/Gunfighter-1.rom ROMs/Gunfighter-2.rom
+./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Gunsmoke_E.uef ROMs/Gunsmoke-1.rom ROMs/Gunsmoke-2.rom
 ./UEF2ROM.py -a -t -s -w 39f ~/Games/UEFs/games/A-M/Gyroscope_E.uef ROMs/Gyroscope-1.rom ROMs/Gyroscope-2.rom
 ./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/Hobgoblin_E.uef ROMs/Hobgoblin-1.rom ROMs/Hobgoblin-2.rom
 ./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/Hobgoblin2_E.uef ROMs/Hobgoblin2-1.rom ROMs/Hobgoblin2-2.rom

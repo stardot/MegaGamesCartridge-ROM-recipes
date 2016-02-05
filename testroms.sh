@@ -2,6 +2,7 @@
 
 set -e
 
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/3DDotty.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/3DPool-1.rom -rom1 ROMs/3DPool-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/AstroPlumber.rom
@@ -9,23 +10,38 @@ set -e
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Boffin2-1.rom -rom1 ROMs/Boffin2-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Boxer-1.rom -rom1 ROMs/Boxer-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Breakthrough-1.rom -rom1 ROMs/Breakthrough-2.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/BrianJacksSuperstarChallenge-1.rom -rom1 ROMs/BrianJacksSuperstarChallenge-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/BugBlast-1.rom -rom1 ROMs/BugBlast-2.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Bugs.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/BumbleBee-1.rom -rom1 ROMs/BumbleBee-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/CastleAssault.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/CastleOfRiddles-1.rom -rom1 ROMs/CastleOfRiddles-2.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Caterpillar.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/CavemanCapers.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Centibug.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Chess-Acornsoft-1.rom -rom1 ROMs/Chess-Acornsoft-2.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Chess-Micropower.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Chess-Superior.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/ChuckieEgg.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/CosmicCamouflage-1.rom -rom1 ROMs/CosmicCamouflage-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/CrazyTracer.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Croaker.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/CrystalCastles-1.rom -rom1 ROMs/CrystalCastles-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/CybertronMission.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/CylonAttack-1.rom -rom1 ROMs/CylonAttack-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DangerUXB.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DareDevilDenis.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DeathStar.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DespatchRider-1.rom -rom1 ROMs/DespatchRider-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DiamondMine.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DiamondMine2.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Dominoes.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/DrainMania-1.rom -rom1 ROMs/DrainMania-2.rom
-/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Draughts.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Draughts-Acornsoft.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Draughts-ComputerConcepts.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Draughts-Superior.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/ElectronInvaders.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Elixir-1.rom -rom1 ROMs/Elixir-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/EMBA.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Erbert.rom
@@ -40,6 +56,8 @@ set -e
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Gauntlet-1.rom -rom1 ROMs/Gauntlet-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Go-1.rom -rom1 ROMs/Go-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Guardian.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
+/data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Gunsmoke-1.rom -rom1 ROMs/Gunsmoke-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Gyroscope-1.rom -rom1 ROMs/Gyroscope-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Hobgoblin-1.rom -rom1 ROMs/Hobgoblin-2.rom
 /data/david/Software/Emulation/elkulator/elkulator -rom2 ROMs/Hobgoblin2-1.rom -rom1 ROMs/Hobgoblin2-2.rom
