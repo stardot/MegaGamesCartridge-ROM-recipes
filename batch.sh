@@ -4,6 +4,7 @@ set -e
 
 ./UEF2ROM.py -a ~/Games/UEFs/games/A-M/3DDotty_E.uef ROMs/3DDotty.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/A-M/3DPool_E.uef ROMs/3DPool-1.rom ROMs/3DPool-2.rom
+./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/Adventure-Micropower_E.uef ROMs/Adventure-Micropower.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/A-M/Arcadians.uef ROMs/Arcadians-1.rom ROMs/Arcadians-2.rom
 ./UEF2ROM.py -a -b -w 39f ~/Games/UEFs/games/A-M/AstroPlumber_E.uef ROMs/AstroPlumber.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/BarBilliards_E.uef ROMs/BarBilliards.rom
@@ -15,6 +16,7 @@ set -e
 ./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Bugs_E.uef ROMs/Bugs.rom
 ./UEF2ROM.py -a -b -s -m ~/Games/UEFs/games/A-M/BumbleBee_E.uef ROMs/BumbleBee-1.rom ROMs/BumbleBee-2.rom
 ./UEF2ROM.py -a -b -w 880 ~/Games/UEFs/games/A-M/CastleAssault_E.uef ROMs/CastleAssault.rom
+./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/CastleFrankenstein_E.uef ROMs/CastleFrankenstein-1.rom ROMs/CastleFrankenstein-2.rom
 ./UEF2ROM.py -a -b -s -m ~/Games/UEFs/games/A-M/CastleOfRiddles_E.uef ROMs/CastleOfRiddles-1.rom ROMs/CastleOfRiddles-2.rom
 ./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Caterpillar-Romik_E.uef ROMs/Caterpillar.rom
 ./UEF2ROM.py -a -b -w 39f ~/Games/UEFs/games/A-M/CavemanCapers.uef ROMs/CavemanCapers.rom
@@ -42,6 +44,7 @@ set -e
 ./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/Draughts-ComputerConcepts_BE.uef ROMs/Draughts-ComputerConcepts.rom
 ./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Draughts-Superior_E.uef ROMs/Draughts-Superior.rom
 ./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/ElectronInvaders_E.uef ROMs/ElectronInvaders.rom
+./UEF2ROM.py -a -b -s ~/Games/UEFs/games/A-M/Elite-SRR_E.uef ROMs/Elite-1.rom ROMs/Elite-2.rom
 ./UEF2ROM.py -a -s -t -w 39f ~/Games/UEFs/games/A-M/Elixir_E.uef ROMs/Elixir-1.rom ROMs/Elixir-2.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/EMBA.uef ROMs/EMBA.rom
 ./UEF2ROM.py -a ~/Games/UEFs/games/A-M/Erbert_E.uef ROMs/Erbert.rom
@@ -63,6 +66,7 @@ set -e
 ./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/Hobgoblin2_E.uef ROMs/Hobgoblin2-1.rom ROMs/Hobgoblin2-2.rom
 ./UEF2ROM.py -a -b -w 860 ~/Games/UEFs/games/A-M/HorseRace.uef ROMs/HorseRace.rom
 ./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/Hunchback-Ocean_E.uef ROMs/Hunchback.rom
+./UEF2ROM.py -a -b -m /home/david/Games/UEFs/games/A-M/Hunkidory_BE.uef ROMs/Hunkidory-1.rom ROMs/Hunkidory-2.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/A-M/Impact.uef ROMs/Impact-1.rom ROMs/Impact-2.rom
 ./UEF2ROM.py -a -b -w 39f -t -s ~/Games/UEFs/games/A-M/JetBootJack_E.uef ROMs/JetBootJack-1.rom ROMs/JetBootJack-2.rom
 ./UEF2ROM.py -a -b -w 39f ~/Games/UEFs/games/A-M/Joust.uef ROMs/Joust-1.rom ROMs/Joust-2.rom
@@ -70,15 +74,20 @@ set -e
 ./UEF2ROM.py -a -b -s ~/Games/UEFs/games/A-M/KarateCombat.uef ROMs/KarateCombat-1.rom ROMs/KarateCombat-2.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/KillerGorilla.uef ROMs/KillerGorilla.rom
 ./UEF2ROM.py -a -s -w 39f ~/Games/UEFs/games/A-M/KillerGorilla2-PIAS_E.uef ROMs/KillerGorilla2-1.rom ROMs/KillerGorilla2-2.rom
+./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/KingdomOfKlein_E.uef ROMs/KingdomOfKlein-1.rom ROMs/KingdomOfKlein-2.rom
 ./UEF2ROM.py -a -b -w 120 -s -t ~/Games/UEFs/games/A-M/KissinCousins_E.uef ROMs/KissinCousins-1.rom ROMs/KissinCousins-2.rom
 ./UEF2ROM.py -a -b -r -s -m ~/Games/UEFs/games/A-M/LastOfTheFree.uef ROMs/LastOfTheFree-1.rom ROMs/LastOfTheFree-2.rom
+./UEF2ROM.py -a -b -p -w 39f /home/david/Games/UEFs/games/A-M/LocksOfLuck_E.uef ROMs/LocksOfLuck-1.rom ROMs/LocksOfLuck-2.rom
 ./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/Locomotion_E.uef ROMs/Locomotion-1.rom ROMs/Locomotion-2.rom
+./UEF2ROM.py -a -b -m /home/david/Games/UEFs/games/A-M/Loopz_E.uef ROMs/Loopz-1.rom ROMs/Loopz-2.rom
 ./UEF2ROM.py -a -b -m ~/Games/UEFs/games/A-M/LunarRescue_E.uef ROMs/LunarRescue.rom
 ./UEF2ROM.py -a -b -w 880 ~/Games/UEFs/games/A-M/MagicMushrooms_Tape.uef ROMs/MagicMushrooms.rom
 ./UEF2ROM.py -a -b -m ~/Games/UEFs/games/A-M/Maze_E.uef ROMs/Maze.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/A-M/Meteors_E.uef ROMs/Meteors.rom
 ./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/Microball_BE.uef ROMs/Microball.rom
 ./UEF2ROM.py -a -p -t -w 39f -s ~/Games/UEFs/games/A-M/Mikie_E.uef ROMs/Mikie-1.rom ROMs/Mikie-2.rom
+./UEF2ROM.py -a -r -s ~/Games/UEFs/games/A-M/Mineshaft_RUN_E.uef ROMs/Mineshaft-1.rom ROMs/Mineshaft-2.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/A-M/MissileControl_E.uef ROMs/MissileControl.rom
 ./UEF2ROM.py -a -b -w 880 ~/Games/UEFs/games/A-M/Monsters.uef ROMs/Monsters.rom
 ./UEF2ROM.py -a -b -w 39f ~/Games/UEFs/games/A-M/MoonBuggy.uef ROMs/MoonBuggy-1.rom ROMs/MoonBuggy-2.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/MoonRaider_E.uef ROMs/MoonRaider-1.rom ROMs/MoonRaider-2.rom
@@ -88,34 +97,49 @@ set -e
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/N-Z/PhilosophersQuest_E.uef ROMs/PhilosophersQuest-1.rom ROMs/PhilosophersQuest-2.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/N-Z/PhilosophersStone_BE.uef ROMs/PhilosophersStone-1.rom ROMs/PhilosophersStone-2.rom
 ./UEF2ROM.py -a -b -w 120 ~/Games/UEFs/games/N-Z/Pinball.uef ROMs/Pinball.rom
+./UEF2ROM.py -a -b -m -r -s /home/david/Games/UEFs/games/N-Z/Pipemania_E.uef ROMs/Pipemania-1.rom ROMs/Pipemania-2.rom
 ./UEF2ROM.py -a -m -s ~/Games/UEFs/games/N-Z/PlanB_BE.uef ROMs/PlanB-1.rom ROMs/PlanB-2.rom
 ./UEF2ROM.py -a -s ~/Games/UEFs/games/N-Z/PlanB2_BE.uef ROMs/PlanB2-1.rom ROMs/PlanB2-2.rom
 ./UEF2ROM.py -a -m ~/Games/UEFs/games/N-Z/Planetoid_E.uef ROMs/Planetoid.rom
+./UEF2ROM.py -a -b -m ~/Games/UEFs/games/N-Z/Positron_E.uef ROMs/Positron.rom
 ./UEF2ROM.py -a -s ~/Games/UEFs/games/N-Z/Predator_E.uef ROMs/Predator-1.rom ROMs/Predator-2.rom
 ./UEF2ROM.py -a -b -w 39f -s -t ~/Games/UEFs/games/N-Z/Psycastria.uef ROMs/Psycastria-1.rom ROMs/Psycastria-2.rom
 ./UEF2ROM.py -a -b -s ~/Games/UEFs/games/N-Z/Quest.uef ROMs/Quest-1.rom ROMs/Quest-2.rom
+./UEF2ROM.py -a -m -s ~/Games/UEFs/games/A-M/QuestForTheHolyGrail_E.uef ROMs/QuestForTheHolyGrail-1.rom ROMs/QuestForTheHolyGrail-2.rom
 ./UEF2ROM.py -a -s ~/Games/UEFs/games/N-Z/Qwak_E.uef ROMs/Qwak-1.rom ROMs/Qwak-2.rom
 ./UEF2ROM.py -a -b -m ~/Games/UEFs/games/N-Z/Ravage_E.uef ROMs/Ravage.rom
 ./UEF2ROM.py -a -b -s ~/Games/UEFs/games/N-Z/Repton.uef ROMs/Repton-1.rom ROMs/Repton-2.rom
 ./UEF2ROM.py -a -b -s ~/Games/UEFs/games/N-Z/Repton2.uef ROMs/Repton2-1.rom ROMs/Repton2-2.rom
 ./UEF2ROM.py -a -b -s ~/Games/UEFs/games/N-Z/Repton3.uef ROMs/Repton3-1.rom ROMs/Repton3-2.rom
 ./UEF2ROM.py -a ~/Games/UEFs/games/A-M/DAR-Reversi_E.uef ROMs/Reversi.rom
+./UEF2ROM.py -a -b -m ~/Games/UEFs/games/N-Z/Reversi-Superior_E.uef ROMs/Reversi-Superior.rom
 ./UEF2ROM.py -a -m ~/Games/UEFs/games/N-Z/RigAttack_E.uef ROMs/RigAttack.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/N-Z/RubbleTrouble.uef ROMs/RubbleTrouble-1.rom ROMs/RubbleTrouble-2.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/games/N-Z/Saracoid.uef ROMs/Saracoid-1.rom ROMs/Saracoid-2.rom
+./UEF2ROM.py -a -b /home/david/Games/UEFs/games/N-Z/SavagePond-Starcade_E.uef ROMs/SavagePond-1.rom ROMs/SavagePond-2.rom
 ./UEF2ROM.py -a -b -m -s ~/Games/UEFs/Shark_E.uef ROMs/Shark-1.rom ROMs/Shark-2.rom
 ./UEF2ROM.py -a -b -w 880 ~/Games/UEFs/games/N-Z/Sim_Tape.uef ROMs/Sim.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/N-Z/SmashAndGrab.uef ROMs/SmashAndGrab.rom
 ./UEF2ROM.py -a -b -m ~/Games/UEFs/games/N-Z/Snooker-Acornsoft_E.uef ROMs/Snooker.rom
 ./UEF2ROM.py -a -s -t -w 39f ~/Games/UEFs/games/N-Z/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom ROMs/SpaceAgentZeldaMeetsTheBugEyes-2.rom
 ./UEF2ROM.py -a -b -t -s ~/Games/UEFs/games/N-Z/SpacemanSid.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
+./UEF2ROM.py -a -s -t -w 39f ~/Games/UEFs/games/N-Z/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
 ./UEF2ROM.py -a -b -s -m ~/Games/UEFs/games/N-Z/SphinxAdventure_E.uef ROMs/SphinxAdventure-1.rom ROMs/SphinxAdventure-2.rom
+./UEF2ROM.py -a -b ~/Games/UEFs/games/N-Z/SteveDavisSnooker-PIASRR_E.uef ROMs/SteveDavisSnooker-1.rom ROMs/SteveDavisSnooker-2.rom
 ./UEF2ROM.py -a -b ~/Games/UEFs/games/N-Z/StockCar.uef ROMs/StockCar-1.rom ROMs/StockCar-2.rom
+./UEF2ROM.py -a -b -s -t /home/david/Games/UEFs/games/N-Z/Stormcycle_E.uef ROMs/Stormcycle-1.rom ROMs/Stormcycle-2.rom
 ./UEF2ROM.py -a -b -w 39f -t ~/Games/UEFs/games/N-Z/Stranded_E.uef ROMs/Stranded.rom
+./UEF2ROM.py -a -s -t -w 860 ~/Games/UEFs/games/N-Z/StrykersRun-PIASRR_E.uef ROMs/StrykersRun-1.rom ROMs/StrykersRun-2.rom
 ./UEF2ROM.py -a -m -s ~/Games/UEFs/games/N-Z/SupermanTheGame_BE.uef ROMs/SupermanTheGame-1.rom ROMs/SupermanTheGame-2.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/N-Z/SuperPool_E.uef ROMs/SuperPool.rom
 ./UEF2ROM.py -a -s -t -w 39f ~/Games/UEFs/games/N-Z/Survivors_BE.uef ROMs/Survivors-1.rom ROMs/Survivors-2.rom
+./UEF2ROM.py -a -b -m ~/Games/UEFs/games/N-Z/Swag_E.uef ROMs/Swag-1.rom ROMs/Swag-2.rom
+./UEF2ROM.py -a -b -m ~/Games/UEFs/games/N-Z/Swoop_E.uef ROMs/Swoop.rom
 ./UEF2ROM.py -a -b -s ~/Games/UEFs/games/N-Z/Syncron.uef ROMs/Syncron-1.rom ROMs/Syncron-2.rom
 ./UEF2ROM.py -a -b -m ~/Games/UEFs/games/N-Z/TalesOfTheArabianNights_E.uef ROMs/TalesOfTheArabianNights-1.rom ROMs/TalesOfTheArabianNights-2.rom
+./UEF2ROM.py -a ~/Games/UEFs/games/N-Z/Tempest_E.uef ROMs/Tempest.rom
+./UEF2ROM.py -a -b -m /home/david/Games/UEFs/games/N-Z/Tetris_BE.uef ROMs/Tetris-1.rom ROMs/Tetris-2.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/N-Z/TheMine_E.uef ROMs/TheMine.rom
 ./UEF2ROM.py -a -b -s ~/Games/UEFs/games/N-Z/Thrust_Tape.uef ROMs/Thrust-1.rom ROMs/Thrust-2.rom
 ./UEF2ROM.py -a -r -s -w 39f ~/Games/UEFs/games/N-Z/Thunderstruck_E.uef ROMs/Thunderstruck-1.rom ROMs/Thunderstruck-2.rom
 ./UEF2ROM.py -a -m -r -s ~/Games/UEFs/games/N-Z/Thunderstruck2_E.uef ROMs/Thunderstruck2-1.rom ROMs/Thunderstruck2-2.rom
@@ -123,5 +147,10 @@ set -e
 ./UEF2ROM.py -a -b -s -l ~/Games/UEFs/games/N-Z/TwelfthNight-Electron.uef ROMs/TwelfthNight-1.rom ROMs/TwelfthNight-2.rom
 ./UEF2ROM.py -a -b -w 120 ~/Games/UEFs/games/N-Z/VideosRevenge.uef ROMs/VideosRevenge-1.rom ROMs/VideosRevenge-2.rom
 ./UEF2ROM.py -a -b -s -m ~/Games/UEFs/games/N-Z/Village.uef ROMs/Village-1.rom ROMs/Village-2.rom
+./UEF2ROM.py -a -b -m -r -s /home/david/Games/UEFs/games/N-Z/West_RUN_E.uef ROMs/West-1.rom ROMs/West-2.rom
 ./UEF2ROM.py -a -b -s -m ~/Games/UEFs/games/N-Z/WheelOfFortune_E.uef ROMs/WheelOfFortune-1.rom ROMs/WheelOfFortune-2.rom
+./UEF2ROM.py -a -m ~/Games/UEFs/games/N-Z/Where_E.uef ROMs/Where.rom
+./UEF2ROM.py -a -m -s ~/Games/UEFs/games/N-Z/WhiteKnightMk11_E.uef ROMs/WhiteKnightMk11-1.rom ROMs/WhiteKnightMk11-2.rom
+./UEF2ROM.py -a -m -s ~/Games/UEFs/games/N-Z/Zenon_E.uef ROMs/Zenon-1.rom ROMs/Zenon-2.rom
 ./UEF2ROM.py -a -s ~/Games/UEFs/games/N-Z/Zalaga-PIASRR_E.uef ROMs/Zalaga-1.rom ROMs/Zalaga-2.rom
+./UEF2ROM.py -a -b ~/Games/UEFs/games/N-Z/ZanyKongJunior_E.uef ROMs/ZanyKongJunior.rom
