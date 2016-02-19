@@ -5,6 +5,7 @@ Adventure,Program Power,Adventure-Micropower_E.uef,Adventure-Micropower.rom,,-a 
 Arcadians,Acornsoft,Arcadians.uef,Arcadians-1.rom,Arcadians-2.rom,-a -b -m -s
 Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,,-a -b -w 39f
 Bar Billiards,Blue Ribbon,BarBilliards_E.uef,BarBilliards.rom,,-a -b
+Blood Of The Mutineers,Robico,BloodOfTheMutineers_E.uef,BloodOfTheMutineers-1.rom,BloodOfTheMutineers-2.rom,-a -t -w 39f
 Boffin 2,Addictive,Boffin2-modified_BE.uef,Boffin2-1.rom,Boffin2-2.rom,-a -b -r -m -s
 Boxer,Acornsoft,Boxer.uef,Boxer-1.rom,Boxer-2.rom,-a -b -m -s
 Breakthrough,ASL,Breakthrough_RUN_E.uef,Breakthrough-1.rom,Breakthrough-2.rom,-a -b -r -s -w 860 -t
@@ -23,8 +24,11 @@ Chess,Micro Power,Chess-Micropower_E.uef,Chess-Micropower.rom,,-a -m
 Chess,Superior,Chess-Superior_BE.uef,Chess-Superior.rom,,-a -m
 Chuckie Egg,A&F,ChuckieEgg_E.uef,ChuckieEgg.rom,,-a -b -m
 Citadel,Superior,Citadel-PIASRR_E.uef,Citadel-1.rom,Citadel-2.rom,-a -b -m -s
+Classic Adventure,Melbourne House,ClassicAdventure_RUN_BE.uef,ClassicAdventure-1.rom,ClassicAdventure-2.rom,-a -m -r -s
+Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,,-a -w 39f
 Cosmic Camouflage,Superior/Acornsoft,CosmicCamouflage_Tape.uef,CosmicCamouflage-1.rom,CosmicCamouflage-2.rom,-a -b
 Crazy Tracer,Acornsoft,CrazyTracer_E.uef,CrazyTracer.rom,,-a -b -m
+Creepy Cave,Atlantis,CreepyCave_BE.uef,CreepyCave-1.rom,CreepyCave-2.rom,-a -m
 Croaker,Program Power,Croaker_E.uef,Croaker.rom,,-a
 Crystal Castles,U.S. Gold,CrystalCastles_E.uef,CrystalCastles-1.rom,CrystalCastles-2.rom,-a -p -t -w 39f
 Cybertron Mission,Program Power,CybertronMission_Tape.uef,CybertronMission.rom,,-a -b
@@ -32,6 +36,7 @@ Cylon Attack,A&F,CylonAttack_E.uef,CylonAttack-1.rom,CylonAttack-2.rom,-a -m -s
 Danger UXB,Program Power,DangerUXB_Tape.uef,DangerUXB.rom,,-a -b
 Dare Devil Denis.uef,Visions,DareDevilDenis.uef,DareDevilDenis.rom,,-a -b
 Death Star.uef,Superior,DeathStar.uef,DeathStar.rom,,-a -b -w 1000
+Denis Through The Drinking Glass,Melbourne House,DenisThroughTheDrinkingGlass_E.uef,DenisThroughTheDrinkingGlass-1.rom,DenisThroughTheDrinkingGlass-2.rom,-a -s
 Despatch Rider,Audiogenic,DespatchRider_E.uef,DespatchRider-1.rom,DespatchRider-2.rom,-a -m
 Diamond Mine,MRM,DiamondMine-MRM_E.uef,DiamondMine.rom,,-a -m
 Diamond Mine 2,Blue Ribbon,DiamondMine2-BlueRibbon_E.uef,DiamondMine2.rom,,-a -w 39f

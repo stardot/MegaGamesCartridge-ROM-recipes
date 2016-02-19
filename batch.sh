@@ -4,6 +4,7 @@
 ./UEF2ROM.py -a -b -m -s UEFs/Arcadians.uef ROMs/Arcadians-1.rom ROMs/Arcadians-2.rom
 ./UEF2ROM.py -a -b -w 39f UEFs/AstroPlumber_E.uef ROMs/AstroPlumber.rom
 ./UEF2ROM.py -a -b UEFs/BarBilliards_E.uef ROMs/BarBilliards.rom
+./UEF2ROM.py -a -t -w 39f UEFs/BloodOfTheMutineers_E.uef ROMs/BloodOfTheMutineers-1.rom ROMs/BloodOfTheMutineers-2.rom
 ./UEF2ROM.py -a -b -r -m -s UEFs/Boffin2-modified_BE.uef ROMs/Boffin2-1.rom ROMs/Boffin2-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Boxer.uef ROMs/Boxer-1.rom ROMs/Boxer-2.rom
 ./UEF2ROM.py -a -b -r -s -w 860 -t UEFs/Breakthrough_RUN_E.uef ROMs/Breakthrough-1.rom ROMs/Breakthrough-2.rom
@@ -22,8 +23,11 @@
 ./UEF2ROM.py -a -m UEFs/Chess-Superior_BE.uef ROMs/Chess-Superior.rom
 ./UEF2ROM.py -a -b -m UEFs/ChuckieEgg_E.uef ROMs/ChuckieEgg.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Citadel-PIASRR_E.uef ROMs/Citadel-1.rom ROMs/Citadel-2.rom
+./UEF2ROM.py -a -m -r -s UEFs/ClassicAdventure_RUN_BE.uef ROMs/ClassicAdventure-1.rom ROMs/ClassicAdventure-2.rom
+./UEF2ROM.py -a -w 39f UEFs/ConditionRed_E.uef ROMs/ConditionRed.rom
 ./UEF2ROM.py -a -b UEFs/CosmicCamouflage_Tape.uef ROMs/CosmicCamouflage-1.rom ROMs/CosmicCamouflage-2.rom
 ./UEF2ROM.py -a -b -m UEFs/CrazyTracer_E.uef ROMs/CrazyTracer.rom
+./UEF2ROM.py -a -m UEFs/CreepyCave_BE.uef ROMs/CreepyCave-1.rom ROMs/CreepyCave-2.rom
 ./UEF2ROM.py -a UEFs/Croaker_E.uef ROMs/Croaker.rom
 ./UEF2ROM.py -a -p -t -w 39f UEFs/CrystalCastles_E.uef ROMs/CrystalCastles-1.rom ROMs/CrystalCastles-2.rom
 ./UEF2ROM.py -a -b UEFs/CybertronMission_Tape.uef ROMs/CybertronMission.rom
@@ -31,6 +35,7 @@
 ./UEF2ROM.py -a -b UEFs/DangerUXB_Tape.uef ROMs/DangerUXB.rom
 ./UEF2ROM.py -a -b UEFs/DareDevilDenis.uef ROMs/DareDevilDenis.rom
 ./UEF2ROM.py -a -b -w 1000 UEFs/DeathStar.uef ROMs/DeathStar.rom
+./UEF2ROM.py -a -s UEFs/DenisThroughTheDrinkingGlass_E.uef ROMs/DenisThroughTheDrinkingGlass-1.rom ROMs/DenisThroughTheDrinkingGlass-2.rom
 ./UEF2ROM.py -a -m UEFs/DespatchRider_E.uef ROMs/DespatchRider-1.rom ROMs/DespatchRider-2.rom
 ./UEF2ROM.py -a -m UEFs/DiamondMine-MRM_E.uef ROMs/DiamondMine.rom
 ./UEF2ROM.py -a -w 39f UEFs/DiamondMine2-BlueRibbon_E.uef ROMs/DiamondMine2.rom

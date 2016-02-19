@@ -4,6 +4,7 @@ elkulator -rom2 ROMs/Adventure-Micropower.rom
 elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 elkulator -rom2 ROMs/AstroPlumber.rom
 elkulator -rom2 ROMs/BarBilliards.rom
+elkulator -rom2 ROMs/BloodOfTheMutineers-1.rom -rom1 ROMs/BloodOfTheMutineers-2.rom
 elkulator -rom2 ROMs/Boffin2-1.rom -rom1 ROMs/Boffin2-2.rom
 elkulator -rom2 ROMs/Boxer-1.rom -rom1 ROMs/Boxer-2.rom
 elkulator -rom2 ROMs/Breakthrough-1.rom -rom1 ROMs/Breakthrough-2.rom
@@ -22,8 +23,11 @@ elkulator -rom2 ROMs/Chess-Micropower.rom
 elkulator -rom2 ROMs/Chess-Superior.rom
 elkulator -rom2 ROMs/ChuckieEgg.rom
 elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
+elkulator -rom2 ROMs/ClassicAdventure-1.rom -rom1 ROMs/ClassicAdventure-2.rom
+elkulator -rom2 ROMs/ConditionRed.rom
 elkulator -rom2 ROMs/CosmicCamouflage-1.rom -rom1 ROMs/CosmicCamouflage-2.rom
 elkulator -rom2 ROMs/CrazyTracer.rom
+elkulator -rom2 ROMs/CreepyCave-1.rom -rom1 ROMs/CreepyCave-2.rom
 elkulator -rom2 ROMs/Croaker.rom
 elkulator -rom2 ROMs/CrystalCastles-1.rom -rom1 ROMs/CrystalCastles-2.rom
 elkulator -rom2 ROMs/CybertronMission.rom
@@ -31,6 +35,7 @@ elkulator -rom2 ROMs/CylonAttack-1.rom -rom1 ROMs/CylonAttack-2.rom
 elkulator -rom2 ROMs/DangerUXB.rom
 elkulator -rom2 ROMs/DareDevilDenis.rom
 elkulator -rom2 ROMs/DeathStar.rom
+elkulator -rom2 ROMs/DenisThroughTheDrinkingGlass-1.rom -rom1 ROMs/DenisThroughTheDrinkingGlass-2.rom
 elkulator -rom2 ROMs/DespatchRider-1.rom -rom1 ROMs/DespatchRider-2.rom
 elkulator -rom2 ROMs/DiamondMine.rom
 elkulator -rom2 ROMs/DiamondMine2.rom
