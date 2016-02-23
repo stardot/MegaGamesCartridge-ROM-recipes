@@ -14,6 +14,7 @@ elkulator -rom2 ROMs/Bugs.rom
 elkulator -rom2 ROMs/BumbleBee-1.rom -rom1 ROMs/BumbleBee-2.rom
 elkulator -rom2 ROMs/CastleAssault.rom
 elkulator -rom2 ROMs/CastleFrankenstein-1.rom -rom1 ROMs/CastleFrankenstein-2.rom
+elkulator -rom2 ROMs/CastlemazeAdventure.rom
 elkulator -rom2 ROMs/CastleOfRiddles-1.rom -rom1 ROMs/CastleOfRiddles-2.rom
 elkulator -rom2 ROMs/Caterpillar.rom
 elkulator -rom2 ROMs/CavemanCapers.rom
@@ -47,17 +48,22 @@ elkulator -rom2 ROMs/Draughts-Superior.rom
 elkulator -rom2 ROMs/ElectronInvaders.rom
 elkulator -rom2 ROMs/Elite-1.rom -rom1 ROMs/Elite-2.rom
 elkulator -rom2 ROMs/Elixir-1.rom -rom1 ROMs/Elixir-2.rom
+elkulator -rom2 ROMs/Empire.rom
+elkulator -rom2 ROMs/Enigma.rom
 elkulator -rom2 ROMs/EMBA.rom
 elkulator -rom2 ROMs/Erbert.rom
+elkulator -rom2 ROMs/EyeOfZolton.rom
 elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
 elkulator -rom2 ROMs/FelixInTheFactory.rom
 elkulator -rom2 ROMs/FelixMeetsTheEvilWeevils-1.rom -rom1 ROMs/FelixMeetsTheEvilWeevils-2.rom
 elkulator -rom2 ROMs/Firebug-1.rom -rom1 ROMs/Firebug-2.rom
 elkulator -rom2 ROMs/Firetrack-1.rom -rom1 ROMs/Firetrack-2.rom
 elkulator -rom2 ROMs/Frak-1.rom -rom1 ROMs/Frak-2.rom
+elkulator -rom2 ROMs/Frankenstein2000-1.rom -rom1 ROMs/Frankenstein2000-2.rom
 elkulator -rom2 ROMs/Freefall-1.rom -rom1 ROMs/Freefall-2.rom
 elkulator -rom2 ROMs/Frenzy.rom
 elkulator -rom2 ROMs/Gauntlet-1.rom -rom1 ROMs/Gauntlet-2.rom
+elkulator -rom2 ROMs/GisburnesCastle-1.rom -rom1 ROMs/GisburnesCastle-2.rom
 elkulator -rom2 ROMs/Go-1.rom -rom1 ROMs/Go-2.rom
 elkulator -rom2 ROMs/Guardian.rom
 elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
@@ -144,8 +150,10 @@ elkulator -rom2 ROMs/TheMine.rom
 elkulator -rom2 ROMs/Thrust-1.rom -rom1 ROMs/Thrust-2.rom
 elkulator -rom2 ROMs/Thunderstruck-1.rom -rom1 ROMs/Thunderstruck-2.rom
 elkulator -rom2 ROMs/Thunderstruck2-1.rom -rom1 ROMs/Thunderstruck2-2.rom
+elkulator -rom2 ROMs/TunnelAdventure.rom
 elkulator -rom2 ROMs/TwinKingdomValley-1.rom -rom1 ROMs/TwinKingdomValley-2.rom
 elkulator -rom2 ROMs/TwelfthNight-1.rom -rom1 ROMs/TwelfthNight-2.rom
+elkulator -rom2 ROMs/UndegroundAdventure.rom
 elkulator -rom2 ROMs/VideosRevenge-1.rom -rom1 ROMs/VideosRevenge-2.rom
 elkulator -rom2 ROMs/Village-1.rom -rom1 ROMs/Village-2.rom
 elkulator -rom2 ROMs/West-1.rom -rom1 ROMs/West-2.rom

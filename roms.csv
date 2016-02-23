@@ -15,6 +15,7 @@ Bugs,Virgin,Bugs_E.uef,Bugs.rom,,-a
 Bumble Bee,Micro Power,BumbleBee_E.uef,BumbleBee-1.rom,BumbleBee-2.rom,-a -b -s -m
 Castle Assault,Blue Ribbon,CastleAssault_E.uef,CastleAssault.rom,,-a -b -w 880
 Castle Frankenstein,Epic,CastleFrankenstein_E.uef,CastleFrankenstein-1.rom,CastleFrankenstein-2.rom,-a -m -s
+Castlemaze Adventure,Duckworth,EXPLADV-CastlemazeAdventure_E.uef,CastlemazeAdventure.rom,,-a -m
 Castle Of Riddles,Acornsoft,CastleOfRiddles_E.uef,CastleOfRiddles-1.rom,CastleOfRiddles-2.rom,-a -b -s -m
 Caterpillar,Romik,Caterpillar-Romik_E.uef,Caterpillar.rom,,-a
 Caveman Capers.uef,Icon,CavemanCapers.uef,CavemanCapers.rom,,-a -b -w 39f
@@ -48,17 +49,22 @@ Draughts,Superior,Draughts-Superior_E.uef,Draughts-Superior.rom,,-a
 Electron Invaders,Program Power,ElectronInvaders_E.uef,ElectronInvaders.rom,,-a -m
 Elite,Acornsoft,Elite-SRR_E.uef,Elite-1.rom,Elite-2.rom,-a -b -s
 Elixir,Superior,Elixir_E.uef,Elixir-1.rom,Elixir-2.rom,-a -s -t -w 39f
+Empire,Shards,Empire_BE.uef,Empire.rom,,-a -m
+Enigma,Brainbox,Enigma_E.uef,Enigma.rom,,-a -m
 Escape From Moonbase Alpha,Micro Power,EMBA.uef,EMBA.rom,,-a -b
 Er*bert,Microbyte,Erbert_E.uef,Erbert.rom,,-a
+Eye Of Zolton,Softek,EyeOfZolton_BE.uef,EyeOfZolton.rom,,-a -m -s
 Felix And The Fruit Monsters,Micro Power,FelixAndTheFruitMonsters_E.uef,FelixAndTheFruitMonsters.rom,,-a -m
 Felix In The Factory,Micro Power,FelixInTheFactory_E.uef,FelixInTheFactory.rom,,-a -m
 Felix Meets The Evil Weevils,Micro Power,FelixMeetsTheEvilWeevils_E.uef,FelixMeetsTheEvilWeevils-1.rom,FelixMeetsTheEvilWeevils-2.rom,-a -m
 Firebug,Acornsoft,Firebug_E.uef,Firebug-1.rom,Firebug-2.rom,-a -b -m -s
 Firetrack,Superior,Firetrack_E.uef,Firetrack-1.rom,Firetrack-2.rom,-a -b -t -w 880 -s
 Frak,Aardvark,Frak_Tape.uef,Frak-1.rom,Frak-2.rom,-a -b -s
+Frankenstein 2000,Icon,Frankenstein2000_E.uef,Frankenstein2000-1.rom,Frankenstein2000-2.rom,-a -p -s -w 39f
 Freefall,Acornsoft,Freefall_E.uef,Freefall-1.rom,Freefall-2.rom,-a -b -m -s
 Frenzy,Micro Power,Frenzy_E.uef,Frenzy.rom,,-a -m
 Gauntlet,Micro Power,Gauntlet_E.uef,Gauntlet-1.rom,Gauntlet-2.rom,-a -b -m -s
+Gisburne's Castle,Martech,GisburnesCastle_E.uef,GisburnesCastle-1.rom,GisburnesCastle-2.rom,-a -s -w 39f
 Go,Acornsoft,Go_E.uef,Go-1.rom,Go-2.rom,-a -b -m
 Guardian,Alligata,Guardian_E.uef,Guardian.rom,,-a -b -w 39f -t
 Gunfighter,Atlantis,Gunfighter_BE.uef,Gunfighter-1.rom,Gunfighter-2.rom,-a -m -s
@@ -145,8 +151,10 @@ The Mine,Micro Power,TheMine_E.uef,TheMine.rom,,-a -m
 Thrust,Superior,Thrust_Tape.uef,Thrust-1.rom,Thrust-2.rom,-a -b -s
 Thunderstruck,Audiogenic,Thunderstruck_E.uef,Thunderstruck-1.rom,Thunderstruck-2.rom,-a -r -s -w 39f
 Thunderstruck 2,Audiogenic,Thunderstruck2_E.uef,Thunderstruck2-1.rom,Thunderstruck2-2.rom,-a -m -r -s
+Tunnel Adventure,Duckworth,EXPLADV-TunnelAdventure_E.uef,TunnelAdventure.rom,,-a -m
 Twin Kingdom Valley,Bug Byte,TwinKingdomValley-modified_E.uef,TwinKingdomValley-1.rom,TwinKingdomValley-2.rom,-a -b -m -s
 Twelfth Night,Penguin Study,TwelfthNight-Electron.uef,TwelfthNight-1.rom,TwelfthNight-2.rom,-a -b -s -l
+Undeground Adventure,Duckworth,EXPLADV-UndegroundAdventure_E.uef,UndegroundAdventure.rom,,-a -m
 Videos Revenge,Budgie,VideosRevenge.uef,VideosRevenge-1.rom,VideosRevenge-2.rom,-a -b -w 120
 Village of Lost Souls,Robico,Village.uef,Village-1.rom,Village-2.rom,-a -b -s -m
 West,Talent,West_RUN_E.uef,West-1.rom,West-2.rom,-a -b -m -r -s

@@ -14,6 +14,7 @@
 ./UEF2ROM.py -a -b -s -m UEFs/BumbleBee_E.uef ROMs/BumbleBee-1.rom ROMs/BumbleBee-2.rom
 ./UEF2ROM.py -a -b -w 880 UEFs/CastleAssault_E.uef ROMs/CastleAssault.rom
 ./UEF2ROM.py -a -m -s UEFs/CastleFrankenstein_E.uef ROMs/CastleFrankenstein-1.rom ROMs/CastleFrankenstein-2.rom
+./UEF2ROM.py -a -m UEFs/EXPLADV-CastlemazeAdventure_E.uef ROMs/CastlemazeAdventure.rom
 ./UEF2ROM.py -a -b -s -m UEFs/CastleOfRiddles_E.uef ROMs/CastleOfRiddles-1.rom ROMs/CastleOfRiddles-2.rom
 ./UEF2ROM.py -a UEFs/Caterpillar-Romik_E.uef ROMs/Caterpillar.rom
 ./UEF2ROM.py -a -b -w 39f UEFs/CavemanCapers.uef ROMs/CavemanCapers.rom
@@ -47,17 +48,22 @@
 ./UEF2ROM.py -a -m UEFs/ElectronInvaders_E.uef ROMs/ElectronInvaders.rom
 ./UEF2ROM.py -a -b -s UEFs/Elite-SRR_E.uef ROMs/Elite-1.rom ROMs/Elite-2.rom
 ./UEF2ROM.py -a -s -t -w 39f UEFs/Elixir_E.uef ROMs/Elixir-1.rom ROMs/Elixir-2.rom
+./UEF2ROM.py -a -m UEFs/Empire_BE.uef ROMs/Empire.rom
+./UEF2ROM.py -a -m UEFs/Enigma_E.uef ROMs/Enigma.rom
 ./UEF2ROM.py -a -b UEFs/EMBA.uef ROMs/EMBA.rom
 ./UEF2ROM.py -a UEFs/Erbert_E.uef ROMs/Erbert.rom
+./UEF2ROM.py -a -m -s UEFs/EyeOfZolton_BE.uef ROMs/EyeOfZolton.rom
 ./UEF2ROM.py -a -m UEFs/FelixAndTheFruitMonsters_E.uef ROMs/FelixAndTheFruitMonsters.rom
 ./UEF2ROM.py -a -m UEFs/FelixInTheFactory_E.uef ROMs/FelixInTheFactory.rom
 ./UEF2ROM.py -a -m UEFs/FelixMeetsTheEvilWeevils_E.uef ROMs/FelixMeetsTheEvilWeevils-1.rom ROMs/FelixMeetsTheEvilWeevils-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Firebug_E.uef ROMs/Firebug-1.rom ROMs/Firebug-2.rom
 ./UEF2ROM.py -a -b -t -w 880 -s UEFs/Firetrack_E.uef ROMs/Firetrack-1.rom ROMs/Firetrack-2.rom
 ./UEF2ROM.py -a -b -s UEFs/Frak_Tape.uef ROMs/Frak-1.rom ROMs/Frak-2.rom
+./UEF2ROM.py -a -p -s -w 39f UEFs/Frankenstein2000_E.uef ROMs/Frankenstein2000-1.rom ROMs/Frankenstein2000-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Freefall_E.uef ROMs/Freefall-1.rom ROMs/Freefall-2.rom
 ./UEF2ROM.py -a -m UEFs/Frenzy_E.uef ROMs/Frenzy.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Gauntlet_E.uef ROMs/Gauntlet-1.rom ROMs/Gauntlet-2.rom
+./UEF2ROM.py -a -s -w 39f UEFs/GisburnesCastle_E.uef ROMs/GisburnesCastle-1.rom ROMs/GisburnesCastle-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Go_E.uef ROMs/Go-1.rom ROMs/Go-2.rom
 ./UEF2ROM.py -a -b -w 39f -t UEFs/Guardian_E.uef ROMs/Guardian.rom
 ./UEF2ROM.py -a -m -s UEFs/Gunfighter_BE.uef ROMs/Gunfighter-1.rom ROMs/Gunfighter-2.rom
@@ -144,8 +150,10 @@
 ./UEF2ROM.py -a -b -s UEFs/Thrust_Tape.uef ROMs/Thrust-1.rom ROMs/Thrust-2.rom
 ./UEF2ROM.py -a -r -s -w 39f UEFs/Thunderstruck_E.uef ROMs/Thunderstruck-1.rom ROMs/Thunderstruck-2.rom
 ./UEF2ROM.py -a -m -r -s UEFs/Thunderstruck2_E.uef ROMs/Thunderstruck2-1.rom ROMs/Thunderstruck2-2.rom
+./UEF2ROM.py -a -m UEFs/EXPLADV-TunnelAdventure_E.uef ROMs/TunnelAdventure.rom
 ./UEF2ROM.py -a -b -m -s UEFs/TwinKingdomValley-modified_E.uef ROMs/TwinKingdomValley-1.rom ROMs/TwinKingdomValley-2.rom
 ./UEF2ROM.py -a -b -s -l UEFs/TwelfthNight-Electron.uef ROMs/TwelfthNight-1.rom ROMs/TwelfthNight-2.rom
+./UEF2ROM.py -a -m UEFs/EXPLADV-UndegroundAdventure_E.uef ROMs/UndegroundAdventure.rom
 ./UEF2ROM.py -a -b -w 120 UEFs/VideosRevenge.uef ROMs/VideosRevenge-1.rom ROMs/VideosRevenge-2.rom
 ./UEF2ROM.py -a -b -s -m UEFs/Village.uef ROMs/Village-1.rom ROMs/Village-2.rom
 ./UEF2ROM.py -a -b -m -r -s UEFs/West_RUN_E.uef ROMs/West-1.rom ROMs/West-2.rom
