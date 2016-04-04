@@ -125,6 +125,7 @@ elkulator -rom2 ROMs/RubbleTrouble-1.rom -rom1 ROMs/RubbleTrouble-2.rom
 elkulator -rom2 ROMs/Saracoid-1.rom -rom1 ROMs/Saracoid-2.rom
 elkulator -rom2 ROMs/SavagePond-1.rom -rom1 ROMs/SavagePond-2.rom
 elkulator -rom2 ROMs/Shark-1.rom -rom1 ROMs/Shark-2.rom
+elkulator -rom2 ROMs/Skirmish-1.rom -rom1 ROMs/Skirmish-2.rom
 elkulator -rom2 ROMs/Sim.rom
 elkulator -rom2 ROMs/SmashAndGrab.rom
 elkulator -rom2 ROMs/Snooker.rom

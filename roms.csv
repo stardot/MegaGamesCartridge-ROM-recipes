@@ -77,7 +77,7 @@ Hunchback,Ocean,Hunchback-Ocean_E.uef,Hunchback.rom,,-a -m
 Hunkidory,Bug Byte,Hunkidory_BE.uef,Hunkidory-1.rom,Hunkidory-2.rom,-a -b -m
 Impact,Audiogenic,Impact.uef,Impact-1.rom,Impact-2.rom,-a -b -m -s
 Jet Boot Jack,English,JetBootJack_E.uef,JetBootJack-1.rom,JetBootJack-2.rom,-a -b -w 39f -t -s
-Joust,Godax,Joust.uef,Joust-1.rom,Joust-2.rom,-a -b -w 39f
+Joust,Godax,Joust.uef,Joust-1.rom,Joust-2.rom,-a -b -m
 Jungle Jive,Virgin,JungleJive_Tape.uef,JungleJive.rom,,-a -b -m
 Karate Combat,Superior,KarateCombat.uef,KarateCombat-1.rom,KarateCombat-2.rom,-a -b -s
 Killer Gorilla,Program Power,KillerGorilla.uef,KillerGorilla.rom,,-a -b
@@ -126,6 +126,7 @@ Rubble Trouble,Micro Power,RubbleTrouble.uef,RubbleTrouble-1.rom,RubbleTrouble-2
 Saracoid,Audiogenic,Saracoid.uef,Saracoid-1.rom,Saracoid-2.rom,-a -b -m -s
 Savage Pond,Starcade,SavagePond-Starcade_E.uef,SavagePond-1.rom,SavagePond-2.rom,-a -b
 Shark,ASL,Shark_E.uef,Shark-1.rom,Shark-2.rom,-a -b -m -s
+Skirmish,Godax,Skirmish_E.uef,Skirmish-1.rom,Skirmish-2.rom,-a -b -m
 Sim,Visions,Sim_Tape.uef,Sim.rom,,-a -b -w 880
 Smash And Grab,Superior,SmashAndGrab.uef,SmashAndGrab.rom,,-a -b
 Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,,-a -b -m

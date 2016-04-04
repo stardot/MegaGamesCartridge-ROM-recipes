@@ -76,7 +76,7 @@
 ./UEF2ROM.py -a -b -m UEFs/Hunkidory_BE.uef ROMs/Hunkidory-1.rom ROMs/Hunkidory-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Impact.uef ROMs/Impact-1.rom ROMs/Impact-2.rom
 ./UEF2ROM.py -a -b -w 39f -t -s UEFs/JetBootJack_E.uef ROMs/JetBootJack-1.rom ROMs/JetBootJack-2.rom
-./UEF2ROM.py -a -b -w 39f UEFs/Joust.uef ROMs/Joust-1.rom ROMs/Joust-2.rom
+./UEF2ROM.py -a -b -m UEFs/Joust.uef ROMs/Joust-1.rom ROMs/Joust-2.rom
 ./UEF2ROM.py -a -b -m UEFs/JungleJive_Tape.uef ROMs/JungleJive.rom
 ./UEF2ROM.py -a -b -s UEFs/KarateCombat.uef ROMs/KarateCombat-1.rom ROMs/KarateCombat-2.rom
 ./UEF2ROM.py -a -b UEFs/KillerGorilla.uef ROMs/KillerGorilla.rom
@@ -125,6 +125,7 @@
 ./UEF2ROM.py -a -b -m -s UEFs/Saracoid.uef ROMs/Saracoid-1.rom ROMs/Saracoid-2.rom
 ./UEF2ROM.py -a -b UEFs/SavagePond-Starcade_E.uef ROMs/SavagePond-1.rom ROMs/SavagePond-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Shark_E.uef ROMs/Shark-1.rom ROMs/Shark-2.rom
+./UEF2ROM.py -a -b -m UEFs/Skirmish_E.uef ROMs/Skirmish-1.rom ROMs/Skirmish-2.rom
 ./UEF2ROM.py -a -b -w 880 UEFs/Sim_Tape.uef ROMs/Sim.rom
 ./UEF2ROM.py -a -b UEFs/SmashAndGrab.uef ROMs/SmashAndGrab.rom
 ./UEF2ROM.py -a -b -m UEFs/Snooker-Acornsoft_E.uef ROMs/Snooker.rom
