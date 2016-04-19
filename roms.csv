@@ -70,6 +70,7 @@ Guardian,Alligata,Guardian_E.uef,Guardian.rom,,-a -b -w 39f -t
 Gunfighter,Atlantis,Gunfighter_BE.uef,Gunfighter-1.rom,Gunfighter-2.rom,-a -m -s
 Gunsmoke,Software Invasion,Gunsmoke_E.uef,Gunsmoke-1.rom,Gunsmoke-2.rom,-a
 Gyroscope,Melbourne House,Gyroscope_E.uef,Gyroscope-1.rom,Gyroscope-2.rom,-a -t -s -w 39f
+Hampstead,Melbourne House,Hampstead_BE.uef,Hampstead-1.rom,Hampstead-2.rom,-a -m -s
 Hobgoblin,Atlantis,Hobgoblin_E.uef,Hobgoblin-1.rom,Hobgoblin-2.rom,-a -m -s
 Hobgoblin 2,Atlantis,Hobgoblin2_E.uef,Hobgoblin2-1.rom,Hobgoblin2-2.rom,-a -m -s
 HorseRace,Dynabyte,HorseRace.uef,HorseRace.rom,,-a -b -w 860
@@ -80,6 +81,7 @@ Jet Boot Jack,English,JetBootJack_E.uef,JetBootJack-1.rom,JetBootJack-2.rom,-a -
 Joust,Godax,Joust.uef,Joust-1.rom,Joust-2.rom,-a -b -m
 Jungle Jive,Virgin,JungleJive_Tape.uef,JungleJive.rom,,-a -b -m
 Karate Combat,Superior,KarateCombat.uef,KarateCombat-1.rom,KarateCombat-2.rom,-a -b -s
+Kayleth,U.S. Gold,Kayleth_E.uef,Kayleth-1.rom,Kayleth-2.rom,-a -s -w 39f
 Killer Gorilla,Program Power,KillerGorilla.uef,KillerGorilla.rom,,-a -b
 Killer Gorilla 2,Superior/Acornsoft,KillerGorilla2-PIAS_E.uef,KillerGorilla2-1.rom,KillerGorilla2-2.rom,-a -s -w 39f
 Kingdom Of Klein,Epic,KingdomOfKlein_E.uef,KingdomOfKlein-1.rom,KingdomOfKlein-2.rom,-a -m -s
@@ -101,6 +103,7 @@ Moon Buggy,Kansas,MoonBuggy.uef,MoonBuggy-1.rom,MoonBuggy-2.rom,-a -b -w 39f
 MoonRaider,Program Power,MoonRaider_E.uef,MoonRaider-1.rom,MoonRaider-2.rom,-a -b -m -s
 Nightmare Maze,MRM,NightmareMaze-MRM_E.uef,NightmareMaze.rom,,-a -w 39f
 Overdrive,Superior,Overdrive.uef,Overdrive.rom,,-a -b
+Oxbridge,Tynesoft,Oxbridge_E.uef,Oxbridge-1.rom,Oxbridge-2.rom,-a -s -t -w 39f
 Pengi.uef,Visions,Pengi.uef,Pengi.rom,,-a -b -w 120
 Philosophers Quest,Acornsoft,PhilosophersQuest_E.uef,PhilosophersQuest-1.rom,PhilosophersQuest-2.rom,-a -b -m -s
 Philosophers Stone,Potter,PhilosophersStone_BE.uef,PhilosophersStone-1.rom,PhilosophersStone-2.rom,-a -b -m -s
@@ -116,6 +119,7 @@ Quest,Superior,Quest.uef,Quest-1.rom,Quest-2.rom,-a -b -s
 Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail-1.rom,QuestForTheHolyGrail-2.rom,-a -m -s
 Qwak,Superior/Acornsoft,Qwak_E.uef,Qwak-1.rom,Qwak-2.rom,-a -s
 Ravage,Blue Ribbon,Ravage_E.uef,Ravage.rom,,-a -b -m
+Rebel Planet,U.S. Gold,RebelPlanet_E.uef,RebelPlanet-1.rom,RebelPlanet-2.rom,-a -s -w 39f
 Repton,Superior,Repton.uef,Repton-1.rom,Repton-2.rom,-a -b -s
 Repton 2,Superior,Repton2.uef,Repton2-1.rom,Repton2-2.rom,-a -b -s
 Repton 3,Superior,Repton3.uef,Repton3-1.rom,Repton3-2.rom,-a -b -s

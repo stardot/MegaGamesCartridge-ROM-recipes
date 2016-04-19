@@ -69,6 +69,7 @@
 ./UEF2ROM.py -a -m -s UEFs/Gunfighter_BE.uef ROMs/Gunfighter-1.rom ROMs/Gunfighter-2.rom
 ./UEF2ROM.py -a UEFs/Gunsmoke_E.uef ROMs/Gunsmoke-1.rom ROMs/Gunsmoke-2.rom
 ./UEF2ROM.py -a -t -s -w 39f UEFs/Gyroscope_E.uef ROMs/Gyroscope-1.rom ROMs/Gyroscope-2.rom
+./UEF2ROM.py -a -m -s UEFs/Hampstead_BE.uef ROMs/Hampstead-1.rom ROMs/Hampstead-2.rom
 ./UEF2ROM.py -a -m -s UEFs/Hobgoblin_E.uef ROMs/Hobgoblin-1.rom ROMs/Hobgoblin-2.rom
 ./UEF2ROM.py -a -m -s UEFs/Hobgoblin2_E.uef ROMs/Hobgoblin2-1.rom ROMs/Hobgoblin2-2.rom
 ./UEF2ROM.py -a -b -w 860 UEFs/HorseRace.uef ROMs/HorseRace.rom
@@ -79,6 +80,7 @@
 ./UEF2ROM.py -a -b -m UEFs/Joust.uef ROMs/Joust-1.rom ROMs/Joust-2.rom
 ./UEF2ROM.py -a -b -m UEFs/JungleJive_Tape.uef ROMs/JungleJive.rom
 ./UEF2ROM.py -a -b -s UEFs/KarateCombat.uef ROMs/KarateCombat-1.rom ROMs/KarateCombat-2.rom
+./UEF2ROM.py -a -s -w 39f UEFs/Kayleth_E.uef ROMs/Kayleth-1.rom ROMs/Kayleth-2.rom
 ./UEF2ROM.py -a -b UEFs/KillerGorilla.uef ROMs/KillerGorilla.rom
 ./UEF2ROM.py -a -s -w 39f UEFs/KillerGorilla2-PIAS_E.uef ROMs/KillerGorilla2-1.rom ROMs/KillerGorilla2-2.rom
 ./UEF2ROM.py -a -m -s UEFs/KingdomOfKlein_E.uef ROMs/KingdomOfKlein-1.rom ROMs/KingdomOfKlein-2.rom
@@ -100,6 +102,7 @@
 ./UEF2ROM.py -a -b -m -s UEFs/MoonRaider_E.uef ROMs/MoonRaider-1.rom ROMs/MoonRaider-2.rom
 ./UEF2ROM.py -a -w 39f UEFs/NightmareMaze-MRM_E.uef ROMs/NightmareMaze.rom
 ./UEF2ROM.py -a -b UEFs/Overdrive.uef ROMs/Overdrive.rom
+./UEF2ROM.py -a -s -t -w 39f UEFs/Oxbridge_E.uef ROMs/Oxbridge-1.rom ROMs/Oxbridge-2.rom
 ./UEF2ROM.py -a -b -w 120 UEFs/Pengi.uef ROMs/Pengi.rom
 ./UEF2ROM.py -a -b -m -s UEFs/PhilosophersQuest_E.uef ROMs/PhilosophersQuest-1.rom ROMs/PhilosophersQuest-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/PhilosophersStone_BE.uef ROMs/PhilosophersStone-1.rom ROMs/PhilosophersStone-2.rom
@@ -115,6 +118,7 @@
 ./UEF2ROM.py -a -m -s UEFs/QuestForTheHolyGrail_E.uef ROMs/QuestForTheHolyGrail-1.rom ROMs/QuestForTheHolyGrail-2.rom
 ./UEF2ROM.py -a -s UEFs/Qwak_E.uef ROMs/Qwak-1.rom ROMs/Qwak-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Ravage_E.uef ROMs/Ravage.rom
+./UEF2ROM.py -a -s -w 39f UEFs/RebelPlanet_E.uef ROMs/RebelPlanet-1.rom ROMs/RebelPlanet-2.rom
 ./UEF2ROM.py -a -b -s UEFs/Repton.uef ROMs/Repton-1.rom ROMs/Repton-2.rom
 ./UEF2ROM.py -a -b -s UEFs/Repton2.uef ROMs/Repton2-1.rom ROMs/Repton2-2.rom
 ./UEF2ROM.py -a -b -s UEFs/Repton3.uef ROMs/Repton3-1.rom ROMs/Repton3-2.rom

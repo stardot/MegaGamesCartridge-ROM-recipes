@@ -69,6 +69,7 @@ elkulator -rom2 ROMs/Guardian.rom
 elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
 elkulator -rom2 ROMs/Gunsmoke-1.rom -rom1 ROMs/Gunsmoke-2.rom
 elkulator -rom2 ROMs/Gyroscope-1.rom -rom1 ROMs/Gyroscope-2.rom
+elkulator -rom2 ROMs/Hampstead-1.rom -rom1 ROMs/Hampstead-2.rom
 elkulator -rom2 ROMs/Hobgoblin-1.rom -rom1 ROMs/Hobgoblin-2.rom
 elkulator -rom2 ROMs/Hobgoblin2-1.rom -rom1 ROMs/Hobgoblin2-2.rom
 elkulator -rom2 ROMs/HorseRace.rom
@@ -79,6 +80,7 @@ elkulator -rom2 ROMs/JetBootJack-1.rom -rom1 ROMs/JetBootJack-2.rom
 elkulator -rom2 ROMs/Joust-1.rom -rom1 ROMs/Joust-2.rom
 elkulator -rom2 ROMs/JungleJive.rom
 elkulator -rom2 ROMs/KarateCombat-1.rom -rom1 ROMs/KarateCombat-2.rom
+elkulator -rom2 ROMs/Kayleth-1.rom -rom1 ROMs/Kayleth-2.rom
 elkulator -rom2 ROMs/KillerGorilla.rom
 elkulator -rom2 ROMs/KillerGorilla2-1.rom -rom1 ROMs/KillerGorilla2-2.rom
 elkulator -rom2 ROMs/KingdomOfKlein-1.rom -rom1 ROMs/KingdomOfKlein-2.rom
@@ -100,6 +102,7 @@ elkulator -rom2 ROMs/MoonBuggy-1.rom -rom1 ROMs/MoonBuggy-2.rom
 elkulator -rom2 ROMs/MoonRaider-1.rom -rom1 ROMs/MoonRaider-2.rom
 elkulator -rom2 ROMs/NightmareMaze.rom
 elkulator -rom2 ROMs/Overdrive.rom
+elkulator -rom2 ROMs/Oxbridge-1.rom -rom1 ROMs/Oxbridge-2.rom
 elkulator -rom2 ROMs/Pengi.rom
 elkulator -rom2 ROMs/PhilosophersQuest-1.rom -rom1 ROMs/PhilosophersQuest-2.rom
 elkulator -rom2 ROMs/PhilosophersStone-1.rom -rom1 ROMs/PhilosophersStone-2.rom
@@ -115,6 +118,7 @@ elkulator -rom2 ROMs/Quest-1.rom -rom1 ROMs/Quest-2.rom
 elkulator -rom2 ROMs/QuestForTheHolyGrail-1.rom -rom1 ROMs/QuestForTheHolyGrail-2.rom
 elkulator -rom2 ROMs/Qwak-1.rom -rom1 ROMs/Qwak-2.rom
 elkulator -rom2 ROMs/Ravage.rom
+elkulator -rom2 ROMs/RebelPlanet-1.rom -rom1 ROMs/RebelPlanet-2.rom
 elkulator -rom2 ROMs/Repton-1.rom -rom1 ROMs/Repton-2.rom
 elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
 elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
