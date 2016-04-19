@@ -111,6 +111,7 @@ elkulator -rom2 ROMs/Pipemania-1.rom -rom1 ROMs/Pipemania-2.rom
 elkulator -rom2 ROMs/PlanB-1.rom -rom1 ROMs/PlanB-2.rom
 elkulator -rom2 ROMs/PlanB2-1.rom -rom1 ROMs/PlanB2-2.rom
 elkulator -rom2 ROMs/Planetoid.rom
+elkulator -rom2 ROMs/Podd-1.rom -rom1 ROMs/Podd-2.rom
 elkulator -rom2 ROMs/Positron.rom
 elkulator -rom2 ROMs/Predator-1.rom -rom1 ROMs/Predator-2.rom
 elkulator -rom2 ROMs/Psycastria-1.rom -rom1 ROMs/Psycastria-2.rom

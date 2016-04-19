@@ -111,6 +111,7 @@
 ./UEF2ROM.py -a -m -s UEFs/PlanB_BE.uef ROMs/PlanB-1.rom ROMs/PlanB-2.rom
 ./UEF2ROM.py -a -s UEFs/PlanB2_BE.uef ROMs/PlanB2-1.rom ROMs/PlanB2-2.rom
 ./UEF2ROM.py -a -m UEFs/Planetoid_E.uef ROMs/Planetoid.rom
+./UEF2ROM.py -a -m UEFs/Podd_BE.uef ROMs/Podd-1.rom ROMs/Podd-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Positron_E.uef ROMs/Positron.rom
 ./UEF2ROM.py -a -s UEFs/Predator_E.uef ROMs/Predator-1.rom ROMs/Predator-2.rom
 ./UEF2ROM.py -a -b -w 39f -s -t UEFs/Psycastria.uef ROMs/Psycastria-1.rom ROMs/Psycastria-2.rom

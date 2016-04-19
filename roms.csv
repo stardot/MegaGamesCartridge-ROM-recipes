@@ -112,6 +112,7 @@ Pipemania,Empire,Pipemania_E.uef,Pipemania-1.rom,Pipemania-2.rom,-a -b -m -r -s
 Plan B,Bug Byte,PlanB_BE.uef,PlanB-1.rom,PlanB-2.rom,-a -m -s
 Plan B 2,Bug Byte,PlanB2_BE.uef,PlanB2-1.rom,PlanB2-2.rom,-a -s
 Planetoid,Acornsoft,Planetoid_E.uef,Planetoid.rom,,-a -m
+Podd,Acornsoft,Podd_BE.uef,Podd-1.rom,Podd-2.rom,-a -m
 Positron,Micro Power,Positron_E.uef,Positron.rom,,-a -b -m
 Predator,Superior,Predator_E.uef,Predator-1.rom,Predator-2.rom,-a -s
 Psycastria,ASL,Psycastria.uef,Psycastria-1.rom,Psycastria-2.rom,-a -b -w 39f -s -t
