@@ -1,6 +1,7 @@
 elkulator -rom2 ROMs/3DDotty.rom
 elkulator -rom2 ROMs/3DPool-1.rom -rom1 ROMs/3DPool-2.rom
 elkulator -rom2 ROMs/Adventure-Micropower.rom
+elkulator -rom2 ROMs/AlienBreakIn-1.rom
 elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 elkulator -rom2 ROMs/AstroPlumber.rom
 elkulator -rom2 ROMs/BarBilliards.rom

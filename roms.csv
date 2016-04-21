@@ -2,6 +2,7 @@ Name,Publisher,UEF,ROM1,ROM2,Options
 3D Dotty,Blue Ribbon,3DDotty_E.uef,3DDotty.rom,,-a
 3D Pool,Aardvark/Firebird,3DPool_E.uef,3DPool-1.rom,3DPool-2.rom,-a -b -m -s
 Adventure,Program Power,Adventure-Micropower_E.uef,Adventure-Micropower.rom,,-a -b
+Alien Break-In,Romik,AlienBreakIn_E.uef,AlienBreakIn-1.rom,,-a
 Arcadians,Acornsoft,Arcadians.uef,Arcadians-1.rom,Arcadians-2.rom,-a -b -m -s
 Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,,-a -b -w 39f
 Bar Billiards,Blue Ribbon,BarBilliards_E.uef,BarBilliards.rom,,-a -b
