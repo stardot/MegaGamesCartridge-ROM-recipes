@@ -1,3 +1,7 @@
+#!/bin/sh
+
+set -e
+
 ./UEF2ROM.py -a UEFs/3DDotty_E.uef ROMs/3DDotty.rom
 ./UEF2ROM.py -a -b -m -s UEFs/3DPool_E.uef ROMs/3DPool-1.rom ROMs/3DPool-2.rom
 ./UEF2ROM.py -a -b UEFs/Adventure-Micropower_E.uef ROMs/Adventure-Micropower.rom
@@ -53,7 +57,7 @@
 ./UEF2ROM.py -a -m UEFs/Enigma_E.uef ROMs/Enigma.rom
 ./UEF2ROM.py -a -b UEFs/EMBA.uef ROMs/EMBA.rom
 ./UEF2ROM.py -a UEFs/Erbert_E.uef ROMs/Erbert.rom
-./UEF2ROM.py -a -m -s UEFs/EyeOfZolton_BE.uef ROMs/EyeOfZolton.rom
+./UEF2ROM.py -a -m -s UEFs/EyeOfZolton_BE.uef ROMs/EyeOfZolton-1.rom ROMs/EyeOfZolton-2.rom
 ./UEF2ROM.py -a -m UEFs/FelixAndTheFruitMonsters_E.uef ROMs/FelixAndTheFruitMonsters.rom
 ./UEF2ROM.py -a -m UEFs/FelixInTheFactory_E.uef ROMs/FelixInTheFactory.rom
 ./UEF2ROM.py -a -m UEFs/FelixMeetsTheEvilWeevils_E.uef ROMs/FelixMeetsTheEvilWeevils-1.rom ROMs/FelixMeetsTheEvilWeevils-2.rom
@@ -63,6 +67,7 @@
 ./UEF2ROM.py -a -p -s -w 39f UEFs/Frankenstein2000_E.uef ROMs/Frankenstein2000-1.rom ROMs/Frankenstein2000-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Freefall_E.uef ROMs/Freefall-1.rom ROMs/Freefall-2.rom
 ./UEF2ROM.py -a -m UEFs/Frenzy_E.uef ROMs/Frenzy.rom
+./UEF2ROM.py -a -t -w d3f:ef97 UEFs/Galaforce_E.uef ROMs/Galaforce-1.rom ROMs/Galaforce-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Gauntlet_E.uef ROMs/Gauntlet-1.rom ROMs/Gauntlet-2.rom
 ./UEF2ROM.py -a -s -w 39f UEFs/GisburnesCastle_E.uef ROMs/GisburnesCastle-1.rom ROMs/GisburnesCastle-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Go_E.uef ROMs/Go-1.rom ROMs/Go-2.rom
@@ -77,6 +82,7 @@
 ./UEF2ROM.py -a -m UEFs/Hunchback-Ocean_E.uef ROMs/Hunchback.rom
 ./UEF2ROM.py -a -b -m UEFs/Hunkidory_BE.uef ROMs/Hunkidory-1.rom ROMs/Hunkidory-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Impact.uef ROMs/Impact-1.rom ROMs/Impact-2.rom
+./UEF2ROM.py -a -s -t -w d3f:ef97 UEFs/ImpossibleMission_E.uef ROMs/ImpossibleMission-1.rom ROMs/ImpossibleMission-2.rom
 ./UEF2ROM.py -a -b -w 39f -t -s UEFs/JetBootJack_E.uef ROMs/JetBootJack-1.rom ROMs/JetBootJack-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Joust.uef ROMs/Joust-1.rom ROMs/Joust-2.rom
 ./UEF2ROM.py -a -b -m UEFs/JungleJive_Tape.uef ROMs/JungleJive.rom
@@ -167,6 +173,7 @@
 ./UEF2ROM.py -a -b -s -m UEFs/WheelOfFortune_E.uef ROMs/WheelOfFortune-1.rom ROMs/WheelOfFortune-2.rom
 ./UEF2ROM.py -a -m UEFs/Where_E.uef ROMs/Where.rom
 ./UEF2ROM.py -a -m -s UEFs/WhiteKnightMk11_E.uef ROMs/WhiteKnightMk11-1.rom ROMs/WhiteKnightMk11-2.rom
+./UEF2ROM.py -a -s -t -w d3f:ef97 UEFs/XOR_E.uef ROMs/XOR-1.rom ROMs/XOR-2.rom
 ./UEF2ROM.py -a -m -s UEFs/Zenon_E.uef ROMs/Zenon-1.rom ROMs/Zenon-2.rom
 ./UEF2ROM.py -a -s UEFs/Zalaga-PIASRR_E.uef ROMs/Zalaga-1.rom ROMs/Zalaga-2.rom
 ./UEF2ROM.py -a -b UEFs/ZanyKongJunior_E.uef ROMs/ZanyKongJunior.rom

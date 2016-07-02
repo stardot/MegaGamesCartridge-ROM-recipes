@@ -12,7 +12,9 @@ if headings != check_headings:
     sys.exit(1)
 
 bf = open("batch.sh", "w")
+bf.write("#!/bin/sh\n\nset -e\n\n")
 tf = open("testroms.sh", "w")
+tf.write("#!/bin/sh\n\nset -e\n\n")
 
 for line in lines:
 

@@ -54,7 +54,7 @@ Empire,Shards,Empire_BE.uef,Empire.rom,,-a -m
 Enigma,Brainbox,Enigma_E.uef,Enigma.rom,,-a -m
 Escape From Moonbase Alpha,Micro Power,EMBA.uef,EMBA.rom,,-a -b
 Er*bert,Microbyte,Erbert_E.uef,Erbert.rom,,-a
-Eye Of Zolton,Softek,EyeOfZolton_BE.uef,EyeOfZolton.rom,,-a -m -s
+Eye Of Zolton,Softek,EyeOfZolton_BE.uef,EyeOfZolton-1.rom,EyeOfZolton-2.rom,-a -m -s
 Felix And The Fruit Monsters,Micro Power,FelixAndTheFruitMonsters_E.uef,FelixAndTheFruitMonsters.rom,,-a -m
 Felix In The Factory,Micro Power,FelixInTheFactory_E.uef,FelixInTheFactory.rom,,-a -m
 Felix Meets The Evil Weevils,Micro Power,FelixMeetsTheEvilWeevils_E.uef,FelixMeetsTheEvilWeevils-1.rom,FelixMeetsTheEvilWeevils-2.rom,-a -m
@@ -64,6 +64,7 @@ Frak,Aardvark,Frak_Tape.uef,Frak-1.rom,Frak-2.rom,-a -b -s
 Frankenstein 2000,Icon,Frankenstein2000_E.uef,Frankenstein2000-1.rom,Frankenstein2000-2.rom,-a -p -s -w 39f
 Freefall,Acornsoft,Freefall_E.uef,Freefall-1.rom,Freefall-2.rom,-a -b -m -s
 Frenzy,Micro Power,Frenzy_E.uef,Frenzy.rom,,-a -m
+Galaforce,Superior Software,Galaforce_E.uef,Galaforce-1.rom,Galaforce-2.rom,-a -t -w d3f:ef97
 Gauntlet,Micro Power,Gauntlet_E.uef,Gauntlet-1.rom,Gauntlet-2.rom,-a -b -m -s
 Gisburne's Castle,Martech,GisburnesCastle_E.uef,GisburnesCastle-1.rom,GisburnesCastle-2.rom,-a -s -w 39f
 Go,Acornsoft,Go_E.uef,Go-1.rom,Go-2.rom,-a -b -m
@@ -78,6 +79,7 @@ HorseRace,Dynabyte,HorseRace.uef,HorseRace.rom,,-a -b -w 860
 Hunchback,Ocean,Hunchback-Ocean_E.uef,Hunchback.rom,,-a -m
 Hunkidory,Bug Byte,Hunkidory_BE.uef,Hunkidory-1.rom,Hunkidory-2.rom,-a -b -m
 Impact,Audiogenic,Impact.uef,Impact-1.rom,Impact-2.rom,-a -b -m -s
+Impossible Mission,U.S. Gold,ImpossibleMission_E.uef,ImpossibleMission-1.rom,ImpossibleMission-2.rom,-a -s -t -w d3f:ef97
 Jet Boot Jack,English,JetBootJack_E.uef,JetBootJack-1.rom,JetBootJack-2.rom,-a -b -w 39f -t -s
 Joust,Godax,Joust.uef,Joust-1.rom,Joust-2.rom,-a -b -m
 Jungle Jive,Virgin,JungleJive_Tape.uef,JungleJive.rom,,-a -b -m
@@ -168,6 +170,7 @@ West,Talent,West_RUN_E.uef,West-1.rom,West-2.rom,-a -b -m -r -s
 Wheel Of Fortune,Epic,WheelOfFortune_E.uef,WheelOfFortune-1.rom,WheelOfFortune-2.rom,-a -b -s -m
 Where,Micro Power,Where_E.uef,Where.rom,,-a -m
 White Knight Mk 11,BBCSoft,WhiteKnightMk11_E.uef,WhiteKnightMk11-1.rom,WhiteKnightMk11-2.rom,-a -m -s
+XOR,Astral Software,XOR_E.uef,XOR-1.rom,XOR-2.rom,-a -s -t -w d3f:ef97
 Zenon,Impact,Zenon_E.uef,Zenon-1.rom,Zenon-2.rom,-a -m -s
 Zalaga,Aardvark,Zalaga-PIASRR_E.uef,Zalaga-1.rom,Zalaga-2.rom,-a -s
 Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,,-a -b

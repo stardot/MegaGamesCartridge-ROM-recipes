@@ -1,3 +1,7 @@
+#!/bin/sh
+
+set -e
+
 elkulator -rom2 ROMs/3DDotty.rom
 elkulator -rom2 ROMs/3DPool-1.rom -rom1 ROMs/3DPool-2.rom
 elkulator -rom2 ROMs/Adventure-Micropower.rom
@@ -53,7 +57,7 @@ elkulator -rom2 ROMs/Empire.rom
 elkulator -rom2 ROMs/Enigma.rom
 elkulator -rom2 ROMs/EMBA.rom
 elkulator -rom2 ROMs/Erbert.rom
-elkulator -rom2 ROMs/EyeOfZolton.rom
+elkulator -rom2 ROMs/EyeOfZolton-1.rom -rom1 ROMs/EyeOfZolton-2.rom
 elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
 elkulator -rom2 ROMs/FelixInTheFactory.rom
 elkulator -rom2 ROMs/FelixMeetsTheEvilWeevils-1.rom -rom1 ROMs/FelixMeetsTheEvilWeevils-2.rom
@@ -63,6 +67,7 @@ elkulator -rom2 ROMs/Frak-1.rom -rom1 ROMs/Frak-2.rom
 elkulator -rom2 ROMs/Frankenstein2000-1.rom -rom1 ROMs/Frankenstein2000-2.rom
 elkulator -rom2 ROMs/Freefall-1.rom -rom1 ROMs/Freefall-2.rom
 elkulator -rom2 ROMs/Frenzy.rom
+elkulator -rom2 ROMs/Galaforce-1.rom -rom1 ROMs/Galaforce-2.rom
 elkulator -rom2 ROMs/Gauntlet-1.rom -rom1 ROMs/Gauntlet-2.rom
 elkulator -rom2 ROMs/GisburnesCastle-1.rom -rom1 ROMs/GisburnesCastle-2.rom
 elkulator -rom2 ROMs/Go-1.rom -rom1 ROMs/Go-2.rom
@@ -77,6 +82,7 @@ elkulator -rom2 ROMs/HorseRace.rom
 elkulator -rom2 ROMs/Hunchback.rom
 elkulator -rom2 ROMs/Hunkidory-1.rom -rom1 ROMs/Hunkidory-2.rom
 elkulator -rom2 ROMs/Impact-1.rom -rom1 ROMs/Impact-2.rom
+elkulator -rom2 ROMs/ImpossibleMission-1.rom -rom1 ROMs/ImpossibleMission-2.rom
 elkulator -rom2 ROMs/JetBootJack-1.rom -rom1 ROMs/JetBootJack-2.rom
 elkulator -rom2 ROMs/Joust-1.rom -rom1 ROMs/Joust-2.rom
 elkulator -rom2 ROMs/JungleJive.rom
@@ -167,6 +173,7 @@ elkulator -rom2 ROMs/West-1.rom -rom1 ROMs/West-2.rom
 elkulator -rom2 ROMs/WheelOfFortune-1.rom -rom1 ROMs/WheelOfFortune-2.rom
 elkulator -rom2 ROMs/Where.rom
 elkulator -rom2 ROMs/WhiteKnightMk11-1.rom -rom1 ROMs/WhiteKnightMk11-2.rom
+elkulator -rom2 ROMs/XOR-1.rom -rom1 ROMs/XOR-2.rom
 elkulator -rom2 ROMs/Zenon-1.rom -rom1 ROMs/Zenon-2.rom
 elkulator -rom2 ROMs/Zalaga-1.rom -rom1 ROMs/Zalaga-2.rom
 elkulator -rom2 ROMs/ZanyKongJunior.rom
