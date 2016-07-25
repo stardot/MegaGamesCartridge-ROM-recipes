@@ -9,6 +9,7 @@ elkulator -rom2 ROMs/AlienBreakIn-1.rom
 elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 elkulator -rom2 ROMs/AstroPlumber.rom
 elkulator -rom2 ROMs/BarBilliards.rom
+elkulator -rom2 ROMs/BeachHead-1.rom -rom1 ROMs/BeachHead-2.rom
 elkulator -rom2 ROMs/BloodOfTheMutineers-1.rom -rom1 ROMs/BloodOfTheMutineers-2.rom
 elkulator -rom2 ROMs/Boffin2-1.rom -rom1 ROMs/Boffin2-2.rom
 elkulator -rom2 ROMs/Boxer-1.rom -rom1 ROMs/Boxer-2.rom

@@ -9,6 +9,7 @@ set -e
 ./UEF2ROM.py -a -b -m -s UEFs/Arcadians.uef ROMs/Arcadians-1.rom ROMs/Arcadians-2.rom
 ./UEF2ROM.py -a -b -w 39f UEFs/AstroPlumber_E.uef ROMs/AstroPlumber.rom
 ./UEF2ROM.py -a -b UEFs/BarBilliards_E.uef ROMs/BarBilliards.rom
+./UEF2ROM.py -a -s -t -w d3f:ef97 UEFs/BeachHead_E.uef ROMs/BeachHead-1.rom ROMs/BeachHead-2.rom
 ./UEF2ROM.py -a -t -w 39f UEFs/BloodOfTheMutineers_E.uef ROMs/BloodOfTheMutineers-1.rom ROMs/BloodOfTheMutineers-2.rom
 ./UEF2ROM.py -a -b -r -m -s UEFs/Boffin2-modified_BE.uef ROMs/Boffin2-1.rom ROMs/Boffin2-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Boxer.uef ROMs/Boxer-1.rom ROMs/Boxer-2.rom
