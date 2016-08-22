@@ -124,6 +124,7 @@ set -e
 ./UEF2ROM.py -a -s UEFs/Predator_E.uef ROMs/Predator-1.rom ROMs/Predator-2.rom
 ./UEF2ROM.py -a -b -w 39f -s -t UEFs/Psycastria.uef ROMs/Psycastria-1.rom ROMs/Psycastria-2.rom
 ./UEF2ROM.py -a -b -s UEFs/Quest.uef ROMs/Quest-1.rom ROMs/Quest-2.rom
+./UEF2ROM.py -a -m -s UEFs/QuestForFreedom_E.uef ROMs/QuestForFreedom1.rom ROMs/QuestForFreedom2.rom
 ./UEF2ROM.py -a -m -s UEFs/QuestForTheHolyGrail_E.uef ROMs/QuestForTheHolyGrail-1.rom ROMs/QuestForTheHolyGrail-2.rom
 ./UEF2ROM.py -a -s UEFs/Qwak_E.uef ROMs/Qwak-1.rom ROMs/Qwak-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Ravage_E.uef ROMs/Ravage.rom

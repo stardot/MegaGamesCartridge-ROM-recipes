@@ -124,6 +124,7 @@ elkulator -rom2 ROMs/Positron.rom
 elkulator -rom2 ROMs/Predator-1.rom -rom1 ROMs/Predator-2.rom
 elkulator -rom2 ROMs/Psycastria-1.rom -rom1 ROMs/Psycastria-2.rom
 elkulator -rom2 ROMs/Quest-1.rom -rom1 ROMs/Quest-2.rom
+elkulator -rom2 ROMs/QuestForFreedom1.rom -rom1 ROMs/QuestForFreedom2.rom
 elkulator -rom2 ROMs/QuestForTheHolyGrail-1.rom -rom1 ROMs/QuestForTheHolyGrail-2.rom
 elkulator -rom2 ROMs/Qwak-1.rom -rom1 ROMs/Qwak-2.rom
 elkulator -rom2 ROMs/Ravage.rom

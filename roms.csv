@@ -121,6 +121,7 @@ Positron,Micro Power,Positron_E.uef,Positron.rom,,-a -b -m
 Predator,Superior,Predator_E.uef,Predator-1.rom,Predator-2.rom,-a -s
 Psycastria,ASL,Psycastria.uef,Psycastria-1.rom,Psycastria-2.rom,-a -b -w 39f -s -t
 Quest,Superior,Quest.uef,Quest-1.rom,Quest-2.rom,-a -b -s
+Quest For Freedom,IJK,QuestForFreedom_E.uef,QuestForFreedom1.rom,QuestForFreedom2.rom,-a -m -s
 Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail-1.rom,QuestForTheHolyGrail-2.rom,-a -m -s
 Qwak,Superior/Acornsoft,Qwak_E.uef,Qwak-1.rom,Qwak-2.rom,-a -s
 Ravage,Blue Ribbon,Ravage_E.uef,Ravage.rom,,-a -b -m
