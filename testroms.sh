@@ -108,6 +108,7 @@ elkulator -rom2 ROMs/MissileControl.rom
 elkulator -rom2 ROMs/Monsters.rom
 elkulator -rom2 ROMs/MoonBuggy-1.rom -rom1 ROMs/MoonBuggy-2.rom
 elkulator -rom2 ROMs/MoonRaider-1.rom -rom1 ROMs/MoonRaider-2.rom
+elkulator -rom2 ROMs/MouseTrap-1.rom -rom1 ROMs/MouseTrap-2.rom
 elkulator -rom2 ROMs/NightmareMaze.rom
 elkulator -rom2 ROMs/Overdrive.rom
 elkulator -rom2 ROMs/Oxbridge-1.rom -rom1 ROMs/Oxbridge-2.rom

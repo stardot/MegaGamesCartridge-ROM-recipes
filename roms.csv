@@ -105,6 +105,7 @@ Missile Control,Gemini,MissileControl_E.uef,MissileControl.rom,,-a -m
 Monsters,Acornsoft,Monsters.uef,Monsters.rom,,-a -b -w 880
 Moon Buggy,Kansas,MoonBuggy.uef,MoonBuggy-1.rom,MoonBuggy-2.rom,-a -b -w 39f
 MoonRaider,Program Power,MoonRaider_E.uef,MoonRaider-1.rom,MoonRaider-2.rom,-a -b -m -s
+Mouse Trap,Tynesoft,MouseTrap_E.uef,MouseTrap-1.rom,MouseTrap-2.rom,-a -m -s
 Nightmare Maze,MRM,NightmareMaze-MRM_E.uef,NightmareMaze.rom,,-a -w 39f
 Overdrive,Superior,Overdrive.uef,Overdrive.rom,,-a -b
 Oxbridge,Tynesoft,Oxbridge_E.uef,Oxbridge-1.rom,Oxbridge-2.rom,-a -s -t -w 39f
@@ -140,7 +141,7 @@ Skirmish,Godax,Skirmish_E.uef,Skirmish-1.rom,Skirmish-2.rom,-a -b -m
 Sim,Visions,Sim_Tape.uef,Sim.rom,,-a -b -w 880
 Smash And Grab,Superior,SmashAndGrab.uef,SmashAndGrab.rom,,-a -b
 Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,,-a -b -m
-Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes-1.rom,SpaceAgentZeldaMeetsTheBugEyes-2.rom,-a -s -t -w 39f
+Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes-1.rom,SpaceAgentZeldaMeetsTheBugEyes-2.rom,-a -s -t -w d3f:ef97
 Spaceman Sid,English,SpacemanSid.uef,SpacemanSid-1.rom,SpacemanSid-2.rom,-a -b -t -s
 Sphere Of Destiny,ASL,SphereOfDestiny_E.uef,SphereOfDestiny-1.rom,SphereOfDestiny-2.rom,-a -s -t -w 39f
 Sphinx Adventure,Acornsoft,SphinxAdventure_E.uef,SphinxAdventure-1.rom,SphinxAdventure-2.rom,-a -b -s -m

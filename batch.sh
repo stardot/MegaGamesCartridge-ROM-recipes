@@ -108,6 +108,7 @@ set -e
 ./UEF2ROM.py -a -b -w 880 UEFs/Monsters.uef ROMs/Monsters.rom
 ./UEF2ROM.py -a -b -w 39f UEFs/MoonBuggy.uef ROMs/MoonBuggy-1.rom ROMs/MoonBuggy-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/MoonRaider_E.uef ROMs/MoonRaider-1.rom ROMs/MoonRaider-2.rom
+./UEF2ROM.py -a -m -s UEFs/MouseTrap_E.uef ROMs/MouseTrap-1.rom ROMs/MouseTrap-2.rom
 ./UEF2ROM.py -a -w 39f UEFs/NightmareMaze-MRM_E.uef ROMs/NightmareMaze.rom
 ./UEF2ROM.py -a -b UEFs/Overdrive.uef ROMs/Overdrive.rom
 ./UEF2ROM.py -a -s -t -w 39f UEFs/Oxbridge_E.uef ROMs/Oxbridge-1.rom ROMs/Oxbridge-2.rom
@@ -143,7 +144,7 @@ set -e
 ./UEF2ROM.py -a -b -w 880 UEFs/Sim_Tape.uef ROMs/Sim.rom
 ./UEF2ROM.py -a -b UEFs/SmashAndGrab.uef ROMs/SmashAndGrab.rom
 ./UEF2ROM.py -a -b -m UEFs/Snooker-Acornsoft_E.uef ROMs/Snooker.rom
-./UEF2ROM.py -a -s -t -w 39f UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom ROMs/SpaceAgentZeldaMeetsTheBugEyes-2.rom
+./UEF2ROM.py -a -s -t -w d3f:ef97 UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom ROMs/SpaceAgentZeldaMeetsTheBugEyes-2.rom
 ./UEF2ROM.py -a -b -t -s UEFs/SpacemanSid.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
 ./UEF2ROM.py -a -s -t -w 39f UEFs/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
 ./UEF2ROM.py -a -b -s -m UEFs/SphinxAdventure_E.uef ROMs/SphinxAdventure-1.rom ROMs/SphinxAdventure-2.rom
