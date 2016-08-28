@@ -5,16 +5,23 @@ OK,Adventure,Program Power,Adventure-Micropower_E.uef,Adventure-Micropower.rom,,
 OK,Alien Break-In,Romik,AlienBreakIn_E.uef,AlienBreakIn-1.rom,,-a
 OK,Arcadians,Acornsoft,Arcadians.uef,Arcadians-1.rom,Arcadians-2.rom,-a -b -m -s
 OK,Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,,-a -b -w 39f
+Too large,Ballistix,Superior,Ballistix_E.uef,,,
+Too large,Barbarian,Superior,Barbarian_E.uef,,,
+Too large,Barbarian 2,Superior,Barbarian2_E.uef,,,
+Too large,Baron,Superior,Baron_E.uef,,,
 OK,Bar Billiards,Blue Ribbon,BarBilliards_E.uef,BarBilliards.rom,,-a -b
 OK,Beach Head,U.S. Gold,BeachHead_E.uef,BeachHead-1.rom,BeachHead-2.rom,-a -s -t -w d3f:ef97
 OK,Blood Of The Mutineers,Robico,BloodOfTheMutineers_E.uef,BloodOfTheMutineers-1.rom,BloodOfTheMutineers-2.rom,-a -t -w 39f
 OK,Boffin 2,Addictive,Boffin2-modified_BE.uef,Boffin2-1.rom,Boffin2-2.rom,-a -b -r -m -s
+Too large,BoneCruncher,Superior,BoneCruncher_E.uef,,,
+Too large (can snapshot),Boulder Dash,Tynesoft,Boulderdash_E.uef,,,
 OK,Boxer,Acornsoft,Boxer.uef,Boxer-1.rom,Boxer-2.rom,-a -b -m -s
 OK,Breakthrough,ASL,Breakthrough_RUN_E.uef,Breakthrough-1.rom,Breakthrough-2.rom,-a -b -r -s -w 860 -t
 OK,Brian Jacks Superstar Challenge,Martech,BrianJacksSuperstarChallenge_E.uef,BrianJacksSuperstarChallenge-1.rom,BrianJacksSuperstarChallenge-2.rom,-a -s -t
 OK,Bug Blaster,Alligata,BugBlast.uef,BugBlast-1.rom,BugBlast-2.rom,-a -b -w 880
 OK,Bugs,Virgin,Bugs_E.uef,Bugs.rom,,-a
 OK,Bumble Bee,Micro Power,BumbleBee_E.uef,BumbleBee-1.rom,BumbleBee-2.rom,-a -b -s -m
+Crashes (can snapshot),Camelot,Superior,Camelot_E.uef,,,
 OK,Castle Assault,Blue Ribbon,CastleAssault_E.uef,CastleAssault.rom,,-a -b -w 880
 OK,Castle Frankenstein,Epic,CastleFrankenstein_E.uef,CastleFrankenstein-1.rom,CastleFrankenstein-2.rom,-a -m -s
 OK,Castlemaze Adventure,Duckworth,EXPLADV-CastlemazeAdventure_E.uef,CastlemazeAdventure.rom,,-a -m
@@ -28,6 +35,7 @@ OK,Chess,Superior,Chess-Superior_BE.uef,Chess-Superior.rom,,-a -m
 OK,Chuckie Egg,A&F,ChuckieEgg_E.uef,ChuckieEgg.rom,,-a -b -m
 OK,Citadel,Superior,Citadel-PIASRR_E.uef,Citadel-1.rom,Citadel-2.rom,-a -b -m -s
 OK,Classic Adventure,Melbourne House,ClassicAdventure_RUN_BE.uef,ClassicAdventure-1.rom,ClassicAdventure-2.rom,-a -m -r -s
+Too large,Clogger,Impact,Clogger_Tape.uef,,,
 OK,Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,,-a -w 39f
 OK,Cosmic Camouflage,Superior/Acornsoft,CosmicCamouflage_Tape.uef,CosmicCamouflage-1.rom,CosmicCamouflage-2.rom,-a -b
 OK,Crazy Tracer,Acornsoft,CrazyTracer_E.uef,CrazyTracer.rom,,-a -b -m
@@ -125,6 +133,7 @@ OK,Quest,Superior,Quest.uef,Quest-1.rom,Quest-2.rom,-a -b -s
 OK,Quest For Freedom,IJK,QuestForFreedom_E.uef,QuestForFreedom1.rom,QuestForFreedom2.rom,-a -m -s
 OK,Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail-1.rom,QuestForTheHolyGrail-2.rom,-a -m -s
 OK,Qwak,Superior/Acornsoft,Qwak_E.uef,Qwak-1.rom,Qwak-2.rom,-a -s
+Crashes,Ransack!,ASL,Ransack_E.uef,Ransack-1.rom,Ransack-2.rom,-a -p -r -s -t -w 380
 OK,Ravage,Blue Ribbon,Ravage_E.uef,Ravage.rom,,-a -b -m
 OK,Rebel Planet,U.S. Gold,RebelPlanet_E.uef,RebelPlanet-1.rom,RebelPlanet-2.rom,-a -s -w 39f
 OK,Repton,Superior,Repton.uef,Repton-1.rom,Repton-2.rom,-a -b -s
