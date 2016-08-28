@@ -70,6 +70,7 @@ set -e
 ./UEF2ROM.py -a -m UEFs/Frenzy_E.uef ROMs/Frenzy.rom
 ./UEF2ROM.py -a -t -w d3f:ef97 UEFs/Galaforce_E.uef ROMs/Galaforce-1.rom ROMs/Galaforce-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Gauntlet_E.uef ROMs/Gauntlet-1.rom ROMs/Gauntlet-2.rom
+./UEF2ROM.py -a -p -s -w 39f -f 3-5 UEFs/Ghouls-PIASRR_E.uef ROMs/Ghouls-1.rom ROMs/Ghouls-2.rom
 ./UEF2ROM.py -a -s -w 39f UEFs/GisburnesCastle_E.uef ROMs/GisburnesCastle-1.rom ROMs/GisburnesCastle-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Go_E.uef ROMs/Go-1.rom ROMs/Go-2.rom
 ./UEF2ROM.py -a -b -w 39f -t UEFs/Guardian_E.uef ROMs/Guardian.rom

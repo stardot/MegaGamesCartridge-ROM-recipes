@@ -20,13 +20,15 @@ for line in lines:
 
     pieces = line.strip().split(",")
     if len(pieces) != len(check_headings):
+        print "Invalid entry:", pieces
         continue
     
     d = {}
     for key, value in zip(check_headings, pieces):
         d[key] = value
     
-    if d["Status"] != "OK":
+    if not d["Status"].startswith("OK"):
+        print "Skipping", d["Name"], "-", d["Status"]
         continue
     
     if d["ROM2"]:

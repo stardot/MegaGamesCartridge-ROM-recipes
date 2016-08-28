@@ -36,8 +36,10 @@ OK,Chuckie Egg,A&F,ChuckieEgg_E.uef,ChuckieEgg.rom,,-a -b -m
 OK,Citadel,Superior,Citadel-PIASRR_E.uef,Citadel-1.rom,Citadel-2.rom,-a -b -m -s
 OK,Classic Adventure,Melbourne House,ClassicAdventure_RUN_BE.uef,ClassicAdventure-1.rom,ClassicAdventure-2.rom,-a -m -r -s
 Too large,Clogger,Impact,Clogger_Tape.uef,,,
+Too large,Codename: Droid,Superior,CodenameDroid_E.uef,,,
 OK,Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,,-a -w 39f
 OK,Cosmic Camouflage,Superior/Acornsoft,CosmicCamouflage_Tape.uef,CosmicCamouflage-1.rom,CosmicCamouflage-2.rom,-a -b
+Too large,Crazee Rider,Superior,CrazeeRider_E.uef,,,
 OK,Crazy Tracer,Acornsoft,CrazyTracer_E.uef,CrazyTracer.rom,,-a -b -m
 OK,Creepy Cave,Atlantis,CreepyCave_BE.uef,CreepyCave-1.rom,CreepyCave-2.rom,-a -m
 OK,Croaker,Program Power,Croaker_E.uef,Croaker.rom,,-a
@@ -56,6 +58,7 @@ OK,Drain Mania,Icon,DrainMania.uef,DrainMania-1.rom,DrainMania-2.rom,-a -b -w 39
 OK,Draughts,Acornsoft,DAR-Draughts_E.uef,Draughts-Acornsoft.rom,,-a
 OK,Draughts,Computer Concepts,Draughts-ComputerConcepts_BE.uef,Draughts-ComputerConcepts.rom,,-a -m
 OK,Draughts,Superior,Draughts-Superior_E.uef,Draughts-Superior.rom,,-a
+Fails to load,Eddie Kidd Jump Challenge,Martech,EddieKiddJumpChallenge_E.uef,,,
 OK,Electron Invaders,Program Power,ElectronInvaders_E.uef,ElectronInvaders.rom,,-a -m
 OK,Elite,Acornsoft,Elite-SRR_E.uef,Elite-1.rom,Elite-2.rom,-a -b -s
 OK,Elixir,Superior,Elixir_E.uef,Elixir-1.rom,Elixir-2.rom,-a -s -t -w 39f
@@ -74,7 +77,9 @@ OK,Frankenstein 2000,Icon,Frankenstein2000_E.uef,Frankenstein2000-1.rom,Frankens
 OK,Freefall,Acornsoft,Freefall_E.uef,Freefall-1.rom,Freefall-2.rom,-a -b -m -s
 OK,Frenzy,Micro Power,Frenzy_E.uef,Frenzy.rom,,-a -m
 OK,Galaforce,Superior Software,Galaforce_E.uef,Galaforce-1.rom,Galaforce-2.rom,-a -t -w d3f:ef97
+Fails to load,Galaforce 2,Superior Software,Galaforce2_E.uef,,,
 OK,Gauntlet,Micro Power,Gauntlet_E.uef,Gauntlet-1.rom,Gauntlet-2.rom,-a -b -m -s
+OK (discard files),Ghouls,Micro Power,Ghouls-PIASRR_E.uef,Ghouls-1.rom,Ghouls-2.rom,-a -p -s -w 39f -f 3-5
 OK,Gisburne's Castle,Martech,GisburnesCastle_E.uef,GisburnesCastle-1.rom,GisburnesCastle-2.rom,-a -s -w 39f
 OK,Go,Acornsoft,Go_E.uef,Go-1.rom,Go-2.rom,-a -b -m
 OK,Guardian,Alligata,Guardian_E.uef,Guardian.rom,,-a -b -w 39f -t
@@ -87,8 +92,10 @@ OK,Hobgoblin 2,Atlantis,Hobgoblin2_E.uef,Hobgoblin2-1.rom,Hobgoblin2-2.rom,-a -m
 OK,HorseRace,Dynabyte,HorseRace.uef,HorseRace.rom,,-a -b -w 860
 OK,Hunchback,Ocean,Hunchback-Ocean_E.uef,Hunchback.rom,,-a -m
 OK,Hunkidory,Bug Byte,Hunkidory_BE.uef,Hunkidory-1.rom,Hunkidory-2.rom,-a -b -m
+Too large,Icarus,Mandarin,Icarus_E.uef,,,
 OK,Impact,Audiogenic,Impact.uef,Impact-1.rom,Impact-2.rom,-a -b -m -s
 OK,Impossible Mission,U.S. Gold,ImpossibleMission_E.uef,ImpossibleMission-1.rom,ImpossibleMission-2.rom,-a -s -t -w d3f:ef97
+Too large,Inertia,4th Dimension,Inertia_E.uef,,,
 OK,Jet Boot Jack,English,JetBootJack_E.uef,JetBootJack-1.rom,JetBootJack-2.rom,-a -b -w 39f -t -s
 OK,Joust,Godax,Joust.uef,Joust-1.rom,Joust-2.rom,-a -b -m
 OK,Jungle Jive,Virgin,JungleJive_Tape.uef,JungleJive.rom,,-a -b -m
