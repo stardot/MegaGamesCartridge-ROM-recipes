@@ -169,6 +169,7 @@ set -e
 ./UEF2ROM.py -a -m UEFs/EXPLADV-TunnelAdventure_E.uef ROMs/TunnelAdventure.rom
 ./UEF2ROM.py -a -b -m -s UEFs/TwinKingdomValley-modified_E.uef ROMs/TwinKingdomValley-1.rom ROMs/TwinKingdomValley-2.rom
 ./UEF2ROM.py -a -b -s -l UEFs/TwelfthNight-Electron.uef ROMs/TwelfthNight-1.rom ROMs/TwelfthNight-2.rom
+./UEF2ROM.py -a -m -r UEFs/Ultron_E.uef ROMs/Ultron.rom
 ./UEF2ROM.py -a -m UEFs/EXPLADV-UndegroundAdventure_E.uef ROMs/UndegroundAdventure.rom
 ./UEF2ROM.py -a -b -w 120 UEFs/VideosRevenge.uef ROMs/VideosRevenge-1.rom ROMs/VideosRevenge-2.rom
 ./UEF2ROM.py -a -b -s -m UEFs/Village.uef ROMs/Village-1.rom ROMs/Village-2.rom

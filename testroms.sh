@@ -169,6 +169,7 @@ elkulator -rom2 ROMs/Thunderstruck2-1.rom -rom1 ROMs/Thunderstruck2-2.rom
 elkulator -rom2 ROMs/TunnelAdventure.rom
 elkulator -rom2 ROMs/TwinKingdomValley-1.rom -rom1 ROMs/TwinKingdomValley-2.rom
 elkulator -rom2 ROMs/TwelfthNight-1.rom -rom1 ROMs/TwelfthNight-2.rom
+elkulator -rom2 ROMs/Ultron.rom
 elkulator -rom2 ROMs/UndegroundAdventure.rom
 elkulator -rom2 ROMs/VideosRevenge-1.rom -rom1 ROMs/VideosRevenge-2.rom
 elkulator -rom2 ROMs/Village-1.rom -rom1 ROMs/Village-2.rom

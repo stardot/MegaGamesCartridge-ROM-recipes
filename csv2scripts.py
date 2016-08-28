@@ -2,7 +2,7 @@
 
 import sys
 
-check_headings = ["Name", "Publisher", "UEF", "ROM1", "ROM2", "Options"]
+check_headings = ["Status", "Name", "Publisher", "UEF", "ROM1", "ROM2", "Options"]
 
 lines = open("roms.csv").readlines()
 
@@ -25,6 +25,9 @@ for line in lines:
     d = {}
     for key, value in zip(check_headings, pieces):
         d[key] = value
+    
+    if d["Status"] != "OK":
+        continue
     
     if d["ROM2"]:
         bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s ROMs/%(ROM2)s\n" % d)
