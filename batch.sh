@@ -149,6 +149,7 @@ set -e
 ./UEF2ROM.py -a -b -t -s UEFs/SpacemanSid.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
 ./UEF2ROM.py -a -s -t -w 39f UEFs/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
 ./UEF2ROM.py -a -b -s -m UEFs/SphinxAdventure_E.uef ROMs/SphinxAdventure-1.rom ROMs/SphinxAdventure-2.rom
+./UEF2ROM.py -a -b -m -s -x UEFs/spy.SpyVsSpy.uef ROMs/SpyVsSpy-1.rom ROMs/SpyVsSpy-2.rom
 ./UEF2ROM.py -a -b UEFs/SteveDavisSnooker-PIASRR_E.uef ROMs/SteveDavisSnooker-1.rom ROMs/SteveDavisSnooker-2.rom
 ./UEF2ROM.py -a -b UEFs/StockCar.uef ROMs/StockCar-1.rom ROMs/StockCar-2.rom
 ./UEF2ROM.py -a -b -s -t UEFs/Stormcycle_E.uef ROMs/Stormcycle-1.rom ROMs/Stormcycle-2.rom

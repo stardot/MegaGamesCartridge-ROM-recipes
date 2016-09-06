@@ -149,6 +149,7 @@ elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom -rom1 ROMs/SpaceAgentZ
 elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
 elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
 elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
+elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
 elkulator -rom2 ROMs/SteveDavisSnooker-1.rom -rom1 ROMs/SteveDavisSnooker-2.rom
 elkulator -rom2 ROMs/StockCar-1.rom -rom1 ROMs/StockCar-2.rom
 elkulator -rom2 ROMs/Stormcycle-1.rom -rom1 ROMs/Stormcycle-2.rom

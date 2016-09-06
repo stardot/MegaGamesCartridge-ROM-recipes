@@ -161,6 +161,7 @@ OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.ue
 OK,Spaceman Sid,English,SpacemanSid.uef,SpacemanSid-1.rom,SpacemanSid-2.rom,-a -b -t -s
 OK,Sphere Of Destiny,ASL,SphereOfDestiny_E.uef,SphereOfDestiny-1.rom,SphereOfDestiny-2.rom,-a -s -t -w 39f
 OK,Sphinx Adventure,Acornsoft,SphinxAdventure_E.uef,SphinxAdventure-1.rom,SphinxAdventure-2.rom,-a -b -s -m
+OK (patched),Spy vs Spy,Tynesoft,spy.SpyVsSpy.uef,SpyVsSpy-1.rom,SpyVsSpy-2.rom,-a -b -m -s -x
 OK,Steve Davis Snooker,Blue Ribbon,SteveDavisSnooker-PIASRR_E.uef,SteveDavisSnooker-1.rom,SteveDavisSnooker-2.rom,-a -b
 OK,Stock Car,Micro Power,StockCar.uef,StockCar-1.rom,StockCar-2.rom,-a -b
 OK,Stormcycle,Atlantis,Stormcycle_E.uef,Stormcycle-1.rom,Stormcycle-2.rom,-a -b -s -t
