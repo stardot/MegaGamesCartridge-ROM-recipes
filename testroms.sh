@@ -8,6 +8,7 @@ elkulator -rom2 ROMs/Adventure-Micropower.rom
 elkulator -rom2 ROMs/AlienBreakIn-1.rom
 elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 elkulator -rom2 ROMs/AstroPlumber.rom
+elkulator -rom2 ROMs/Baron-1.rom -rom1 ROMs/Baron-2.rom
 elkulator -rom2 ROMs/BarBilliards.rom
 elkulator -rom2 ROMs/BeachHead-1.rom -rom1 ROMs/BeachHead-2.rom
 elkulator -rom2 ROMs/BloodOfTheMutineers-1.rom -rom1 ROMs/BloodOfTheMutineers-2.rom
@@ -31,8 +32,10 @@ elkulator -rom2 ROMs/Chess-Superior.rom
 elkulator -rom2 ROMs/ChuckieEgg.rom
 elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
 elkulator -rom2 ROMs/ClassicAdventure-1.rom -rom1 ROMs/ClassicAdventure-2.rom
+elkulator -rom2 ROMs/CodenameDroid-1.rom -rom1 ROMs/CodenameDroid-2.rom
 elkulator -rom2 ROMs/ConditionRed.rom
 elkulator -rom2 ROMs/CosmicCamouflage-1.rom -rom1 ROMs/CosmicCamouflage-2.rom
+elkulator -rom2 ROMs/CrazeeRider-1.rom -rom1 ROMs/CrazeeRider-2.rom
 elkulator -rom2 ROMs/CrazyTracer.rom
 elkulator -rom2 ROMs/CreepyCave-1.rom -rom1 ROMs/CreepyCave-2.rom
 elkulator -rom2 ROMs/Croaker.rom
@@ -117,6 +120,7 @@ elkulator -rom2 ROMs/Pengi.rom
 elkulator -rom2 ROMs/PhilosophersQuest-1.rom -rom1 ROMs/PhilosophersQuest-2.rom
 elkulator -rom2 ROMs/PhilosophersStone-1.rom -rom1 ROMs/PhilosophersStone-2.rom
 elkulator -rom2 ROMs/Pinball.rom
+elkulator -rom2 ROMs/Pipeline-1.rom -rom1 ROMs/Pipeline-2.rom
 elkulator -rom2 ROMs/Pipemania-1.rom -rom1 ROMs/Pipemania-2.rom
 elkulator -rom2 ROMs/PlanB-1.rom -rom1 ROMs/PlanB-2.rom
 elkulator -rom2 ROMs/PlanB2-1.rom -rom1 ROMs/PlanB2-2.rom
@@ -130,6 +134,7 @@ elkulator -rom2 ROMs/QuestForFreedom1.rom -rom1 ROMs/QuestForFreedom2.rom
 elkulator -rom2 ROMs/QuestForTheHolyGrail-1.rom -rom1 ROMs/QuestForTheHolyGrail-2.rom
 elkulator -rom2 ROMs/Qwak-1.rom -rom1 ROMs/Qwak-2.rom
 elkulator -rom2 ROMs/Ravage.rom
+elkulator -rom2 ROMs/Ravenskull-1.rom -rom1 ROMs/Ravenskull-2.rom
 elkulator -rom2 ROMs/RebelPlanet-1.rom -rom1 ROMs/RebelPlanet-2.rom
 elkulator -rom2 ROMs/Repton-1.rom -rom1 ROMs/Repton-2.rom
 elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
@@ -180,6 +185,7 @@ elkulator -rom2 ROMs/WheelOfFortune-1.rom -rom1 ROMs/WheelOfFortune-2.rom
 elkulator -rom2 ROMs/Where.rom
 elkulator -rom2 ROMs/WhiteKnightMk11-1.rom -rom1 ROMs/WhiteKnightMk11-2.rom
 elkulator -rom2 ROMs/XOR-1.rom -rom1 ROMs/XOR-2.rom
+elkulator -rom2 ROMs/YieArKungFu-1.rom -rom1 ROMs/YieArKungFu-2.rom
 elkulator -rom2 ROMs/Zenon-1.rom -rom1 ROMs/Zenon-2.rom
 elkulator -rom2 ROMs/Zalaga-1.rom -rom1 ROMs/Zalaga-2.rom
 elkulator -rom2 ROMs/ZanyKongJunior.rom

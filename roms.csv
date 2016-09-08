@@ -8,7 +8,7 @@ OK,Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,,-a -b -w 39f
 Too large,Ballistix,Superior,Ballistix_E.uef,,,
 Too large,Barbarian,Superior,Barbarian_E.uef,,,
 Too large,Barbarian 2,Superior,Barbarian2_E.uef,,,
-Too large,Baron,Superior,Baron_E.uef,,,
+OK (patched),Baron,Superior,Mega_Games_Cartridge/Baron-patched.uef,Baron-1.rom,Baron-2.rom,-a -s -t -w 120
 OK,Bar Billiards,Blue Ribbon,BarBilliards_E.uef,BarBilliards.rom,,-a -b
 OK,Beach Head,U.S. Gold,BeachHead_E.uef,BeachHead-1.rom,BeachHead-2.rom,-a -s -t -w d3f:ef97
 OK,Blood Of The Mutineers,Robico,BloodOfTheMutineers_E.uef,BloodOfTheMutineers-1.rom,BloodOfTheMutineers-2.rom,-a -t -w 39f
@@ -36,10 +36,10 @@ OK,Chuckie Egg,A&F,ChuckieEgg_E.uef,ChuckieEgg.rom,,-a -b -m
 OK,Citadel,Superior,Citadel-PIASRR_E.uef,Citadel-1.rom,Citadel-2.rom,-a -b -m -s
 OK,Classic Adventure,Melbourne House,ClassicAdventure_RUN_BE.uef,ClassicAdventure-1.rom,ClassicAdventure-2.rom,-a -m -r -s
 Too large,Clogger,Impact,Clogger_Tape.uef,,,
-Too large,Codename: Droid,Superior,CodenameDroid_E.uef,,,
+OK (patched),Codename: Droid,Superior,Mega_Games_Cartridge/CodenameDroid-patched.uef,CodenameDroid-1.rom,CodenameDroid-2.rom,-a -m -r -s
 OK,Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,,-a -w 39f
 OK,Cosmic Camouflage,Superior/Acornsoft,CosmicCamouflage_Tape.uef,CosmicCamouflage-1.rom,CosmicCamouflage-2.rom,-a -b
-Too large,Crazee Rider,Superior,CrazeeRider_E.uef,,,
+OK (patched),Crazee Rider,Superior,Mega_Games_Cartridge/CrazeeRider-patched.uef,CrazeeRider-1.rom,CrazeeRider-2.rom,-a -s -t -w d3f:ef97
 OK,Crazy Tracer,Acornsoft,CrazyTracer_E.uef,CrazyTracer.rom,,-a -b -m
 OK,Creepy Cave,Atlantis,CreepyCave_BE.uef,CreepyCave-1.rom,CreepyCave-2.rom,-a -m
 OK,Croaker,Program Power,Croaker_E.uef,Croaker.rom,,-a
@@ -128,6 +128,7 @@ OK,Pengi.uef,Visions,Pengi.uef,Pengi.rom,,-a -b -w 120
 OK,Philosophers Quest,Acornsoft,PhilosophersQuest_E.uef,PhilosophersQuest-1.rom,PhilosophersQuest-2.rom,-a -b -m -s
 OK,Philosophers Stone,Potter,PhilosophersStone_BE.uef,PhilosophersStone-1.rom,PhilosophersStone-2.rom,-a -b -m -s
 OK,Pinball,Kansas,Pinball.uef,Pinball.rom,,-a -b -w 120
+OK (patched),Pipeline,Superior,Mega_Games_Cartridge/Pipeline-patched.uef,Pipeline-1.rom,Pipeline-2.rom,-a -m -r -s
 OK,Pipemania,Empire,Pipemania_E.uef,Pipemania-1.rom,Pipemania-2.rom,-a -b -m -r -s
 OK,Plan B,Bug Byte,PlanB_BE.uef,PlanB-1.rom,PlanB-2.rom,-a -m -s
 OK,Plan B 2,Bug Byte,PlanB2_BE.uef,PlanB2-1.rom,PlanB2-2.rom,-a -s
@@ -142,6 +143,7 @@ OK,Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail
 OK,Qwak,Superior/Acornsoft,Qwak_E.uef,Qwak-1.rom,Qwak-2.rom,-a -s
 Crashes,Ransack!,ASL,Ransack_E.uef,Ransack-1.rom,Ransack-2.rom,-a -p -r -s -t -w 380
 OK,Ravage,Blue Ribbon,Ravage_E.uef,Ravage.rom,,-a -b -m
+OK (patched),Ravenskull,Superior,Mega_Games_Cartridge/Ravenskull-patched.uef,Ravenskull-1.rom,Ravenskull-2.rom,-a -m -r -s
 OK,Rebel Planet,U.S. Gold,RebelPlanet_E.uef,RebelPlanet-1.rom,RebelPlanet-2.rom,-a -s -w 39f
 OK,Repton,Superior,Repton.uef,Repton-1.rom,Repton-2.rom,-a -b -s
 OK,Repton 2,Superior,Repton2.uef,Repton2-1.rom,Repton2-2.rom,-a -b -s
@@ -159,9 +161,10 @@ OK,Smash And Grab,Superior,SmashAndGrab.uef,SmashAndGrab.rom,,-a -b
 OK,Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,,-a -b -m
 OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes-1.rom,SpaceAgentZeldaMeetsTheBugEyes-2.rom,-a -s -t -w d3f:ef97
 OK,Spaceman Sid,English,SpacemanSid.uef,SpacemanSid-1.rom,SpacemanSid-2.rom,-a -b -t -s
+Too large,Spellbinder,Superior,Spellbinder.uef,,,
 OK,Sphere Of Destiny,ASL,SphereOfDestiny_E.uef,SphereOfDestiny-1.rom,SphereOfDestiny-2.rom,-a -s -t -w 39f
 OK,Sphinx Adventure,Acornsoft,SphinxAdventure_E.uef,SphinxAdventure-1.rom,SphinxAdventure-2.rom,-a -b -s -m
-OK (patched),Spy vs Spy,Tynesoft,spy.SpyVsSpy.uef,SpyVsSpy-1.rom,SpyVsSpy-2.rom,-a -b -m -s -x
+OK (patched),Spy vs Spy,Tynesoft,Mega_Games_Cartridge/SpyVsSpy-patched.uef,SpyVsSpy-1.rom,SpyVsSpy-2.rom,-a -b -m -s -x
 OK,Steve Davis Snooker,Blue Ribbon,SteveDavisSnooker-PIASRR_E.uef,SteveDavisSnooker-1.rom,SteveDavisSnooker-2.rom,-a -b
 OK,Stock Car,Micro Power,StockCar.uef,StockCar-1.rom,StockCar-2.rom,-a -b
 OK,Stormcycle,Atlantis,Stormcycle_E.uef,Stormcycle-1.rom,Stormcycle-2.rom,-a -b -s -t
@@ -192,6 +195,8 @@ OK,Wheel Of Fortune,Epic,WheelOfFortune_E.uef,WheelOfFortune-1.rom,WheelOfFortun
 OK,Where,Micro Power,Where_E.uef,Where.rom,,-a -m
 OK,White Knight Mk 11,BBCSoft,WhiteKnightMk11_E.uef,WhiteKnightMk11-1.rom,WhiteKnightMk11-2.rom,-a -m -s
 OK,XOR,Astral Software,XOR_E.uef,XOR-1.rom,XOR-2.rom,-a -s -t -w d3f:ef97
+OK (patched),Yie Ar Kung Fu,Imagine,Mega_Games_Cartridge/YieArKungFu-patched.uef,YieArKungFu-1.rom,YieArKungFu-2.rom,-a -p -r -s -t -w 39f
+Hangs,Yie Ar Kung Fu 2,Imagine,YieArKungFu2_E.uef,YieArKungFu2-1.rom,YieArKungFu-2.rom,-a -p -t -w d3f:ef97 -s
 OK,Zenon,Impact,Zenon_E.uef,Zenon-1.rom,Zenon-2.rom,-a -m -s
 OK,Zalaga,Aardvark,Zalaga-PIASRR_E.uef,Zalaga-1.rom,Zalaga-2.rom,-a -s
 OK,Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,,-a -b
