@@ -125,7 +125,7 @@ OK,Monsters,Acornsoft,Monsters.uef,Monsters.rom,,-a -b -w 880
 OK,Moon Buggy,Kansas,MoonBuggy.uef,MoonBuggy-1.rom,MoonBuggy-2.rom,-a -b -w 39f
 OK,MoonRaider,Program Power,MoonRaider_E.uef,MoonRaider-1.rom,MoonRaider-2.rom,-a -b -m -s
 OK,Mouse Trap,Tynesoft,MouseTrap_E.uef,MouseTrap-1.rom,MouseTrap-2.rom,-a -m -s
-OK,Mr Wiz,Superior,MrWiz_E.uef,MrWiz.rom,,-a -p -s -w 39f
+OK,Mr Wiz,Superior,MrWiz.uef,MrWiz.rom,,-a -p -s -w 39f
 OK (patched),Network,Superior,Mega_Games_Cartridge/Network-patched.uef,Network-1.rom,Network-2.rom,-a -m -s
 OK,Nightmare Maze,MRM,NightmareMaze-MRM_E.uef,NightmareMaze.rom,,-a -w 39f
 OK,Overdrive,Superior,Overdrive.uef,Overdrive.rom,,-a -b
