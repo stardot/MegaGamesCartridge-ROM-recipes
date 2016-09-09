@@ -115,7 +115,7 @@ set -e
 ./UEF2ROM.py -a -b -w 39f UEFs/MoonBuggy.uef ROMs/MoonBuggy-1.rom ROMs/MoonBuggy-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/MoonRaider_E.uef ROMs/MoonRaider-1.rom ROMs/MoonRaider-2.rom
 ./UEF2ROM.py -a -m -s UEFs/MouseTrap_E.uef ROMs/MouseTrap-1.rom ROMs/MouseTrap-2.rom
-./UEF2ROM.py -a -p -s -w 39f UEFs/MrWiz_E.uef ROMs/MrWiz.rom
+./UEF2ROM.py -a -p -s -w 39f UEFs/MrWiz.uef ROMs/MrWiz.rom
 ./UEF2ROM.py -a -m -s UEFs/Mega_Games_Cartridge/Network-patched.uef ROMs/Network-1.rom ROMs/Network-2.rom
 ./UEF2ROM.py -a -w 39f UEFs/NightmareMaze-MRM_E.uef ROMs/NightmareMaze.rom
 ./UEF2ROM.py -a -b UEFs/Overdrive.uef ROMs/Overdrive.rom
