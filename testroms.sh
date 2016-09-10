@@ -90,7 +90,7 @@ elkulator -rom2 ROMs/Impact-1.rom -rom1 ROMs/Impact-2.rom
 elkulator -rom2 ROMs/ImpossibleMission-1.rom -rom1 ROMs/ImpossibleMission-2.rom
 elkulator -rom2 ROMs/Inertia-1.rom -rom1 ROMs/Inertia-2.rom
 elkulator -rom2 ROMs/JetBootJack-1.rom -rom1 ROMs/JetBootJack-2.rom
-elkulator -rom2 ROMs/Joey-1.rom -rom1 ROMs/Joey-2.rom
+elkulator -rom2 ROMs/Joey.rom
 elkulator -rom2 ROMs/Joust-1.rom -rom1 ROMs/Joust-2.rom
 elkulator -rom2 ROMs/JungleJive.rom
 elkulator -rom2 ROMs/KarateCombat-1.rom -rom1 ROMs/KarateCombat-2.rom
@@ -152,15 +152,18 @@ elkulator -rom2 ROMs/RubbleTrouble-1.rom -rom1 ROMs/RubbleTrouble-2.rom
 elkulator -rom2 ROMs/Saracoid-1.rom -rom1 ROMs/Saracoid-2.rom
 elkulator -rom2 ROMs/SavagePond-1.rom -rom1 ROMs/SavagePond-2.rom
 elkulator -rom2 ROMs/Shark-1.rom -rom1 ROMs/Shark-2.rom
+elkulator -rom2 ROMs/SimCity-1.rom -rom1 ROMs/SimCity-2.rom
 elkulator -rom2 ROMs/Skirmish-1.rom -rom1 ROMs/Skirmish-2.rom
 elkulator -rom2 ROMs/Sim.rom
 elkulator -rom2 ROMs/SmashAndGrab.rom
 elkulator -rom2 ROMs/Snooker.rom
 elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom -rom1 ROMs/SpaceAgentZeldaMeetsTheBugEyes-2.rom
 elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
+elkulator -rom2 ROMs/SpaceRanger.rom
 elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
 elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
 elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
+elkulator -rom2 ROMs/StarWars-1.rom -rom1 ROMs/StarWars-2.rom
 elkulator -rom2 ROMs/SteveDavisSnooker-1.rom -rom1 ROMs/SteveDavisSnooker-2.rom
 elkulator -rom2 ROMs/StockCar-1.rom -rom1 ROMs/StockCar-2.rom
 elkulator -rom2 ROMs/Stormcycle-1.rom -rom1 ROMs/Stormcycle-2.rom
@@ -174,6 +177,7 @@ elkulator -rom2 ROMs/Swoop.rom
 elkulator -rom2 ROMs/Syncron-1.rom -rom1 ROMs/Syncron-2.rom
 elkulator -rom2 ROMs/TalesOfTheArabianNights-1.rom -rom1 ROMs/TalesOfTheArabianNights-2.rom
 elkulator -rom2 ROMs/Tempest.rom
+elkulator -rom2 ROMs/Terrormolinos-1.rom -rom1 ROMs/Terrormolinos-2.rom
 elkulator -rom2 ROMs/Tetris-1.rom -rom1 ROMs/Tetris-2.rom
 elkulator -rom2 ROMs/TheMine.rom
 elkulator -rom2 ROMs/Thrust-1.rom -rom1 ROMs/Thrust-2.rom
@@ -195,3 +199,4 @@ elkulator -rom2 ROMs/YieArKungFu-1.rom -rom1 ROMs/YieArKungFu-2.rom
 elkulator -rom2 ROMs/Zenon-1.rom -rom1 ROMs/Zenon-2.rom
 elkulator -rom2 ROMs/Zalaga-1.rom -rom1 ROMs/Zalaga-2.rom
 elkulator -rom2 ROMs/ZanyKongJunior.rom
+elkulator -rom2 ROMs/Ziggy-1.rom -rom1 ROMs/Ziggy-2.rom

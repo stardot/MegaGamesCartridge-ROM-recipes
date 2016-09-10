@@ -99,7 +99,7 @@ OK,Impact,Audiogenic,Impact.uef,Impact-1.rom,Impact-2.rom,-a -b -m -s
 OK,Impossible Mission,U.S. Gold,ImpossibleMission_E.uef,ImpossibleMission-1.rom,ImpossibleMission-2.rom,-a -s -t -w d3f:ef97
 OK (patched),Inertia,4th Dimension,Mega_Games_Cartridge/Inertia-patched.uef,Inertia-1.rom,Inertia-2.rom,-a -m -s
 OK,Jet Boot Jack,English,JetBootJack_E.uef,JetBootJack-1.rom,JetBootJack-2.rom,-a -b -w 39f -t -s
-OK (patched),Joey,Blue Ribbon,Mega_Games_Cartridge/Joey-patched.uef,Joey-1.rom,Joey-2.rom,-a -p -s -w 39f
+OK (patched),Joey,Blue Ribbon,Mega_Games_Cartridge/Joey-patched.uef,Joey.rom,,-a -p -s -w 39f
 OK,Joust,Godax,Joust.uef,Joust-1.rom,Joust-2.rom,-a -b -m
 OK,Jungle Jive,Virgin,JungleJive_Tape.uef,JungleJive.rom,,-a -b -m
 OK,Karate Combat,Superior,KarateCombat.uef,KarateCombat-1.rom,KarateCombat-2.rom,-a -b -s
@@ -163,16 +163,19 @@ OK,Rubble Trouble,Micro Power,RubbleTrouble.uef,RubbleTrouble-1.rom,RubbleTroubl
 OK,Saracoid,Audiogenic,Saracoid.uef,Saracoid-1.rom,Saracoid-2.rom,-a -b -m -s
 OK,Savage Pond,Starcade,SavagePond-Starcade_E.uef,SavagePond-1.rom,SavagePond-2.rom,-a -b
 OK,Shark,ASL,Shark_E.uef,Shark-1.rom,Shark-2.rom,-a -b -m -s
+OK (patched),Sim City,Superior,Mega_Games_Cartridge/SimCity-patched.uef,SimCity-1.rom,SimCity-2.rom,-a -m -s
 OK,Skirmish,Godax,Skirmish_E.uef,Skirmish-1.rom,Skirmish-2.rom,-a -b -m
 OK,Sim,Visions,Sim_Tape.uef,Sim.rom,,-a -b -w 880
 OK,Smash And Grab,Superior,SmashAndGrab.uef,SmashAndGrab.rom,,-a -b
 OK,Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,,-a -b -m
 OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes-1.rom,SpaceAgentZeldaMeetsTheBugEyes-2.rom,-a -s -t -w d3f:ef97
 OK,Spaceman Sid,English,SpacemanSid.uef,SpacemanSid-1.rom,SpacemanSid-2.rom,-a -b -t -s
+OK (patched),Space Ranger,Audiogenic,Mega_Games_Cartridge/SpaceRanger-patched.uef,SpaceRanger.rom,,-a -m
 Too large,Spellbinder,Superior,Spellbinder.uef,,,
 OK,Sphere Of Destiny,ASL,SphereOfDestiny_E.uef,SphereOfDestiny-1.rom,SphereOfDestiny-2.rom,-a -s -t -w 39f
 OK,Sphinx Adventure,Acornsoft,SphinxAdventure_E.uef,SphinxAdventure-1.rom,SphinxAdventure-2.rom,-a -b -s -m
 OK (patched),Spy vs Spy,Tynesoft,Mega_Games_Cartridge/SpyVsSpy-patched.uef,SpyVsSpy-1.rom,SpyVsSpy-2.rom,-a -b -m -s -x
+OK (patched),Star Wars,Domark,Mega_Games_Cartridge/StarWars-patched.uef,StarWars-1.rom,StarWars-2.rom,-a -m -s
 OK,Steve Davis Snooker,Blue Ribbon,SteveDavisSnooker-PIASRR_E.uef,SteveDavisSnooker-1.rom,SteveDavisSnooker-2.rom,-a -b
 OK,Stock Car,Micro Power,StockCar.uef,StockCar-1.rom,StockCar-2.rom,-a -b
 OK,Stormcycle,Atlantis,Stormcycle_E.uef,Stormcycle-1.rom,Stormcycle-2.rom,-a -b -s -t
@@ -186,6 +189,7 @@ OK,Swoop,Program Power,Swoop_E.uef,Swoop.rom,,-a -b -m
 OK,Syncron,Superior,Syncron.uef,Syncron-1.rom,Syncron-2.rom,-a -b -s
 OK,Tales Of The Arabian Nights,Interceptor Micros,TalesOfTheArabianNights_E.uef,TalesOfTheArabianNights-1.rom,TalesOfTheArabianNights-2.rom,-a -b -m
 OK,Tempest,Superior,Tempest_E.uef,Tempest.rom,,-a
+OK,Terrormolinos,Melbourne House,Terrormolinos_BE.uef,Terrormolinos-1.rom,Terrormolinos-2.rom,-a -m -r -s -f 3-6
 OK,Tetris,Mirrorsoft,Tetris_BE.uef,Tetris-1.rom,Tetris-2.rom,-a -b -m
 OK,The Mine,Micro Power,TheMine_E.uef,TheMine.rom,,-a -m
 OK,Thrust,Superior,Thrust_Tape.uef,Thrust-1.rom,Thrust-2.rom,-a -b -s
@@ -208,3 +212,4 @@ Hangs,Yie Ar Kung Fu 2,Imagine,YieArKungFu2_E.uef,YieArKungFu2-1.rom,YieArKungFu
 OK,Zenon,Impact,Zenon_E.uef,Zenon-1.rom,Zenon-2.rom,-a -m -s
 OK,Zalaga,Aardvark,Zalaga-PIASRR_E.uef,Zalaga-1.rom,Zalaga-2.rom,-a -s
 OK,Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,,-a -b
+OK,Ziggy,ASL,Ziggy.uef,Ziggy-1.rom,Ziggy-2.rom,-a -m -s -f 0-1

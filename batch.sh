@@ -90,7 +90,7 @@ set -e
 ./UEF2ROM.py -a -s -t -w d3f:ef97 UEFs/ImpossibleMission_E.uef ROMs/ImpossibleMission-1.rom ROMs/ImpossibleMission-2.rom
 ./UEF2ROM.py -a -m -s UEFs/Mega_Games_Cartridge/Inertia-patched.uef ROMs/Inertia-1.rom ROMs/Inertia-2.rom
 ./UEF2ROM.py -a -b -w 39f -t -s UEFs/JetBootJack_E.uef ROMs/JetBootJack-1.rom ROMs/JetBootJack-2.rom
-./UEF2ROM.py -a -p -s -w 39f UEFs/Mega_Games_Cartridge/Joey-patched.uef ROMs/Joey-1.rom ROMs/Joey-2.rom
+./UEF2ROM.py -a -p -s -w 39f UEFs/Mega_Games_Cartridge/Joey-patched.uef ROMs/Joey.rom
 ./UEF2ROM.py -a -b -m UEFs/Joust.uef ROMs/Joust-1.rom ROMs/Joust-2.rom
 ./UEF2ROM.py -a -b -m UEFs/JungleJive_Tape.uef ROMs/JungleJive.rom
 ./UEF2ROM.py -a -b -s UEFs/KarateCombat.uef ROMs/KarateCombat-1.rom ROMs/KarateCombat-2.rom
@@ -152,15 +152,18 @@ set -e
 ./UEF2ROM.py -a -b -m -s UEFs/Saracoid.uef ROMs/Saracoid-1.rom ROMs/Saracoid-2.rom
 ./UEF2ROM.py -a -b UEFs/SavagePond-Starcade_E.uef ROMs/SavagePond-1.rom ROMs/SavagePond-2.rom
 ./UEF2ROM.py -a -b -m -s UEFs/Shark_E.uef ROMs/Shark-1.rom ROMs/Shark-2.rom
+./UEF2ROM.py -a -m -s UEFs/Mega_Games_Cartridge/SimCity-patched.uef ROMs/SimCity-1.rom ROMs/SimCity-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Skirmish_E.uef ROMs/Skirmish-1.rom ROMs/Skirmish-2.rom
 ./UEF2ROM.py -a -b -w 880 UEFs/Sim_Tape.uef ROMs/Sim.rom
 ./UEF2ROM.py -a -b UEFs/SmashAndGrab.uef ROMs/SmashAndGrab.rom
 ./UEF2ROM.py -a -b -m UEFs/Snooker-Acornsoft_E.uef ROMs/Snooker.rom
 ./UEF2ROM.py -a -s -t -w d3f:ef97 UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom ROMs/SpaceAgentZeldaMeetsTheBugEyes-2.rom
 ./UEF2ROM.py -a -b -t -s UEFs/SpacemanSid.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
+./UEF2ROM.py -a -m UEFs/Mega_Games_Cartridge/SpaceRanger-patched.uef ROMs/SpaceRanger.rom
 ./UEF2ROM.py -a -s -t -w 39f UEFs/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
 ./UEF2ROM.py -a -b -s -m UEFs/SphinxAdventure_E.uef ROMs/SphinxAdventure-1.rom ROMs/SphinxAdventure-2.rom
 ./UEF2ROM.py -a -b -m -s -x UEFs/Mega_Games_Cartridge/SpyVsSpy-patched.uef ROMs/SpyVsSpy-1.rom ROMs/SpyVsSpy-2.rom
+./UEF2ROM.py -a -m -s UEFs/Mega_Games_Cartridge/StarWars-patched.uef ROMs/StarWars-1.rom ROMs/StarWars-2.rom
 ./UEF2ROM.py -a -b UEFs/SteveDavisSnooker-PIASRR_E.uef ROMs/SteveDavisSnooker-1.rom ROMs/SteveDavisSnooker-2.rom
 ./UEF2ROM.py -a -b UEFs/StockCar.uef ROMs/StockCar-1.rom ROMs/StockCar-2.rom
 ./UEF2ROM.py -a -b -s -t UEFs/Stormcycle_E.uef ROMs/Stormcycle-1.rom ROMs/Stormcycle-2.rom
@@ -174,6 +177,7 @@ set -e
 ./UEF2ROM.py -a -b -s UEFs/Syncron.uef ROMs/Syncron-1.rom ROMs/Syncron-2.rom
 ./UEF2ROM.py -a -b -m UEFs/TalesOfTheArabianNights_E.uef ROMs/TalesOfTheArabianNights-1.rom ROMs/TalesOfTheArabianNights-2.rom
 ./UEF2ROM.py -a UEFs/Tempest_E.uef ROMs/Tempest.rom
+./UEF2ROM.py -a -m -r -s -f 3-6 UEFs/Terrormolinos_BE.uef ROMs/Terrormolinos-1.rom ROMs/Terrormolinos-2.rom
 ./UEF2ROM.py -a -b -m UEFs/Tetris_BE.uef ROMs/Tetris-1.rom ROMs/Tetris-2.rom
 ./UEF2ROM.py -a -m UEFs/TheMine_E.uef ROMs/TheMine.rom
 ./UEF2ROM.py -a -b -s UEFs/Thrust_Tape.uef ROMs/Thrust-1.rom ROMs/Thrust-2.rom
@@ -195,3 +199,4 @@ set -e
 ./UEF2ROM.py -a -m -s UEFs/Zenon_E.uef ROMs/Zenon-1.rom ROMs/Zenon-2.rom
 ./UEF2ROM.py -a -s UEFs/Zalaga-PIASRR_E.uef ROMs/Zalaga-1.rom ROMs/Zalaga-2.rom
 ./UEF2ROM.py -a -b UEFs/ZanyKongJunior_E.uef ROMs/ZanyKongJunior.rom
+./UEF2ROM.py -a -m -s -f 0-1 UEFs/Ziggy.uef ROMs/Ziggy-1.rom ROMs/Ziggy-2.rom
