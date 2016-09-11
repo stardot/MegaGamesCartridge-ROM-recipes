@@ -1,0 +1,1 @@
+Compressed the loading screen and patched the START file to *RUN the result.

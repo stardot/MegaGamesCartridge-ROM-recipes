@@ -1,0 +1,5 @@
+Discarded the first three files, replacing the CONTROL program with a simple
+LOADER program that allows the player to choose a character.
+Compressed the game screen and loading code in the SCREEN file. Since the
+original performs loading of subsequent files, the compressed version is a
+drop-in replacement.

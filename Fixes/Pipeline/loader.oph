@@ -1,0 +1,25 @@
+.org $1900
+
+lda #229                ; Disable Escape
+ldx #1
+ldy #0
+jsr $fff4
+
+ldx #0
+loop:
+    lda keys,x
+    sta $50,x
+    inx
+    cpx #[keys_end - keys]
+    bne loop
+
+ldx #<command
+ldy #>command
+jmp $fff7
+
+keys:
+.byte 158, 189, 183, 151, 200, 205, 182, 220, 0, 154
+keys_end:
+
+command:
+.byte "*RUN GAME", 13

@@ -1,0 +1,2 @@
+Replaced the first two loaders with a single minimal loader.
+Compressed the loading screen.

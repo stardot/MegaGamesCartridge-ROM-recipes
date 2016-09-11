@@ -1,0 +1,3 @@
+Compressed the file containing the loading screen and display code.
+Since this is already *RUN rather than loaded, the compressed version is used
+as a drop-in replacement.

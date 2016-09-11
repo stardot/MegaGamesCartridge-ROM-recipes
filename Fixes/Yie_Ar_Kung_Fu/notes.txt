@@ -1,0 +1,3 @@
+Dropped the initial program that only performs a machine check.
+Compressed the second file, adding code to the decompression routine that
+runs the decompressed data as a BASIC program.

@@ -1,0 +1,2 @@
+Compressed the loading screen and modified the preceding loader to execute
+the file so that it can be decompressed.

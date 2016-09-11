@@ -1,0 +1,2 @@
+Discarded all files except the last two.
+Compressed the penultimate file and appended the data to decompression code.

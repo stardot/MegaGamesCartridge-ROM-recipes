@@ -1,0 +1,57 @@
+.org $1900
+
+lda #229                ; Disable Escape
+ldx #1
+ldy #0
+jsr $fff4
+
+lda #4
+ldx #1
+jsr $fff4
+
+ldx #0
+char_loop:
+    lda chars,x
+    jsr $ffee
+    inx
+    cpx #[chars_end - chars]
+    bne char_loop
+
+key_loop:
+    lda #129
+    ldx #100
+    ldy #0
+    jsr $fff4
+
+    bcs key_loop
+
+    cpx #49
+    bcc key_loop
+    cpx #53
+    bcs key_loop
+
+sec
+txa
+sbc #48
+sta $80
+clc
+
+lda #20             ; Explode soft character allocation.
+ldx #0
+jsr $fff4
+
+ldx #<command
+ldy #>command
+jmp $fff7
+
+chars:
+.byte 26,28,0,28,19,11,12,23,1,0,0,0,0,0,0,0,0
+.byte "Choose a character:", 13,10,10
+.byte "1) Adventurer", 13,10
+.byte "2) Wizard", 13,10
+.byte "3) Warrior", 13,10
+.byte "4) Elf", 13,10,10
+chars_end:
+
+command:
+.byte "*RUN SCREEN", 13,10

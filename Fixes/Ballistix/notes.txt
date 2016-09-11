@@ -1,0 +1,3 @@
+Compressed the loading screen and gameplay screen, modifying the BALLS loader
+program to run the decompression code for each screen.
+The resulting UEF works but does not work when converted to ROMFS with UEF2ROM.

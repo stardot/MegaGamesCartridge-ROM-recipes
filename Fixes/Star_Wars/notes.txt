@@ -1,0 +1,1 @@
+Compressed the STARscr file and patched the STARW loader to *RUN it.

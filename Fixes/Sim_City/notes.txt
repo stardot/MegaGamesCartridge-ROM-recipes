@@ -1,0 +1,5 @@
+Discarded the initial file.
+Compressed the loading screen (SIMSCR1) and a later file (SIM2).
+Patched the SIM_CITY file to *RUN the compressed loading screen.
+The compressed SIM2 file is run in the same way as the original since it
+decompresses the original code and jumps into it.

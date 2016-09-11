@@ -1,0 +1,2 @@
+Patched the first file to remove *TAPE and *FX178,0 (disable keyboard scanning)
+since these disrupted ROMFS loading.

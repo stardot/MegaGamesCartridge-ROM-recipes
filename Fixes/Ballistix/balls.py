@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+
+t = open("temp/BALLS", "rb").read()
+t = t.replace("*LO.STIX", "*/  STIX")
+t = t.replace("\x0d\x00\xe6\x0a\xef\x31\x32\x2c\x32\x36", "\x0d\x00\xe6\x11\xef\x31\x32\x2c\x32\x36\x3a\xd6\x26\x32\x37\x30\x30")
+open("temp/BALLS", "wb").write(t)

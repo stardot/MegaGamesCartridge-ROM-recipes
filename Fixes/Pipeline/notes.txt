@@ -1,0 +1,3 @@
+Discarded all but the final two files.
+Wrote a simple loader to disable the Escape key, define the standard controls
+and *RUN the GAME file.
