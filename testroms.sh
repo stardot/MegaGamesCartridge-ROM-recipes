@@ -148,6 +148,7 @@ elkulator -rom2 ROMs/Ravenskull-1.rom -rom1 ROMs/Ravenskull-2.rom
 elkulator -rom2 ROMs/RebelPlanet-1.rom -rom1 ROMs/RebelPlanet-2.rom
 elkulator -rom2 ROMs/Repton-1.rom -rom1 ROMs/Repton-2.rom
 elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
+elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
 elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
 elkulator -rom2 ROMs/RigAttack.rom
@@ -156,9 +157,9 @@ elkulator -rom2 ROMs/RubbleTrouble-1.rom -rom1 ROMs/RubbleTrouble-2.rom
 elkulator -rom2 ROMs/Saracoid.rom
 elkulator -rom2 ROMs/SavagePond.rom
 elkulator -rom2 ROMs/Shark.rom
+elkulator -rom2 ROMs/Sim.rom
 elkulator -rom2 ROMs/SimCity-1.rom -rom1 ROMs/SimCity-2.rom
 elkulator -rom2 ROMs/Skirmish.rom
-elkulator -rom2 ROMs/Sim.rom
 elkulator -rom2 ROMs/SmashAndGrab.rom
 elkulator -rom2 ROMs/Snooker.rom
 elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom -rom1 ROMs/SpaceAgentZeldaMeetsTheBugEyes-2.rom
@@ -168,7 +169,7 @@ elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
 elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
 elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
 elkulator -rom2 ROMs/StarWars-1.rom -rom1 ROMs/StarWars-2.rom
-elkulator -rom2 ROMs/SteveDavisSnooker-1.rom -rom1 ROMs/SteveDavisSnooker-2.rom
+elkulator -rom2 ROMs/SteveDavisSnooker.rom
 elkulator -rom2 ROMs/StockCar.rom
 elkulator -rom2 ROMs/Stormcycle-1.rom -rom1 ROMs/Stormcycle-2.rom
 elkulator -rom2 ROMs/Stranded.rom
