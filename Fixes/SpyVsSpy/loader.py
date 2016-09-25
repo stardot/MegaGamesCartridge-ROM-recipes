@@ -9,7 +9,7 @@ t = (
     "\x11\x82"                                  # COLOUR 130
     "\x0c"                                      # CLS
     "\x11\x02"                                  # COLOUR 2
-    "*/SCREEN\r\n"
+    "*LOAD SCREEN\r\n"
     "*/SPY1\x11\x03\r\n"                        # COLOUR 3
     )
 open("temp/LOADER", "w").write(t)
