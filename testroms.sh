@@ -8,17 +8,20 @@ elkulator -rom2 ROMs/Adventure-Micropower.rom
 elkulator -rom2 ROMs/AlienBreakIn-1.rom
 elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 elkulator -rom2 ROMs/AstroPlumber.rom
+elkulator -rom2 ROMs/Barbarian-Practice-1.rom -rom1 ROMs/Barbarian-Practice-2.rom
+elkulator -rom2 ROMs/Barbarian-Fight-1.rom -rom1 ROMs/Barbarian-Fight-2.rom
 elkulator -rom2 ROMs/Baron-1.rom -rom1 ROMs/Baron-2.rom
 elkulator -rom2 ROMs/BarBilliards.rom
 elkulator -rom2 ROMs/BeachHead-1.rom -rom1 ROMs/BeachHead-2.rom
 elkulator -rom2 ROMs/BloodOfTheMutineers-1.rom -rom1 ROMs/BloodOfTheMutineers-2.rom
 elkulator -rom2 ROMs/Boffin2-1.rom -rom1 ROMs/Boffin2-2.rom
+elkulator -rom2 ROMs/BoneCruncher-1.rom -rom1 ROMs/BoneCruncher-2.rom
 elkulator -rom2 ROMs/Boxer-1.rom -rom1 ROMs/Boxer-2.rom
 elkulator -rom2 ROMs/Breakthrough-1.rom -rom1 ROMs/Breakthrough-2.rom
 elkulator -rom2 ROMs/BrianJacksSuperstarChallenge-1.rom -rom1 ROMs/BrianJacksSuperstarChallenge-2.rom
 elkulator -rom2 ROMs/BugBlast-1.rom -rom1 ROMs/BugBlast-2.rom
 elkulator -rom2 ROMs/Bugs.rom
-elkulator -rom2 ROMs/BumbleBee-1.rom -rom1 ROMs/BumbleBee-2.rom
+elkulator -rom2 ROMs/BumbleBee.rom
 elkulator -rom2 ROMs/CastleAssault.rom
 elkulator -rom2 ROMs/CastleFrankenstein-1.rom -rom1 ROMs/CastleFrankenstein-2.rom
 elkulator -rom2 ROMs/CastlemazeAdventure.rom
@@ -26,7 +29,7 @@ elkulator -rom2 ROMs/CastleOfRiddles-1.rom -rom1 ROMs/CastleOfRiddles-2.rom
 elkulator -rom2 ROMs/Caterpillar.rom
 elkulator -rom2 ROMs/CavemanCapers.rom
 elkulator -rom2 ROMs/Centibug.rom
-elkulator -rom2 ROMs/Chess-Acornsoft-1.rom -rom1 ROMs/Chess-Acornsoft-2.rom
+elkulator -rom2 ROMs/Chess-Acornsoft.rom
 elkulator -rom2 ROMs/Chess-Micropower.rom
 elkulator -rom2 ROMs/Chess-Superior.rom
 elkulator -rom2 ROMs/ChuckieEgg.rom
@@ -34,10 +37,10 @@ elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
 elkulator -rom2 ROMs/ClassicAdventure-1.rom -rom1 ROMs/ClassicAdventure-2.rom
 elkulator -rom2 ROMs/CodenameDroid-1.rom -rom1 ROMs/CodenameDroid-2.rom
 elkulator -rom2 ROMs/ConditionRed.rom
-elkulator -rom2 ROMs/CosmicCamouflage-1.rom -rom1 ROMs/CosmicCamouflage-2.rom
+elkulator -rom2 ROMs/CosmicCamouflage.rom
 elkulator -rom2 ROMs/CrazeeRider-1.rom -rom1 ROMs/CrazeeRider-2.rom
 elkulator -rom2 ROMs/CrazyTracer.rom
-elkulator -rom2 ROMs/CreepyCave-1.rom -rom1 ROMs/CreepyCave-2.rom
+elkulator -rom2 ROMs/CreepyCave.rom
 elkulator -rom2 ROMs/Croaker.rom
 elkulator -rom2 ROMs/CrystalCastles-1.rom -rom1 ROMs/CrystalCastles-2.rom
 elkulator -rom2 ROMs/CybertronMission.rom
@@ -46,7 +49,7 @@ elkulator -rom2 ROMs/DangerUXB.rom
 elkulator -rom2 ROMs/DareDevilDenis.rom
 elkulator -rom2 ROMs/DeathStar.rom
 elkulator -rom2 ROMs/DenisThroughTheDrinkingGlass-1.rom -rom1 ROMs/DenisThroughTheDrinkingGlass-2.rom
-elkulator -rom2 ROMs/DespatchRider-1.rom -rom1 ROMs/DespatchRider-2.rom
+elkulator -rom2 ROMs/DespatchRider.rom
 elkulator -rom2 ROMs/DiamondMine.rom
 elkulator -rom2 ROMs/DiamondMine2.rom
 elkulator -rom2 ROMs/Dominoes.rom
@@ -64,11 +67,11 @@ elkulator -rom2 ROMs/Erbert.rom
 elkulator -rom2 ROMs/EyeOfZolton-1.rom -rom1 ROMs/EyeOfZolton-2.rom
 elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
 elkulator -rom2 ROMs/FelixInTheFactory.rom
-elkulator -rom2 ROMs/FelixMeetsTheEvilWeevils-1.rom -rom1 ROMs/FelixMeetsTheEvilWeevils-2.rom
+elkulator -rom2 ROMs/FelixMeetsTheEvilWeevils.rom
 elkulator -rom2 ROMs/Firebug-1.rom -rom1 ROMs/Firebug-2.rom
 elkulator -rom2 ROMs/Firetrack-1.rom -rom1 ROMs/Firetrack-2.rom
 elkulator -rom2 ROMs/Frak-1.rom -rom1 ROMs/Frak-2.rom
-elkulator -rom2 ROMs/Frankenstein2000-1.rom -rom1 ROMs/Frankenstein2000-2.rom
+elkulator -rom2 ROMs/Frankenstein2000.rom
 elkulator -rom2 ROMs/Freefall-1.rom -rom1 ROMs/Freefall-2.rom
 elkulator -rom2 ROMs/Frenzy.rom
 elkulator -rom2 ROMs/Galaforce-1.rom -rom1 ROMs/Galaforce-2.rom
@@ -78,10 +81,10 @@ elkulator -rom2 ROMs/GisburnesCastle-1.rom -rom1 ROMs/GisburnesCastle-2.rom
 elkulator -rom2 ROMs/Go-1.rom -rom1 ROMs/Go-2.rom
 elkulator -rom2 ROMs/Guardian.rom
 elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
-elkulator -rom2 ROMs/Gunsmoke-1.rom -rom1 ROMs/Gunsmoke-2.rom
+elkulator -rom2 ROMs/Gunsmoke.rom
 elkulator -rom2 ROMs/Gyroscope-1.rom -rom1 ROMs/Gyroscope-2.rom
 elkulator -rom2 ROMs/Hampstead-1.rom -rom1 ROMs/Hampstead-2.rom
-elkulator -rom2 ROMs/Hobgoblin-1.rom -rom1 ROMs/Hobgoblin-2.rom
+elkulator -rom2 ROMs/Hobgoblin.rom
 elkulator -rom2 ROMs/Hobgoblin2-1.rom -rom1 ROMs/Hobgoblin2-2.rom
 elkulator -rom2 ROMs/HorseRace.rom
 elkulator -rom2 ROMs/Hunchback.rom
@@ -91,7 +94,7 @@ elkulator -rom2 ROMs/ImpossibleMission-1.rom -rom1 ROMs/ImpossibleMission-2.rom
 elkulator -rom2 ROMs/Inertia-1.rom -rom1 ROMs/Inertia-2.rom
 elkulator -rom2 ROMs/JetBootJack-1.rom -rom1 ROMs/JetBootJack-2.rom
 elkulator -rom2 ROMs/Joey.rom
-elkulator -rom2 ROMs/Joust-1.rom -rom1 ROMs/Joust-2.rom
+elkulator -rom2 ROMs/Joust.rom
 elkulator -rom2 ROMs/JungleJive.rom
 elkulator -rom2 ROMs/KarateCombat-1.rom -rom1 ROMs/KarateCombat-2.rom
 elkulator -rom2 ROMs/Kayleth-1.rom -rom1 ROMs/Kayleth-2.rom
@@ -109,28 +112,30 @@ elkulator -rom2 ROMs/Maze.rom
 elkulator -rom2 ROMs/Meteors.rom
 elkulator -rom2 ROMs/Microball.rom
 elkulator -rom2 ROMs/Mikie-1.rom -rom1 ROMs/Mikie-2.rom
-elkulator -rom2 ROMs/Mineshaft-1.rom -rom1 ROMs/Mineshaft-2.rom
+elkulator -rom2 ROMs/Mineshaft.rom
 elkulator -rom2 ROMs/MissileControl.rom
 elkulator -rom2 ROMs/Monsters.rom
-elkulator -rom2 ROMs/MoonBuggy-1.rom -rom1 ROMs/MoonBuggy-2.rom
-elkulator -rom2 ROMs/MoonRaider-1.rom -rom1 ROMs/MoonRaider-2.rom
+elkulator -rom2 ROMs/MoonBuggy.rom
+elkulator -rom2 ROMs/MoonRaider.rom
 elkulator -rom2 ROMs/MouseTrap-1.rom -rom1 ROMs/MouseTrap-2.rom
 elkulator -rom2 ROMs/MrWiz.rom
 elkulator -rom2 ROMs/Network-1.rom -rom1 ROMs/Network-2.rom
 elkulator -rom2 ROMs/NightmareMaze.rom
 elkulator -rom2 ROMs/Overdrive.rom
 elkulator -rom2 ROMs/Oxbridge-1.rom -rom1 ROMs/Oxbridge-2.rom
+elkulator -rom2 ROMs/PalaceOfMagic-1.rom -rom1 ROMs/PalaceOfMagic-2.rom
+elkulator -rom2 ROMs/PalaceOfMagic2016-1.rom -rom1 ROMs/PalaceOfMagic2016-2.rom
 elkulator -rom2 ROMs/Pengi.rom
 elkulator -rom2 ROMs/Perplexity-1.rom -rom1 ROMs/Perplexity-2.rom
 elkulator -rom2 ROMs/PhilosophersQuest-1.rom -rom1 ROMs/PhilosophersQuest-2.rom
-elkulator -rom2 ROMs/PhilosophersStone-1.rom -rom1 ROMs/PhilosophersStone-2.rom
+elkulator -rom2 ROMs/PhilosophersStone.rom
 elkulator -rom2 ROMs/Pinball.rom
 elkulator -rom2 ROMs/Pipeline-1.rom -rom1 ROMs/Pipeline-2.rom
 elkulator -rom2 ROMs/Pipemania-1.rom -rom1 ROMs/Pipemania-2.rom
-elkulator -rom2 ROMs/PlanB-1.rom -rom1 ROMs/PlanB-2.rom
-elkulator -rom2 ROMs/PlanB2-1.rom -rom1 ROMs/PlanB2-2.rom
+elkulator -rom2 ROMs/PlanB.rom
+elkulator -rom2 ROMs/PlanB2.rom
 elkulator -rom2 ROMs/Planetoid.rom
-elkulator -rom2 ROMs/Podd-1.rom -rom1 ROMs/Podd-2.rom
+elkulator -rom2 ROMs/Podd.rom
 elkulator -rom2 ROMs/Positron.rom
 elkulator -rom2 ROMs/Predator-1.rom -rom1 ROMs/Predator-2.rom
 elkulator -rom2 ROMs/Psycastria-1.rom -rom1 ROMs/Psycastria-2.rom
@@ -143,17 +148,16 @@ elkulator -rom2 ROMs/Ravenskull-1.rom -rom1 ROMs/Ravenskull-2.rom
 elkulator -rom2 ROMs/RebelPlanet-1.rom -rom1 ROMs/RebelPlanet-2.rom
 elkulator -rom2 ROMs/Repton-1.rom -rom1 ROMs/Repton-2.rom
 elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
-elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
 elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
 elkulator -rom2 ROMs/RigAttack.rom
 elkulator -rom2 ROMs/Robotron-1.rom -rom1 ROMs/Robotron-2.rom
 elkulator -rom2 ROMs/RubbleTrouble-1.rom -rom1 ROMs/RubbleTrouble-2.rom
-elkulator -rom2 ROMs/Saracoid-1.rom -rom1 ROMs/Saracoid-2.rom
-elkulator -rom2 ROMs/SavagePond-1.rom -rom1 ROMs/SavagePond-2.rom
-elkulator -rom2 ROMs/Shark-1.rom -rom1 ROMs/Shark-2.rom
+elkulator -rom2 ROMs/Saracoid.rom
+elkulator -rom2 ROMs/SavagePond.rom
+elkulator -rom2 ROMs/Shark.rom
 elkulator -rom2 ROMs/SimCity-1.rom -rom1 ROMs/SimCity-2.rom
-elkulator -rom2 ROMs/Skirmish-1.rom -rom1 ROMs/Skirmish-2.rom
+elkulator -rom2 ROMs/Skirmish.rom
 elkulator -rom2 ROMs/Sim.rom
 elkulator -rom2 ROMs/SmashAndGrab.rom
 elkulator -rom2 ROMs/Snooker.rom
@@ -165,20 +169,20 @@ elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
 elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
 elkulator -rom2 ROMs/StarWars-1.rom -rom1 ROMs/StarWars-2.rom
 elkulator -rom2 ROMs/SteveDavisSnooker-1.rom -rom1 ROMs/SteveDavisSnooker-2.rom
-elkulator -rom2 ROMs/StockCar-1.rom -rom1 ROMs/StockCar-2.rom
+elkulator -rom2 ROMs/StockCar.rom
 elkulator -rom2 ROMs/Stormcycle-1.rom -rom1 ROMs/Stormcycle-2.rom
 elkulator -rom2 ROMs/Stranded.rom
 elkulator -rom2 ROMs/StrykersRun-1.rom -rom1 ROMs/StrykersRun-2.rom
 elkulator -rom2 ROMs/SupermanTheGame-1.rom -rom1 ROMs/SupermanTheGame-2.rom
 elkulator -rom2 ROMs/SuperPool.rom
-elkulator -rom2 ROMs/Survivors-1.rom -rom1 ROMs/Survivors-2.rom
+elkulator -rom2 ROMs/Survivors.rom
 elkulator -rom2 ROMs/Swag-1.rom -rom1 ROMs/Swag-2.rom
 elkulator -rom2 ROMs/Swoop.rom
 elkulator -rom2 ROMs/Syncron-1.rom -rom1 ROMs/Syncron-2.rom
-elkulator -rom2 ROMs/TalesOfTheArabianNights-1.rom -rom1 ROMs/TalesOfTheArabianNights-2.rom
+elkulator -rom2 ROMs/TalesOfTheArabianNights.rom
 elkulator -rom2 ROMs/Tempest.rom
 elkulator -rom2 ROMs/Terrormolinos-1.rom -rom1 ROMs/Terrormolinos-2.rom
-elkulator -rom2 ROMs/Tetris-1.rom -rom1 ROMs/Tetris-2.rom
+elkulator -rom2 ROMs/Tetris.rom
 elkulator -rom2 ROMs/TheMine.rom
 elkulator -rom2 ROMs/Thrust-1.rom -rom1 ROMs/Thrust-2.rom
 elkulator -rom2 ROMs/Thunderstruck-1.rom -rom1 ROMs/Thunderstruck-2.rom
@@ -193,7 +197,7 @@ elkulator -rom2 ROMs/Village-1.rom -rom1 ROMs/Village-2.rom
 elkulator -rom2 ROMs/West-1.rom -rom1 ROMs/West-2.rom
 elkulator -rom2 ROMs/WheelOfFortune-1.rom -rom1 ROMs/WheelOfFortune-2.rom
 elkulator -rom2 ROMs/Where.rom
-elkulator -rom2 ROMs/WhiteKnightMk11-1.rom -rom1 ROMs/WhiteKnightMk11-2.rom
+elkulator -rom2 ROMs/WhiteKnightMk11.rom
 elkulator -rom2 ROMs/XOR-1.rom -rom1 ROMs/XOR-2.rom
 elkulator -rom2 ROMs/YieArKungFu-1.rom -rom1 ROMs/YieArKungFu-2.rom
 elkulator -rom2 ROMs/Zenon-1.rom -rom1 ROMs/Zenon-2.rom
