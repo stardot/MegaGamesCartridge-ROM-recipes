@@ -16,7 +16,7 @@ elkulator -rom2 ROMs/BeachHead-1.rom -rom1 ROMs/BeachHead-2.rom
 elkulator -rom2 ROMs/BloodOfTheMutineers-1.rom -rom1 ROMs/BloodOfTheMutineers-2.rom
 elkulator -rom2 ROMs/Boffin2-1.rom -rom1 ROMs/Boffin2-2.rom
 elkulator -rom2 ROMs/BoneCruncher-1.rom -rom1 ROMs/BoneCruncher-2.rom
-elkulator -rom2 ROMs/Boxer-1.rom -rom1 ROMs/Boxer-2.rom
+elkulator -rom2 ROMs/Boxer.rom
 elkulator -rom2 ROMs/Breakthrough-1.rom -rom1 ROMs/Breakthrough-2.rom
 elkulator -rom2 ROMs/BrianJacksSuperstarChallenge-1.rom -rom1 ROMs/BrianJacksSuperstarChallenge-2.rom
 elkulator -rom2 ROMs/BugBlast-1.rom -rom1 ROMs/BugBlast-2.rom
@@ -68,7 +68,7 @@ elkulator -rom2 ROMs/EyeOfZolton-1.rom -rom1 ROMs/EyeOfZolton-2.rom
 elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
 elkulator -rom2 ROMs/FelixInTheFactory.rom
 elkulator -rom2 ROMs/FelixMeetsTheEvilWeevils.rom
-elkulator -rom2 ROMs/Firebug-1.rom -rom1 ROMs/Firebug-2.rom
+elkulator -rom2 ROMs/Firebug.rom
 elkulator -rom2 ROMs/Firetrack-1.rom -rom1 ROMs/Firetrack-2.rom
 elkulator -rom2 ROMs/Frak-1.rom -rom1 ROMs/Frak-2.rom
 elkulator -rom2 ROMs/Frankenstein2000.rom
@@ -78,7 +78,7 @@ elkulator -rom2 ROMs/Galaforce-1.rom -rom1 ROMs/Galaforce-2.rom
 elkulator -rom2 ROMs/Gauntlet-1.rom -rom1 ROMs/Gauntlet-2.rom
 elkulator -rom2 ROMs/Ghouls-1.rom -rom1 ROMs/Ghouls-2.rom
 elkulator -rom2 ROMs/GisburnesCastle-1.rom -rom1 ROMs/GisburnesCastle-2.rom
-elkulator -rom2 ROMs/Go-1.rom -rom1 ROMs/Go-2.rom
+elkulator -rom2 ROMs/Go.rom
 elkulator -rom2 ROMs/Guardian.rom
 elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
 elkulator -rom2 ROMs/Gunsmoke.rom
