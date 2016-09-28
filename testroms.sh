@@ -119,6 +119,7 @@ elkulator -rom2 ROMs/MoonBuggy.rom
 elkulator -rom2 ROMs/MoonRaider.rom
 elkulator -rom2 ROMs/MouseTrap-1.rom -rom1 ROMs/MouseTrap-2.rom
 elkulator -rom2 ROMs/MrWiz.rom
+elkulator -rom2 ROMs/Myorem-1.rom -rom1 ROMs/Myorem-2.rom
 elkulator -rom2 ROMs/Network-1.rom -rom1 ROMs/Network-2.rom
 elkulator -rom2 ROMs/NightmareMaze.rom
 elkulator -rom2 ROMs/Overdrive.rom
@@ -138,6 +139,7 @@ elkulator -rom2 ROMs/Planetoid.rom
 elkulator -rom2 ROMs/Podd.rom
 elkulator -rom2 ROMs/Positron.rom
 elkulator -rom2 ROMs/Predator-1.rom -rom1 ROMs/Predator-2.rom
+elkulator -rom2 ROMs/ProjectThesius-1.rom -rom1 ROMs/ProjectThesius-2.rom
 elkulator -rom2 ROMs/Psycastria-1.rom -rom1 ROMs/Psycastria-2.rom
 elkulator -rom2 ROMs/Quest-1.rom -rom1 ROMs/Quest-2.rom
 elkulator -rom2 ROMs/QuestForFreedom-1.rom -rom1 ROMs/QuestForFreedom-2.rom
@@ -151,6 +153,7 @@ elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
 elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
 elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
+elkulator -rom2 ROMs/RickHanson-1.rom -rom1 ROMs/RickHanson-2.rom
 elkulator -rom2 ROMs/RigAttack.rom
 elkulator -rom2 ROMs/Robotron-1.rom -rom1 ROMs/Robotron-2.rom
 elkulator -rom2 ROMs/RubbleTrouble-1.rom -rom1 ROMs/RubbleTrouble-2.rom
@@ -167,6 +170,7 @@ elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
 elkulator -rom2 ROMs/SpaceRanger.rom
 elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
 elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
+elkulator -rom2 ROMs/SpyCat-1.rom -rom1 ROMs/SpyCat-2.rom
 elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
 elkulator -rom2 ROMs/StarWars-1.rom -rom1 ROMs/StarWars-2.rom
 elkulator -rom2 ROMs/SteveDavisSnooker.rom

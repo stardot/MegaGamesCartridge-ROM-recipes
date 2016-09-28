@@ -128,6 +128,7 @@ OK,Moon Buggy,Kansas,MoonBuggy.uef,MoonBuggy.rom,,-a -c e00:1400 -w 39f
 OK,MoonRaider,Program Power,MoonRaider_E.uef,MoonRaider.rom,,-a -c :b00 -m
 OK,Mouse Trap,Tynesoft,MouseTrap_E.uef,MouseTrap-1.rom,MouseTrap-2.rom,-a -c e00:/: -m -s
 OK,Mr Wiz,Superior,MrWiz.uef,MrWiz.rom,,-a -c e00::x: -p -s -w 39f
+OK,Myorem,Robico,RHT3-Myorem_E.uef,Myorem-1.rom,Myorem-2.rom,-a -c e00::::/x:x: -s -t -w 39f
 OK,Network,Superior,Network-PIASRR_E.uef,Network-1.rom,Network-2.rom,-a -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f
 OK,Nightmare Maze,MRM,NightmareMaze-MRM_E.uef,NightmareMaze.rom,,-a -w 39f
 OK,Overdrive,Superior,Overdrive.uef,Overdrive.rom,,-a -b
@@ -147,6 +148,7 @@ OK,Planetoid,Acornsoft,Planetoid_E.uef,Planetoid.rom,,-a -c e00: -m
 OK,Podd,Acornsoft,Podd_BE.uef,Podd.rom,,-a -c e00 -m
 OK,Positron,Micro Power,Positron_E.uef,Positron.rom,,-a -b -m
 OK,Predator,Superior,Predator_E.uef,Predator-1.rom,Predator-2.rom,-a -s
+OK,Project Thesius,Robico,RHT2-ProjectThesius_E.uef,ProjectThesius-1.rom,ProjectThesius-2.rom,-a -s -t -w 39f
 OK,Psycastria,ASL,Psycastria_E.uef,Psycastria-1.rom,Psycastria-2.rom,-a -c e00:x:/: -w 39f -s -t
 OK,Quest,Superior,Quest.uef,Quest-1.rom,Quest-2.rom,-a -c e00:/: -s
 OK,Quest For Freedom,IJK,QuestForFreedom_E.uef,QuestForFreedom-1.rom,QuestForFreedom-2.rom,-a -m -s
@@ -161,6 +163,7 @@ OK,Repton 2,Superior,Repton2.uef,Repton2-1.rom,Repton2-2.rom,-a -c e00:/: -s
 OK (discard files),Repton 3,Superior,Repton3_E.uef,Repton3-1.rom,Repton3-2.rom,-a -c e00:/: -f 4-6:12-13 -s
 OK,Reversi,Acornsoft,DAR-Reversi_E.uef,Reversi.rom,,-a -c e00
 OK,Reversi,Superior,Reversi-Superior_E.uef,Reversi-Superior.rom,,-a -b -m
+OK,Rick Hanson,Robico,RHT1-RickHanson_E.uef,RickHanson-1.rom,RickHanson-2.rom,-a -c e00:/: -s -t -w 39f
 OK,Rig Attack,Tynesoft,RigAttack_E.uef,RigAttack.rom,,-a -c e00 -m
 OK,Robotron,Atarisoft,Robotron_E.uef,Robotron-1.rom,Robotron-2.rom,-a -s -t -w 100 -f 0-2
 OK,Rubble Trouble,Micro Power,RubbleTrouble.uef,RubbleTrouble-1.rom,RubbleTrouble-2.rom,-a -c e00:e00:2f00/:
@@ -178,6 +181,7 @@ OK (patched),Space Ranger,Audiogenic,Mega_Games_Cartridge/SpaceRanger-patched.ue
 Too large,Spellbinder,Superior,Spellbinder.uef,,,
 OK,Sphere Of Destiny,ASL,SphereOfDestiny_E.uef,SphereOfDestiny-1.rom,SphereOfDestiny-2.rom,-a -c e00:x:/: -s -t -w 39f
 OK,Sphinx Adventure,Acornsoft,SphinxAdventure_E.uef,SphinxAdventure-1.rom,SphinxAdventure-2.rom,-a -c e00:.5775/: -m -s
+OK (truncated),Spycat,Superior,SpyCat_E.uef,SpyCat-1.rom,SpyCat-2.rom,-a -c :/: -f 3-6 -m -r -s
 OK (patched),Spy vs Spy,Tynesoft,Mega_Games_Cartridge/SpyVsSpy-patched.uef,SpyVsSpy-1.rom,SpyVsSpy-2.rom,-a -c x::x:/: -p -s -w 39f -x
 OK (patched),Star Wars,Domark,StarWars_E.uef,StarWars-1.rom,StarWars-2.rom,-a -c e00:3780:900:2000/7620 -m -s
 OK,Steve Davis Snooker,Blue Ribbon,SteveDavisSnooker-PIASRR_E.uef,SteveDavisSnooker.rom,,-a -c :e00::e00/:
