@@ -8,6 +8,7 @@ elkulator -rom2 ROMs/Adventure-Micropower.rom
 elkulator -rom2 ROMs/AlienBreakIn-1.rom
 elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 elkulator -rom2 ROMs/AstroPlumber.rom
+elkulator -rom2 ROMs/BalloonBuster.rom
 elkulator -rom2 ROMs/Barbarian-Practice-1.rom -rom1 ROMs/Barbarian-Practice-2.rom
 elkulator -rom2 ROMs/Barbarian-Fight-1.rom -rom1 ROMs/Barbarian-Fight-2.rom
 elkulator -rom2 ROMs/Baron-1.rom -rom1 ROMs/Baron-2.rom
@@ -83,6 +84,7 @@ elkulator -rom2 ROMs/Guardian.rom
 elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
 elkulator -rom2 ROMs/Gunsmoke.rom
 elkulator -rom2 ROMs/Gyroscope-1.rom -rom1 ROMs/Gyroscope-2.rom
+elkulator -rom2 ROMs/Hex.rom
 elkulator -rom2 ROMs/Hampstead-1.rom -rom1 ROMs/Hampstead-2.rom
 elkulator -rom2 ROMs/Hobgoblin.rom
 elkulator -rom2 ROMs/Hobgoblin2-1.rom -rom1 ROMs/Hobgoblin2-2.rom
@@ -141,6 +143,7 @@ elkulator -rom2 ROMs/Positron.rom
 elkulator -rom2 ROMs/Predator-1.rom -rom1 ROMs/Predator-2.rom
 elkulator -rom2 ROMs/ProjectThesius-1.rom -rom1 ROMs/ProjectThesius-2.rom
 elkulator -rom2 ROMs/Psycastria-1.rom -rom1 ROMs/Psycastria-2.rom
+elkulator -rom2 ROMs/PuppetMan.rom
 elkulator -rom2 ROMs/Quest-1.rom -rom1 ROMs/Quest-2.rom
 elkulator -rom2 ROMs/QuestForFreedom-1.rom -rom1 ROMs/QuestForFreedom-2.rom
 elkulator -rom2 ROMs/QuestForTheHolyGrail-1.rom -rom1 ROMs/QuestForTheHolyGrail-2.rom
@@ -155,6 +158,8 @@ elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
 elkulator -rom2 ROMs/RickHanson-1.rom -rom1 ROMs/RickHanson-2.rom
 elkulator -rom2 ROMs/RigAttack.rom
+elkulator -rom2 ROMs/RisingOfSalandraPart1.rom
+elkulator -rom2 ROMs/RisingOfSalandraPart2.rom
 elkulator -rom2 ROMs/Robotron-1.rom -rom1 ROMs/Robotron-2.rom
 elkulator -rom2 ROMs/RubbleTrouble-1.rom -rom1 ROMs/RubbleTrouble-2.rom
 elkulator -rom2 ROMs/Saracoid.rom
@@ -189,6 +194,7 @@ elkulator -rom2 ROMs/Tempest.rom
 elkulator -rom2 ROMs/Terrormolinos-1.rom -rom1 ROMs/Terrormolinos-2.rom
 elkulator -rom2 ROMs/Tetris.rom
 elkulator -rom2 ROMs/TheMine.rom
+elkulator -rom2 ROMs/TheNineDancers.rom
 elkulator -rom2 ROMs/Thrust-1.rom -rom1 ROMs/Thrust-2.rom
 elkulator -rom2 ROMs/Thunderstruck-1.rom -rom1 ROMs/Thunderstruck-2.rom
 elkulator -rom2 ROMs/Thunderstruck2-1.rom -rom1 ROMs/Thunderstruck2-2.rom
@@ -203,6 +209,7 @@ elkulator -rom2 ROMs/West-1.rom -rom1 ROMs/West-2.rom
 elkulator -rom2 ROMs/WheelOfFortune-1.rom -rom1 ROMs/WheelOfFortune-2.rom
 elkulator -rom2 ROMs/Where.rom
 elkulator -rom2 ROMs/WhiteKnightMk11.rom
+elkulator -rom2 ROMs/Wychwood.rom
 elkulator -rom2 ROMs/XOR-1.rom -rom1 ROMs/XOR-2.rom
 elkulator -rom2 ROMs/YieArKungFu-1.rom -rom1 ROMs/YieArKungFu-2.rom
 elkulator -rom2 ROMs/Zenon-1.rom -rom1 ROMs/Zenon-2.rom

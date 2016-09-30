@@ -8,6 +8,7 @@ set -e
 ./UEF2ROM.py -a UEFs/AlienBreakIn_E.uef ROMs/AlienBreakIn-1.rom
 ./UEF2ROM.py -a -c e00:.5ad0/: -m -s UEFs/Arcadians.uef ROMs/Arcadians-1.rom ROMs/Arcadians-2.rom
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/AstroPlumber_E.uef ROMs/AstroPlumber.rom
+./UEF2ROM.py -a -c x:1100/: -s -t -w 39f UEFs/BalloonBuster_E.uef ROMs/BalloonBuster.rom
 ./UEF2ROM.py -a -c e00:e00::e00:6700:120/: -p -f 0-8 -s UEFs/Barbarian_E.uef ROMs/Barbarian-Practice-1.rom ROMs/Barbarian-Practice-2.rom
 ./UEF2ROM.py -a -c e00:e00::e00:6700:120/: -p -f 9-17 -s UEFs/Barbarian_E.uef ROMs/Barbarian-Fight-1.rom ROMs/Barbarian-Fight-2.rom
 ./UEF2ROM.py -a -c e00:e00:5800:60c0:e00/400:920:860:5d00 -s -t -w 120 UEFs/Baron_E.uef ROMs/Baron-1.rom ROMs/Baron-2.rom
@@ -83,6 +84,7 @@ set -e
 ./UEF2ROM.py -a -c e00:c00:e00:5bc0/900:b00:5800 -m -s UEFs/Gunfighter_BE.uef ROMs/Gunfighter-1.rom ROMs/Gunfighter-2.rom
 ./UEF2ROM.py -a -c : UEFs/Gunsmoke_E.uef ROMs/Gunsmoke.rom
 ./UEF2ROM.py -a -c e00/: -t -s -w 39f UEFs/Gyroscope_E.uef ROMs/Gyroscope-1.rom ROMs/Gyroscope-2.rom
+./UEF2ROM.py -a -c : -m -r UEFs/Hex_RUN_BE.uef ROMs/Hex.rom
 ./UEF2ROM.py -a -m -s UEFs/Hampstead_BE.uef ROMs/Hampstead-1.rom ROMs/Hampstead-2.rom
 ./UEF2ROM.py -a -c :5d00:::1ec0::900 -m UEFs/Hobgoblin_E.uef ROMs/Hobgoblin.rom
 ./UEF2ROM.py -a -c :::::57d0/: -m -s UEFs/Hobgoblin2_E.uef ROMs/Hobgoblin2-1.rom ROMs/Hobgoblin2-2.rom
@@ -141,6 +143,7 @@ set -e
 ./UEF2ROM.py -a -s UEFs/Predator_E.uef ROMs/Predator-1.rom ROMs/Predator-2.rom
 ./UEF2ROM.py -a -s -t -w 39f UEFs/RHT2-ProjectThesius_E.uef ROMs/ProjectThesius-1.rom ROMs/ProjectThesius-2.rom
 ./UEF2ROM.py -a -c e00:x:/: -w 39f -s -t UEFs/Psycastria_E.uef ROMs/Psycastria-1.rom ROMs/Psycastria-2.rom
+./UEF2ROM.py -a -c : -m -r UEFs/PuppetMan_RUN_BE.uef ROMs/PuppetMan.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Quest.uef ROMs/Quest-1.rom ROMs/Quest-2.rom
 ./UEF2ROM.py -a -m -s UEFs/QuestForFreedom_E.uef ROMs/QuestForFreedom-1.rom ROMs/QuestForFreedom-2.rom
 ./UEF2ROM.py -a -m -s UEFs/QuestForTheHolyGrail_E.uef ROMs/QuestForTheHolyGrail-1.rom ROMs/QuestForTheHolyGrail-2.rom
@@ -155,6 +158,8 @@ set -e
 ./UEF2ROM.py -a -b -m UEFs/Reversi-Superior_E.uef ROMs/Reversi-Superior.rom
 ./UEF2ROM.py -a -c e00:/: -s -t -w 39f UEFs/RHT1-RickHanson_E.uef ROMs/RickHanson-1.rom ROMs/RickHanson-2.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/RigAttack_E.uef ROMs/RigAttack.rom
+./UEF2ROM.py -a -c : -m -r UEFs/ROS1-TheProphecy_RUN_BE.uef ROMs/RisingOfSalandraPart1.rom
+./UEF2ROM.py -a -c : -m -r UEFs/ROS2-ReturnOfTheWarrior_RUN_BE.uef ROMs/RisingOfSalandraPart2.rom
 ./UEF2ROM.py -a -s -t -w 100 -f 0-2 UEFs/Robotron_E.uef ROMs/Robotron-1.rom ROMs/Robotron-2.rom
 ./UEF2ROM.py -a -c e00:e00:2f00/: UEFs/RubbleTrouble.uef ROMs/RubbleTrouble-1.rom ROMs/RubbleTrouble-2.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/Saracoid.uef ROMs/Saracoid.rom
@@ -189,6 +194,7 @@ set -e
 ./UEF2ROM.py -a -m -r -s -f 3-6 UEFs/Terrormolinos_BE.uef ROMs/Terrormolinos-1.rom ROMs/Terrormolinos-2.rom
 ./UEF2ROM.py -a -c e00:2f00:5800:1200 -m UEFs/Tetris_BE.uef ROMs/Tetris.rom
 ./UEF2ROM.py -a -c :4000: -m UEFs/TheMine_E.uef ROMs/TheMine.rom
+./UEF2ROM.py -a -c : -m -r UEFs/TheNineDancers_RUN_BE.uef ROMs/TheNineDancers.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Thrust_Tape.uef ROMs/Thrust-1.rom ROMs/Thrust-2.rom
 ./UEF2ROM.py -a -c ::::x:/: -r -s -w 39f UEFs/Thunderstruck_E.uef ROMs/Thunderstruck-1.rom ROMs/Thunderstruck-2.rom
 ./UEF2ROM.py -a -c x:/: -m -r -s UEFs/Thunderstruck2_E.uef ROMs/Thunderstruck2-1.rom ROMs/Thunderstruck2-2.rom
@@ -203,6 +209,7 @@ set -e
 ./UEF2ROM.py -a -b -s -m UEFs/WheelOfFortune_E.uef ROMs/WheelOfFortune-1.rom ROMs/WheelOfFortune-2.rom
 ./UEF2ROM.py -a -c : -m UEFs/Where_E.uef ROMs/Where.rom
 ./UEF2ROM.py -a -c e00:e00 -m UEFs/WhiteKnightMk11_E.uef ROMs/WhiteKnightMk11.rom
+./UEF2ROM.py -a -c : -m -r UEFs/Wychwood_RUN_BE.uef ROMs/Wychwood.rom
 ./UEF2ROM.py -a -c :::x -s -t -w d3f:ef97 UEFs/XOR_E.uef ROMs/XOR-1.rom ROMs/XOR-2.rom
 ./UEF2ROM.py -a -c e00:5300:500:1100/:x:5f80 -f 1-7 -p -s -t -w 39f UEFs/YieArKungFu_E.uef ROMs/YieArKungFu-1.rom ROMs/YieArKungFu-2.rom
 ./UEF2ROM.py -a -c :5800:/: -m -s UEFs/Zenon_E.uef ROMs/Zenon-1.rom ROMs/Zenon-2.rom
