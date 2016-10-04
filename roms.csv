@@ -117,7 +117,7 @@ OK,Locks Of Luck,Magus,LocksOfLuck_E.uef,LocksOfLuck-1.rom,LocksOfLuck-2.rom,-a 
 OK,Locomotion,BBCSoft,Locomotion_E.uef,Locomotion-1.rom,Locomotion-2.rom,-a -c e00:1300/: -m -s
 OK,Loopz,Audiogenic,Loopz_E.uef,Loopz-1.rom,Loopz-2.rom,-a -c ::x:/: -m
 OK,Lunar Rescue,Alligata,LunarRescue_E.uef,LunarRescue.rom,,-a -b -m
-OK,Magic Mushrooms,Acornsoft,MagicMushrooms_Tape.uef,MagicMushrooms.rom,,-a -a -c e00:.4700 -m
+OK,Magic Mushrooms,Acornsoft,MagicMushrooms_Tape.uef,MagicMushrooms.rom,,-a -c e00:.4700 -m
 OK,Maze,Acornsoft,Maze_E.uef,Maze.rom,,-a -c e00: -m
 OK,Meteors,Acornsoft,Meteors_E.uef,Meteors.rom,,-a -b
 OK,Microball,Alternative,Microball_BE.uef,Microball.rom,,-a -c e00:1200:1400 -m

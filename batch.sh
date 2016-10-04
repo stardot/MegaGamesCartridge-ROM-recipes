@@ -109,7 +109,7 @@ set -e
 ./UEF2ROM.py -a -c e00:1300/: -m -s UEFs/Locomotion_E.uef ROMs/Locomotion-1.rom ROMs/Locomotion-2.rom
 ./UEF2ROM.py -a -c ::x:/: -m UEFs/Loopz_E.uef ROMs/Loopz-1.rom ROMs/Loopz-2.rom
 ./UEF2ROM.py -a -b -m UEFs/LunarRescue_E.uef ROMs/LunarRescue.rom
-./UEF2ROM.py -a -a -c e00:.4700 -m UEFs/MagicMushrooms_Tape.uef ROMs/MagicMushrooms.rom
+./UEF2ROM.py -a -c e00:.4700 -m UEFs/MagicMushrooms_Tape.uef ROMs/MagicMushrooms.rom
 ./UEF2ROM.py -a -c e00: -m UEFs/Maze_E.uef ROMs/Maze.rom
 ./UEF2ROM.py -a -b UEFs/Meteors_E.uef ROMs/Meteors.rom
 ./UEF2ROM.py -a -c e00:1200:1400 -m UEFs/Microball_BE.uef ROMs/Microball.rom
