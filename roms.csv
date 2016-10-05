@@ -224,7 +224,7 @@ OK,Wychwood,Larsoft,Wychwood_RUN_BE.uef,Wychwood.rom,,-a -c : -m -r
 OK,XOR,Astral Software,XOR_E.uef,XOR-1.rom,XOR-2.rom,-a -c :::x -s -t -w d3f:ef97
 OK (patched),Yie Ar Kung Fu,Imagine,YieArKungFu_E.uef,YieArKungFu-1.rom,YieArKungFu-2.rom,-a -c e00:5300:500:1100/:x:5f80 -f 1-7 -p -s -t -w 39f
 Hangs,Yie Ar Kung Fu 2,Imagine,YieArKungFu2_E.uef,YieArKungFu2-1.rom,YieArKungFu-2.rom,-a -p -t -w d3f:ef97 -s
-OK,Zenon,Impact,Zenon_E.uef,Zenon-1.rom,Zenon-2.rom,-a -c :5800:/: -m -s
 OK,Zalaga,Aardvark,Zalaga-PIASRR_E.uef,Zalaga-1.rom,Zalaga-2.rom,-a -c :/: -f 3 -r -s
 OK,Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,,-a -c e00
+OK,Zenon,Impact,Zenon_E.uef,Zenon-1.rom,Zenon-2.rom,-a -c :5800:/: -m -s
 OK,Ziggy,ASL,Ziggy_E.uef,Ziggy-1.rom,Ziggy-2.rom,-a -c :/: -m -s -f 0-1

@@ -212,7 +212,7 @@ set -e
 ./UEF2ROM.py -a -c : -m -r UEFs/Wychwood_RUN_BE.uef ROMs/Wychwood.rom
 ./UEF2ROM.py -a -c :::x -s -t -w d3f:ef97 UEFs/XOR_E.uef ROMs/XOR-1.rom ROMs/XOR-2.rom
 ./UEF2ROM.py -a -c e00:5300:500:1100/:x:5f80 -f 1-7 -p -s -t -w 39f UEFs/YieArKungFu_E.uef ROMs/YieArKungFu-1.rom ROMs/YieArKungFu-2.rom
-./UEF2ROM.py -a -c :5800:/: -m -s UEFs/Zenon_E.uef ROMs/Zenon-1.rom ROMs/Zenon-2.rom
 ./UEF2ROM.py -a -c :/: -f 3 -r -s UEFs/Zalaga-PIASRR_E.uef ROMs/Zalaga-1.rom ROMs/Zalaga-2.rom
 ./UEF2ROM.py -a -c e00 UEFs/ZanyKongJunior_E.uef ROMs/ZanyKongJunior.rom
+./UEF2ROM.py -a -c :5800:/: -m -s UEFs/Zenon_E.uef ROMs/Zenon-1.rom ROMs/Zenon-2.rom
 ./UEF2ROM.py -a -c :/: -m -s -f 0-1 UEFs/Ziggy_E.uef ROMs/Ziggy-1.rom ROMs/Ziggy-2.rom
