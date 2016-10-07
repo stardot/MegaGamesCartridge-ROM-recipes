@@ -2,7 +2,7 @@ Status,Name,Publisher,UEF,ROM1,ROM2,Options
 OK,3D Dotty,Blue Ribbon,3DDotty_E.uef,3DDotty.rom,,-a -c e00
 OK,3D Pool,Aardvark/Firebird,3DPool_E.uef,3DPool-1.rom,3DPool-2.rom,-a -c e00/: -m -s
 OK,Adventure,Program Power,Adventure-Micropower_E.uef,Adventure-Micropower.rom,,-a -b
-OK,Alien Break-In,Romik,AlienBreakIn_E.uef,AlienBreakIn-1.rom,,-a
+OK,Alien Break-In,Romik,AlienBreakIn_E.uef,AlienBreakIn.rom,,-a
 OK,Arcadians,Acornsoft,Arcadians.uef,Arcadians-1.rom,Arcadians-2.rom,-a -c e00:.5ad0/: -m -s
 OK,Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,,-a -c e00 -w 39f
 Too large (can be patched but fails to load),Ballistix,Superior,Ballistix_E.uef,,,
