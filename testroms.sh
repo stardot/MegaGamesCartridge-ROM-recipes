@@ -175,6 +175,7 @@ elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
 elkulator -rom2 ROMs/SpaceRanger.rom
 elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
 elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
+elkulator -rom2 ROMs/Spitfire40-1.rom -rom1 ROMs/Spitfire40-2.rom
 elkulator -rom2 ROMs/SpyCat-1.rom -rom1 ROMs/SpyCat-2.rom
 elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
 elkulator -rom2 ROMs/StarWars-1.rom -rom1 ROMs/StarWars-2.rom

@@ -175,6 +175,7 @@ set -e
 ./UEF2ROM.py -a -c e00:/: -m UEFs/Mega_Games_Cartridge/SpaceRanger-patched.uef ROMs/SpaceRanger.rom
 ./UEF2ROM.py -a -c e00:x:/: -s -t -w 39f UEFs/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
 ./UEF2ROM.py -a -c e00:.5775/: -m -s UEFs/SphinxAdventure_E.uef ROMs/SphinxAdventure-1.rom ROMs/SphinxAdventure-2.rom
+./UEF2ROM.py -a -c e00::::::e00::/: -m -s UEFs/Spitfire40_E.uef ROMs/Spitfire40-1.rom ROMs/Spitfire40-2.rom
 ./UEF2ROM.py -a -c :/: -f 3-6 -m -r -s UEFs/SpyCat_E.uef ROMs/SpyCat-1.rom ROMs/SpyCat-2.rom
 ./UEF2ROM.py -a -c x::x:/: -p -s -w 39f -x UEFs/Mega_Games_Cartridge/SpyVsSpy-patched.uef ROMs/SpyVsSpy-1.rom ROMs/SpyVsSpy-2.rom
 ./UEF2ROM.py -a -c e00:3780:900:2000/7620 -m -s UEFs/StarWars_E.uef ROMs/StarWars-1.rom ROMs/StarWars-2.rom
