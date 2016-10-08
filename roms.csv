@@ -23,8 +23,8 @@ OK,Brian Jacks Superstar Challenge,Martech,BrianJacksSuperstarChallenge_E.uef,Br
 OK,Bug Blaster,Alligata,BugBlast.uef,BugBlast-1.rom,BugBlast-2.rom,-a -c e00:e00:5800:e00:e00/: -w 880
 OK,Bugs,Virgin,Bugs_E.uef,Bugs.rom,,-a
 OK,Bumble Bee,Micro Power,BumbleBee_E.uef,BumbleBee.rom,,-a -c e00 -m
-Crashes (can snapshot),Camelot,Superior,Camelot_E.uef,,,
 Needs patching,By Fair Means Or Foul,Superior,Mega_Games_Cartridge/ByFairMeansOrFoul-EveryGameGoing.uef,,,
+Crashes (can snapshot),Camelot,Superior,Camelot_E.uef,,,
 OK,Castle Assault,Blue Ribbon,CastleAssault_E.uef,CastleAssault.rom,,-a -c e00:1600: -w 880
 OK,Castle Frankenstein,Epic,CastleFrankenstein_E.uef,CastleFrankenstein-1.rom,CastleFrankenstein-2.rom,-a -m -s
 OK,Castlemaze Adventure,Duckworth,EXPLADV-CastlemazeAdventure_E.uef,CastlemazeAdventure.rom,,-a -m
@@ -50,6 +50,7 @@ OK,Creepy Cave,Atlantis,CreepyCave_BE.uef,CreepyCave.rom,,-a -c e00 -m
 OK,Croaker,Program Power,Croaker_E.uef,Croaker.rom,,-a
 OK,Crystal Castles,U.S. Gold,CrystalCastles_E.uef,CrystalCastles-1.rom,CrystalCastles-2.rom,-a -p -t -w 39f
 OK,Cybertron Mission,Program Power,CybertronMission_Tape.uef,CybertronMission.rom,,-a -c :
+Needs patching,Cyborg Warriors,Superior,CyborgWarriors_E.uef,,,
 OK,Cylon Attack,A&F,CylonAttack_E.uef,CylonAttack-1.rom,CylonAttack-2.rom,-a -c e00:/: -m -s
 OK,Danger UXB,Program Power,DangerUXB_Tape.uef,DangerUXB.rom,,-a -c e00:1500:
 OK,Dare Devil Denis.uef,Visions,DareDevilDenis.uef,DareDevilDenis.rom,,-a -b
@@ -196,6 +197,7 @@ OK,Steve Davis Snooker,Blue Ribbon,SteveDavisSnooker-PIASRR_E.uef,SteveDavisSnoo
 OK,Stock Car,Micro Power,StockCar.uef,StockCar.rom,,-a -c e00:e00
 OK,Stormcycle,Atlantis,Stormcycle_E.uef,Stormcycle-1.rom,Stormcycle-2.rom,-a -c :e00/: -s -t
 OK,Stranded,Superior,Stranded_E.uef,Stranded.rom,,-a -c e00: -w 39f -t
+Needs patching,Strike Force Harrier,Mirrorsoft,StrikeForceHarrier_E.uef,,,
 OK,Strykers Run,Superior,StrykersRun-PIASRR_E.uef,StrykersRun-1.rom,StrykersRun-2.rom,-a -c e00:e00:3a00/: -s -t -w 860
 OK,Superman The Game,First Star,SupermanTheGame_BE.uef,SupermanTheGame-1.rom,SupermanTheGame-2.rom,-a -c e00:e00:/400 -m -s
 OK,Super Pool,Software Invasion,SuperPool_E.uef,SuperPool.rom,,-a -c e00 -m
