@@ -167,10 +167,9 @@ elkulator -rom2 ROMs/SavagePond.rom
 elkulator -rom2 ROMs/Shark.rom
 elkulator -rom2 ROMs/Sim.rom
 elkulator -rom2 ROMs/SimCity-1.rom -rom1 ROMs/SimCity-2.rom
-elkulator -rom2 ROMs/Skirmish.rom
 elkulator -rom2 ROMs/SmashAndGrab.rom
 elkulator -rom2 ROMs/Snooker.rom
-elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom -rom1 ROMs/SpaceAgentZeldaMeetsTheBugEyes-2.rom
+elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
 elkulator -rom2 ROMs/SpaceRanger.rom
 elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
@@ -187,7 +186,7 @@ elkulator -rom2 ROMs/StrykersRun-1.rom -rom1 ROMs/StrykersRun-2.rom
 elkulator -rom2 ROMs/SupermanTheGame-1.rom -rom1 ROMs/SupermanTheGame-2.rom
 elkulator -rom2 ROMs/SuperPool.rom
 elkulator -rom2 ROMs/Survivors.rom
-elkulator -rom2 ROMs/Swag-1.rom -rom1 ROMs/Swag-2.rom
+elkulator -rom2 ROMs/Swag.rom
 elkulator -rom2 ROMs/Swoop.rom
 elkulator -rom2 ROMs/Syncron-1.rom -rom1 ROMs/Syncron-2.rom
 elkulator -rom2 ROMs/TalesOfTheArabianNights.rom
@@ -203,7 +202,7 @@ elkulator -rom2 ROMs/TunnelAdventure.rom
 elkulator -rom2 ROMs/TwinKingdomValley-1.rom -rom1 ROMs/TwinKingdomValley-2.rom
 elkulator -rom2 ROMs/TwelfthNight-1.rom -rom1 ROMs/TwelfthNight-2.rom
 elkulator -rom2 ROMs/Ultron.rom
-elkulator -rom2 ROMs/UndegroundAdventure.rom
+elkulator -rom2 ROMs/UndergroundAdventure.rom
 elkulator -rom2 ROMs/VideosRevenge-1.rom -rom1 ROMs/VideosRevenge-2.rom
 elkulator -rom2 ROMs/Village-1.rom -rom1 ROMs/Village-2.rom
 elkulator -rom2 ROMs/West-1.rom -rom1 ROMs/West-2.rom

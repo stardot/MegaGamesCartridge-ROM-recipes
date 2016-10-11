@@ -4,7 +4,7 @@ set -e
 
 ./UEF2ROM.py -a -c e00 UEFs/3DDotty_E.uef ROMs/3DDotty.rom
 ./UEF2ROM.py -a -c e00/: -m -s UEFs/3DPool_E.uef ROMs/3DPool-1.rom ROMs/3DPool-2.rom
-./UEF2ROM.py -a -b UEFs/Adventure-Micropower_E.uef ROMs/Adventure-Micropower.rom
+./UEF2ROM.py -a -c :2500:/ UEFs/Adventure-Micropower_E.uef ROMs/Adventure-Micropower.rom
 ./UEF2ROM.py -a -c : UEFs/AlienBreakIn_E.uef ROMs/AlienBreakIn.rom
 ./UEF2ROM.py -a -c e00:.5ad0/: -m -s UEFs/Arcadians.uef ROMs/Arcadians-1.rom ROMs/Arcadians-2.rom
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/AstroPlumber_E.uef ROMs/AstroPlumber.rom
@@ -96,7 +96,7 @@ set -e
 ./UEF2ROM.py -a -c e00:6980:8c0/: -m -s UEFs/Inertia_E.uef ROMs/Inertia-1.rom ROMs/Inertia-2.rom
 ./UEF2ROM.py -a -c e00::x -w 39f -t -s UEFs/JetBootJack_E.uef ROMs/JetBootJack-1.rom ROMs/JetBootJack-2.rom
 ./UEF2ROM.py -a -c : -p -s -w 39f UEFs/Mega_Games_Cartridge/Joey-patched.uef ROMs/Joey.rom
-./UEF2ROM.py -a -c e00 -m UEFs/Joust.uef ROMs/Joust.rom
+./UEF2ROM.py -a -c e00 -m UEFs/Skirmish_E.uef ROMs/Joust.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/JungleJive_Tape.uef ROMs/JungleJive.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/KarateCombat.uef ROMs/KarateCombat-1.rom ROMs/KarateCombat-2.rom
 ./UEF2ROM.py -a -c x:/: -s -w 39f UEFs/Kayleth_E.uef ROMs/Kayleth-1.rom ROMs/Kayleth-2.rom
@@ -121,7 +121,7 @@ set -e
 ./UEF2ROM.py -a -c :b00 -m UEFs/MoonRaider_E.uef ROMs/MoonRaider.rom
 ./UEF2ROM.py -a -c e00:/: -m -s UEFs/MouseTrap_E.uef ROMs/MouseTrap-1.rom ROMs/MouseTrap-2.rom
 ./UEF2ROM.py -a -c e00::x: -p -s -w 39f UEFs/MrWiz.uef ROMs/MrWiz.rom
-./UEF2ROM.py -a -c e00::::/x:x: -s -t -w 39f UEFs/RHT3-Myorem_E.uef ROMs/Myorem-1.rom ROMs/Myorem-2.rom
+./UEF2ROM.py -a -c e00::::/x:x: -s -t -T -w 100 UEFs/RHT3-Myorem_E.uef ROMs/Myorem-1.rom ROMs/Myorem-2.rom
 ./UEF2ROM.py -a -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f UEFs/Network-PIASRR_E.uef ROMs/Network-1.rom ROMs/Network-2.rom
 ./UEF2ROM.py -a -c : -w 39f UEFs/NightmareMaze-MRM_E.uef ROMs/NightmareMaze.rom
 ./UEF2ROM.py -a -c e00::2300 UEFs/Overdrive_E.uef ROMs/Overdrive.rom
@@ -133,20 +133,20 @@ set -e
 ./UEF2ROM.py -a -c e00:.5fc3/: -m -s UEFs/PhilosophersQuest_E.uef ROMs/PhilosophersQuest-1.rom ROMs/PhilosophersQuest-2.rom
 ./UEF2ROM.py -a -c : -m UEFs/PhilosophersStone_BE.uef ROMs/PhilosophersStone.rom
 ./UEF2ROM.py -a -c ::x:x -w 120 UEFs/Pinball.uef ROMs/Pinball.rom
-./UEF2ROM.py -a -m -r -s UEFs/Mega_Games_Cartridge/Pipeline-patched.uef ROMs/Pipeline-1.rom ROMs/Pipeline-2.rom
-./UEF2ROM.py -a -b -m -r -s UEFs/Pipemania_E.uef ROMs/Pipemania-1.rom ROMs/Pipemania-2.rom
+./UEF2ROM.py -a -c x:x/: -m -r -s UEFs/Mega_Games_Cartridge/Pipeline-patched.uef ROMs/Pipeline-1.rom ROMs/Pipeline-2.rom
+./UEF2ROM.py -a -c :/: -m -r -s UEFs/Pipemania_E.uef ROMs/Pipemania-1.rom ROMs/Pipemania-2.rom
 ./UEF2ROM.py -a -c :2000 -m UEFs/PlanB_BE.uef ROMs/PlanB.rom
 ./UEF2ROM.py -a -c e00 UEFs/PlanB2_BE.uef ROMs/PlanB2.rom
 ./UEF2ROM.py -a -c e00: -m UEFs/Planetoid_E.uef ROMs/Planetoid.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/Podd_BE.uef ROMs/Podd.rom
-./UEF2ROM.py -a -b -m UEFs/Positron_E.uef ROMs/Positron.rom
-./UEF2ROM.py -a -s UEFs/Predator_E.uef ROMs/Predator-1.rom ROMs/Predator-2.rom
-./UEF2ROM.py -a -s -t -w 39f UEFs/RHT2-ProjectThesius_E.uef ROMs/ProjectThesius-1.rom ROMs/ProjectThesius-2.rom
+./UEF2ROM.py -a -c : -m UEFs/Positron_E.uef ROMs/Positron.rom
+./UEF2ROM.py -a -c e00:e00::4e00:5300/: -s UEFs/Predator_E.uef ROMs/Predator-1.rom ROMs/Predator-2.rom
+./UEF2ROM.py -a -c :2d00/: -s -t -T -w d60 UEFs/RHT2-ProjectThesius_E.uef ROMs/ProjectThesius-1.rom ROMs/ProjectThesius-2.rom
 ./UEF2ROM.py -a -c e00:x:/: -w 39f -s -t UEFs/Psycastria_E.uef ROMs/Psycastria-1.rom ROMs/Psycastria-2.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/PuppetMan_RUN_BE.uef ROMs/PuppetMan.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Quest.uef ROMs/Quest-1.rom ROMs/Quest-2.rom
-./UEF2ROM.py -a -m -s UEFs/QuestForFreedom_E.uef ROMs/QuestForFreedom-1.rom ROMs/QuestForFreedom-2.rom
-./UEF2ROM.py -a -m -s UEFs/QuestForTheHolyGrail_E.uef ROMs/QuestForTheHolyGrail-1.rom ROMs/QuestForTheHolyGrail-2.rom
+./UEF2ROM.py -a -c e00:/: -m -s UEFs/QuestForFreedom_E.uef ROMs/QuestForFreedom-1.rom ROMs/QuestForFreedom-2.rom
+./UEF2ROM.py -a -c :/: -m -s UEFs/QuestForTheHolyGrail_E.uef ROMs/QuestForTheHolyGrail-1.rom ROMs/QuestForTheHolyGrail-2.rom
 ./UEF2ROM.py -a -c :e00:::1400/: -s UEFs/Qwak_E.uef ROMs/Qwak-1.rom ROMs/Qwak-2.rom
 ./UEF2ROM.py -a -c : -m UEFs/Ravage_E.uef ROMs/Ravage.rom
 ./UEF2ROM.py -a -c x:::x:/: -m -r -s UEFs/Mega_Games_Cartridge/Ravenskull-patched.uef ROMs/Ravenskull-1.rom ROMs/Ravenskull-2.rom
@@ -155,7 +155,7 @@ set -e
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Repton2.uef ROMs/Repton2-1.rom ROMs/Repton2-2.rom
 ./UEF2ROM.py -a -c e00:/: -f 4-6:12-13 -s UEFs/Repton3_E.uef ROMs/Repton3-1.rom ROMs/Repton3-2.rom
 ./UEF2ROM.py -a -c e00 UEFs/DAR-Reversi_E.uef ROMs/Reversi.rom
-./UEF2ROM.py -a -b -m UEFs/Reversi-Superior_E.uef ROMs/Reversi-Superior.rom
+./UEF2ROM.py -a -c e00::e00 -m UEFs/Reversi-Superior_E.uef ROMs/Reversi-Superior.rom
 ./UEF2ROM.py -a -c e00:/: -s -t -w 39f UEFs/RHT1-RickHanson_E.uef ROMs/RickHanson-1.rom ROMs/RickHanson-2.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/RigAttack_E.uef ROMs/RigAttack.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/ROS1-TheProphecy_RUN_BE.uef ROMs/RisingOfSalandraPart1.rom
@@ -167,10 +167,9 @@ set -e
 ./UEF2ROM.py -a -c : -m UEFs/Shark_E.uef ROMs/Shark.rom
 ./UEF2ROM.py -a -c e00: -w 880 UEFs/Sim_Tape.uef ROMs/Sim.rom
 ./UEF2ROM.py -a -c e00:e00:::3c00/: -f 0-7 -p -s -w 39f UEFs/SimCity_E.uef ROMs/SimCity-1.rom ROMs/SimCity-2.rom
-./UEF2ROM.py -a -c e00 -m UEFs/Skirmish_E.uef ROMs/Skirmish.rom
 ./UEF2ROM.py -a -c e00::5000 UEFs/SmashAndGrab_E.uef ROMs/SmashAndGrab.rom
 ./UEF2ROM.py -a -c e00::.2f8a -m UEFs/Snooker-Acornsoft_E.uef ROMs/Snooker.rom
-./UEF2ROM.py -a -s -t -w d3f:ef97 UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes-1.rom ROMs/SpaceAgentZeldaMeetsTheBugEyes-2.rom
+./UEF2ROM.py -a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 ./UEF2ROM.py -a -c e00::x -s -t UEFs/SpacemanSid_E.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
 ./UEF2ROM.py -a -c e00:/: -m UEFs/Mega_Games_Cartridge/SpaceRanger-patched.uef ROMs/SpaceRanger.rom
 ./UEF2ROM.py -a -c e00:x:/: -s -t -w 39f UEFs/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
@@ -187,27 +186,27 @@ set -e
 ./UEF2ROM.py -a -c e00:e00:/400 -m -s UEFs/SupermanTheGame_BE.uef ROMs/SupermanTheGame-1.rom ROMs/SupermanTheGame-2.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/SuperPool_E.uef ROMs/SuperPool.rom
 ./UEF2ROM.py -a -c e00 -t -w 39f UEFs/Survivors_BE.uef ROMs/Survivors.rom
-./UEF2ROM.py -a -b -m UEFs/Swag_E.uef ROMs/Swag-1.rom ROMs/Swag-2.rom
-./UEF2ROM.py -a -b -m UEFs/Swoop_E.uef ROMs/Swoop.rom
+./UEF2ROM.py -a -c ::1200: -m UEFs/Swag_E.uef ROMs/Swag.rom
+./UEF2ROM.py -a -c e00 -m UEFs/Swoop_E.uef ROMs/Swoop.rom
 ./UEF2ROM.py -a -c e00:1900/: -s UEFs/Syncron_E.uef ROMs/Syncron-1.rom ROMs/Syncron-2.rom
 ./UEF2ROM.py -a -c : -m UEFs/TalesOfTheArabianNights_E.uef ROMs/TalesOfTheArabianNights.rom
 ./UEF2ROM.py -a -c e00 -p -w 39f UEFs/Tempest_E.uef ROMs/Tempest.rom
-./UEF2ROM.py -a -m -r -s -f 3-6 UEFs/Terrormolinos_BE.uef ROMs/Terrormolinos-1.rom ROMs/Terrormolinos-2.rom
+./UEF2ROM.py -a -c :/: -f 3-6 -m -r -s UEFs/Terrormolinos_BE.uef ROMs/Terrormolinos-1.rom ROMs/Terrormolinos-2.rom
 ./UEF2ROM.py -a -c e00:2f00:5800:1200 -m UEFs/Tetris_BE.uef ROMs/Tetris.rom
 ./UEF2ROM.py -a -c :4000: -m UEFs/TheMine_E.uef ROMs/TheMine.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/TheNineDancers_RUN_BE.uef ROMs/TheNineDancers.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Thrust_Tape.uef ROMs/Thrust-1.rom ROMs/Thrust-2.rom
 ./UEF2ROM.py -a -c ::::x:/: -r -s -w 39f UEFs/Thunderstruck_E.uef ROMs/Thunderstruck-1.rom ROMs/Thunderstruck-2.rom
 ./UEF2ROM.py -a -c x:/: -m -r -s UEFs/Thunderstruck2_E.uef ROMs/Thunderstruck2-1.rom ROMs/Thunderstruck2-2.rom
-./UEF2ROM.py -a -m UEFs/EXPLADV-TunnelAdventure_E.uef ROMs/TunnelAdventure.rom
+./UEF2ROM.py -a -c :/: -m UEFs/EXPLADV-TunnelAdventure_E.uef ROMs/TunnelAdventure.rom
 ./UEF2ROM.py -a -c e00::e00:/: -m -s UEFs/TwinKingdomValley-modified_E.uef ROMs/TwinKingdomValley-1.rom ROMs/TwinKingdomValley-2.rom
-./UEF2ROM.py -a -b -s -l UEFs/TwelfthNight-Electron.uef ROMs/TwelfthNight-1.rom ROMs/TwelfthNight-2.rom
+./UEF2ROM.py -a -c :4300/: -l -s UEFs/TwelfthNight-Electron.uef ROMs/TwelfthNight-1.rom ROMs/TwelfthNight-2.rom
 ./UEF2ROM.py -a -m -r UEFs/Ultron_E.uef ROMs/Ultron.rom
-./UEF2ROM.py -a -m UEFs/EXPLADV-UndegroundAdventure_E.uef ROMs/UndegroundAdventure.rom
-./UEF2ROM.py -a -c :/: -w 120 UEFs/VideosRevenge-PIASRR_E.uef ROMs/VideosRevenge-1.rom ROMs/VideosRevenge-2.rom
+./UEF2ROM.py -a -c : -m UEFs/EXPLADV-UndegroundAdventure_E.uef ROMs/UndergroundAdventure.rom
+./UEF2ROM.py -a -c :::x -w 120 UEFs/VideosRevenge-PIASRR_E.uef ROMs/VideosRevenge-1.rom ROMs/VideosRevenge-2.rom
 ./UEF2ROM.py -a -c e00::b00:10d0:2f30/658 -s -m UEFs/VillageOfLostSouls-RR_E.uef ROMs/Village-1.rom ROMs/Village-2.rom
-./UEF2ROM.py -a -b -m -r -s UEFs/West_RUN_E.uef ROMs/West-1.rom ROMs/West-2.rom
-./UEF2ROM.py -a -b -s -m UEFs/WheelOfFortune_E.uef ROMs/WheelOfFortune-1.rom ROMs/WheelOfFortune-2.rom
+./UEF2ROM.py -a -c :/: -m -r -s UEFs/West_RUN_E.uef ROMs/West-1.rom ROMs/West-2.rom
+./UEF2ROM.py -a -c e00:e00/: -m -s UEFs/WheelOfFortune_E.uef ROMs/WheelOfFortune-1.rom ROMs/WheelOfFortune-2.rom
 ./UEF2ROM.py -a -c : -m UEFs/Where_E.uef ROMs/Where.rom
 ./UEF2ROM.py -a -c e00:e00 -m UEFs/WhiteKnightMk11_E.uef ROMs/WhiteKnightMk11.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/Wychwood_RUN_BE.uef ROMs/Wychwood.rom

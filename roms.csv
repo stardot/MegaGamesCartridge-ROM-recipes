@@ -1,7 +1,7 @@
 Status,Name,Publisher,UEF,ROM1,ROM2,Options
 OK,3D Dotty,Blue Ribbon,3DDotty_E.uef,3DDotty.rom,,-a -c e00
 OK,3D Pool,Aardvark/Firebird,3DPool_E.uef,3DPool-1.rom,3DPool-2.rom,-a -c e00/: -m -s
-OK,Adventure,Program Power,Adventure-Micropower_E.uef,Adventure-Micropower.rom,,-a -b
+OK,Adventure,Program Power,Adventure-Micropower_E.uef,Adventure-Micropower.rom,,-a -c :2500:/
 OK,Alien Break-In,Romik,AlienBreakIn_E.uef,AlienBreakIn.rom,,-a -c :
 OK,Arcadians,Acornsoft,Arcadians.uef,Arcadians-1.rom,Arcadians-2.rom,-a -c e00:.5ad0/: -m -s
 OK,Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,,-a -c e00 -w 39f
@@ -107,7 +107,7 @@ OK,Impossible Mission,U.S. Gold,ImpossibleMission_E.uef,ImpossibleMission-1.rom,
 OK,Inertia,4th Dimension,Inertia_E.uef,Inertia-1.rom,Inertia-2.rom,-a -c e00:6980:8c0/: -m -s
 OK,Jet Boot Jack,English,JetBootJack_E.uef,JetBootJack-1.rom,JetBootJack-2.rom,-a -c e00::x -w 39f -t -s
 OK (patched),Joey,Blue Ribbon,Mega_Games_Cartridge/Joey-patched.uef,Joey.rom,,-a -c : -p -s -w 39f
-OK,Joust,Godax,Joust.uef,Joust.rom,,-a -c e00 -m
+OK,Joust,Godax,Skirmish_E.uef,Joust.rom,,-a -c e00 -m
 OK,Jungle Jive,Virgin,JungleJive_Tape.uef,JungleJive.rom,,-a -c e00 -m
 OK,Karate Combat,Superior,KarateCombat.uef,KarateCombat-1.rom,KarateCombat-2.rom,-a -c e00:/: -s
 OK,Kayleth,U.S. Gold,Kayleth_E.uef,Kayleth-1.rom,Kayleth-2.rom,-a -c x:/: -s -w 39f
@@ -132,7 +132,7 @@ OK,Moon Buggy,Kansas,MoonBuggy.uef,MoonBuggy.rom,,-a -c e00:1400 -w 39f
 OK,MoonRaider,Program Power,MoonRaider_E.uef,MoonRaider.rom,,-a -c :b00 -m
 OK,Mouse Trap,Tynesoft,MouseTrap_E.uef,MouseTrap-1.rom,MouseTrap-2.rom,-a -c e00:/: -m -s
 OK,Mr Wiz,Superior,MrWiz.uef,MrWiz.rom,,-a -c e00::x: -p -s -w 39f
-OK,Myorem,Robico,RHT3-Myorem_E.uef,Myorem-1.rom,Myorem-2.rom,-a -c e00::::/x:x: -s -t -w 39f
+OK,Myorem,Robico,RHT3-Myorem_E.uef,Myorem-1.rom,Myorem-2.rom,-a -c e00::::/x:x: -s -t -T -w 100
 OK,Network,Superior,Network-PIASRR_E.uef,Network-1.rom,Network-2.rom,-a -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f
 OK,Nightmare Maze,MRM,NightmareMaze-MRM_E.uef,NightmareMaze.rom,,-a -c : -w 39f
 OK,Overdrive,Superior,Overdrive_E.uef,Overdrive.rom,,-a -c e00::2300
@@ -145,20 +145,20 @@ OK (patched),Perplexity,Superior,Perplexity_E.uef,Perplexity-1.rom,Perplexity-2.
 OK,Philosophers Quest,Acornsoft,PhilosophersQuest_E.uef,PhilosophersQuest-1.rom,PhilosophersQuest-2.rom,-a -c e00:.5fc3/: -m -s
 OK,Philosophers Stone,Potter,PhilosophersStone_BE.uef,PhilosophersStone.rom,,-a -c : -m
 OK,Pinball,Kansas,Pinball.uef,Pinball.rom,,-a -c ::x:x -w 120
-OK (patched),Pipeline,Superior,Mega_Games_Cartridge/Pipeline-patched.uef,Pipeline-1.rom,Pipeline-2.rom,-a -m -r -s
-OK,Pipemania,Empire,Pipemania_E.uef,Pipemania-1.rom,Pipemania-2.rom,-a -b -m -r -s
+OK (patched),Pipeline,Superior,Mega_Games_Cartridge/Pipeline-patched.uef,Pipeline-1.rom,Pipeline-2.rom,-a -c x:x/: -m -r -s
+OK,Pipemania,Empire,Pipemania_E.uef,Pipemania-1.rom,Pipemania-2.rom,-a -c :/: -m -r -s
 OK,Plan B,Bug Byte,PlanB_BE.uef,PlanB.rom,,-a -c :2000 -m
 OK,Plan B 2,Bug Byte,PlanB2_BE.uef,PlanB2.rom,,-a -c e00
 OK,Planetoid,Acornsoft,Planetoid_E.uef,Planetoid.rom,,-a -c e00: -m
 OK,Podd,Acornsoft,Podd_BE.uef,Podd.rom,,-a -c e00 -m
-OK,Positron,Micro Power,Positron_E.uef,Positron.rom,,-a -b -m
-OK,Predator,Superior,Predator_E.uef,Predator-1.rom,Predator-2.rom,-a -s
-OK,Project Thesius,Robico,RHT2-ProjectThesius_E.uef,ProjectThesius-1.rom,ProjectThesius-2.rom,-a -s -t -w 39f
+OK,Positron,Micro Power,Positron_E.uef,Positron.rom,,-a -c : -m
+OK,Predator,Superior,Predator_E.uef,Predator-1.rom,Predator-2.rom,-a -c e00:e00::4e00:5300/: -s
+OK,Project Thesius,Robico,RHT2-ProjectThesius_E.uef,ProjectThesius-1.rom,ProjectThesius-2.rom,-a -c :2d00/: -s -t -T -w d60
 OK,Psycastria,ASL,Psycastria_E.uef,Psycastria-1.rom,Psycastria-2.rom,-a -c e00:x:/: -w 39f -s -t
 OK,Puppet Man,Larsoft,PuppetMan_RUN_BE.uef,PuppetMan.rom,,-a -c : -m -r
 OK,Quest,Superior,Quest.uef,Quest-1.rom,Quest-2.rom,-a -c e00:/: -s
-OK,Quest For Freedom,IJK,QuestForFreedom_E.uef,QuestForFreedom-1.rom,QuestForFreedom-2.rom,-a -m -s
-OK,Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail-1.rom,QuestForTheHolyGrail-2.rom,-a -m -s
+OK,Quest For Freedom,IJK,QuestForFreedom_E.uef,QuestForFreedom-1.rom,QuestForFreedom-2.rom,-a -c e00:/: -m -s
+OK,Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail-1.rom,QuestForTheHolyGrail-2.rom,-a -c :/: -m -s
 OK,Qwak,Superior/Acornsoft,Qwak_E.uef,Qwak-1.rom,Qwak-2.rom,-a -c :e00:::1400/: -s
 Crashes,Ransack!,ASL,Ransack_E.uef,Ransack-1.rom,Ransack-2.rom,-a -p -r -s -t -w 380
 OK,Ravage,Blue Ribbon,Ravage_E.uef,Ravage.rom,,-a -c : -m
@@ -168,7 +168,7 @@ OK,Repton,Superior,Repton.uef,Repton-1.rom,Repton-2.rom,-a -c e00:/: -s
 OK,Repton 2,Superior,Repton2.uef,Repton2-1.rom,Repton2-2.rom,-a -c e00:/: -s
 OK (discard files),Repton 3,Superior,Repton3_E.uef,Repton3-1.rom,Repton3-2.rom,-a -c e00:/: -f 4-6:12-13 -s
 OK,Reversi,Acornsoft,DAR-Reversi_E.uef,Reversi.rom,,-a -c e00
-OK,Reversi,Superior,Reversi-Superior_E.uef,Reversi-Superior.rom,,-a -b -m
+OK,Reversi,Superior,Reversi-Superior_E.uef,Reversi-Superior.rom,,-a -c e00::e00 -m
 OK,Rick Hanson,Robico,RHT1-RickHanson_E.uef,RickHanson-1.rom,RickHanson-2.rom,-a -c e00:/: -s -t -w 39f
 OK,Rig Attack,Tynesoft,RigAttack_E.uef,RigAttack.rom,,-a -c e00 -m
 OK,Rising Of Salandra part 1,Larsoft,ROS1-TheProphecy_RUN_BE.uef,RisingOfSalandraPart1.rom,,-a -c : -m -r
@@ -180,10 +180,9 @@ OK,Savage Pond,Starcade,SavagePond-Starcade_E.uef,SavagePond.rom,,-a -c e00
 OK,Shark,ASL,Shark_E.uef,Shark.rom,,-a -c : -m
 OK,Sim,Visions,Sim_Tape.uef,Sim.rom,,-a -c e00: -w 880
 OK (truncated),Sim City,Superior,SimCity_E.uef,SimCity-1.rom,SimCity-2.rom,-a -c e00:e00:::3c00/: -f 0-7 -p -s -w 39f
-OK,Skirmish,Godax,Skirmish_E.uef,Skirmish.rom,,-a -c e00 -m
 OK,Smash And Grab,Superior,SmashAndGrab_E.uef,SmashAndGrab.rom,,-a -c e00::5000
 OK,Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,,-a -c e00::.2f8a -m
-OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes-1.rom,SpaceAgentZeldaMeetsTheBugEyes-2.rom,-a -s -t -w d3f:ef97
+OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes.rom,,-a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f
 OK,Spaceman Sid,English,SpacemanSid_E.uef,SpacemanSid-1.rom,SpacemanSid-2.rom,-a -c e00::x -s -t
 OK (patched),Space Ranger,Audiogenic,Mega_Games_Cartridge/SpaceRanger-patched.uef,SpaceRanger.rom,,-a -c e00:/: -m
 Too large,Spellbinder,Superior,Spellbinder.uef,,,
@@ -202,12 +201,12 @@ OK,Strykers Run,Superior,StrykersRun-PIASRR_E.uef,StrykersRun-1.rom,StrykersRun-
 OK,Superman The Game,First Star,SupermanTheGame_BE.uef,SupermanTheGame-1.rom,SupermanTheGame-2.rom,-a -c e00:e00:/400 -m -s
 OK,Super Pool,Software Invasion,SuperPool_E.uef,SuperPool.rom,,-a -c e00 -m
 OK,Survivors,Atlantis,Survivors_BE.uef,Survivors.rom,,-a -c e00 -t -w 39f
-OK,Swag,Micro Power,Swag_E.uef,Swag-1.rom,Swag-2.rom,-a -b -m
-OK,Swoop,Program Power,Swoop_E.uef,Swoop.rom,,-a -b -m
+OK,Swag,Micro Power,Swag_E.uef,Swag.rom,,-a -c ::1200: -m
+OK,Swoop,Program Power,Swoop_E.uef,Swoop.rom,,-a -c e00 -m
 OK,Syncron,Superior,Syncron_E.uef,Syncron-1.rom,Syncron-2.rom,-a -c e00:1900/: -s
 OK,Tales Of The Arabian Nights,Interceptor Micros,TalesOfTheArabianNights_E.uef,TalesOfTheArabianNights.rom,,-a -c : -m
 OK,Tempest,Superior,Tempest_E.uef,Tempest.rom,,-a -c e00 -p -w 39f
-OK,Terrormolinos,Melbourne House,Terrormolinos_BE.uef,Terrormolinos-1.rom,Terrormolinos-2.rom,-a -m -r -s -f 3-6
+OK,Terrormolinos,Melbourne House,Terrormolinos_BE.uef,Terrormolinos-1.rom,Terrormolinos-2.rom,-a -c :/: -f 3-6 -m -r -s
 OK,Tetris,Mirrorsoft,Tetris_BE.uef,Tetris.rom,,-a -c e00:2f00:5800:1200 -m
 Too large,The Last Ninja,Superior,LastNinja_E.uef,,,
 OK,The Mine,Micro Power,TheMine_E.uef,TheMine.rom,,-a -c :4000: -m
@@ -215,15 +214,15 @@ OK,The Nine Dancers,Larsoft,TheNineDancers_RUN_BE.uef,TheNineDancers.rom,,-a -c 
 OK,Thrust,Superior,Thrust_Tape.uef,Thrust-1.rom,Thrust-2.rom,-a -c e00:/: -s
 OK,Thunderstruck,Audiogenic,Thunderstruck_E.uef,Thunderstruck-1.rom,Thunderstruck-2.rom,-a -c ::::x:/: -r -s -w 39f
 OK,Thunderstruck 2,Audiogenic,Thunderstruck2_E.uef,Thunderstruck2-1.rom,Thunderstruck2-2.rom,-a -c x:/: -m -r -s
-OK,Tunnel Adventure,Duckworth,EXPLADV-TunnelAdventure_E.uef,TunnelAdventure.rom,,-a -m
+OK,Tunnel Adventure,Duckworth,EXPLADV-TunnelAdventure_E.uef,TunnelAdventure.rom,,-a -c :/: -m
 OK,Twin Kingdom Valley,Bug Byte,TwinKingdomValley-modified_E.uef,TwinKingdomValley-1.rom,TwinKingdomValley-2.rom,-a -c e00::e00:/: -m -s
-OK,Twelfth Night,Penguin Study,TwelfthNight-Electron.uef,TwelfthNight-1.rom,TwelfthNight-2.rom,-a -b -s -l
+OK,Twelfth Night,Penguin Study,TwelfthNight-Electron.uef,TwelfthNight-1.rom,TwelfthNight-2.rom,-a -c :4300/: -l -s
 OK,Ultron,Audiogenic,Ultron_E.uef,Ultron.rom,,-a -m -r
-OK,Undeground Adventure,Duckworth,EXPLADV-UndegroundAdventure_E.uef,UndegroundAdventure.rom,,-a -m
-OK,Videos Revenge,Budgie,VideosRevenge-PIASRR_E.uef,VideosRevenge-1.rom,VideosRevenge-2.rom,-a -c :/: -w 120
+OK,Underground Adventure,Duckworth,EXPLADV-UndegroundAdventure_E.uef,UndergroundAdventure.rom,,-a -c : -m
+OK,Videos Revenge,Budgie,VideosRevenge-PIASRR_E.uef,VideosRevenge-1.rom,VideosRevenge-2.rom,-a -c :::x -w 120
 OK,Village of Lost Souls,Robico,VillageOfLostSouls-RR_E.uef,Village-1.rom,Village-2.rom,-a -c e00::b00:10d0:2f30/658 -s -m
-OK,West,Talent,West_RUN_E.uef,West-1.rom,West-2.rom,-a -b -m -r -s
-OK,Wheel Of Fortune,Epic,WheelOfFortune_E.uef,WheelOfFortune-1.rom,WheelOfFortune-2.rom,-a -b -s -m
+OK,West,Talent,West_RUN_E.uef,West-1.rom,West-2.rom,-a -c :/: -m -r -s
+OK,Wheel Of Fortune,Epic,WheelOfFortune_E.uef,WheelOfFortune-1.rom,WheelOfFortune-2.rom,-a -c e00:e00/: -m -s
 OK,Where,Micro Power,Where_E.uef,Where.rom,,-a -c : -m
 OK,White Knight Mk 11,BBCSoft,WhiteKnightMk11_E.uef,WhiteKnightMk11.rom,,-a -c e00:e00 -m
 OK,Wychwood,Larsoft,Wychwood_RUN_BE.uef,Wychwood.rom,,-a -c : -m -r
