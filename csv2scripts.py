@@ -16,6 +16,9 @@ bf.write("#!/bin/sh\n\nset -e\n\n")
 tf = open("testroms.sh", "w")
 tf.write("#!/bin/sh\n\nset -e\n\n")
 
+games = 0
+roms = 0
+
 for line in lines:
 
     pieces = line.strip().split(",")
@@ -31,12 +34,19 @@ for line in lines:
         print "Skipping", d["Name"], "-", d["Status"]
         continue
     
+    games += 1
+    
     if d["ROM2"]:
         bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s ROMs/%(ROM2)s\n" % d)
         tf.write("elkulator -rom2 ROMs/%(ROM1)s -rom1 ROMs/%(ROM2)s\n" % d)
+        roms += 2
     else:
         bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s\n" % d)
         tf.write("elkulator -rom2 ROMs/%(ROM1)s\n" % d)
+        roms += 1
 
 bf.close()
 tf.close()
+
+print "%i games" % games
+print "%i ROMs" % roms
