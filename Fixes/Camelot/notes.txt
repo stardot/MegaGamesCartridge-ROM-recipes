@@ -1,0 +1,2 @@
+Removed *FX178,255,255 (disable keyboard interrupt) since it caused problems
+with ROMFS loading.
