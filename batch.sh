@@ -26,7 +26,7 @@ set -e
 ./UEF2ROM.py -a -c e00:e00:5800:e00:e00/: -w 880 UEFs/BugBlast.uef ROMs/BugBlast-1.rom ROMs/BugBlast-2.rom
 ./UEF2ROM.py -a -c : UEFs/Bugs_E.uef ROMs/Bugs.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/BumbleBee_E.uef ROMs/BumbleBee.rom
-./UEF2ROM.py -a -c e00:::/: -s -t -w d3f:ef97 UEFs/Camelot_E.uef ROMs/Camelot-1.rom ROMs/Camelot-2.rom
+./UEF2ROM.py -a -c e00:::/: -s -t -w d3f:ef97 UEFs/Mega_Games_Cartridge/Camelot-patched.uef ROMs/Camelot-1.rom ROMs/Camelot-2.rom
 ./UEF2ROM.py -a -c e00:1600: -w 880 UEFs/CastleAssault_E.uef ROMs/CastleAssault.rom
 ./UEF2ROM.py -a -c e00:e00:/: -m -s UEFs/CastleFrankenstein_E.uef ROMs/CastleFrankenstein-1.rom ROMs/CastleFrankenstein-2.rom
 ./UEF2ROM.py -a -c : -m UEFs/EXPLADV-CastlemazeAdventure_E.uef ROMs/CastlemazeAdventure.rom
@@ -216,7 +216,7 @@ set -e
 ./UEF2ROM.py -a -c :/: -m -r -s UEFs/West_RUN_E.uef ROMs/West-1.rom ROMs/West-2.rom
 ./UEF2ROM.py -a -c e00:e00/: -m -s UEFs/WheelOfFortune_E.uef ROMs/WheelOfFortune-1.rom ROMs/WheelOfFortune-2.rom
 ./UEF2ROM.py -a -c : -m UEFs/Where_E.uef ROMs/Where.rom
-./UEF2ROM.py -a -c e00:e00 -m UEFs/WhiteKnightMk11_E.uef ROMs/WhiteKnightMk11.rom
+./UEF2ROM.py -a -c e00: -f 1-2 -m UEFs/WhiteKnightMk11_E.uef ROMs/WhiteKnightMk11.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/Wychwood_RUN_BE.uef ROMs/Wychwood.rom
 ./UEF2ROM.py -a -c :::x -s -t -w d3f:ef97 UEFs/XOR_E.uef ROMs/XOR-1.rom ROMs/XOR-2.rom
 ./UEF2ROM.py -a -c e00:5300:500:1100/:x:5f80 -f 1-7 -p -s -t -w 39f UEFs/YieArKungFu_E.uef ROMs/YieArKungFu-1.rom ROMs/YieArKungFu-2.rom

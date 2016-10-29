@@ -26,7 +26,7 @@ OK,Bug Blaster,Alligata,BugBlast.uef,BugBlast-1.rom,BugBlast-2.rom,-a -c e00:e00
 OK,Bugs,Virgin,Bugs_E.uef,Bugs.rom,,-a -c :
 OK,Bumble Bee,Micro Power,BumbleBee_E.uef,BumbleBee.rom,,-a -c e00 -m
 Needs patching,By Fair Means Or Foul,Superior,Mega_Games_Cartridge/ByFairMeansOrFoul-EveryGameGoing.uef,,,
-OK (patched),Camelot,Superior,Camelot_E.uef,Camelot-1.rom,Camelot-2.rom,-a -c e00:::/: -s -t -w d3f:ef97
+OK (patched),Camelot,Superior,Mega_Games_Cartridge/Camelot-patched.uef,Camelot-1.rom,Camelot-2.rom,-a -c e00:::/: -s -t -w d3f:ef97
 OK,Castle Assault,Blue Ribbon,CastleAssault_E.uef,CastleAssault.rom,,-a -c e00:1600: -w 880
 OK,Castle Frankenstein,Epic,CastleFrankenstein_E.uef,CastleFrankenstein-1.rom,CastleFrankenstein-2.rom,-a -c e00:e00:/: -m -s
 OK,Castlemaze Adventure,Duckworth,EXPLADV-CastlemazeAdventure_E.uef,CastlemazeAdventure.rom,,-a -c : -m
@@ -230,7 +230,7 @@ OK,Village of Lost Souls,Robico,VillageOfLostSouls-RR_E.uef,Village-1.rom,Villag
 OK,West,Talent,West_RUN_E.uef,West-1.rom,West-2.rom,-a -c :/: -m -r -s
 OK,Wheel Of Fortune,Epic,WheelOfFortune_E.uef,WheelOfFortune-1.rom,WheelOfFortune-2.rom,-a -c e00:e00/: -m -s
 OK,Where,Micro Power,Where_E.uef,Where.rom,,-a -c : -m
-OK,White Knight Mk 11,BBCSoft,WhiteKnightMk11_E.uef,WhiteKnightMk11.rom,,-a -c e00:e00 -m
+OK,White Knight Mk 11,BBCSoft,WhiteKnightMk11_E.uef,WhiteKnightMk11.rom,,-a -c e00: -f 1-2 -m
 OK,Wychwood,Larsoft,Wychwood_RUN_BE.uef,Wychwood.rom,,-a -c : -m -r
 OK,XOR,Astral Software,XOR_E.uef,XOR-1.rom,XOR-2.rom,-a -c :::x -s -t -w d3f:ef97
 OK (patched),Yie Ar Kung Fu,Imagine,YieArKungFu_E.uef,YieArKungFu-1.rom,YieArKungFu-2.rom,-a -c e00:5300:500:1100/:x:5f80 -f 1-7 -p -s -t -w 39f
