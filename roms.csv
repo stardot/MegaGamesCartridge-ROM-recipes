@@ -8,7 +8,7 @@ OK,Arcadians,Acornsoft,Arcadians.uef,Arcadians-1.rom,Arcadians-2.rom,-a -c e00:.
 OK,Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,,-a -c e00 -w 39f
 OK,Ballistix,Superior,Ballistix_E-EveryGameGoing-BlueRibbon.uef,Ballistix-1.rom,Ballistix-2.rom,-a -c e00:e00:/: -p -s -w 39f
 OK,Balloon Buster,Blue Ribbon,BalloonBuster_E.uef,BalloonBuster.rom,,-a -c x:1100/: -s -t -w 39f
-OK,Bandits at 3 O'Clock,Micro Power,BanditsAt3OClock_E.uef,Bandits-1.rom,,-a -c : -m
+OK,Bandits at 3 O'Clock,Micro Power,BanditsAt3OClock_E.uef,Bandits.rom,,-a -c : -m
 OK,Barbarian (practice),Superior,Barbarian_E.uef,Barbarian-Practice-1.rom,Barbarian-Practice-2.rom,-a -c e00:e00::e00:6700:120/: -p -f 0-8 -s
 OK,Barbarian (fight),Superior,Barbarian_E.uef,Barbarian-Fight-1.rom,Barbarian-Fight-2.rom,-a -c e00:e00::e00:6700:120/: -p -f 9-17 -s
 Too large,Barbarian 2,Superior,Barbarian2_E.uef,,,
