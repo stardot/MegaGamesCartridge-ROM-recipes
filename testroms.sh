@@ -11,7 +11,7 @@ elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 elkulator -rom2 ROMs/AstroPlumber.rom
 elkulator -rom2 ROMs/Ballistix-1.rom -rom1 ROMs/Ballistix-2.rom
 elkulator -rom2 ROMs/BalloonBuster.rom
-elkulator -rom2 ROMs/Bandits-1.rom
+elkulator -rom2 ROMs/Bandits.rom
 elkulator -rom2 ROMs/Barbarian-Practice-1.rom -rom1 ROMs/Barbarian-Practice-2.rom
 elkulator -rom2 ROMs/Barbarian-Fight-1.rom -rom1 ROMs/Barbarian-Fight-2.rom
 elkulator -rom2 ROMs/Baron-1.rom -rom1 ROMs/Baron-2.rom
@@ -93,6 +93,7 @@ elkulator -rom2 ROMs/Hex.rom
 elkulator -rom2 ROMs/Hampstead-1.rom -rom1 ROMs/Hampstead-2.rom
 elkulator -rom2 ROMs/Hobgoblin.rom
 elkulator -rom2 ROMs/Hobgoblin2-1.rom -rom1 ROMs/Hobgoblin2-2.rom
+elkulator -rom2 ROMs/Hopper.rom
 elkulator -rom2 ROMs/HorseRace.rom
 elkulator -rom2 ROMs/Hunchback.rom
 elkulator -rom2 ROMs/Hunkidory-1.rom -rom1 ROMs/Hunkidory-2.rom
@@ -175,6 +176,7 @@ elkulator -rom2 ROMs/Shark.rom
 elkulator -rom2 ROMs/Sim.rom
 elkulator -rom2 ROMs/SimCity-1.rom -rom1 ROMs/SimCity-2.rom
 elkulator -rom2 ROMs/SmashAndGrab.rom
+elkulator -rom2 ROMs/Snapper.rom
 elkulator -rom2 ROMs/Snooker.rom
 elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
@@ -185,6 +187,7 @@ elkulator -rom2 ROMs/Spitfire40-1.rom -rom1 ROMs/Spitfire40-2.rom
 elkulator -rom2 ROMs/SpyCat-1.rom -rom1 ROMs/SpyCat-2.rom
 elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
 elkulator -rom2 ROMs/StarPort-1.rom -rom1 ROMs/StarPort-2.rom
+elkulator -rom2 ROMs/StarshipCommand.rom
 elkulator -rom2 ROMs/StarWars-1.rom -rom1 ROMs/StarWars-2.rom
 elkulator -rom2 ROMs/SteveDavisSnooker.rom
 elkulator -rom2 ROMs/StockCar.rom

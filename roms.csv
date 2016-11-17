@@ -101,6 +101,7 @@ OK,Hex,Larsoft,Hex_RUN_BE.uef,Hex.rom,,-a -c : -m -r
 OK,Hampstead,Melbourne House,Hampstead_BE.uef,Hampstead-1.rom,Hampstead-2.rom,-a -c e00/: -m -s
 OK,Hobgoblin,Atlantis,Hobgoblin_E.uef,Hobgoblin.rom,,-a -c :5d00:::1ec0::900 -m
 OK,Hobgoblin 2,Atlantis,Hobgoblin2_E.uef,Hobgoblin2-1.rom,Hobgoblin2-2.rom,-a -c :::::57d0/: -m -s
+OK,Hopper,Acornsoft,Mega_Games_Cartridge/Hopper-STH-ROM.uef,Hopper.rom,,-a -c x:e00: -r -w 880
 OK,HorseRace,Dynabyte,HorseRace_E.uef,HorseRace.rom,,-a -c e00 -w 39f
 OK,Hunchback,Ocean,Hunchback-Ocean_E.uef,Hunchback.rom,,-a -c :900 -m
 OK,Hunkidory,Bug Byte,Hunkidory_BE.uef,Hunkidory-1.rom,Hunkidory-2.rom,-a -c :/: -p -s -w 39f
@@ -186,6 +187,7 @@ OK,Shark,ASL,Shark_E.uef,Shark.rom,,-a -c : -m
 OK,Sim,Visions,Sim_Tape.uef,Sim.rom,,-a -c e00: -w 880
 OK (truncated),Sim City,Superior,SimCity_E.uef,SimCity-1.rom,SimCity-2.rom,-a -c e00:e00:::3c00/: -f 0-7 -p -s -w 39f
 OK,Smash And Grab,Superior,SmashAndGrab_E.uef,SmashAndGrab.rom,,-a -c e00::5000
+OK,Snapper,Acornsoft,Mega_Games_Cartridge/Snapper-STH-ROM.uef,Snapper.rom,,-a -c x:e00: -r -w 880
 OK,Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,,-a -c e00::.2f8a -m
 OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes.rom,,-a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f
 OK,Spaceman Sid,English,SpacemanSid_E.uef,SpacemanSid-1.rom,SpacemanSid-2.rom,-a -c e00::x -s -t
@@ -197,6 +199,7 @@ OK,Spitfire 40,Mirrorsoft,Spitfire40_E.uef,Spitfire40-1.rom,Spitfire40-2.rom,-a 
 OK (truncated),Spycat,Superior,SpyCat_E.uef,SpyCat-1.rom,SpyCat-2.rom,-a -c :/: -f 3-6 -m -r -s
 OK (patched),Spy vs Spy,Tynesoft,Mega_Games_Cartridge/SpyVsSpy-patched.uef,SpyVsSpy-1.rom,SpyVsSpy-2.rom,-a -c x::x:/: -p -s -w 39f -x
 OK,Star Port,Superior,Mega_Games_Cartridge/PI14-StarPort-EveryGameGoing-fromSSD.uef,StarPort-1.rom,StarPort-2.rom,-a -c e00/: -m -s
+OK,Starship Command,Acornsoft,Mega_Games_Cartridge/StarshipCommand-STH-ROM.uef,StarshipCommand.rom,,-a -c x:e00: -f 0:1:3:2 -r -w 880
 OK (patched),Star Wars,Domark,StarWars_E.uef,StarWars-1.rom,StarWars-2.rom,-a -c e00:3780:900:2000/7620 -m -s
 OK,Steve Davis Snooker,Blue Ribbon,SteveDavisSnooker-PIASRR_E.uef,SteveDavisSnooker.rom,,-a -c :e00::e00/:
 OK,Stock Car,Micro Power,StockCar.uef,StockCar.rom,,-a -c e00:e00

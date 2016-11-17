@@ -11,7 +11,7 @@ set -e
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/AstroPlumber_E.uef ROMs/AstroPlumber.rom
 ./UEF2ROM.py -a -c e00:e00:/: -p -s -w 39f UEFs/Ballistix_E-EveryGameGoing-BlueRibbon.uef ROMs/Ballistix-1.rom ROMs/Ballistix-2.rom
 ./UEF2ROM.py -a -c x:1100/: -s -t -w 39f UEFs/BalloonBuster_E.uef ROMs/BalloonBuster.rom
-./UEF2ROM.py -a -c : -m UEFs/BanditsAt3OClock_E.uef ROMs/Bandits-1.rom
+./UEF2ROM.py -a -c : -m UEFs/BanditsAt3OClock_E.uef ROMs/Bandits.rom
 ./UEF2ROM.py -a -c e00:e00::e00:6700:120/: -p -f 0-8 -s UEFs/Barbarian_E.uef ROMs/Barbarian-Practice-1.rom ROMs/Barbarian-Practice-2.rom
 ./UEF2ROM.py -a -c e00:e00::e00:6700:120/: -p -f 9-17 -s UEFs/Barbarian_E.uef ROMs/Barbarian-Fight-1.rom ROMs/Barbarian-Fight-2.rom
 ./UEF2ROM.py -a -c e00:e00:5800:60c0:e00/400:920:860:5d00 -s -t -w 120 UEFs/Baron_E.uef ROMs/Baron-1.rom ROMs/Baron-2.rom
@@ -93,6 +93,7 @@ set -e
 ./UEF2ROM.py -a -c e00/: -m -s UEFs/Hampstead_BE.uef ROMs/Hampstead-1.rom ROMs/Hampstead-2.rom
 ./UEF2ROM.py -a -c :5d00:::1ec0::900 -m UEFs/Hobgoblin_E.uef ROMs/Hobgoblin.rom
 ./UEF2ROM.py -a -c :::::57d0/: -m -s UEFs/Hobgoblin2_E.uef ROMs/Hobgoblin2-1.rom ROMs/Hobgoblin2-2.rom
+./UEF2ROM.py -a -c x:e00: -r -w 880 UEFs/Mega_Games_Cartridge/Hopper-STH-ROM.uef ROMs/Hopper.rom
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/HorseRace_E.uef ROMs/HorseRace.rom
 ./UEF2ROM.py -a -c :900 -m UEFs/Hunchback-Ocean_E.uef ROMs/Hunchback.rom
 ./UEF2ROM.py -a -c :/: -p -s -w 39f UEFs/Hunkidory_BE.uef ROMs/Hunkidory-1.rom ROMs/Hunkidory-2.rom
@@ -175,6 +176,7 @@ set -e
 ./UEF2ROM.py -a -c e00: -w 880 UEFs/Sim_Tape.uef ROMs/Sim.rom
 ./UEF2ROM.py -a -c e00:e00:::3c00/: -f 0-7 -p -s -w 39f UEFs/SimCity_E.uef ROMs/SimCity-1.rom ROMs/SimCity-2.rom
 ./UEF2ROM.py -a -c e00::5000 UEFs/SmashAndGrab_E.uef ROMs/SmashAndGrab.rom
+./UEF2ROM.py -a -c x:e00: -r -w 880 UEFs/Mega_Games_Cartridge/Snapper-STH-ROM.uef ROMs/Snapper.rom
 ./UEF2ROM.py -a -c e00::.2f8a -m UEFs/Snooker-Acornsoft_E.uef ROMs/Snooker.rom
 ./UEF2ROM.py -a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 ./UEF2ROM.py -a -c e00::x -s -t UEFs/SpacemanSid_E.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
@@ -185,6 +187,7 @@ set -e
 ./UEF2ROM.py -a -c :/: -f 3-6 -m -r -s UEFs/SpyCat_E.uef ROMs/SpyCat-1.rom ROMs/SpyCat-2.rom
 ./UEF2ROM.py -a -c x::x:/: -p -s -w 39f -x UEFs/Mega_Games_Cartridge/SpyVsSpy-patched.uef ROMs/SpyVsSpy-1.rom ROMs/SpyVsSpy-2.rom
 ./UEF2ROM.py -a -c e00/: -m -s UEFs/Mega_Games_Cartridge/PI14-StarPort-EveryGameGoing-fromSSD.uef ROMs/StarPort-1.rom ROMs/StarPort-2.rom
+./UEF2ROM.py -a -c x:e00: -f 0:1:3:2 -r -w 880 UEFs/Mega_Games_Cartridge/StarshipCommand-STH-ROM.uef ROMs/StarshipCommand.rom
 ./UEF2ROM.py -a -c e00:3780:900:2000/7620 -m -s UEFs/StarWars_E.uef ROMs/StarWars-1.rom ROMs/StarWars-2.rom
 ./UEF2ROM.py -a -c :e00::e00/: UEFs/SteveDavisSnooker-PIASRR_E.uef ROMs/SteveDavisSnooker.rom
 ./UEF2ROM.py -a -c e00:e00 UEFs/StockCar.uef ROMs/StockCar.rom
