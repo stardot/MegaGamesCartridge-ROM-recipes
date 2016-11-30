@@ -62,6 +62,7 @@ elkulator -rom2 ROMs/DrainMania-1.rom -rom1 ROMs/DrainMania-2.rom
 elkulator -rom2 ROMs/Draughts-Acornsoft.rom
 elkulator -rom2 ROMs/Draughts-ComputerConcepts.rom
 elkulator -rom2 ROMs/Draughts-Superior.rom
+elkulator -rom2 ROMs/Dunjunz-1.rom -rom1 ROMs/Dunjunz-2.rom
 elkulator -rom2 ROMs/ElectronInvaders.rom
 elkulator -rom2 ROMs/Elite-1.rom -rom1 ROMs/Elite-2.rom
 elkulator -rom2 ROMs/Elixir-1.rom -rom1 ROMs/Elixir-2.rom

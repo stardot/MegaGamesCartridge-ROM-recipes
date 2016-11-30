@@ -62,6 +62,7 @@ set -e
 ./UEF2ROM.py -a -c e00 UEFs/DAR-Draughts_E.uef ROMs/Draughts-Acornsoft.rom
 ./UEF2ROM.py -a -c : -m UEFs/Draughts-ComputerConcepts_BE.uef ROMs/Draughts-ComputerConcepts.rom
 ./UEF2ROM.py -a -c e00 UEFs/Draughts-Superior_E.uef ROMs/Draughts-Superior.rom
+./UEF2ROM.py -a -c :/: -f 1-28 -r -s -w 39f UEFs/Mega_Games_Cartridge/Dunjunz-patched.uef ROMs/Dunjunz-1.rom ROMs/Dunjunz-2.rom
 ./UEF2ROM.py -a -c e00: -m UEFs/ElectronInvaders_E.uef ROMs/ElectronInvaders.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Elite-SRR_E.uef ROMs/Elite-1.rom ROMs/Elite-2.rom
 ./UEF2ROM.py -a -c e00:/: -s -t -w 39f UEFs/Elixir_E.uef ROMs/Elixir-1.rom ROMs/Elixir-2.rom

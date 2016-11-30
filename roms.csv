@@ -68,7 +68,7 @@ OK,Draughts,Acornsoft,DAR-Draughts_E.uef,Draughts-Acornsoft.rom,,-a -c e00
 OK,Draughts,Computer Concepts,Draughts-ComputerConcepts_BE.uef,Draughts-ComputerConcepts.rom,,-a -c : -m
 OK,Draughts,Superior,Draughts-Superior_E.uef,Draughts-Superior.rom,,-a -c e00
 Fails to load,Eddie Kidd Jump Challenge,Martech,EddieKiddJumpChallenge_E.uef,,,
-Too large,Dunjunz,Bug Byte,Dunjunz_E.uef,,,
+OK (patched),Dunjunz,Bug Byte,Mega_Games_Cartridge/Dunjunz-patched.uef,Dunjunz-1.rom,Dunjunz-2.rom,-a -c :/: -f 1-28 -r -s -w 39f
 OK,Electron Invaders,Program Power,ElectronInvaders_E.uef,ElectronInvaders.rom,,-a -c e00: -m
 OK,Elite,Acornsoft,Elite-SRR_E.uef,Elite-1.rom,Elite-2.rom,-a -c e00:/: -s
 OK,Elixir,Superior,Elixir_E.uef,Elixir-1.rom,Elixir-2.rom,-a -c e00:/: -s -t -w 39f
