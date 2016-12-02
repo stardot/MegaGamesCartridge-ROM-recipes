@@ -98,6 +98,7 @@ set -e
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/HorseRace_E.uef ROMs/HorseRace.rom
 ./UEF2ROM.py -a -c :900 -m UEFs/Hunchback-Ocean_E.uef ROMs/Hunchback.rom
 ./UEF2ROM.py -a -c :/: -p -s -w 39f UEFs/Hunkidory_BE.uef ROMs/Hunkidory-1.rom ROMs/Hunkidory-2.rom
+./UEF2ROM.py -a -c .e00:/: -f 2-4:s:5-24 -r -w 39f UEFs/Mega_Games_Cartridge/Icarus-patched.uef ROMs/Icarus-1.rom ROMs/Icarus-2.rom
 ./UEF2ROM.py -a -c e00::x:/: -m -s UEFs/Impact.uef ROMs/Impact-1.rom ROMs/Impact-2.rom
 ./UEF2ROM.py -a -c :x:x:x/x -s -t -w d3f:ef97 UEFs/ImpossibleMission_E.uef ROMs/ImpossibleMission-1.rom ROMs/ImpossibleMission-2.rom
 ./UEF2ROM.py -a -c e00:6980:8c0/: -m -s UEFs/Inertia_E.uef ROMs/Inertia-1.rom ROMs/Inertia-2.rom

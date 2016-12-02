@@ -98,6 +98,7 @@ elkulator -rom2 ROMs/Hopper.rom
 elkulator -rom2 ROMs/HorseRace.rom
 elkulator -rom2 ROMs/Hunchback.rom
 elkulator -rom2 ROMs/Hunkidory-1.rom -rom1 ROMs/Hunkidory-2.rom
+elkulator -rom2 ROMs/Icarus-1.rom -rom1 ROMs/Icarus-2.rom
 elkulator -rom2 ROMs/Impact-1.rom -rom1 ROMs/Impact-2.rom
 elkulator -rom2 ROMs/ImpossibleMission-1.rom -rom1 ROMs/ImpossibleMission-2.rom
 elkulator -rom2 ROMs/Inertia-1.rom -rom1 ROMs/Inertia-2.rom

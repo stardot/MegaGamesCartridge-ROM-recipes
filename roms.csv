@@ -105,7 +105,7 @@ OK,Hopper,Acornsoft,Mega_Games_Cartridge/Hopper-STH-ROM.uef,Hopper.rom,,-a -c x:
 OK,HorseRace,Dynabyte,HorseRace_E.uef,HorseRace.rom,,-a -c e00 -w 39f
 OK,Hunchback,Ocean,Hunchback-Ocean_E.uef,Hunchback.rom,,-a -c :900 -m
 OK,Hunkidory,Bug Byte,Hunkidory_BE.uef,Hunkidory-1.rom,Hunkidory-2.rom,-a -c :/: -p -s -w 39f
-Too large,Icarus,Mandarin,Icarus_E.uef,,,
+OK (patched),Icarus,Mandarin,Mega_Games_Cartridge/Icarus-patched.uef,Icarus-1.rom,Icarus-2.rom,-a -c .e00:/: -f 2-4:s:5-24 -r -w 39f
 OK,Impact,Audiogenic,Impact.uef,Impact-1.rom,Impact-2.rom,-a -c e00::x:/: -m -s
 OK,Impossible Mission,U.S. Gold,ImpossibleMission_E.uef,ImpossibleMission-1.rom,ImpossibleMission-2.rom,-a -c :x:x:x/x -s -t -w d3f:ef97
 OK,Inertia,4th Dimension,Inertia_E.uef,Inertia-1.rom,Inertia-2.rom,-a -c e00:6980:8c0/: -m -s
