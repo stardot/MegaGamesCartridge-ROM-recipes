@@ -1,0 +1,4 @@
+The level data in the Level* files is scrambled which makes the results of
+compression poor. We unscramble it in advance and insert an RTS instruction
+into the level loading code in order to skip the unscrambling and checksum
+code that would otherwise be executed at run-time.

@@ -1,0 +1,4 @@
+The level data in the DECK* files is scrambled which makes the results of
+compression poor. We unscramble it in advance and comment out the EOR
+instruction in the Vars file that would otherwise perform unscrambling at
+run-time.
