@@ -97,10 +97,10 @@ OK,Guardian,Alligata,Guardian_E.uef,Guardian.rom,,-a -c e00:e00:x -w 39f -t
 OK,Gunfighter,Atlantis,Gunfighter_BE.uef,Gunfighter-1.rom,Gunfighter-2.rom,-a -c e00:c00:e00:5bc0/900:b00:5800 -m -s
 OK,Gunsmoke,Software Invasion,Gunsmoke_E.uef,Gunsmoke.rom,,-a -c :
 OK,Gyroscope,Melbourne House,Gyroscope_E.uef,Gyroscope-1.rom,Gyroscope-2.rom,-a -c e00/: -t -s -w 39f
+OK,Hampstead,Melbourne House,Hampstead_BE.uef,Hampstead-1.rom,Hampstead-2.rom,-a -c e00/: -m -s
 OK,Hard Hat Harry,Retro Software,HardHatHarry-ElectronTape.uef,HardHatHarry.rom,,-a -c : -m
 OK,Haunted House,Electron User,10Best1-HauntedHouse_E.uef,HauntedHouse.rom,,-a -c e00 -m
 OK,Hex,Larsoft,Hex_RUN_BE.uef,Hex.rom,,-a -c : -m -r
-OK,Hampstead,Melbourne House,Hampstead_BE.uef,Hampstead-1.rom,Hampstead-2.rom,-a -c e00/: -m -s
 OK,Hobgoblin,Atlantis,Hobgoblin_E.uef,Hobgoblin.rom,,-a -c :5d00:::1ec0::900 -m
 OK,Hobgoblin 2,Atlantis,Hobgoblin2_E.uef,Hobgoblin2-1.rom,Hobgoblin2-2.rom,-a -c :::::57d0/: -m -s
 OK,Hopper,Acornsoft,Mega_Games_Cartridge/Hopper-STH-ROM.uef,Hopper.rom,,-a -c x:e00: -r -w 880
