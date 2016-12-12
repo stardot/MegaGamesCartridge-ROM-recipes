@@ -90,6 +90,8 @@ set -e
 ./UEF2ROM.py -a -c e00:c00:e00:5bc0/900:b00:5800 -m -s UEFs/Gunfighter_BE.uef ROMs/Gunfighter-1.rom ROMs/Gunfighter-2.rom
 ./UEF2ROM.py -a -c : UEFs/Gunsmoke_E.uef ROMs/Gunsmoke.rom
 ./UEF2ROM.py -a -c e00/: -t -s -w 39f UEFs/Gyroscope_E.uef ROMs/Gyroscope-1.rom ROMs/Gyroscope-2.rom
+./UEF2ROM.py -a -c : -m UEFs/HardHatHarry-ElectronTape.uef ROMs/HardHatHarry.rom
+./UEF2ROM.py -a -c e00 -m UEFs/10Best1-HauntedHouse_E.uef ROMs/HauntedHouse.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/Hex_RUN_BE.uef ROMs/Hex.rom
 ./UEF2ROM.py -a -c e00/: -m -s UEFs/Hampstead_BE.uef ROMs/Hampstead-1.rom ROMs/Hampstead-2.rom
 ./UEF2ROM.py -a -c :5d00:::1ec0::900 -m UEFs/Hobgoblin_E.uef ROMs/Hobgoblin.rom
@@ -113,6 +115,7 @@ set -e
 ./UEF2ROM.py -a -c :/: -s -w 39f UEFs/KillerGorilla2-PIAS_E.uef ROMs/KillerGorilla2-1.rom ROMs/KillerGorilla2-2.rom
 ./UEF2ROM.py -a -c :/: -m -s UEFs/KingdomOfKlein_E.uef ROMs/KingdomOfKlein-1.rom ROMs/KingdomOfKlein-2.rom
 ./UEF2ROM.py -a -c e00::x:x -w 120 -s -t UEFs/KissinCousins_E.uef ROMs/KissinCousins-1.rom ROMs/KissinCousins-2.rom
+./UEF2ROM.py -a -c e00 -m UEFs/10Best1-Knockout_E.uef ROMs/Knockout.rom
 ./UEF2ROM.py -a -c x:/: -m -r -s UEFs/LastOfTheFree_E.uef ROMs/LastOfTheFree-1.rom ROMs/LastOfTheFree-2.rom
 ./UEF2ROM.py -a -c :::58e0:4160:d00/400 -p -w 39f UEFs/LocksOfLuck_E.uef ROMs/LocksOfLuck-1.rom ROMs/LocksOfLuck-2.rom
 ./UEF2ROM.py -a -c e00:1300/: -m -s UEFs/Locomotion_E.uef ROMs/Locomotion-1.rom ROMs/Locomotion-2.rom
@@ -120,6 +123,7 @@ set -e
 ./UEF2ROM.py -a -c e00:e00::x -m UEFs/LunarRescue_E.uef ROMs/LunarRescue.rom
 ./UEF2ROM.py -a -c e00:.4700 -m UEFs/MagicMushrooms_Tape.uef ROMs/MagicMushrooms.rom
 ./UEF2ROM.py -a -c e00: -m UEFs/Maze_E.uef ROMs/Maze.rom
+./UEF2ROM.py -a -c e00:e00::e00 -m UEFs/Mega_Games_Cartridge/MazezaM_2.1.uef ROMs/MazezaM.rom
 ./UEF2ROM.py -a -c e00 -f 0-1 UEFs/Meteors_E.uef ROMs/Meteors.rom
 ./UEF2ROM.py -a -c e00:1200:1400 -m UEFs/Microball_BE.uef ROMs/Microball.rom
 ./UEF2ROM.py -a -c ::::/::x -p -t -w 39f -s UEFs/Mikie_E.uef ROMs/Mikie-1.rom ROMs/Mikie-2.rom

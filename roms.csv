@@ -97,6 +97,8 @@ OK,Guardian,Alligata,Guardian_E.uef,Guardian.rom,,-a -c e00:e00:x -w 39f -t
 OK,Gunfighter,Atlantis,Gunfighter_BE.uef,Gunfighter-1.rom,Gunfighter-2.rom,-a -c e00:c00:e00:5bc0/900:b00:5800 -m -s
 OK,Gunsmoke,Software Invasion,Gunsmoke_E.uef,Gunsmoke.rom,,-a -c :
 OK,Gyroscope,Melbourne House,Gyroscope_E.uef,Gyroscope-1.rom,Gyroscope-2.rom,-a -c e00/: -t -s -w 39f
+OK,Hard Hat Harry,Retro Software,HardHatHarry-ElectronTape.uef,HardHatHarry.rom,,-a -c : -m
+OK,Haunted House,Electron User,10Best1-HauntedHouse_E.uef,HauntedHouse.rom,,-a -c e00 -m
 OK,Hex,Larsoft,Hex_RUN_BE.uef,Hex.rom,,-a -c : -m -r
 OK,Hampstead,Melbourne House,Hampstead_BE.uef,Hampstead-1.rom,Hampstead-2.rom,-a -c e00/: -m -s
 OK,Hobgoblin,Atlantis,Hobgoblin_E.uef,Hobgoblin.rom,,-a -c :5d00:::1ec0::900 -m
@@ -120,6 +122,7 @@ OK,Killer Gorilla,Program Power,KillerGorilla.uef,KillerGorilla.rom,,-a -c e00:
 OK,Killer Gorilla 2,Superior/Acornsoft,KillerGorilla2-PIAS_E.uef,KillerGorilla2-1.rom,KillerGorilla2-2.rom,-a -c :/: -s -w 39f
 OK,Kingdom Of Klein,Epic,KingdomOfKlein_E.uef,KingdomOfKlein-1.rom,KingdomOfKlein-2.rom,-a -c :/: -m -s
 OK,Kissin Cousins,English,KissinCousins_E.uef,KissinCousins-1.rom,KissinCousins-2.rom,-a -c e00::x:x -w 120 -s -t
+OK,Knockout,Electron User,10Best1-Knockout_E.uef,Knockout.rom,,-a -c e00 -m
 OK,Last Of The Free,ASL,LastOfTheFree_E.uef,LastOfTheFree-1.rom,LastOfTheFree-2.rom,-a -c x:/: -m -r -s
 OK,Locks Of Luck,Magus,LocksOfLuck_E.uef,LocksOfLuck-1.rom,LocksOfLuck-2.rom,-a -c :::58e0:4160:d00/400 -p -w 39f
 OK,Locomotion,BBCSoft,Locomotion_E.uef,Locomotion-1.rom,Locomotion-2.rom,-a -c e00:1300/: -m -s
@@ -127,6 +130,7 @@ OK,Loopz,Audiogenic,Loopz_E.uef,Loopz-1.rom,Loopz-2.rom,-a -c ::x:/: -m
 OK,Lunar Rescue,Alligata,LunarRescue_E.uef,LunarRescue.rom,,-a -c e00:e00::x -m
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms_Tape.uef,MagicMushrooms.rom,,-a -c e00:.4700 -m
 OK,Maze,Acornsoft,Maze_E.uef,Maze.rom,,-a -c e00: -m
+OK,MazezaM,Retro Software,Mega_Games_Cartridge/MazezaM_2.1.uef,MazezaM.rom,,-a -c e00:e00::e00 -m
 OK,Meteors,Acornsoft,Meteors_E.uef,Meteors.rom,,-a -c e00 -f 0-1
 OK,Microball,Alternative,Microball_BE.uef,Microball.rom,,-a -c e00:1200:1400 -m
 OK,Mikie,Imagine,Mikie_E.uef,Mikie-1.rom,Mikie-2.rom,-a -c ::::/::x -p -t -w 39f -s

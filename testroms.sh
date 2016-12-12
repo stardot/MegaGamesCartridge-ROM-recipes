@@ -90,6 +90,8 @@ elkulator -rom2 ROMs/Guardian.rom
 elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
 elkulator -rom2 ROMs/Gunsmoke.rom
 elkulator -rom2 ROMs/Gyroscope-1.rom -rom1 ROMs/Gyroscope-2.rom
+elkulator -rom2 ROMs/HardHatHarry.rom
+elkulator -rom2 ROMs/HauntedHouse.rom
 elkulator -rom2 ROMs/Hex.rom
 elkulator -rom2 ROMs/Hampstead-1.rom -rom1 ROMs/Hampstead-2.rom
 elkulator -rom2 ROMs/Hobgoblin.rom
@@ -113,6 +115,7 @@ elkulator -rom2 ROMs/KillerGorilla.rom
 elkulator -rom2 ROMs/KillerGorilla2-1.rom -rom1 ROMs/KillerGorilla2-2.rom
 elkulator -rom2 ROMs/KingdomOfKlein-1.rom -rom1 ROMs/KingdomOfKlein-2.rom
 elkulator -rom2 ROMs/KissinCousins-1.rom -rom1 ROMs/KissinCousins-2.rom
+elkulator -rom2 ROMs/Knockout.rom
 elkulator -rom2 ROMs/LastOfTheFree-1.rom -rom1 ROMs/LastOfTheFree-2.rom
 elkulator -rom2 ROMs/LocksOfLuck-1.rom -rom1 ROMs/LocksOfLuck-2.rom
 elkulator -rom2 ROMs/Locomotion-1.rom -rom1 ROMs/Locomotion-2.rom
@@ -120,6 +123,7 @@ elkulator -rom2 ROMs/Loopz-1.rom -rom1 ROMs/Loopz-2.rom
 elkulator -rom2 ROMs/LunarRescue.rom
 elkulator -rom2 ROMs/MagicMushrooms.rom
 elkulator -rom2 ROMs/Maze.rom
+elkulator -rom2 ROMs/MazezaM.rom
 elkulator -rom2 ROMs/Meteors.rom
 elkulator -rom2 ROMs/Microball.rom
 elkulator -rom2 ROMs/Mikie-1.rom -rom1 ROMs/Mikie-2.rom
