@@ -42,6 +42,7 @@ elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
 elkulator -rom2 ROMs/ClassicAdventure-1.rom -rom1 ROMs/ClassicAdventure-2.rom
 elkulator -rom2 ROMs/CodenameDroid-1.rom -rom1 ROMs/CodenameDroid-2.rom
 elkulator -rom2 ROMs/ConditionRed.rom
+elkulator -rom2 ROMs/Confuzion.rom
 elkulator -rom2 ROMs/CosmicCamouflage.rom
 elkulator -rom2 ROMs/CrazeeRider-1.rom -rom1 ROMs/CrazeeRider-2.rom
 elkulator -rom2 ROMs/CrazyTracer.rom
@@ -90,10 +91,10 @@ elkulator -rom2 ROMs/Guardian.rom
 elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
 elkulator -rom2 ROMs/Gunsmoke.rom
 elkulator -rom2 ROMs/Gyroscope-1.rom -rom1 ROMs/Gyroscope-2.rom
+elkulator -rom2 ROMs/Hampstead-1.rom -rom1 ROMs/Hampstead-2.rom
 elkulator -rom2 ROMs/HardHatHarry.rom
 elkulator -rom2 ROMs/HauntedHouse.rom
 elkulator -rom2 ROMs/Hex.rom
-elkulator -rom2 ROMs/Hampstead-1.rom -rom1 ROMs/Hampstead-2.rom
 elkulator -rom2 ROMs/Hobgoblin.rom
 elkulator -rom2 ROMs/Hobgoblin2-1.rom -rom1 ROMs/Hobgoblin2-2.rom
 elkulator -rom2 ROMs/Hopper.rom
@@ -229,6 +230,7 @@ elkulator -rom2 ROMs/WhiteKnightMk11.rom
 elkulator -rom2 ROMs/Wychwood.rom
 elkulator -rom2 ROMs/XOR-1.rom -rom1 ROMs/XOR-2.rom
 elkulator -rom2 ROMs/YieArKungFu-1.rom -rom1 ROMs/YieArKungFu-2.rom
+elkulator -rom2 ROMs/YieArKungFu2-1.rom -rom1 ROMs/YieArKungFu-2.rom
 elkulator -rom2 ROMs/Zalaga-1.rom -rom1 ROMs/Zalaga-2.rom
 elkulator -rom2 ROMs/ZanyKongJunior.rom
 elkulator -rom2 ROMs/Zenon-1.rom -rom1 ROMs/Zenon-2.rom
