@@ -241,7 +241,7 @@ OK,White Knight Mk 11,BBCSoft,WhiteKnightMk11_E.uef,WhiteKnightMk11.rom,,-a -c e
 OK,Wychwood,Larsoft,Wychwood_RUN_BE.uef,Wychwood.rom,,-a -c : -m -r
 OK,XOR,Astral Software,XOR_E.uef,XOR-1.rom,XOR-2.rom,-a -c :::x -s -t -w d3f:ef97
 OK (patched),Yie Ar Kung Fu,Imagine,YieArKungFu_E.uef,YieArKungFu-1.rom,YieArKungFu-2.rom,-a -c e00:5300:500:1100/:x:5f80 -f 1-7 -p -s -t -w 39f
-OK (patched),Yie Ar Kung Fu 2,Imagine,Mega_Games_Cartridge/YieArKungFu2-EveryGameGoing.uef,YieArKungFu2-1.rom,YieArKungFu-2.rom,-a -c e00:1d00:1d00:1d00:2800/2400 -m -s
+OK (patched),Yie Ar Kung Fu 2,Imagine,Mega_Games_Cartridge/YieArKungFu2-EveryGameGoing.uef,YieArKungFu2-1.rom,YieArKungFu2-2.rom,-a -c e00:1d00:1d00:1d00:2800/2400 -m -s
 OK,Zalaga,Aardvark,Zalaga-ALRR_E.uef,Zalaga-1.rom,Zalaga-2.rom,-a -c e00:/: -s
 OK,Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,,-a -c e00
 OK,Zenon,Impact,Zenon_E.uef,Zenon-1.rom,Zenon-2.rom,-a -c :5800:/: -m -s
