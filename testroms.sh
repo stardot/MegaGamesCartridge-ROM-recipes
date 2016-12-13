@@ -140,6 +140,7 @@ elkulator -rom2 ROMs/MrWiz.rom
 elkulator -rom2 ROMs/Myorem-1.rom -rom1 ROMs/Myorem-2.rom
 elkulator -rom2 ROMs/Network-1.rom -rom1 ROMs/Network-2.rom
 elkulator -rom2 ROMs/NightmareMaze.rom
+elkulator -rom2 ROMs/OmegaOrb-1.rom -rom1 ROMs/OmegaOrb-2.rom
 elkulator -rom2 ROMs/Overdrive.rom
 elkulator -rom2 ROMs/Oxbridge-1.rom -rom1 ROMs/Oxbridge-2.rom
 elkulator -rom2 ROMs/PalaceOfMagic-1.rom -rom1 ROMs/PalaceOfMagic-2.rom

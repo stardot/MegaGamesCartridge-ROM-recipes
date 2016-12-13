@@ -144,7 +144,7 @@ OK,Mr Wiz,Superior,MrWiz.uef,MrWiz.rom,,-a -c e00::x: -p -s -w 39f
 OK,Myorem,Robico,RHT3-Myorem_E.uef,Myorem-1.rom,Myorem-2.rom,-a -c e00::::/x:x: -s -t -T -w 100
 OK,Network,Superior,Network-PIASRR_E.uef,Network-1.rom,Network-2.rom,-a -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f
 OK,Nightmare Maze,MRM,NightmareMaze-MRM_E.uef,NightmareMaze.rom,,-a -c : -w 39f
-Needs patching,Omega Orb,Audiogenic,OmegaOrb_E.uef,,,
+OK (patched),Omega Orb,Audiogenic,Mega_Games_Cartridge/OmegaOrb-EveryGameGoing-fromSSD.uef,OmegaOrb-1.rom,OmegaOrb-2.rom,-a -c ::60c0:2100:/: -p -s -w 39f
 OK,Overdrive,Superior,Overdrive_E.uef,Overdrive.rom,,-a -c e00::2300
 OK,Oxbridge,Tynesoft,Oxbridge_E.uef,Oxbridge-1.rom,Oxbridge-2.rom,-a -c e00:/: -s -t -w 39f
 OK,Palace Of Magic (original),Superior,PalaceOfMagic_E.uef,PalaceOfMagic-1.rom,PalaceOfMagic-2.rom,-a -c e00/: -s
