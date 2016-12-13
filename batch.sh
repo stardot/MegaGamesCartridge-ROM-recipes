@@ -26,6 +26,7 @@ set -e
 ./UEF2ROM.py -a -c e00:e00:5800:e00:e00/: -w 880 UEFs/BugBlast.uef ROMs/BugBlast-1.rom ROMs/BugBlast-2.rom
 ./UEF2ROM.py -a -c : UEFs/Bugs_E.uef ROMs/Bugs.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/BumbleBee_E.uef ROMs/BumbleBee.rom
+./UEF2ROM.py -a -c :/: -p -s -w 39f UEFs/Mega_Games_Cartridge/ByFairMeansOrFoul-EveryGameGoing.uef ROMs/ByFairMeansOrFoul-1.rom ROMs/ByFairMeansOrFoul-2.rom
 ./UEF2ROM.py -a -c e00:::/: -s -t -w d3f:ef97 UEFs/Mega_Games_Cartridge/Camelot-patched.uef ROMs/Camelot-1.rom ROMs/Camelot-2.rom
 ./UEF2ROM.py -a -c e00:1600: -w 880 UEFs/CastleAssault_E.uef ROMs/CastleAssault.rom
 ./UEF2ROM.py -a -c e00:e00:/: -m -s UEFs/CastleFrankenstein_E.uef ROMs/CastleFrankenstein-1.rom ROMs/CastleFrankenstein-2.rom
@@ -63,6 +64,7 @@ set -e
 ./UEF2ROM.py -a -c e00 UEFs/DAR-Draughts_E.uef ROMs/Draughts-Acornsoft.rom
 ./UEF2ROM.py -a -c : -m UEFs/Draughts-ComputerConcepts_BE.uef ROMs/Draughts-ComputerConcepts.rom
 ./UEF2ROM.py -a -c e00 UEFs/Draughts-Superior_E.uef ROMs/Draughts-Superior.rom
+./UEF2ROM.py -a -c :1e00/: -m -s UEFs/Mega_Games_Cartridge/EddieKiddJumpChallenge-EveryGameGoing.uef ROMs/EddieKiddJumpChallenge-1.rom ROMs/EddieKiddJumpChallenge-2.rom
 ./UEF2ROM.py -a -c :/: -f 1-28 -r -s -w 39f UEFs/Mega_Games_Cartridge/Dunjunz-patched.uef ROMs/Dunjunz-1.rom ROMs/Dunjunz-2.rom
 ./UEF2ROM.py -a -c e00: -m UEFs/ElectronInvaders_E.uef ROMs/ElectronInvaders.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Elite-SRR_E.uef ROMs/Elite-1.rom ROMs/Elite-2.rom

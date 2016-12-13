@@ -26,6 +26,7 @@ elkulator -rom2 ROMs/BrianJacksSuperstarChallenge-1.rom -rom1 ROMs/BrianJacksSup
 elkulator -rom2 ROMs/BugBlast-1.rom -rom1 ROMs/BugBlast-2.rom
 elkulator -rom2 ROMs/Bugs.rom
 elkulator -rom2 ROMs/BumbleBee.rom
+elkulator -rom2 ROMs/ByFairMeansOrFoul-1.rom -rom1 ROMs/ByFairMeansOrFoul-2.rom
 elkulator -rom2 ROMs/Camelot-1.rom -rom1 ROMs/Camelot-2.rom
 elkulator -rom2 ROMs/CastleAssault.rom
 elkulator -rom2 ROMs/CastleFrankenstein-1.rom -rom1 ROMs/CastleFrankenstein-2.rom
@@ -63,6 +64,7 @@ elkulator -rom2 ROMs/DrainMania-1.rom -rom1 ROMs/DrainMania-2.rom
 elkulator -rom2 ROMs/Draughts-Acornsoft.rom
 elkulator -rom2 ROMs/Draughts-ComputerConcepts.rom
 elkulator -rom2 ROMs/Draughts-Superior.rom
+elkulator -rom2 ROMs/EddieKiddJumpChallenge-1.rom -rom1 ROMs/EddieKiddJumpChallenge-2.rom
 elkulator -rom2 ROMs/Dunjunz-1.rom -rom1 ROMs/Dunjunz-2.rom
 elkulator -rom2 ROMs/ElectronInvaders.rom
 elkulator -rom2 ROMs/Elite-1.rom -rom1 ROMs/Elite-2.rom
