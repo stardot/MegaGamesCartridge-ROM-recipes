@@ -108,6 +108,9 @@ elkulator -rom2 ROMs/Hunkidory-1.rom -rom1 ROMs/Hunkidory-2.rom
 elkulator -rom2 ROMs/Icarus-1.rom -rom1 ROMs/Icarus-2.rom
 elkulator -rom2 ROMs/Impact-1.rom -rom1 ROMs/Impact-2.rom
 elkulator -rom2 ROMs/ImpossibleMission-1.rom -rom1 ROMs/ImpossibleMission-2.rom
+elkulator -rom2 ROMs/Imogen1 -rom1 ROMs/Imogen2
+elkulator -rom2 ROMs/Imogen3 -rom1 ROMs/Imogen4
+elkulator -rom2 ROMs/Imogen5 -rom1 ROMs/Imogen6
 elkulator -rom2 ROMs/Inertia-1.rom -rom1 ROMs/Inertia-2.rom
 elkulator -rom2 ROMs/JetBootJack-1.rom -rom1 ROMs/JetBootJack-2.rom
 elkulator -rom2 ROMs/JetPowerJack.rom

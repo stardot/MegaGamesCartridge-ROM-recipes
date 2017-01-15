@@ -111,7 +111,9 @@ OK,Hunkidory,Bug Byte,Hunkidory_BE.uef,Hunkidory-1.rom,Hunkidory-2.rom,-a -c :/:
 OK (patched),Icarus,Mandarin,Mega_Games_Cartridge/Icarus-patched.uef,Icarus-1.rom,Icarus-2.rom,-a -c .e00:/: -f 2-4:s:5-24 -r -w 39f
 OK,Impact,Audiogenic,Impact.uef,Impact-1.rom,Impact-2.rom,-a -c e00::x:/: -m -s
 OK,Impossible Mission,U.S. Gold,ImpossibleMission_E.uef,ImpossibleMission-1.rom,ImpossibleMission-2.rom,-a -c :x:x:x/x -s -t -w d3f:ef97
-Problems with level loading (paging required),Imogen,Micro Power,Imogen_E.uef,Imogen1,Imogen2,
+OK (paging required),Imogen,Micro Power,Imogen_E.uef,Imogen1,Imogen2,-a -c e00:5800:x:x -f 1-5 -s -P f8 1:2 -w 39f
+OK (paging required),Imogen,Micro Power,Imogen_E.uef,Imogen3,Imogen4,-c 35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1:35c1 -f 6-14 -m -s -P f8 3:4
+OK (paging required),Imogen,Micro Power,Imogen_E.uef,Imogen5,Imogen6,-c 35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1 -f 15-22 -m -s -P f8 5:2
 OK,Inertia,4th Dimension,Inertia_E.uef,Inertia-1.rom,Inertia-2.rom,-a -c e00:6980:8c0/: -m -s
 OK,Jet Boot Jack,English,JetBootJack_E.uef,JetBootJack-1.rom,JetBootJack-2.rom,-a -c e00::x -w 39f -t -s
 OK,Jet Power Jack,Micro Power,JetPowerJack_E.uef,JetPowerJack.rom,,-a -c e00 -m

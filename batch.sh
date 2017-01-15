@@ -108,6 +108,9 @@ set -e
 ./UEF2ROM.py -a -c .e00:/: -f 2-4:s:5-24 -r -w 39f UEFs/Mega_Games_Cartridge/Icarus-patched.uef ROMs/Icarus-1.rom ROMs/Icarus-2.rom
 ./UEF2ROM.py -a -c e00::x:/: -m -s UEFs/Impact.uef ROMs/Impact-1.rom ROMs/Impact-2.rom
 ./UEF2ROM.py -a -c :x:x:x/x -s -t -w d3f:ef97 UEFs/ImpossibleMission_E.uef ROMs/ImpossibleMission-1.rom ROMs/ImpossibleMission-2.rom
+./UEF2ROM.py -a -c e00:5800:x:x -f 1-5 -s -P f8 1:2 -w 39f UEFs/Imogen_E.uef ROMs/Imogen1 ROMs/Imogen2
+./UEF2ROM.py -c 35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1:35c1 -f 6-14 -m -s -P f8 3:4 UEFs/Imogen_E.uef ROMs/Imogen3 ROMs/Imogen4
+./UEF2ROM.py -c 35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1 -f 15-22 -m -s -P f8 5:2 UEFs/Imogen_E.uef ROMs/Imogen5 ROMs/Imogen6
 ./UEF2ROM.py -a -c e00:6980:8c0/: -m -s UEFs/Inertia_E.uef ROMs/Inertia-1.rom ROMs/Inertia-2.rom
 ./UEF2ROM.py -a -c e00::x -w 39f -t -s UEFs/JetBootJack_E.uef ROMs/JetBootJack-1.rom ROMs/JetBootJack-2.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/JetPowerJack_E.uef ROMs/JetPowerJack.rom
