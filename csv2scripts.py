@@ -18,6 +18,7 @@ tf.write("#!/bin/sh\n\nset -e\n\n")
 
 games = 0
 roms = 0
+previous = None
 
 for line in lines:
 
@@ -34,7 +35,10 @@ for line in lines:
         print "Skipping", d["Name"], "-", d["Status"]
         continue
     
-    games += 1
+    if pieces[1:3] != previous:
+        games += 1
+    
+    previous = pieces[1:3]
     
     if d["ROM2"]:
         bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s ROMs/%(ROM2)s\n" % d)

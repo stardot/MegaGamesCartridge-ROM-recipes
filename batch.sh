@@ -41,6 +41,8 @@ set -e
 ./UEF2ROM.py -a -c e00 -m UEFs/ChuckieEgg_E.uef ROMs/ChuckieEgg.rom
 ./UEF2ROM.py -a -c e00:3000:5400:x -m -s UEFs/Citadel-PIASRR_E.uef ROMs/Citadel-1.rom ROMs/Citadel-2.rom
 ./UEF2ROM.py -a -c :/: -m -r -s UEFs/ClassicAdventure_RUN_BE.uef ROMs/ClassicAdventure-1.rom ROMs/ClassicAdventure-2.rom
+./UEF2ROM.py -a -c :x:x:900:e00:5100: -f 0-6 -m -s -P f8 1 UEFs/Clogger_Tape.uef ROMs/Clogger1
+./UEF2ROM.py -c 2983:2983:2983/2983 -f 7-10 -m -s -P f8 2:1 UEFs/Clogger_Tape.uef ROMs/Clogger2 ROMs/Clogger3
 ./UEF2ROM.py -a -c :400/: -m -r -s UEFs/Mega_Games_Cartridge/CodenameDroid-patched.uef ROMs/CodenameDroid-1.rom ROMs/CodenameDroid-2.rom
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/ConditionRed_E.uef ROMs/ConditionRed.rom
 ./UEF2ROM.py -a -c x:: -f 1-3 -m -r UEFs/Mega_Games_Cartridge/Confuzion-EveryGameGoing.uef ROMs/Confuzion.rom
@@ -172,6 +174,12 @@ set -e
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Repton.uef ROMs/Repton-1.rom ROMs/Repton-2.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Repton2.uef ROMs/Repton2-1.rom ROMs/Repton2-2.rom
 ./UEF2ROM.py -a -c e00:/: -f 4-6:12-13 -s UEFs/Repton3_E.uef ROMs/Repton3-1.rom ROMs/Repton3-2.rom
+./UEF2ROM.py -a -c e00:::1900:/: -f 1-6:11 -s -P f8 1:2 UEFs/ReptonAroundTheWorld_E.uef ROMs/ReptonATW1 ROMs/ReptonATW2
+./UEF2ROM.py -c :/: -f 12-15 -m -P f8 3:1 UEFs/ReptonAroundTheWorld_E.uef ROMs/ReptonATW3 ROMs/ReptonATW4
+./UEF2ROM.py -a -c e00:::1900:/: -f 1-6:11 -s -P f8 1:2 UEFs/ReptonTheLifeOf_E.uef ROMs/ReptonLTO1 ROMs/ReptonLTO2
+./UEF2ROM.py -c :/: -f 12-15 -m -P f8 3:1 UEFs/ReptonTheLifeOf_E.uef ROMs/ReptonLTO3 ROMs/ReptonLTO4
+./UEF2ROM.py -a -c e00:::1900:/: -f 1-6:11 -s -P f8 1:2 UEFs/ReptonThruTime_E.uef ROMs/ReptonTT1 ROMs/ReptonTT2
+./UEF2ROM.py -c :/: -f 12-15 -m -P f8 3:1 UEFs/ReptonThruTime_E.uef ROMs/ReptonTT3 ROMs/ReptonTT4
 ./UEF2ROM.py -a -c e00 UEFs/DAR-Reversi_E.uef ROMs/Reversi.rom
 ./UEF2ROM.py -a -c e00::e00 -m UEFs/Reversi-Superior_E.uef ROMs/Reversi-Superior.rom
 ./UEF2ROM.py -a -c e00:/: -s -t -w 39f UEFs/RHT1-RickHanson_E.uef ROMs/RickHanson-1.rom ROMs/RickHanson-2.rom
@@ -191,6 +199,8 @@ set -e
 ./UEF2ROM.py -a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 ./UEF2ROM.py -a -c e00::x -s -t UEFs/SpacemanSid_E.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
 ./UEF2ROM.py -a -c x:/: -m UEFs/Mega_Games_Cartridge/SpaceRanger-patched.uef ROMs/SpaceRanger.rom
+./UEF2ROM.py -a -c : -f 1-3 -m -s -r -P f8 1 UEFs/Spellbinder_E.uef ROMs/Spellbinder1
+./UEF2ROM.py -c x/: -f 4-6 -m -s -P f8 2:0 UEFs/Spellbinder_E.uef ROMs/Spellbinder2 ROMs/Spellbinder3
 ./UEF2ROM.py -a -c e00:x:/: -s -t -w 39f UEFs/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
 ./UEF2ROM.py -a -c e00:.5775/: -m -s UEFs/SphinxAdventure_E.uef ROMs/SphinxAdventure-1.rom ROMs/SphinxAdventure-2.rom
 ./UEF2ROM.py -a -c e00::::::e00::/: -m -s UEFs/Spitfire40_E.uef ROMs/Spitfire40-1.rom ROMs/Spitfire40-2.rom

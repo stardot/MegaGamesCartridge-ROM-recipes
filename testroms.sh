@@ -41,6 +41,8 @@ elkulator -rom2 ROMs/Chess-Superior.rom
 elkulator -rom2 ROMs/ChuckieEgg.rom
 elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
 elkulator -rom2 ROMs/ClassicAdventure-1.rom -rom1 ROMs/ClassicAdventure-2.rom
+elkulator -rom2 ROMs/Clogger1
+elkulator -rom2 ROMs/Clogger2 -rom1 ROMs/Clogger3
 elkulator -rom2 ROMs/CodenameDroid-1.rom -rom1 ROMs/CodenameDroid-2.rom
 elkulator -rom2 ROMs/ConditionRed.rom
 elkulator -rom2 ROMs/Confuzion.rom
@@ -172,6 +174,12 @@ elkulator -rom2 ROMs/RebelPlanet-1.rom -rom1 ROMs/RebelPlanet-2.rom
 elkulator -rom2 ROMs/Repton-1.rom -rom1 ROMs/Repton-2.rom
 elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
 elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
+elkulator -rom2 ROMs/ReptonATW1 -rom1 ROMs/ReptonATW2
+elkulator -rom2 ROMs/ReptonATW3 -rom1 ROMs/ReptonATW4
+elkulator -rom2 ROMs/ReptonLTO1 -rom1 ROMs/ReptonLTO2
+elkulator -rom2 ROMs/ReptonLTO3 -rom1 ROMs/ReptonLTO4
+elkulator -rom2 ROMs/ReptonTT1 -rom1 ROMs/ReptonTT2
+elkulator -rom2 ROMs/ReptonTT3 -rom1 ROMs/ReptonTT4
 elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
 elkulator -rom2 ROMs/RickHanson-1.rom -rom1 ROMs/RickHanson-2.rom
@@ -191,6 +199,8 @@ elkulator -rom2 ROMs/Snooker.rom
 elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
 elkulator -rom2 ROMs/SpaceRanger.rom
+elkulator -rom2 ROMs/Spellbinder1
+elkulator -rom2 ROMs/Spellbinder2 -rom1 ROMs/Spellbinder3
 elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
 elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
 elkulator -rom2 ROMs/Spitfire40-1.rom -rom1 ROMs/Spitfire40-2.rom
