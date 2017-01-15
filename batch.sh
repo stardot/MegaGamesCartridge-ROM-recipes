@@ -75,6 +75,8 @@ set -e
 ./UEF2ROM.py -a -c : -m UEFs/Enigma_E.uef ROMs/Enigma.rom
 ./UEF2ROM.py -a -c :::e00 UEFs/EMBA.uef ROMs/EMBA.rom
 ./UEF2ROM.py -a -c e00 UEFs/Erbert_E.uef ROMs/Erbert.rom
+./UEF2ROM.py -a -c e00:e00::x -f 1-4 -m -s -P f8 1:2 UEFs/Mega_Games_Cartridge/Exile-EveryGameGoing.uef ROMs/Exile1 ROMs/Exile2
+./UEF2ROM.py -f 5 -m -s -P f8 3:0 UEFs/Mega_Games_Cartridge/Exile-EveryGameGoing.uef ROMs/Exile3 ROMs/Exile4
 ./UEF2ROM.py -a -c :/: -m -s UEFs/EyeOfZolton_BE.uef ROMs/EyeOfZolton-1.rom ROMs/EyeOfZolton-2.rom
 ./UEF2ROM.py -a -c ::x -m UEFs/FelixAndTheFruitMonsters_E.uef ROMs/FelixAndTheFruitMonsters.rom
 ./UEF2ROM.py -a -c e00::x -m UEFs/FelixInTheFactory_E.uef ROMs/FelixInTheFactory.rom

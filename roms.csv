@@ -77,7 +77,8 @@ OK,Empire,Shards,Empire_BE.uef,Empire.rom,,-a -c : -m
 OK,Enigma,Brainbox,Enigma_E.uef,Enigma.rom,,-a -c : -m
 OK,Escape From Moonbase Alpha,Micro Power,EMBA.uef,EMBA.rom,,-a -c :::e00
 OK,Er*bert,Microbyte,Erbert_E.uef,Erbert.rom,,-a -c e00
-Needs patching; too large,Exile,Superior,Exile_E.uef,,,
+OK (patched; requires paging),Exile,Superior,Mega_Games_Cartridge/Exile-EveryGameGoing.uef,Exile1,Exile2,-a -c e00:e00::x -f 1-4 -m -s -P f8 1:2
+OK (patched; requires paging),Exile,Superior,Mega_Games_Cartridge/Exile-EveryGameGoing.uef,Exile3,Exile4,-f 5 -m -s -P f8 3:0
 OK,Eye Of Zolton,Softek,EyeOfZolton_BE.uef,EyeOfZolton-1.rom,EyeOfZolton-2.rom,-a -c :/: -m -s
 OK,Felix And The Fruit Monsters,Micro Power,FelixAndTheFruitMonsters_E.uef,FelixAndTheFruitMonsters.rom,,-a -c ::x -m
 OK,Felix In The Factory,Micro Power,FelixInTheFactory_E.uef,FelixInTheFactory.rom,,-a -c e00::x -m

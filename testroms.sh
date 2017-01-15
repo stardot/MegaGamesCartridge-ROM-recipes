@@ -75,6 +75,8 @@ elkulator -rom2 ROMs/Empire.rom
 elkulator -rom2 ROMs/Enigma.rom
 elkulator -rom2 ROMs/EMBA.rom
 elkulator -rom2 ROMs/Erbert.rom
+elkulator -rom2 ROMs/Exile1 -rom1 ROMs/Exile2
+elkulator -rom2 ROMs/Exile3 -rom1 ROMs/Exile4
 elkulator -rom2 ROMs/EyeOfZolton-1.rom -rom1 ROMs/EyeOfZolton-2.rom
 elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
 elkulator -rom2 ROMs/FelixInTheFactory.rom
