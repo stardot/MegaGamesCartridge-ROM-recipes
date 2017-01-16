@@ -148,7 +148,7 @@ set -e
 ./UEF2ROM.py -a -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f UEFs/Network-PIASRR_E.uef ROMs/Network-1.rom ROMs/Network-2.rom
 ./UEF2ROM.py -a -c : -w 39f UEFs/NightmareMaze-MRM_E.uef ROMs/NightmareMaze.rom
 ./UEF2ROM.py -a -c ::60c0:2100:/: -p -s -w 39f UEFs/Mega_Games_Cartridge/OmegaOrb-EveryGameGoing-fromSSD.uef ROMs/OmegaOrb-1.rom ROMs/OmegaOrb-2.rom
-./UEF2ROM.py -a -c e00: -m UEFs/UEFs/Mega_Games_Cartridge/Orbital-EveryGameGoing.uef ROMs/Orbital
+./UEF2ROM.py -a -c e00: -m UEFs/Mega_Games_Cartridge/Orbital-EveryGameGoing.uef ROMs/Orbital
 ./UEF2ROM.py -a -c e00::2300 UEFs/Overdrive_E.uef ROMs/Overdrive.rom
 ./UEF2ROM.py -a -c e00:/: -s -t -w 39f UEFs/Oxbridge_E.uef ROMs/Oxbridge-1.rom ROMs/Oxbridge-2.rom
 ./UEF2ROM.py -a -c e00/: -s UEFs/PalaceOfMagic_E.uef ROMs/PalaceOfMagic-1.rom ROMs/PalaceOfMagic-2.rom
