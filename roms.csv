@@ -150,6 +150,7 @@ OK,Myorem,Robico,RHT3-Myorem_E.uef,Myorem-1.rom,Myorem-2.rom,-a -c e00::::/x:x: 
 OK,Network,Superior,Network-PIASRR_E.uef,Network-1.rom,Network-2.rom,-a -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f
 OK,Nightmare Maze,MRM,NightmareMaze-MRM_E.uef,NightmareMaze.rom,,-a -c : -w 39f
 OK (patched),Omega Orb,Audiogenic,Mega_Games_Cartridge/OmegaOrb-EveryGameGoing-fromSSD.uef,OmegaOrb-1.rom,OmegaOrb-2.rom,-a -c ::60c0:2100:/: -p -s -w 39f
+OK,Orbital,Impact,UEFs/Mega_Games_Cartridge/Orbital-EveryGameGoing.uef,Orbital,,-a -c e00: -m
 OK,Overdrive,Superior,Overdrive_E.uef,Overdrive.rom,,-a -c e00::2300
 OK,Oxbridge,Tynesoft,Oxbridge_E.uef,Oxbridge-1.rom,Oxbridge-2.rom,-a -c e00:/: -s -t -w 39f
 OK,Palace Of Magic (original),Superior,PalaceOfMagic_E.uef,PalaceOfMagic-1.rom,PalaceOfMagic-2.rom,-a -c e00/: -s
@@ -191,7 +192,9 @@ OK (paging required),Repton Thru Time,Superior,ReptonThruTime_E.uef,ReptonTT3,Re
 OK,Reversi,Acornsoft,DAR-Reversi_E.uef,Reversi.rom,,-a -c e00
 OK,Reversi,Superior,Reversi-Superior_E.uef,Reversi-Superior.rom,,-a -c e00::e00 -m
 OK,Rick Hanson,Robico,RHT1-RickHanson_E.uef,RickHanson-1.rom,RickHanson-2.rom,-a -c e00:/: -s -t -w 39f
-Too large,Ricochet,Superior,Ricochet_E.uef,,,
+OK (paging required),Ricochet,Superior,Ricochet_E.uef,Ricochet1,Ricochet2,-a -c ::::x -f 3-7 -s -P f8 1:2 -t -w 39f
+OK (paging required),Ricochet,Superior,Ricochet_E.uef,Ricochet3,Ricochet4,-c 400:bba:x:3881:3881:3881/3881 -f 8-14 -m -s -P f8 3:4
+OK (paging required),Ricochet,Superior,Ricochet_E.uef,Ricochet5,,-c 3881 -f 15 -m -s -P f8 2
 OK,Rig Attack,Tynesoft,RigAttack_E.uef,RigAttack.rom,,-a -c e00 -m
 OK,Rising Of Salandra part 1,Larsoft,ROS1-TheProphecy_RUN_BE.uef,RisingOfSalandraPart1.rom,,-a -c : -m -r
 OK,Rising Of Salandra part 2,Larsoft,ROS2-ReturnOfTheWarrior_RUN_BE.uef,RisingOfSalandraPart2.rom,,-a -c : -m -r
@@ -208,8 +211,8 @@ OK,Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,,-a -c e00::.2f8a -m
 OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes.rom,,-a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f
 OK,Spaceman Sid,English,SpacemanSid_E.uef,SpacemanSid-1.rom,SpacemanSid-2.rom,-a -c e00::x -s -t
 OK (patched),Space Ranger,Audiogenic,Mega_Games_Cartridge/SpaceRanger-patched.uef,SpaceRanger.rom,,-a -c x:/: -m
-OK (paging required),Spellbinder,Superior,Spellbinder_E.uef,Spellbinder1,,-a -c : -f 1-3 -m -s -r -P f8 1
-OK (paging required),Spellbinder,Superior,Spellbinder_E.uef,Spellbinder2,Spellbinder3,-c x/: -f 4-6 -m -s -P f8 2:0
+OK (paging required),Spellbinder,Superior,SpellBinder_E.uef,Spellbinder1,,-a -c : -f 1-3 -m -s -r -P f8 1
+OK (paging required),Spellbinder,Superior,SpellBinder_E.uef,Spellbinder2,Spellbinder3,-c x/: -f 4-6 -m -s -P f8 2:0
 OK,Sphere Of Destiny,ASL,SphereOfDestiny_E.uef,SphereOfDestiny-1.rom,SphereOfDestiny-2.rom,-a -c e00:x:/: -s -t -w 39f
 OK,Sphinx Adventure,Acornsoft,SphinxAdventure_E.uef,SphinxAdventure-1.rom,SphinxAdventure-2.rom,-a -c e00:.5775/: -m -s
 OK,Spitfire 40,Mirrorsoft,Spitfire40_E.uef,Spitfire40-1.rom,Spitfire40-2.rom,-a -c e00::::::e00::/: -m -s
@@ -235,6 +238,7 @@ OK,Tempest,Superior,Tempest_E.uef,Tempest.rom,,-a -c e00 -p -w 39f
 OK,Terrormolinos,Melbourne House,Terrormolinos_BE.uef,Terrormolinos-1.rom,Terrormolinos-2.rom,-a -c :/: -f 3-6 -m -r -s
 OK,Tetris,Mirrorsoft,Tetris_BE.uef,Tetris.rom,,-a -c e00:2f00:5800:1200 -m
 Too large,The Last Ninja,Superior,LastNinja_E.uef,,,
+Needs patching,The Lost Crystal,Epic,,,,
 OK,The Mine,Micro Power,TheMine_E.uef,TheMine.rom,,-a -c :4000: -m
 OK,The Nine Dancers,Larsoft,TheNineDancers_RUN_BE.uef,TheNineDancers.rom,,-a -c : -m -r
 OK,Thrust,Superior,Thrust_Tape.uef,Thrust-1.rom,Thrust-2.rom,-a -c e00:/: -s

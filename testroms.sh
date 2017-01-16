@@ -148,6 +148,7 @@ elkulator -rom2 ROMs/Myorem-1.rom -rom1 ROMs/Myorem-2.rom
 elkulator -rom2 ROMs/Network-1.rom -rom1 ROMs/Network-2.rom
 elkulator -rom2 ROMs/NightmareMaze.rom
 elkulator -rom2 ROMs/OmegaOrb-1.rom -rom1 ROMs/OmegaOrb-2.rom
+elkulator -rom2 ROMs/Orbital
 elkulator -rom2 ROMs/Overdrive.rom
 elkulator -rom2 ROMs/Oxbridge-1.rom -rom1 ROMs/Oxbridge-2.rom
 elkulator -rom2 ROMs/PalaceOfMagic-1.rom -rom1 ROMs/PalaceOfMagic-2.rom
@@ -188,6 +189,9 @@ elkulator -rom2 ROMs/ReptonTT3 -rom1 ROMs/ReptonTT4
 elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
 elkulator -rom2 ROMs/RickHanson-1.rom -rom1 ROMs/RickHanson-2.rom
+elkulator -rom2 ROMs/Ricochet1 -rom1 ROMs/Ricochet2
+elkulator -rom2 ROMs/Ricochet3 -rom1 ROMs/Ricochet4
+elkulator -rom2 ROMs/Ricochet5
 elkulator -rom2 ROMs/RigAttack.rom
 elkulator -rom2 ROMs/RisingOfSalandraPart1.rom
 elkulator -rom2 ROMs/RisingOfSalandraPart2.rom

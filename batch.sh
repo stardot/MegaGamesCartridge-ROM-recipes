@@ -148,6 +148,7 @@ set -e
 ./UEF2ROM.py -a -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f UEFs/Network-PIASRR_E.uef ROMs/Network-1.rom ROMs/Network-2.rom
 ./UEF2ROM.py -a -c : -w 39f UEFs/NightmareMaze-MRM_E.uef ROMs/NightmareMaze.rom
 ./UEF2ROM.py -a -c ::60c0:2100:/: -p -s -w 39f UEFs/Mega_Games_Cartridge/OmegaOrb-EveryGameGoing-fromSSD.uef ROMs/OmegaOrb-1.rom ROMs/OmegaOrb-2.rom
+./UEF2ROM.py -a -c e00: -m UEFs/UEFs/Mega_Games_Cartridge/Orbital-EveryGameGoing.uef ROMs/Orbital
 ./UEF2ROM.py -a -c e00::2300 UEFs/Overdrive_E.uef ROMs/Overdrive.rom
 ./UEF2ROM.py -a -c e00:/: -s -t -w 39f UEFs/Oxbridge_E.uef ROMs/Oxbridge-1.rom ROMs/Oxbridge-2.rom
 ./UEF2ROM.py -a -c e00/: -s UEFs/PalaceOfMagic_E.uef ROMs/PalaceOfMagic-1.rom ROMs/PalaceOfMagic-2.rom
@@ -188,6 +189,9 @@ set -e
 ./UEF2ROM.py -a -c e00 UEFs/DAR-Reversi_E.uef ROMs/Reversi.rom
 ./UEF2ROM.py -a -c e00::e00 -m UEFs/Reversi-Superior_E.uef ROMs/Reversi-Superior.rom
 ./UEF2ROM.py -a -c e00:/: -s -t -w 39f UEFs/RHT1-RickHanson_E.uef ROMs/RickHanson-1.rom ROMs/RickHanson-2.rom
+./UEF2ROM.py -a -c ::::x -f 3-7 -s -P f8 1:2 -t -w 39f UEFs/Ricochet_E.uef ROMs/Ricochet1 ROMs/Ricochet2
+./UEF2ROM.py -c 400:bba:x:3881:3881:3881/3881 -f 8-14 -m -s -P f8 3:4 UEFs/Ricochet_E.uef ROMs/Ricochet3 ROMs/Ricochet4
+./UEF2ROM.py -c 3881 -f 15 -m -s -P f8 2 UEFs/Ricochet_E.uef ROMs/Ricochet5
 ./UEF2ROM.py -a -c e00 -m UEFs/RigAttack_E.uef ROMs/RigAttack.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/ROS1-TheProphecy_RUN_BE.uef ROMs/RisingOfSalandraPart1.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/ROS2-ReturnOfTheWarrior_RUN_BE.uef ROMs/RisingOfSalandraPart2.rom
@@ -204,8 +208,8 @@ set -e
 ./UEF2ROM.py -a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 ./UEF2ROM.py -a -c e00::x -s -t UEFs/SpacemanSid_E.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
 ./UEF2ROM.py -a -c x:/: -m UEFs/Mega_Games_Cartridge/SpaceRanger-patched.uef ROMs/SpaceRanger.rom
-./UEF2ROM.py -a -c : -f 1-3 -m -s -r -P f8 1 UEFs/Spellbinder_E.uef ROMs/Spellbinder1
-./UEF2ROM.py -c x/: -f 4-6 -m -s -P f8 2:0 UEFs/Spellbinder_E.uef ROMs/Spellbinder2 ROMs/Spellbinder3
+./UEF2ROM.py -a -c : -f 1-3 -m -s -r -P f8 1 UEFs/SpellBinder_E.uef ROMs/Spellbinder1
+./UEF2ROM.py -c x/: -f 4-6 -m -s -P f8 2:0 UEFs/SpellBinder_E.uef ROMs/Spellbinder2 ROMs/Spellbinder3
 ./UEF2ROM.py -a -c e00:x:/: -s -t -w 39f UEFs/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
 ./UEF2ROM.py -a -c e00:.5775/: -m -s UEFs/SphinxAdventure_E.uef ROMs/SphinxAdventure-1.rom ROMs/SphinxAdventure-2.rom
 ./UEF2ROM.py -a -c e00::::::e00::/: -m -s UEFs/Spitfire40_E.uef ROMs/Spitfire40-1.rom ROMs/Spitfire40-2.rom
