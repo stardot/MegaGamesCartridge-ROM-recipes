@@ -41,8 +41,8 @@ elkulator -rom2 ROMs/Chess-Superior.rom
 elkulator -rom2 ROMs/ChuckieEgg.rom
 elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
 elkulator -rom2 ROMs/ClassicAdventure-1.rom -rom1 ROMs/ClassicAdventure-2.rom
-elkulator -rom2 ROMs/Clogger1
-elkulator -rom2 ROMs/Clogger2 -rom1 ROMs/Clogger3
+cat ROMs/Clogger1 ROMs/Clogger2 ROMs/Clogger3 > ROMs/Clogger_Tape.rom
+elkulator -rom2 ROMs/Clogger_Tape.rom
 elkulator -rom2 ROMs/CodenameDroid-1.rom -rom1 ROMs/CodenameDroid-2.rom
 elkulator -rom2 ROMs/ConditionRed.rom
 elkulator -rom2 ROMs/Confuzion.rom
@@ -75,8 +75,8 @@ elkulator -rom2 ROMs/Empire.rom
 elkulator -rom2 ROMs/Enigma.rom
 elkulator -rom2 ROMs/EMBA.rom
 elkulator -rom2 ROMs/Erbert.rom
-elkulator -rom2 ROMs/Exile1 -rom1 ROMs/Exile2
-elkulator -rom2 ROMs/Exile3 -rom1 ROMs/Exile4
+cat ROMs/Exile1 ROMs/Exile2 ROMs/Exile3 ROMs/Exile4 > ROMs/Mega_Games_Cartridge/Exile-EveryGameGoing.rom
+elkulator -rom2 ROMs/Mega_Games_Cartridge/Exile-EveryGameGoing.rom
 elkulator -rom2 ROMs/EyeOfZolton-1.rom -rom1 ROMs/EyeOfZolton-2.rom
 elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
 elkulator -rom2 ROMs/FelixInTheFactory.rom
@@ -110,9 +110,8 @@ elkulator -rom2 ROMs/Hunkidory-1.rom -rom1 ROMs/Hunkidory-2.rom
 elkulator -rom2 ROMs/Icarus-1.rom -rom1 ROMs/Icarus-2.rom
 elkulator -rom2 ROMs/Impact-1.rom -rom1 ROMs/Impact-2.rom
 elkulator -rom2 ROMs/ImpossibleMission-1.rom -rom1 ROMs/ImpossibleMission-2.rom
-elkulator -rom2 ROMs/Imogen1 -rom1 ROMs/Imogen2
-elkulator -rom2 ROMs/Imogen3 -rom1 ROMs/Imogen4
-elkulator -rom2 ROMs/Imogen5 -rom1 ROMs/Imogen6
+cat ROMs/Imogen1 ROMs/Imogen2 ROMs/Imogen3 ROMs/Imogen4 ROMs/Imogen5 ROMs/Imogen6 > ROMs/Imogen_E.rom
+elkulator -rom2 ROMs/Imogen_E.rom
 elkulator -rom2 ROMs/Inertia-1.rom -rom1 ROMs/Inertia-2.rom
 elkulator -rom2 ROMs/JetBootJack-1.rom -rom1 ROMs/JetBootJack-2.rom
 elkulator -rom2 ROMs/JetPowerJack.rom
@@ -180,18 +179,17 @@ elkulator -rom2 ROMs/RebelPlanet-1.rom -rom1 ROMs/RebelPlanet-2.rom
 elkulator -rom2 ROMs/Repton-1.rom -rom1 ROMs/Repton-2.rom
 elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
 elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
-elkulator -rom2 ROMs/ReptonATW1 -rom1 ROMs/ReptonATW2
-elkulator -rom2 ROMs/ReptonATW3 -rom1 ROMs/ReptonATW4
-elkulator -rom2 ROMs/ReptonLTO1 -rom1 ROMs/ReptonLTO2
-elkulator -rom2 ROMs/ReptonLTO3 -rom1 ROMs/ReptonLTO4
-elkulator -rom2 ROMs/ReptonTT1 -rom1 ROMs/ReptonTT2
-elkulator -rom2 ROMs/ReptonTT3 -rom1 ROMs/ReptonTT4
+cat ROMs/ReptonATW1 ROMs/ReptonATW2 ROMs/ReptonATW3 ROMs/ReptonATW4 > ROMs/ReptonAroundTheWorld_E.rom
+elkulator -rom2 ROMs/ReptonAroundTheWorld_E.rom
+cat ROMs/ReptonLTO1 ROMs/ReptonLTO2 ROMs/ReptonLTO3 ROMs/ReptonLTO4 > ROMs/ReptonTheLifeOf_E.rom
+elkulator -rom2 ROMs/ReptonTheLifeOf_E.rom
+cat ROMs/ReptonTT1 ROMs/ReptonTT2 ROMs/ReptonTT3 ROMs/ReptonTT4 > ROMs/ReptonThruTime_E.rom
+elkulator -rom2 ROMs/ReptonThruTime_E.rom
 elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
 elkulator -rom2 ROMs/RickHanson-1.rom -rom1 ROMs/RickHanson-2.rom
-elkulator -rom2 ROMs/Ricochet1 -rom1 ROMs/Ricochet2
-elkulator -rom2 ROMs/Ricochet3 -rom1 ROMs/Ricochet4
-elkulator -rom2 ROMs/Ricochet5
+cat ROMs/Ricochet1 ROMs/Ricochet2 ROMs/Ricochet3 ROMs/Ricochet4 ROMs/Ricochet5 > ROMs/Ricochet_E.rom
+elkulator -rom2 ROMs/Ricochet_E.rom
 elkulator -rom2 ROMs/RigAttack.rom
 elkulator -rom2 ROMs/RisingOfSalandraPart1.rom
 elkulator -rom2 ROMs/RisingOfSalandraPart2.rom
@@ -208,8 +206,8 @@ elkulator -rom2 ROMs/Snooker.rom
 elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
 elkulator -rom2 ROMs/SpaceRanger.rom
-elkulator -rom2 ROMs/Spellbinder1
-elkulator -rom2 ROMs/Spellbinder2 -rom1 ROMs/Spellbinder3
+cat ROMs/Spellbinder1 ROMs/Spellbinder2 ROMs/Spellbinder3 > ROMs/SpellBinder_E.rom
+elkulator -rom2 ROMs/SpellBinder_E.rom
 elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
 elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
 elkulator -rom2 ROMs/Spitfire40-1.rom -rom1 ROMs/Spitfire40-2.rom

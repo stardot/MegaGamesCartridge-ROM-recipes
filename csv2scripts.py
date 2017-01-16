@@ -2,7 +2,7 @@
 
 import sys
 
-check_headings = ["Status", "Name", "Publisher", "UEF", "ROM1", "ROM2", "Options"]
+check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options"]
 
 lines = open("roms.csv").readlines()
 
@@ -18,7 +18,6 @@ tf.write("#!/bin/sh\n\nset -e\n\n")
 
 games = 0
 roms = 0
-previous = None
 
 for line in lines:
 
@@ -35,19 +34,26 @@ for line in lines:
         print "Skipping", d["Name"], "-", d["Status"]
         continue
     
-    if pieces[1:3] != previous:
-        games += 1
+    games += 1
     
-    previous = pieces[1:3]
+    ROMs = d["ROMs"].split()
+    for i, ROM in enumerate(ROMs):
+        d["ROM%i" % (i + 1)] = ROM
     
-    if d["ROM2"]:
-        bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s ROMs/%(ROM2)s\n" % d)
-        tf.write("elkulator -rom2 ROMs/%(ROM1)s -rom1 ROMs/%(ROM2)s\n" % d)
-        roms += 2
-    else:
+    if len(ROMs) == 1:
         bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s\n" % d)
         tf.write("elkulator -rom2 ROMs/%(ROM1)s\n" % d)
-        roms += 1
+    elif len(ROMs) == 2:
+        bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s ROMs/%(ROM1)s ROMs/%(ROM2)s\n" % d)
+        tf.write("elkulator -rom2 ROMs/%(ROM1)s -rom1 ROMs/%(ROM2)s\n" % d)
+    else:
+        d["ROMs"] = " ".join(map(lambda ROM: "ROMs/" + ROM, ROMs))
+        d["combined"] = "ROMs/" + d["UEF"].replace(".uef", ".rom")
+        bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s %(ROMs)s\n" % d)
+        tf.write("cat %(ROMs)s > %(combined)s\n" % d)
+        tf.write("elkulator -rom2 %(combined)s\n" % d)
+    
+    roms += len(ROMs)
 
 bf.close()
 tf.close()
