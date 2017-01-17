@@ -11,7 +11,7 @@ OK,Balloon Buster,Blue Ribbon,BalloonBuster_E.uef,BalloonBuster.rom,-a -c x:1100
 OK,Bandits at 3 O'Clock,Micro Power,BanditsAt3OClock_E.uef,Bandits.rom,-a -c : -m
 OK,Barbarian (practice),Superior,Barbarian_E.uef,Barbarian-Practice-1.rom Barbarian-Practice-2.rom,-a -c e00:e00::e00:6700:120/: -p -f 0-8 -s
 OK,Barbarian (fight),Superior,Barbarian_E.uef,Barbarian-Fight-1.rom Barbarian-Fight-2.rom,-a -c e00:e00::e00:6700:120/: -p -f 9-17 -s
-Too large,Barbarian 2,Superior,Barbarian2_E.uef,,
+OK (paging required),Barbarian 2,Superior,Barbarian2_E.uef,Barbarian21 Barbarian22 Barbarian23 Barbarian24,-a -c ::x:x:x:x/x:/:/: -f 1-15 -s -P f8 1:2:3:1 -w 39f
 OK,Baron,Superior,Baron_E.uef,Baron-1.rom Baron-2.rom,-a -c e00:e00:5800:60c0:e00/400:920:860:5d00 -s -t -w 120
 OK,Bar Billiards,Blue Ribbon,BarBilliards_E.uef,BarBilliards.rom,-a -c e00 -w 39f
 OK,Beach Head,U.S. Gold,BeachHead_E.uef,BeachHead-1.rom BeachHead-2.rom,-a -c :/x:x:x: -s -t -w d3f:ef97
@@ -78,6 +78,7 @@ OK,Escape From Moonbase Alpha,Micro Power,EMBA.uef,EMBA.rom,-a -c :::e00
 OK,Er*bert,Microbyte,Erbert_E.uef,Erbert.rom,-a -c e00
 OK (patched; paging required),Exile,Superior,Mega_Games_Cartridge/Exile-EveryGameGoing.uef,Exile1 Exile2 Exile3 Exile4,-a -c e00:e00::x -f 1-5 -m -s -P f8 1:2:3:0
 OK,Eye Of Zolton,Softek,EyeOfZolton_BE.uef,EyeOfZolton-1.rom EyeOfZolton-2.rom,-a -c :/: -m -s
+OK (paging required),E-Type,4th Dimension,EType_E.uef,EType1 EType2 EType3,-a -c x::x/3041:::3779:x:3f12:/: -f 0-13 -m -s -P f8 1:2:1
 OK,Felix And The Fruit Monsters,Micro Power,FelixAndTheFruitMonsters_E.uef,FelixAndTheFruitMonsters.rom,-a -c ::x -m
 OK,Felix In The Factory,Micro Power,FelixInTheFactory_E.uef,FelixInTheFactory.rom,-a -c e00::x -m
 OK,Felix Meets The Evil Weevils,Micro Power,FelixMeetsTheEvilWeevils_E.uef,FelixMeetsTheEvilWeevils.rom,-a -c e00 -m
@@ -228,7 +229,8 @@ OK,Tales Of The Arabian Nights,Interceptor Micros,TalesOfTheArabianNights_E.uef,
 OK,Tempest,Superior,Tempest_E.uef,Tempest.rom,-a -c e00 -p -w 39f
 OK,Terrormolinos,Melbourne House,Terrormolinos_BE.uef,Terrormolinos-1.rom Terrormolinos-2.rom,-a -c :/: -f 3-6 -m -r -s
 OK,Tetris,Mirrorsoft,Tetris_BE.uef,Tetris.rom,-a -c e00:2f00:5800:1200 -m
-Too large,The Last Ninja,Superior,LastNinja_E.uef,,
+OK,The Hunt - Search For Shauna,Robico,TheHuntSearchForShauna_E.uef,TheHunt1 TheHunt2,-a -c e00:/: -m -s
+OK (paging required),The Last Ninja,Superior,Mega_Games_Cartridge/LastNinja-EveryGameGoing-patched.uef,LastNinja1 LastNinja2 LastNinja3 LastNinja4,-a -c :/:/:/: -m -s -P f8 1:2:3:1
 Needs patching,The Lost Crystal,Epic,,,
 OK,The Mine,Micro Power,TheMine_E.uef,TheMine.rom,-a -c :4000: -m
 OK,The Nine Dancers,Larsoft,TheNineDancers_RUN_BE.uef,TheNineDancers.rom,-a -c : -m -r

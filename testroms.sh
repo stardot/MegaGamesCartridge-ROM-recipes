@@ -14,6 +14,8 @@ elkulator -rom2 ROMs/BalloonBuster.rom
 elkulator -rom2 ROMs/Bandits.rom
 elkulator -rom2 ROMs/Barbarian-Practice-1.rom -rom1 ROMs/Barbarian-Practice-2.rom
 elkulator -rom2 ROMs/Barbarian-Fight-1.rom -rom1 ROMs/Barbarian-Fight-2.rom
+cat ROMs/Barbarian21 ROMs/Barbarian22 ROMs/Barbarian23 ROMs/Barbarian24 > ROMs/Barbarian2_E.rom
+elkulator -rom2 ROMs/Barbarian2_E.rom
 elkulator -rom2 ROMs/Baron-1.rom -rom1 ROMs/Baron-2.rom
 elkulator -rom2 ROMs/BarBilliards.rom
 elkulator -rom2 ROMs/BeachHead-1.rom -rom1 ROMs/BeachHead-2.rom
@@ -75,9 +77,11 @@ elkulator -rom2 ROMs/Empire.rom
 elkulator -rom2 ROMs/Enigma.rom
 elkulator -rom2 ROMs/EMBA.rom
 elkulator -rom2 ROMs/Erbert.rom
-cat ROMs/Exile1 ROMs/Exile2 ROMs/Exile3 ROMs/Exile4 > ROMs/Mega_Games_Cartridge/Exile-EveryGameGoing.rom
-elkulator -rom2 ROMs/Mega_Games_Cartridge/Exile-EveryGameGoing.rom
+cat ROMs/Exile1 ROMs/Exile2 ROMs/Exile3 ROMs/Exile4 > ROMs/Exile-EveryGameGoing.rom
+elkulator -rom2 ROMs/Exile-EveryGameGoing.rom
 elkulator -rom2 ROMs/EyeOfZolton-1.rom -rom1 ROMs/EyeOfZolton-2.rom
+cat ROMs/EType1 ROMs/EType2 ROMs/EType3 > ROMs/EType_E.rom
+elkulator -rom2 ROMs/EType_E.rom
 elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
 elkulator -rom2 ROMs/FelixInTheFactory.rom
 elkulator -rom2 ROMs/FelixMeetsTheEvilWeevils.rom
@@ -231,6 +235,9 @@ elkulator -rom2 ROMs/TalesOfTheArabianNights.rom
 elkulator -rom2 ROMs/Tempest.rom
 elkulator -rom2 ROMs/Terrormolinos-1.rom -rom1 ROMs/Terrormolinos-2.rom
 elkulator -rom2 ROMs/Tetris.rom
+elkulator -rom2 ROMs/TheHunt1 -rom1 ROMs/TheHunt2
+cat ROMs/LastNinja1 ROMs/LastNinja2 ROMs/LastNinja3 ROMs/LastNinja4 > ROMs/LastNinja-EveryGameGoing-patched.rom
+elkulator -rom2 ROMs/LastNinja-EveryGameGoing-patched.rom
 elkulator -rom2 ROMs/TheMine.rom
 elkulator -rom2 ROMs/TheNineDancers.rom
 elkulator -rom2 ROMs/Thrust-1.rom -rom1 ROMs/Thrust-2.rom
