@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import sys
+import os, sys
 
 check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options"]
 
@@ -48,7 +48,7 @@ for line in lines:
         tf.write("elkulator -rom2 ROMs/%(ROM1)s -rom1 ROMs/%(ROM2)s\n" % d)
     else:
         d["ROMs"] = " ".join(map(lambda ROM: "ROMs/" + ROM, ROMs))
-        d["combined"] = "ROMs/" + d["UEF"].replace(".uef", ".rom")
+        d["combined"] = "ROMs/" + os.path.split(d["UEF"])[1].replace(".uef", ".rom")
         bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s %(ROMs)s\n" % d)
         tf.write("cat %(ROMs)s > %(combined)s\n" % d)
         tf.write("elkulator -rom2 %(combined)s\n" % d)
