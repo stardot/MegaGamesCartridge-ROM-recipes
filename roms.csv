@@ -103,6 +103,7 @@ OK,Haunted House,Electron User,10Best1-HauntedHouse_E.uef,HauntedHouse.rom,-a -c
 OK,Hex,Larsoft,Hex_RUN_BE.uef,Hex.rom,-a -c : -m -r
 OK,Hobgoblin,Atlantis,Hobgoblin_E.uef,Hobgoblin.rom,-a -c :5d00:::1ec0::900 -m
 OK,Hobgoblin 2,Atlantis,Hobgoblin2_E.uef,Hobgoblin2-1.rom Hobgoblin2-2.rom,-a -c :::::57d0/: -m -s
+Needs tuning (paging required; maybe compression workspace?),Holed Out,4th Dimension,HoledOut_E.uef,HoledOut1 HoledOut2 HoledOut3,-a -c :1100::::1000:/:/: -C 9a -s -P f8 1:2:3 -w d3f
 OK,Hopper,Acornsoft,Mega_Games_Cartridge/Hopper-STH-ROM.uef,Hopper.rom,-a -c x:e00: -r -w 880
 OK,HorseRace,Dynabyte,HorseRace_E.uef,HorseRace.rom,-a -c e00 -w 39f
 OK,Hunchback,Ocean,Hunchback-Ocean_E.uef,Hunchback.rom,-a -c :900 -m
