@@ -14,7 +14,7 @@ set -e
 ./UEF2ROM.py -a -c : -m UEFs/BanditsAt3OClock_E.uef ROMs/Bandits.rom
 ./UEF2ROM.py -a -c e00:e00::e00:6700:120/: -p -f 0-8 -s UEFs/Barbarian_E.uef ROMs/Barbarian-Practice-1.rom ROMs/Barbarian-Practice-2.rom
 ./UEF2ROM.py -a -c e00:e00::e00:6700:120/: -p -f 9-17 -s UEFs/Barbarian_E.uef ROMs/Barbarian-Fight-1.rom ROMs/Barbarian-Fight-2.rom
-./UEF2ROM.py -a -c ::x:x:x:x/x:/:/: -f 1-15 -s -P f8 1:2:3:1 -w 39f UEFs/Barbarian2_E.uef ROMs/Barbarian21 ROMs/Barbarian22 ROMs/Barbarian23 ROMs/Barbarian24
+./UEF2ROM.py -a -c ::x:x:x:x/x:/:/: -f 1-15 -s -P 290 1:2:3:1 -w 39f UEFs/Barbarian2_E.uef ROMs/Barbarian21 ROMs/Barbarian22 ROMs/Barbarian23 ROMs/Barbarian24
 ./UEF2ROM.py -a -c e00:e00:5800:60c0:e00/400:920:860:5d00 -s -t -w 120 UEFs/Baron_E.uef ROMs/Baron-1.rom ROMs/Baron-2.rom
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/BarBilliards_E.uef ROMs/BarBilliards.rom
 ./UEF2ROM.py -a -c :/x:x:x: -s -t -w d3f:ef97 UEFs/BeachHead_E.uef ROMs/BeachHead-1.rom ROMs/BeachHead-2.rom
@@ -42,7 +42,7 @@ set -e
 ./UEF2ROM.py -a -c e00 -m UEFs/ChuckieEgg_E.uef ROMs/ChuckieEgg.rom
 ./UEF2ROM.py -a -c e00:3000:5400:x -m -s UEFs/Citadel-PIASRR_E.uef ROMs/Citadel-1.rom ROMs/Citadel-2.rom
 ./UEF2ROM.py -a -c :/: -m -r -s UEFs/ClassicAdventure_RUN_BE.uef ROMs/ClassicAdventure-1.rom ROMs/ClassicAdventure-2.rom
-./UEF2ROM.py -a -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P f8 1:2:1 UEFs/Clogger_Tape.uef ROMs/Clogger1 ROMs/Clogger2 ROMs/Clogger3
+./UEF2ROM.py -a -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P 39f 1:2:1 UEFs/Clogger_Tape.uef ROMs/Clogger1 ROMs/Clogger2 ROMs/Clogger3
 ./UEF2ROM.py -a -c :400/: -m -r -s UEFs/Mega_Games_Cartridge/CodenameDroid-patched.uef ROMs/CodenameDroid-1.rom ROMs/CodenameDroid-2.rom
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/ConditionRed_E.uef ROMs/ConditionRed.rom
 ./UEF2ROM.py -a -c x:: -f 1-3 -m -r UEFs/Mega_Games_Cartridge/Confuzion-EveryGameGoing.uef ROMs/Confuzion.rom
@@ -75,9 +75,9 @@ set -e
 ./UEF2ROM.py -a -c : -m UEFs/Enigma_E.uef ROMs/Enigma.rom
 ./UEF2ROM.py -a -c :::e00 UEFs/EMBA.uef ROMs/EMBA.rom
 ./UEF2ROM.py -a -c e00 UEFs/Erbert_E.uef ROMs/Erbert.rom
-./UEF2ROM.py -a -c e00:e00::x -f 1-5 -m -s -P f8 1:2:3:0 UEFs/Mega_Games_Cartridge/Exile-EveryGameGoing.uef ROMs/Exile1 ROMs/Exile2 ROMs/Exile3 ROMs/Exile4
+./UEF2ROM.py -a -c e00:e00::x -f 1-5 -m -s -P 290 1:2:3:0 UEFs/Mega_Games_Cartridge/Exile-EveryGameGoing.uef ROMs/Exile1 ROMs/Exile2 ROMs/Exile3 ROMs/Exile4
 ./UEF2ROM.py -a -c :/: -m -s UEFs/EyeOfZolton_BE.uef ROMs/EyeOfZolton-1.rom ROMs/EyeOfZolton-2.rom
-./UEF2ROM.py -a -c x::x/3041:::3779:x:3f12:/: -f 0-13 -m -s -P f8 1:2:1 UEFs/EType_E.uef ROMs/EType1 ROMs/EType2 ROMs/EType3
+./UEF2ROM.py -a -c x::x/3041:::3779:x:3f12:/: -f 0-13 -m -s -P 290 1:2:1 UEFs/EType_E.uef ROMs/EType1 ROMs/EType2 ROMs/EType3
 ./UEF2ROM.py -a -c ::x -m UEFs/FelixAndTheFruitMonsters_E.uef ROMs/FelixAndTheFruitMonsters.rom
 ./UEF2ROM.py -a -c e00::x -m UEFs/FelixInTheFactory_E.uef ROMs/FelixInTheFactory.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/FelixMeetsTheEvilWeevils_E.uef ROMs/FelixMeetsTheEvilWeevils.rom
@@ -110,7 +110,7 @@ set -e
 ./UEF2ROM.py -a -c .e00:/: -f 2-4:s:5-24 -r -w 39f UEFs/Mega_Games_Cartridge/Icarus-patched.uef ROMs/Icarus-1.rom ROMs/Icarus-2.rom
 ./UEF2ROM.py -a -c e00::x:/: -m -s UEFs/Impact.uef ROMs/Impact-1.rom ROMs/Impact-2.rom
 ./UEF2ROM.py -a -c :x:x:x/x -s -t -w d3f:ef97 UEFs/ImpossibleMission_E.uef ROMs/ImpossibleMission-1.rom ROMs/ImpossibleMission-2.rom
-./UEF2ROM.py -a -c e00:5800:x:x:/x:/35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1 -f 1-5:s:6-22 -s -P f8 1:2:3:4:5:2 -w 39f UEFs/Imogen_E.uef ROMs/Imogen1 ROMs/Imogen2 ROMs/Imogen3 ROMs/Imogen4 ROMs/Imogen5 ROMs/Imogen6
+./UEF2ROM.py -a -c e00:5800:x:x:/x:/35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1:35c1:35c1/35c1:35c1:35c1 -f 1-5:s:6-22 -s -P 290 1:2:3:4:5:2 -w 39f UEFs/Imogen_E.uef ROMs/Imogen1 ROMs/Imogen2 ROMs/Imogen3 ROMs/Imogen4 ROMs/Imogen5 ROMs/Imogen6
 ./UEF2ROM.py -a -c e00:6980:8c0/: -m -s UEFs/Inertia_E.uef ROMs/Inertia-1.rom ROMs/Inertia-2.rom
 ./UEF2ROM.py -a -c e00::x -w 39f -t -s UEFs/JetBootJack_E.uef ROMs/JetBootJack-1.rom ROMs/JetBootJack-2.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/JetPowerJack_E.uef ROMs/JetPowerJack.rom
@@ -178,13 +178,13 @@ set -e
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Repton.uef ROMs/Repton-1.rom ROMs/Repton-2.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Repton2.uef ROMs/Repton2-1.rom ROMs/Repton2-2.rom
 ./UEF2ROM.py -a -c e00:/: -f 4-6:12-13 -s UEFs/Repton3_E.uef ROMs/Repton3-1.rom ROMs/Repton3-2.rom
-./UEF2ROM.py -a -c e00:::1900:/:/:/: -f 1-6:11-15 -s -P f8 1:2:3:1 UEFs/ReptonAroundTheWorld_E.uef ROMs/ReptonATW1 ROMs/ReptonATW2 ROMs/ReptonATW3 ROMs/ReptonATW4
-./UEF2ROM.py -a -c e00:::1900:/:/:/: -f 1-6:11-15 -s -P f8 1:2:3:1 UEFs/ReptonTheLifeOf_E.uef ROMs/ReptonLTO1 ROMs/ReptonLTO2 ROMs/ReptonLTO3 ROMs/ReptonLTO4
-./UEF2ROM.py -a -c e00:::1900:/:/:/: -f 1-6:11-15 -s -P f8 1:2:3:1 UEFs/ReptonThruTime_E.uef ROMs/ReptonTT1 ROMs/ReptonTT2 ROMs/ReptonTT3 ROMs/ReptonTT4
+./UEF2ROM.py -a -c e00:::1900:/:/:/: -f 1-6:11-15 -s -P 290 1:2:3:1 UEFs/ReptonAroundTheWorld_E.uef ROMs/ReptonATW1 ROMs/ReptonATW2 ROMs/ReptonATW3 ROMs/ReptonATW4
+./UEF2ROM.py -a -c e00:::1900:/:/:/: -f 1-6:11-15 -s -P 290 1:2:3:1 UEFs/ReptonTheLifeOf_E.uef ROMs/ReptonLTO1 ROMs/ReptonLTO2 ROMs/ReptonLTO3 ROMs/ReptonLTO4
+./UEF2ROM.py -a -c e00:::1900:/:/:/: -f 1-6:11-15 -s -P 290 1:2:3:1 UEFs/ReptonThruTime_E.uef ROMs/ReptonTT1 ROMs/ReptonTT2 ROMs/ReptonTT3 ROMs/ReptonTT4
 ./UEF2ROM.py -a -c e00 UEFs/DAR-Reversi_E.uef ROMs/Reversi.rom
 ./UEF2ROM.py -a -c e00::e00 -m UEFs/Reversi-Superior_E.uef ROMs/Reversi-Superior.rom
 ./UEF2ROM.py -a -c e00:/: -s -t -w 39f UEFs/RHT1-RickHanson_E.uef ROMs/RickHanson-1.rom ROMs/RickHanson-2.rom
-./UEF2ROM.py -a -c ::::x/400/bba:x:3881:3881:3881/3881:3881/: -f 3-8:s:9-15 -s -P f8 1:2:3:4:2 -t -w 39f UEFs/Ricochet_E.uef ROMs/Ricochet1 ROMs/Ricochet2 ROMs/Ricochet3 ROMs/Ricochet4 ROMs/Ricochet5
+./UEF2ROM.py -a -c ::::x/400/bba:x:3881:3881:3881/3881:3881/: -f 3-8:s:9-15 -s -P 290 1:2:3:4:2 -t -w 39f UEFs/Ricochet_E.uef ROMs/Ricochet1 ROMs/Ricochet2 ROMs/Ricochet3 ROMs/Ricochet4 ROMs/Ricochet5
 ./UEF2ROM.py -a -c e00 -m UEFs/RigAttack_E.uef ROMs/RigAttack.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/ROS1-TheProphecy_RUN_BE.uef ROMs/RisingOfSalandraPart1.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/ROS2-ReturnOfTheWarrior_RUN_BE.uef ROMs/RisingOfSalandraPart2.rom
@@ -201,7 +201,7 @@ set -e
 ./UEF2ROM.py -a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
 ./UEF2ROM.py -a -c e00::x -s -t UEFs/SpacemanSid_E.uef ROMs/SpacemanSid-1.rom ROMs/SpacemanSid-2.rom
 ./UEF2ROM.py -a -c x:/: -m UEFs/Mega_Games_Cartridge/SpaceRanger-patched.uef ROMs/SpaceRanger.rom
-./UEF2ROM.py -a -c :::x/:/: -f 1-6 -m -s -r -P f8 1:2:0 UEFs/SpellBinder_E.uef ROMs/Spellbinder1 ROMs/Spellbinder2 ROMs/Spellbinder3
+./UEF2ROM.py -a -c :::x/:/: -f 1-6 -m -s -r -P 290 1:2:0 UEFs/SpellBinder_E.uef ROMs/Spellbinder1 ROMs/Spellbinder2 ROMs/Spellbinder3
 ./UEF2ROM.py -a -c e00:x:/: -s -t -w 39f UEFs/SphereOfDestiny_E.uef ROMs/SphereOfDestiny-1.rom ROMs/SphereOfDestiny-2.rom
 ./UEF2ROM.py -a -c e00:.5775/: -m -s UEFs/SphinxAdventure_E.uef ROMs/SphinxAdventure-1.rom ROMs/SphinxAdventure-2.rom
 ./UEF2ROM.py -a -c e00::::::e00::/: -m -s UEFs/Spitfire40_E.uef ROMs/Spitfire40-1.rom ROMs/Spitfire40-2.rom
@@ -226,7 +226,7 @@ set -e
 ./UEF2ROM.py -a -c :/: -f 3-6 -m -r -s UEFs/Terrormolinos_BE.uef ROMs/Terrormolinos-1.rom ROMs/Terrormolinos-2.rom
 ./UEF2ROM.py -a -c e00:2f00:5800:1200 -m UEFs/Tetris_BE.uef ROMs/Tetris.rom
 ./UEF2ROM.py -a -c e00:/: -m -s UEFs/TheHuntSearchForShauna_E.uef ROMs/TheHunt1 ROMs/TheHunt2
-./UEF2ROM.py -a -c :/:/:/: -m -s -P f8 1:2:3:1 UEFs/Mega_Games_Cartridge/LastNinja-EveryGameGoing-patched.uef ROMs/LastNinja1 ROMs/LastNinja2 ROMs/LastNinja3 ROMs/LastNinja4
+./UEF2ROM.py -a -c :/:/:/: -m -s -P 290 1:2:3:1 UEFs/Mega_Games_Cartridge/LastNinja-EveryGameGoing-patched.uef ROMs/LastNinja1 ROMs/LastNinja2 ROMs/LastNinja3 ROMs/LastNinja4
 ./UEF2ROM.py -a -c :4000: -m UEFs/TheMine_E.uef ROMs/TheMine.rom
 ./UEF2ROM.py -a -c : -m -r UEFs/TheNineDancers_RUN_BE.uef ROMs/TheNineDancers.rom
 ./UEF2ROM.py -a -c e00:/: -s UEFs/Thrust_Tape.uef ROMs/Thrust-1.rom ROMs/Thrust-2.rom
