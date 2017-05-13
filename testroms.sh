@@ -63,6 +63,7 @@ elkulator -rom2 ROMs/DenisThroughTheDrinkingGlass-1.rom -rom1 ROMs/DenisThroughT
 elkulator -rom2 ROMs/DespatchRider.rom
 elkulator -rom2 ROMs/DiamondMine.rom
 elkulator -rom2 ROMs/DiamondMine2.rom
+elkulator -rom2 ROMs/DiamondPete.rom
 elkulator -rom2 ROMs/Dominoes.rom
 elkulator -rom2 ROMs/DrainMania-1.rom -rom1 ROMs/DrainMania-2.rom
 elkulator -rom2 ROMs/Draughts-Acornsoft.rom

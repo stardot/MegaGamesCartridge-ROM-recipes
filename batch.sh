@@ -61,6 +61,7 @@ set -e
 ./UEF2ROM.py -a -c e00 -m UEFs/DespatchRider_E.uef ROMs/DespatchRider.rom
 ./UEF2ROM.py -a -c :1600::1600 -m UEFs/DiamondMine-MRM_E.uef ROMs/DiamondMine.rom
 ./UEF2ROM.py -a -c e00: -w 39f UEFs/DiamondMine2-BlueRibbon_E.uef ROMs/DiamondMine2.rom
+./UEF2ROM.py -a -c e00: -s -T -w 39f UEFs/DiamondPete_E.uef ROMs/DiamondPete.rom
 ./UEF2ROM.py -a -c e00:1600:5bc0:x:x -m UEFs/Dominoes_E.uef ROMs/Dominoes.rom
 ./UEF2ROM.py -a -c e00:x:x -w 39f UEFs/DrainMania.uef ROMs/DrainMania-1.rom ROMs/DrainMania-2.rom
 ./UEF2ROM.py -a -c e00 UEFs/DAR-Draughts_E.uef ROMs/Draughts-Acornsoft.rom
