@@ -218,6 +218,7 @@ elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
 elkulator -rom2 ROMs/Spitfire40-1.rom -rom1 ROMs/Spitfire40-2.rom
 elkulator -rom2 ROMs/SpyCat-1.rom -rom1 ROMs/SpyCat-2.rom
 elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
+elkulator -rom2 ROMs/StarDrifter-1.rom -rom1 ROMs/StarDrifter-2.rom
 elkulator -rom2 ROMs/StarPort-1.rom -rom1 ROMs/StarPort-2.rom
 elkulator -rom2 ROMs/StarshipCommand.rom
 elkulator -rom2 ROMs/StarWars-1.rom -rom1 ROMs/StarWars-2.rom

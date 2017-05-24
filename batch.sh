@@ -208,6 +208,7 @@ set -e
 ./UEF2ROM.py -a -c e00::::::e00::/: -m -s UEFs/Spitfire40_E.uef ROMs/Spitfire40-1.rom ROMs/Spitfire40-2.rom
 ./UEF2ROM.py -a -c :/: -f 3-6 -m -r -s UEFs/SpyCat_E.uef ROMs/SpyCat-1.rom ROMs/SpyCat-2.rom
 ./UEF2ROM.py -a -c x::x:/: -p -s -w 39f -x UEFs/Mega_Games_Cartridge/SpyVsSpy-patched.uef ROMs/SpyVsSpy-1.rom ROMs/SpyVsSpy-2.rom
+./UEF2ROM.py -a -c :2000/: -m -s UEFs/T-STAR.uef ROMs/StarDrifter-1.rom ROMs/StarDrifter-2.rom
 ./UEF2ROM.py -a -c e00/: -m -s UEFs/Mega_Games_Cartridge/PI14-StarPort-EveryGameGoing-fromSSD.uef ROMs/StarPort-1.rom ROMs/StarPort-2.rom
 ./UEF2ROM.py -a -c x:e00: -f 0:1:3:2 -r -w 880 UEFs/Mega_Games_Cartridge/StarshipCommand-STH-ROM.uef ROMs/StarshipCommand.rom
 ./UEF2ROM.py -a -c e00:3780:900:2000/7620 -m -s UEFs/StarWars_E.uef ROMs/StarWars-1.rom ROMs/StarWars-2.rom
