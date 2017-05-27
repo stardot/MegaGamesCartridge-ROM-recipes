@@ -24,8 +24,8 @@ OK,Boxer,Acornsoft,Boxer.uef,Boxer.rom,-a -c e00:.4200 -m
 OK,Breakthrough,ASL,Breakthrough_RUN_E.uef,Breakthrough-1.rom Breakthrough-2.rom,-a -c :x:e00:e00:1100:/:e00:400:400:400:400 -r -s -w 860 -t
 OK,Brian Jacks Superstar Challenge,Martech,BrianJacksSuperstarChallenge_E.uef,BrianJacksSuperstarChallenge-1.rom BrianJacksSuperstarChallenge-2.rom,-a -c e00/: -s -t
 OK,Bug Blaster,Alligata,BugBlast.uef,BugBlast-1.rom BugBlast-2.rom,-a -c e00:e00:5800:e00:e00/: -w 880
-OK,Bug Eyes,Icon,BugEyes_E.uef,BugEyes.rom,-a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f
-OK,Bug Eyes,Audiogenic,Mega_Games_Cartridge/BugEyes2-EveryGameGoing.uef,BugEyes2-1 BugEyes2-2,-a -c e00::1d00/6b00 -m -s
+OK,Bug Eyes,Icon,BugEyes_E.uef,BugEyes,-a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f
+OK,Bug Eyes 2,Audiogenic,Mega_Games_Cartridge/BugEyes2-EveryGameGoing.uef,BugEyes2-1 BugEyes2-2,-a -c e00::1d00/6b00 -m -s
 OK,Bugs,Virgin,Bugs_E.uef,Bugs.rom,-a -c :
 OK,Bumble Bee,Micro Power,BumbleBee_E.uef,BumbleBee.rom,-a -c e00 -m
 OK (patched),By Fair Means Or Foul,Superior,Mega_Games_Cartridge/ByFairMeansOrFoul-EveryGameGoing.uef,ByFairMeansOrFoul-1.rom ByFairMeansOrFoul-2.rom,-a -c :/: -p -s -w 39f
@@ -46,7 +46,7 @@ OK,Classic Adventure,Melbourne House,ClassicAdventure_RUN_BE.uef,ClassicAdventur
 OK (paging required),Clogger,Impact,Clogger_Tape.uef,Clogger1 Clogger2 Clogger3,-a -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P 39f 1:2:1
 OK (patched),Codename: Droid,Superior,Mega_Games_Cartridge/CodenameDroid-patched.uef,CodenameDroid-1.rom CodenameDroid-2.rom,-a -c :400/: -m -r -s
 Needs patching,Combat Lynx,Durrell,CombatLynx_E.uef,,
-OK,Commando,Elite,Commando-PIASSR_E.uef,Commando-1 Commando-2,-a -c :/: -s -w 39f
+OK,Commando,Elite,Commando-PIASRR_E.uef,Commando-1 Commando-2,-a -c :/: -s -w 39f
 OK,Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,-a -c e00 -w 39f
 OK (patched),Confuzion,Incentive,Mega_Games_Cartridge/Confuzion-EveryGameGoing.uef,Confuzion.rom,-a -c x:: -f 1-3 -m -r
 OK,Cops n' Robbers,Atlantis,CopsNRobbers_BE.uef,CopsNRobbers,-a -c e00 -w 39f
@@ -67,7 +67,7 @@ OK,Denis Through The Drinking Glass,Melbourne House,DenisThroughTheDrinkingGlass
 OK,Despatch Rider,Audiogenic,DespatchRider_E.uef,DespatchRider.rom,-a -c e00 -m
 OK,Diamond Mine,MRM,DiamondMine-MRM_E.uef,DiamondMine.rom,-a -c :1600::1600 -m
 OK,Diamond Mine 2,Blue Ribbon,DiamondMine2-BlueRibbon_E.uef,DiamondMine2.rom,-a -c e00: -w 39f
-OK,Diamind Pete,Alligata,DiamondPete_E.uef,DiamondPete.rom,-a -c e00: -s -T -w 39f
+OK,Diamind Pete,Alligata,DiamondPete_E.uef,DiamondPete,-a -c e00: -s -T -w 39f
 OK,Dominoes,Blue Ribbon,Dominoes_E.uef,Dominoes.rom,-a -c e00:1600:5bc0:x:x -m
 OK,Drain Mania,Icon,DrainMania.uef,DrainMania-1.rom DrainMania-2.rom,-a -c e00:x:x -w 39f
 OK,Draughts,Acornsoft,DAR-Draughts_E.uef,Draughts-Acornsoft.rom,-a -c e00
@@ -223,7 +223,7 @@ OK,Sphinx Adventure,Acornsoft,SphinxAdventure_E.uef,SphinxAdventure-1.rom Sphinx
 OK,Spitfire 40,Mirrorsoft,Spitfire40_E.uef,Spitfire40-1.rom Spitfire40-2.rom,-a -c e00::::::e00::/: -m -s
 OK (truncated),Spycat,Superior,SpyCat_E.uef,SpyCat-1.rom SpyCat-2.rom,-a -c :/: -f 3-6 -m -r -s
 OK (patched),Spy vs Spy,Tynesoft,Mega_Games_Cartridge/SpyVsSpy-patched.uef,SpyVsSpy-1.rom SpyVsSpy-2.rom,-a -c x::x:/: -p -s -w 39f -x
-OK,Star Drifter,Firebird,T-STAR.uef,StarDrifter-1.rom StarDrifter-2.rom,-a -c :2000/: -m -s
+OK,Star Drifter,Firebird,T-STAR.uef,StarDrifter-1 StarDrifter-2,-a -c :2000/: -m -s
 OK,Star Port,Superior,Mega_Games_Cartridge/PI14-StarPort-EveryGameGoing-fromSSD.uef,StarPort-1.rom StarPort-2.rom,-a -c e00/: -m -s
 OK,Starship Command,Acornsoft,Mega_Games_Cartridge/StarshipCommand-STH-ROM.uef,StarshipCommand.rom,-a -c x:e00: -f 0:1:3:2 -r -w 880
 OK (patched),Star Wars,Domark,StarWars_E.uef,StarWars-1.rom StarWars-2.rom,-a -c e00:3780:900:2000/7620 -m -s

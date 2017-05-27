@@ -27,7 +27,7 @@ elkulator -rom2 ROMs/Boxer.rom
 elkulator -rom2 ROMs/Breakthrough-1.rom -rom1 ROMs/Breakthrough-2.rom
 elkulator -rom2 ROMs/BrianJacksSuperstarChallenge-1.rom -rom1 ROMs/BrianJacksSuperstarChallenge-2.rom
 elkulator -rom2 ROMs/BugBlast-1.rom -rom1 ROMs/BugBlast-2.rom
-elkulator -rom2 ROMs/BugEyes.rom
+elkulator -rom2 ROMs/BugEyes
 elkulator -rom2 ROMs/BugEyes2-1 -rom1 ROMs/BugEyes2-2
 elkulator -rom2 ROMs/Bugs.rom
 elkulator -rom2 ROMs/BumbleBee.rom
@@ -68,7 +68,7 @@ elkulator -rom2 ROMs/DenisThroughTheDrinkingGlass-1.rom -rom1 ROMs/DenisThroughT
 elkulator -rom2 ROMs/DespatchRider.rom
 elkulator -rom2 ROMs/DiamondMine.rom
 elkulator -rom2 ROMs/DiamondMine2.rom
-elkulator -rom2 ROMs/DiamondPete.rom
+elkulator -rom2 ROMs/DiamondPete
 elkulator -rom2 ROMs/Dominoes.rom
 elkulator -rom2 ROMs/DrainMania-1.rom -rom1 ROMs/DrainMania-2.rom
 elkulator -rom2 ROMs/Draughts-Acornsoft.rom
@@ -230,7 +230,7 @@ elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
 elkulator -rom2 ROMs/Spitfire40-1.rom -rom1 ROMs/Spitfire40-2.rom
 elkulator -rom2 ROMs/SpyCat-1.rom -rom1 ROMs/SpyCat-2.rom
 elkulator -rom2 ROMs/SpyVsSpy-1.rom -rom1 ROMs/SpyVsSpy-2.rom
-elkulator -rom2 ROMs/StarDrifter-1.rom -rom1 ROMs/StarDrifter-2.rom
+elkulator -rom2 ROMs/StarDrifter-1 -rom1 ROMs/StarDrifter-2
 elkulator -rom2 ROMs/StarPort-1.rom -rom1 ROMs/StarPort-2.rom
 elkulator -rom2 ROMs/StarshipCommand.rom
 elkulator -rom2 ROMs/StarWars-1.rom -rom1 ROMs/StarWars-2.rom

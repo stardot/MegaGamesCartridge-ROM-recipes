@@ -26,7 +26,7 @@ set -e
 ./UEF2ROM.py -a -c :x:e00:e00:1100:/:e00:400:400:400:400 -r -s -w 860 -t UEFs/Breakthrough_RUN_E.uef ROMs/Breakthrough-1.rom ROMs/Breakthrough-2.rom
 ./UEF2ROM.py -a -c e00/: -s -t UEFs/BrianJacksSuperstarChallenge_E.uef ROMs/BrianJacksSuperstarChallenge-1.rom ROMs/BrianJacksSuperstarChallenge-2.rom
 ./UEF2ROM.py -a -c e00:e00:5800:e00:e00/: -w 880 UEFs/BugBlast.uef ROMs/BugBlast-1.rom ROMs/BugBlast-2.rom
-./UEF2ROM.py -a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/BugEyes_E.uef ROMs/BugEyes.rom
+./UEF2ROM.py -a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/BugEyes_E.uef ROMs/BugEyes
 ./UEF2ROM.py -a -c e00::1d00/6b00 -m -s UEFs/Mega_Games_Cartridge/BugEyes2-EveryGameGoing.uef ROMs/BugEyes2-1 ROMs/BugEyes2-2
 ./UEF2ROM.py -a -c : UEFs/Bugs_E.uef ROMs/Bugs.rom
 ./UEF2ROM.py -a -c e00 -m UEFs/BumbleBee_E.uef ROMs/BumbleBee.rom
@@ -47,7 +47,7 @@ set -e
 ./UEF2ROM.py -a -c :/: -m -r -s UEFs/ClassicAdventure_RUN_BE.uef ROMs/ClassicAdventure-1.rom ROMs/ClassicAdventure-2.rom
 ./UEF2ROM.py -a -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P 39f 1:2:1 UEFs/Clogger_Tape.uef ROMs/Clogger1 ROMs/Clogger2 ROMs/Clogger3
 ./UEF2ROM.py -a -c :400/: -m -r -s UEFs/Mega_Games_Cartridge/CodenameDroid-patched.uef ROMs/CodenameDroid-1.rom ROMs/CodenameDroid-2.rom
-./UEF2ROM.py -a -c :/: -s -w 39f UEFs/Commando-PIASSR_E.uef ROMs/Commando-1 ROMs/Commando-2
+./UEF2ROM.py -a -c :/: -s -w 39f UEFs/Commando-PIASRR_E.uef ROMs/Commando-1 ROMs/Commando-2
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/ConditionRed_E.uef ROMs/ConditionRed.rom
 ./UEF2ROM.py -a -c x:: -f 1-3 -m -r UEFs/Mega_Games_Cartridge/Confuzion-EveryGameGoing.uef ROMs/Confuzion.rom
 ./UEF2ROM.py -a -c e00 -w 39f UEFs/CopsNRobbers_BE.uef ROMs/CopsNRobbers
@@ -66,7 +66,7 @@ set -e
 ./UEF2ROM.py -a -c e00 -m UEFs/DespatchRider_E.uef ROMs/DespatchRider.rom
 ./UEF2ROM.py -a -c :1600::1600 -m UEFs/DiamondMine-MRM_E.uef ROMs/DiamondMine.rom
 ./UEF2ROM.py -a -c e00: -w 39f UEFs/DiamondMine2-BlueRibbon_E.uef ROMs/DiamondMine2.rom
-./UEF2ROM.py -a -c e00: -s -T -w 39f UEFs/DiamondPete_E.uef ROMs/DiamondPete.rom
+./UEF2ROM.py -a -c e00: -s -T -w 39f UEFs/DiamondPete_E.uef ROMs/DiamondPete
 ./UEF2ROM.py -a -c e00:1600:5bc0:x:x -m UEFs/Dominoes_E.uef ROMs/Dominoes.rom
 ./UEF2ROM.py -a -c e00:x:x -w 39f UEFs/DrainMania.uef ROMs/DrainMania-1.rom ROMs/DrainMania-2.rom
 ./UEF2ROM.py -a -c e00 UEFs/DAR-Draughts_E.uef ROMs/Draughts-Acornsoft.rom
@@ -220,7 +220,7 @@ set -e
 ./UEF2ROM.py -a -c e00::::::e00::/: -m -s UEFs/Spitfire40_E.uef ROMs/Spitfire40-1.rom ROMs/Spitfire40-2.rom
 ./UEF2ROM.py -a -c :/: -f 3-6 -m -r -s UEFs/SpyCat_E.uef ROMs/SpyCat-1.rom ROMs/SpyCat-2.rom
 ./UEF2ROM.py -a -c x::x:/: -p -s -w 39f -x UEFs/Mega_Games_Cartridge/SpyVsSpy-patched.uef ROMs/SpyVsSpy-1.rom ROMs/SpyVsSpy-2.rom
-./UEF2ROM.py -a -c :2000/: -m -s UEFs/T-STAR.uef ROMs/StarDrifter-1.rom ROMs/StarDrifter-2.rom
+./UEF2ROM.py -a -c :2000/: -m -s UEFs/T-STAR.uef ROMs/StarDrifter-1 ROMs/StarDrifter-2
 ./UEF2ROM.py -a -c e00/: -m -s UEFs/Mega_Games_Cartridge/PI14-StarPort-EveryGameGoing-fromSSD.uef ROMs/StarPort-1.rom ROMs/StarPort-2.rom
 ./UEF2ROM.py -a -c x:e00: -f 0:1:3:2 -r -w 880 UEFs/Mega_Games_Cartridge/StarshipCommand-STH-ROM.uef ROMs/StarshipCommand.rom
 ./UEF2ROM.py -a -c e00:3780:900:2000/7620 -m -s UEFs/StarWars_E.uef ROMs/StarWars-1.rom ROMs/StarWars-2.rom
