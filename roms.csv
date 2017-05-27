@@ -213,6 +213,7 @@ OK,Smash And Grab,Superior,SmashAndGrab_E.uef,SmashAndGrab.rom,-a -c e00::5000
 OK,Snapper,Acornsoft,Mega_Games_Cartridge/Snapper-STH-ROM.uef,Snapper.rom,-a -c x:e00: -r -w 880
 OK,Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,-a -c e00::.2f8a -m
 OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes.rom,-a -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f
+OK (patched),Space Jailer,Micro Power,Mega_Games_Cartridge/SpaceJailer_E.uef,SpaceJailer,-a -c e00:5000: -m
 OK,Spaceman Sid,English,SpacemanSid_E.uef,SpacemanSid-1.rom SpacemanSid-2.rom,-a -c e00::x -s -t
 OK (patched),Space Ranger,Audiogenic,Mega_Games_Cartridge/SpaceRanger-patched.uef,SpaceRanger.rom,-a -c x:/: -m
 OK,Spectipede,Mastertronic,Spectipede_E.uef,Spectipede,-a -c e00:e00:5000: -w 39f

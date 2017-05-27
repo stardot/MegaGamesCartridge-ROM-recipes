@@ -219,6 +219,7 @@ elkulator -rom2 ROMs/SmashAndGrab.rom
 elkulator -rom2 ROMs/Snapper.rom
 elkulator -rom2 ROMs/Snooker.rom
 elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
+elkulator -rom2 ROMs/SpaceJailer
 elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
 elkulator -rom2 ROMs/SpaceRanger.rom
 elkulator -rom2 ROMs/Spectipede

@@ -1,0 +1,4 @@
+We change the PAGE at which the BASIC part of the game is loaded, and the
+screen mode in SJ.
+The instructions are fixed to work in MODE 1.
+The control keys in SJ2 are changed to Z and X instead of Caps Lock and Ctrl.
