@@ -265,7 +265,7 @@ elkulator -rom2 ROMs/Ultron.rom
 elkulator -rom2 ROMs/UndergroundAdventure.rom
 elkulator -rom2 ROMs/VideosRevenge-1.rom -rom1 ROMs/VideosRevenge-2.rom
 elkulator -rom2 ROMs/Village-1.rom -rom1 ROMs/Village-2.rom
-elkulator -rom2 ROMs/Vindaloo
+elkulator -rom2 ROMs/Vindaloo-1 -rom1 ROMs/Vindaloo-2
 elkulator -rom2 ROMs/West-1.rom -rom1 ROMs/West-2.rom
 elkulator -rom2 ROMs/WheelOfFortune-1.rom -rom1 ROMs/WheelOfFortune-2.rom
 elkulator -rom2 ROMs/Where.rom

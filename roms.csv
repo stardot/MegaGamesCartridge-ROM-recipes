@@ -259,7 +259,7 @@ OK,Ultron,Audiogenic,Ultron_E.uef,Ultron.rom,-a -m -r
 OK,Underground Adventure,Duckworth,EXPLADV-UndegroundAdventure_E.uef,UndergroundAdventure.rom,-a -c : -m
 OK,Videos Revenge,Budgie,VideosRevenge-PIASRR_E.uef,VideosRevenge-1.rom VideosRevenge-2.rom,-a -c :::x -w 120
 OK,Village of Lost Souls,Robico,VillageOfLostSouls-RR_E.uef,Village-1.rom Village-2.rom,-a -c e00::b00:10d0:2f30/658 -s -m
-OK,Vindaloo,Tynesoft,Vindaloo_E.uef,Vindaloo,-a -c e00::x:/: -s -t -w 120
+OK,Vindaloo,Tynesoft,Vindaloo_E.uef,Vindaloo-1 Vindaloo-2,-a -c e00::x:/: -s -t -w 120
 OK,West,Talent,West_RUN_E.uef,West-1.rom West-2.rom,-a -c :/: -m -r -s
 OK,Wheel Of Fortune,Epic,WheelOfFortune_E.uef,WheelOfFortune-1.rom WheelOfFortune-2.rom,-a -c e00:e00/: -m -s
 OK,Where,Micro Power,Where_E.uef,Where.rom,-a -c : -m

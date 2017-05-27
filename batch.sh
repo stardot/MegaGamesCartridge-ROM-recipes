@@ -254,7 +254,7 @@ set -e
 ./UEF2ROM.py -a -c : -m UEFs/EXPLADV-UndegroundAdventure_E.uef ROMs/UndergroundAdventure.rom
 ./UEF2ROM.py -a -c :::x -w 120 UEFs/VideosRevenge-PIASRR_E.uef ROMs/VideosRevenge-1.rom ROMs/VideosRevenge-2.rom
 ./UEF2ROM.py -a -c e00::b00:10d0:2f30/658 -s -m UEFs/VillageOfLostSouls-RR_E.uef ROMs/Village-1.rom ROMs/Village-2.rom
-./UEF2ROM.py -a -c e00::x:/: -s -t -w 120 UEFs/Vindaloo_E.uef ROMs/Vindaloo
+./UEF2ROM.py -a -c e00::x:/: -s -t -w 120 UEFs/Vindaloo_E.uef ROMs/Vindaloo-1 ROMs/Vindaloo-2
 ./UEF2ROM.py -a -c :/: -m -r -s UEFs/West_RUN_E.uef ROMs/West-1.rom ROMs/West-2.rom
 ./UEF2ROM.py -a -c e00:e00/: -m -s UEFs/WheelOfFortune_E.uef ROMs/WheelOfFortune-1.rom ROMs/WheelOfFortune-2.rom
 ./UEF2ROM.py -a -c : -m UEFs/Where_E.uef ROMs/Where.rom
