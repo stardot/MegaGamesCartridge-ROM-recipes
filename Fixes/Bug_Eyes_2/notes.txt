@@ -1,0 +1,2 @@
+We patch the DFS version from Every Game Going to disable VDU calls while the
+game loads then re-enable them afterwards.

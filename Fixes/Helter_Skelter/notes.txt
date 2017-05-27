@@ -1,0 +1,1 @@
+We patch the loader to remove a call to disable keyboard scanning.
