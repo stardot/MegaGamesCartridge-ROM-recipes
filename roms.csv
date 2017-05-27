@@ -67,7 +67,7 @@ OK,Denis Through The Drinking Glass,Melbourne House,DenisThroughTheDrinkingGlass
 OK,Despatch Rider,Audiogenic,DespatchRider_E.uef,DespatchRider.rom,-a -c e00 -m
 OK,Diamond Mine,MRM,DiamondMine-MRM_E.uef,DiamondMine.rom,-a -c :1600::1600 -m
 OK,Diamond Mine 2,Blue Ribbon,DiamondMine2-BlueRibbon_E.uef,DiamondMine2.rom,-a -c e00: -w 39f
-OK,Diamind Pete,Alligata,DiamondPete_E.uef,DiamondPete,-a -c e00: -s -T -w 39f
+OK,Diamond Pete,Alligata,DiamondPete_E.uef,DiamondPete,-a -c e00: -s -T -w 39f
 OK,Dominoes,Blue Ribbon,Dominoes_E.uef,Dominoes.rom,-a -c e00:1600:5bc0:x:x -m
 OK,Drain Mania,Icon,DrainMania.uef,DrainMania-1.rom DrainMania-2.rom,-a -c e00:x:x -w 39f
 OK,Draughts,Acornsoft,DAR-Draughts_E.uef,Draughts-Acornsoft.rom,-a -c e00
