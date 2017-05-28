@@ -165,11 +165,17 @@ elkulator -rom2 ROMs/Overdrive.rom
 elkulator -rom2 ROMs/Oxbridge-1.rom -rom1 ROMs/Oxbridge-2.rom
 elkulator -rom2 ROMs/PalaceOfMagic-1.rom -rom1 ROMs/PalaceOfMagic-2.rom
 elkulator -rom2 ROMs/PalaceOfMagic2016-1.rom -rom1 ROMs/PalaceOfMagic2016-2.rom
+elkulator -rom2 ROMs/Panik
+elkulator -rom2 ROMs/Pedro
 elkulator -rom2 ROMs/Pengi.rom
+elkulator -rom2 ROMs/Pengwyn
 elkulator -rom2 ROMs/PercyPenguin
 elkulator -rom2 ROMs/Perplexity-1.rom -rom1 ROMs/Perplexity-2.rom
+elkulator -rom2 ROMs/PhantomCombat-4
+elkulator -rom2 ROMs/PhantomCombat-2
 elkulator -rom2 ROMs/PhilosophersQuest-1.rom -rom1 ROMs/PhilosophersQuest-2.rom
 elkulator -rom2 ROMs/PhilosophersStone.rom
+elkulator -rom2 ROMs/Pinball-Microbyte
 elkulator -rom2 ROMs/Pinball.rom
 elkulator -rom2 ROMs/Pipeline-1.rom -rom1 ROMs/Pipeline-2.rom
 elkulator -rom2 ROMs/Pipemania-1.rom -rom1 ROMs/Pipemania-2.rom
@@ -178,6 +184,7 @@ elkulator -rom2 ROMs/PlanB2.rom
 elkulator -rom2 ROMs/Planetoid.rom
 elkulator -rom2 ROMs/Plunder
 elkulator -rom2 ROMs/Podd.rom
+elkulator -rom2 ROMs/Poker
 elkulator -rom2 ROMs/Positron.rom
 elkulator -rom2 ROMs/Predator-1.rom -rom1 ROMs/Predator-2.rom
 elkulator -rom2 ROMs/ProjectThesius-1.rom -rom1 ROMs/ProjectThesius-2.rom
@@ -209,6 +216,7 @@ elkulator -rom2 ROMs/RigAttack.rom
 elkulator -rom2 ROMs/RisingOfSalandraPart1.rom
 elkulator -rom2 ROMs/RisingOfSalandraPart2.rom
 elkulator -rom2 ROMs/Robotron-1.rom -rom1 ROMs/Robotron-2.rom
+elkulator -rom2 ROMs/RowOfFour
 elkulator -rom2 ROMs/RubbleTrouble-1.rom -rom1 ROMs/RubbleTrouble-2.rom
 elkulator -rom2 ROMs/Saracoid.rom
 elkulator -rom2 ROMs/SavagePond.rom
@@ -266,6 +274,7 @@ elkulator -rom2 ROMs/UndergroundAdventure.rom
 elkulator -rom2 ROMs/VideosRevenge-1.rom -rom1 ROMs/VideosRevenge-2.rom
 elkulator -rom2 ROMs/Village-1.rom -rom1 ROMs/Village-2.rom
 elkulator -rom2 ROMs/Vindaloo-1 -rom1 ROMs/Vindaloo-2
+elkulator -rom2 ROMs/Warehouse
 elkulator -rom2 ROMs/West-1.rom -rom1 ROMs/West-2.rom
 elkulator -rom2 ROMs/WheelOfFortune-1.rom -rom1 ROMs/WheelOfFortune-2.rom
 elkulator -rom2 ROMs/Where.rom
@@ -273,6 +282,7 @@ elkulator -rom2 ROMs/WhiteKnightMk11.rom
 elkulator -rom2 ROMs/Woks-1 -rom1 ROMs/Woks-2
 elkulator -rom2 ROMs/Wychwood.rom
 elkulator -rom2 ROMs/XOR-1.rom -rom1 ROMs/XOR-2.rom
+elkulator -rom2 ROMs/XOR-Procyon-1 -rom1 ROMs/XOR-Procyon-2
 elkulator -rom2 ROMs/YieArKungFu-1.rom -rom1 ROMs/YieArKungFu-2.rom
 elkulator -rom2 ROMs/YieArKungFu2-1.rom -rom1 ROMs/YieArKungFu2-2.rom
 elkulator -rom2 ROMs/Zalaga-1.rom -rom1 ROMs/Zalaga-2.rom

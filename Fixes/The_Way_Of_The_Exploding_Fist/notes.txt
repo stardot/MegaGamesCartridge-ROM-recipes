@@ -1,0 +1,2 @@
+Used the DFS version from Every Game Going instead of the HQ UEF version.
+We patch the loader to disable VDU calls while the game loads.

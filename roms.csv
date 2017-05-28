@@ -162,12 +162,18 @@ OK,Overdrive,Superior,Overdrive_E.uef,Overdrive.rom,-a -c e00::2300
 OK,Oxbridge,Tynesoft,Oxbridge_E.uef,Oxbridge-1.rom Oxbridge-2.rom,-a -c e00:/: -s -t -w 39f
 OK,Palace Of Magic (original),Superior,PalaceOfMagic_E.uef,PalaceOfMagic-1.rom PalaceOfMagic-2.rom,-a -c e00/: -s
 OK,Palace Of Magic (2016),Superior,Mega_Games_Cartridge/PalaceOfMagic2016.uef,PalaceOfMagic2016-1.rom PalaceOfMagic2016-2.rom,-a -c e00::2000/: -f 1-3 -s
+OK,Panik,Atlantis,Panik_BE.uef,Panik,-a -c : -w 39f
 Last file needs patching,Paperboy,Elite,Paperboy_E.uef,,
+OK,Pedro,Imagine,Pedro_E.uef,Pedro,-a -c : -m
 OK,Pengi,Visions,Pengi_E.uef,Pengi.rom,-a -c e00: -w 120
+OK,Pengwyn,Postern,Pengwyn_E.uef,Pengwyn,-a -c : -m
 OK,Percy Penguin,Superior,PercyPenguin_E.uef,PercyPenguin,-a -c e00:/: -w 39f
 OK (patched),Perplexity,Superior,Perplexity_E.uef,Perplexity-1.rom Perplexity-2.rom,-a -c :/77ad -s -t -w 39f
+OK,Phantom Combat (4 colours),Doctorsoft,PhantomCombat_E.uef,PhantomCombat-4,-a -c e00:/: -f 0-3 -w 39f
+OK,Phantom Combat (2 colours),Doctorsoft,PhantomCombat_E.uef,PhantomCombat-2,-a -c e00:/: -f 4-6 -w 39f
 OK,Philosophers Quest,Acornsoft,PhilosophersQuest_E.uef,PhilosophersQuest-1.rom PhilosophersQuest-2.rom,-a -c e00:.5fc3/: -m -s
 OK,Philosophers Stone,Potter,PhilosophersStone_BE.uef,PhilosophersStone.rom,-a -c : -m
+OK,Pinball,Microbyte,Pinball-Microbyte_E.uef,Pinball-Microbyte,-a -c e00 -w 39f
 OK,Pinball,Kansas,Pinball.uef,Pinball.rom,-a -c ::x:x -w 120
 OK (patched),Pipeline,Superior,Mega_Games_Cartridge/Pipeline-patched.uef,Pipeline-1.rom Pipeline-2.rom,-a -c x:x/: -m -r -s
 OK,Pipemania,Empire,Pipemania_E.uef,Pipemania-1.rom Pipemania-2.rom,-a -c :/: -m -r -s
@@ -176,6 +182,7 @@ OK,Plan B 2,Bug Byte,PlanB2_BE.uef,PlanB2.rom,-a -c e00
 OK,Planetoid,Acornsoft,Planetoid_E.uef,Planetoid.rom,-a -c e00: -m
 OK,Plunder,CCS,Plunder_E.uef,Plunder,-a -c : -m
 OK,Podd,Acornsoft,Podd_BE.uef,Podd.rom,-a -c e00 -m
+OK,Poker,Duckworth,Poker-Duckworth_BE.uef,Poker,-a -c e00/: -m -s
 OK,Positron,Micro Power,Positron_E.uef,Positron.rom,-a -c : -m
 OK,Predator,Superior,Predator_E.uef,Predator-1.rom Predator-2.rom,-a -c e00:e00::4e00:5300/: -s
 OK,Project Thesius,Robico,RHT2-ProjectThesius_E.uef,ProjectThesius-1.rom ProjectThesius-2.rom,-a -c :2d00/: -s -t -T -w d60
@@ -203,6 +210,7 @@ OK,Rig Attack,Tynesoft,RigAttack_E.uef,RigAttack.rom,-a -c e00 -m
 OK,Rising Of Salandra part 1,Larsoft,ROS1-TheProphecy_RUN_BE.uef,RisingOfSalandraPart1.rom,-a -c : -m -r
 OK,Rising Of Salandra part 2,Larsoft,ROS2-ReturnOfTheWarrior_RUN_BE.uef,RisingOfSalandraPart2.rom,-a -c : -m -r
 OK,Robotron,Atarisoft,Robotron_E.uef,Robotron-1.rom Robotron-2.rom,-a -s -t -w 100 -f 0-2
+OK,Row Of Four,Software For All,RowOfFour_BE.uef,RowOfFour,-a -c e00:2500: -w 39f
 OK,Rubble Trouble,Micro Power,RubbleTrouble.uef,RubbleTrouble-1.rom RubbleTrouble-2.rom,-a -c e00:e00:2f00/:
 OK,Saracoid,Audiogenic,Saracoid.uef,Saracoid.rom,-a -c e00 -m
 OK,Savage Pond,Starcade,SavagePond-Starcade_E.uef,SavagePond.rom,-a -c e00
@@ -260,6 +268,7 @@ OK,Underground Adventure,Duckworth,EXPLADV-UndegroundAdventure_E.uef,Underground
 OK,Videos Revenge,Budgie,VideosRevenge-PIASRR_E.uef,VideosRevenge-1.rom VideosRevenge-2.rom,-a -c :::x -w 120
 OK,Village of Lost Souls,Robico,VillageOfLostSouls-RR_E.uef,Village-1.rom Village-2.rom,-a -c e00::b00:10d0:2f30/658 -s -m
 OK,Vindaloo,Tynesoft,Vindaloo_E.uef,Vindaloo-1 Vindaloo-2,-a -c e00::x:/: -s -t -w 120
+OK (fixed),Warehouse,Top Ten,Mega_Games_Cartridge/Warehouse-fixed.uef,Warehouse,-a -c :/5800 -m -s
 OK,West,Talent,West_RUN_E.uef,West-1.rom West-2.rom,-a -c :/: -m -r -s
 OK,Wheel Of Fortune,Epic,WheelOfFortune_E.uef,WheelOfFortune-1.rom WheelOfFortune-2.rom,-a -c e00:e00/: -m -s
 OK,Where,Micro Power,Where_E.uef,Where.rom,-a -c : -m
@@ -267,6 +276,7 @@ OK,White Knight Mk 11,BBCSoft,WhiteKnightMk11_E.uef,WhiteKnightMk11.rom,-a -c e0
 OK,Woks,Artic,Woks_BE.uef,Woks-1 Woks-2,-a -c e00:/: -s -T -w 39f
 OK,Wychwood,Larsoft,Wychwood_RUN_BE.uef,Wychwood.rom,-a -c : -m -r
 OK,XOR,Astral Software,XOR_E.uef,XOR-1.rom XOR-2.rom,-a -c :::x -s -t -w d3f:ef97
+OK,XOR (Procyon's Mazes),Astral Software,XOR-Procyon_E.uef,XOR-Procyon-1 XOR-Procyon-2,-a -c :::x -s -t -w d3f:ef97
 OK (patched),Yie Ar Kung Fu,Imagine,YieArKungFu_E.uef,YieArKungFu-1.rom YieArKungFu-2.rom,-a -c e00:5300:500:1100/:x:5f80 -f 1-7 -p -s -t -w 39f
 OK (patched),Yie Ar Kung Fu 2,Imagine,Mega_Games_Cartridge/YieArKungFu2-EveryGameGoing.uef,YieArKungFu2-1.rom YieArKungFu2-2.rom,-a -c e00:1d00:1d00:1d00:2800/2400 -m -s
 OK,Zalaga,Aardvark,Zalaga-ALRR_E.uef,Zalaga-1.rom Zalaga-2.rom,-a -c e00:/: -s

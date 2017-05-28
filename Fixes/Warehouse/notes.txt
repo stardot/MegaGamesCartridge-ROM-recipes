@@ -1,0 +1,2 @@
+We recreate the UEF file because the original version is broken - one of the
+files is locked.

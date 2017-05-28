@@ -1,0 +1,31 @@
+.org $e00
+
+lda #229                ; Disable Escape
+ldx #1
+ldy #0
+jsr $fff4
+
+ldx #<command0
+ldy #>command0
+jsr $fff7
+
+ldx #<command1
+ldy #>command1
+jsr $fff7
+
+ldx #<command2
+ldy #>command2
+jsr $fff7
+
+ldx #<command3
+ldy #>command3
+jmp $fff7
+
+command0:
+.byte "LOAD GAME", 13
+command1:
+.byte "LOAD YIE2", 13
+command2:
+.byte "LOAD YIE3", 13
+command3:
+.byte "RUN YIE4", 13
