@@ -12,6 +12,8 @@ t = t.replace('\xf2C("', '\xf1  "')
 t = t.replace('"\x83', '" ')
 t = t.replace('")', '" ')
 
+t = t.replace(' , as they attempt', ' as they attempt  ')
+
 t = t.replace('.You have 9 Kings per game.When all"',
               '.":\xf1:\xf1" You have 9 Kings per game."\'')
 

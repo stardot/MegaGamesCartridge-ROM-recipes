@@ -184,7 +184,7 @@ elkulator -rom2 ROMs/PlanB2.rom
 elkulator -rom2 ROMs/Planetoid.rom
 elkulator -rom2 ROMs/Plunder
 elkulator -rom2 ROMs/Podd.rom
-elkulator -rom2 ROMs/Poker
+elkulator -rom2 ROMs/Poker1 -rom1 ROMs/Poker2
 elkulator -rom2 ROMs/Positron.rom
 elkulator -rom2 ROMs/Predator-1.rom -rom1 ROMs/Predator-2.rom
 elkulator -rom2 ROMs/ProjectThesius-1.rom -rom1 ROMs/ProjectThesius-2.rom

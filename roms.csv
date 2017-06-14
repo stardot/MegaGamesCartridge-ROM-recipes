@@ -182,7 +182,7 @@ OK,Plan B 2,Bug Byte,PlanB2_BE.uef,PlanB2.rom,-a -c e00
 OK,Planetoid,Acornsoft,Planetoid_E.uef,Planetoid.rom,-a -c e00: -m
 OK,Plunder,CCS,Plunder_E.uef,Plunder,-a -c : -m
 OK,Podd,Acornsoft,Podd_BE.uef,Podd.rom,-a -c e00 -m
-OK,Poker,Duckworth,Poker-Duckworth_BE.uef,Poker,-a -c e00/: -m -s
+OK,Poker,Duckworth,Poker-Duckworth_BE.uef,Poker1 Poker2,-a -c e00/: -m -s
 OK,Positron,Micro Power,Positron_E.uef,Positron.rom,-a -c : -m
 OK,Predator,Superior,Predator_E.uef,Predator-1.rom Predator-2.rom,-a -c e00:e00::4e00:5300/: -s
 OK,Project Thesius,Robico,RHT2-ProjectThesius_E.uef,ProjectThesius-1.rom ProjectThesius-2.rom,-a -c :2d00/: -s -t -T -w d60

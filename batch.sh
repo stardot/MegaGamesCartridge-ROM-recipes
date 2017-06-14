@@ -179,7 +179,7 @@ set -e
 ./UEF2ROM.py -a -c e00: -m UEFs/Planetoid_E.uef ROMs/Planetoid.rom
 ./UEF2ROM.py -a -c : -m UEFs/Plunder_E.uef ROMs/Plunder
 ./UEF2ROM.py -a -c e00 -m UEFs/Podd_BE.uef ROMs/Podd.rom
-./UEF2ROM.py -a -c e00/: -m -s UEFs/Poker-Duckworth_BE.uef ROMs/Poker
+./UEF2ROM.py -a -c e00/: -m -s UEFs/Poker-Duckworth_BE.uef ROMs/Poker1 ROMs/Poker2
 ./UEF2ROM.py -a -c : -m UEFs/Positron_E.uef ROMs/Positron.rom
 ./UEF2ROM.py -a -c e00:e00::4e00:5300/: -s UEFs/Predator_E.uef ROMs/Predator-1.rom ROMs/Predator-2.rom
 ./UEF2ROM.py -a -c :2d00/: -s -t -T -w d60 UEFs/RHT2-ProjectThesius_E.uef ROMs/ProjectThesius-1.rom ROMs/ProjectThesius-2.rom
