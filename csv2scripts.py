@@ -58,5 +58,5 @@ for line in lines:
 bf.close()
 tf.close()
 
-print "%i games" % games
+print "%i titles" % games
 print "%i ROMs" % roms
