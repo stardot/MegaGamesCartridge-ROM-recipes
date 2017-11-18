@@ -19,6 +19,7 @@ OK,Beach Head,U.S. Gold,BeachHead_E.uef,BeachHead-1.rom BeachHead-2.rom,-a -c :/
 OK,Blood Of The Mutineers,Robico,BloodOfTheMutineers_E.uef,BloodOfTheMutineers-1.rom BloodOfTheMutineers-2.rom,-a -c e00:1900/: -t -w 39f
 OK,Boffin 2,Addictive,Boffin2-modified_BE.uef,Boffin2-1.rom Boffin2-2.rom,-a -c :/: -m -r -s
 OK (patched),BoneCruncher,Superior,Mega_Games_Cartridge/BoneCruncher-patched.uef,BoneCruncher-1.rom BoneCruncher-2.rom,-a -c x::x -t -w d3f -x
+OK (paging required),BoneCruncher,Superior,BoneCruncher_E.uef,BoneCruncher_with_title-1.rom BoneCruncher_with_title-2.rom BoneCruncher_with_title-3.rom,-a -c e00:::x/x:x/x:x:x -P 290 1:2:1 -s -t -w d3f
 Too large (can snapshot),Boulder Dash,Tynesoft,Boulderdash_E.uef,,
 OK,Boxer,Acornsoft,Boxer.uef,Boxer.rom,-a -c e00:.4200 -m
 OK,Breakthrough,ASL,Breakthrough_RUN_E.uef,Breakthrough-1.rom Breakthrough-2.rom,-a -c :x:e00:e00:1100:/:e00:400:400:400:400 -r -s -w 860 -t
@@ -44,7 +45,7 @@ OK,Chuckie Egg,A&F,ChuckieEgg_E.uef,ChuckieEgg.rom,-a -c e00 -m
 OK,Citadel,Superior,Citadel-PIASRR_E.uef,Citadel-1.rom Citadel-2.rom,-a -c e00:3000:5400:x -m -s
 OK,Classic Adventure,Melbourne House,ClassicAdventure_RUN_BE.uef,ClassicAdventure-1.rom ClassicAdventure-2.rom,-a -c :/: -m -r -s
 OK (paging required),Clogger,Impact,Clogger_Tape.uef,Clogger-1.rom Clogger-2.rom Clogger-3.rom,-a -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P 39f 1:2:1
-OK (patched),Codename: Droid,Superior,Mega_Games_Cartridge/CodenameDroid-patched.uef,CodenameDroid-1.rom CodenameDroid-2.rom,-a -c :400/: -m -r -s
+OK (stripped),Codename: Droid,Superior,CodenameDroid_E.uef,CodenameDroid-1.rom CodenameDroid-2.rom,-a -c 600:400/: -f 4-5 -m -r -s
 Needs patching,Combat Lynx,Durrell,CombatLynx_E.uef,,
 OK,Commando,Elite,Commando-PIASRR_E.uef,Commando-1.rom Commando-2.rom,-a -c :/: -s -w 39f
 OK,Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,-a -c e00 -w 39f
@@ -283,3 +284,4 @@ OK,Zalaga,Aardvark,Zalaga-ALRR_E.uef,Zalaga-1.rom Zalaga-2.rom,-a -c e00:/: -s
 OK,Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,-a -c e00
 OK,Zenon,Impact,Zenon_E.uef,Zenon-1.rom Zenon-2.rom,-a -c :5800:/: -m -s
 OK,Ziggy,ASL,Ziggy_E.uef,Ziggy-1.rom Ziggy-2.rom,-a -c :/: -m -s -f 0-1
+OK,Zombies Ate Our Roadies,Stuart Johns,Mega_Games_Cartridge/zaor.uef,ZAOR-1.rom ZAOR-2.rom,-a -c :/: -s -w 39f
