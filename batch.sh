@@ -94,7 +94,7 @@ set -e
 ./UEF2ROM.py -a -c e00:1900:e00:e00:::::e00 -p -s -w 39f UEFs/Frankenstein2000_E.uef ROMs/Frankenstein2000.rom
 ./UEF2ROM.py -a -c e00:.21bb/: -m -s UEFs/Freefall_E.uef ROMs/Freefall-1.rom ROMs/Freefall-2.rom
 ./UEF2ROM.py -a -c e00: -m UEFs/Frenzy_E.uef ROMs/Frenzy.rom
-./UEF2ROM.py -a -c :::x -t -w d3f:ef97 UEFs/Galaforce_E.uef ROMs/Galaforce-1.rom ROMs/Galaforce-2.rom
+./UEF2ROM.py -a -c :::1900/: -s -t -w d3f:ef97 UEFs/Galaforce_E.uef ROMs/Galaforce-1.rom ROMs/Galaforce-2.rom
 ./UEF2ROM.py -a -c e00::e00::e00:x:x -p -s -w 39f UEFs/Mega_Games_Cartridge/PIAS6-Galaforce2-EveryGameGoing-fromSSD.uef ROMs/Galaforce2-1.rom ROMs/Galaforce2-2.rom
 ./UEF2ROM.py -a -c e00:e00/: -m -s UEFs/Gauntlet_E.uef ROMs/Gauntlet-1.rom ROMs/Gauntlet-2.rom
 ./UEF2ROM.py -a -c e00:2200:/: -p -s -w 39f -f 3-5 UEFs/Ghouls-PIASRR_E.uef ROMs/Ghouls-1.rom ROMs/Ghouls-2.rom

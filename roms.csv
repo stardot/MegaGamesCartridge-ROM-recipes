@@ -95,7 +95,7 @@ OK,Frak,Aardvark,Frak_Tape.uef,Frak-1.rom Frak-2.rom,-a -c e00/: -s
 OK,Frankenstein 2000,Icon,Frankenstein2000_E.uef,Frankenstein2000.rom,-a -c e00:1900:e00:e00:::::e00 -p -s -w 39f
 OK,Freefall,Acornsoft,Freefall_E.uef,Freefall-1.rom Freefall-2.rom,-a -c e00:.21bb/: -m -s
 OK,Frenzy,Micro Power,Frenzy_E.uef,Frenzy.rom,-a -c e00: -m
-OK,Galaforce,Superior Software,Galaforce_E.uef,Galaforce-1.rom Galaforce-2.rom,-a -c :::x -t -w d3f:ef97
+OK,Galaforce,Superior Software,Galaforce_E.uef,Galaforce-1.rom Galaforce-2.rom,-a -c :::1900/: -s -t -w d3f:ef97
 OK,Galaforce 2,Superior Software,Mega_Games_Cartridge/PIAS6-Galaforce2-EveryGameGoing-fromSSD.uef,Galaforce2-1.rom Galaforce2-2.rom,-a -c e00::e00::e00:x:x -p -s -w 39f
 OK,Gauntlet,Micro Power,Gauntlet_E.uef,Gauntlet-1.rom Gauntlet-2.rom,-a -c e00:e00/: -m -s
 OK (discard files),Ghouls,Micro Power,Ghouls-PIASRR_E.uef,Ghouls-1.rom Ghouls-2.rom,-a -c e00:2200:/: -p -s -w 39f -f 3-5
