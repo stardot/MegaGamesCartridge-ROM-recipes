@@ -140,7 +140,7 @@ OK,Last Of The Free,ASL,LastOfTheFree_E.uef,LastOfTheFree-1.rom LastOfTheFree-2.
 OK,Locks Of Luck,Magus,LocksOfLuck_E.uef,LocksOfLuck-1.rom LocksOfLuck-2.rom,-a -c :::58e0:4160:d00/400 -p -w 39f
 OK,Locomotion,BBCSoft,Locomotion_E.uef,Locomotion-1.rom Locomotion-2.rom,-a -c e00:1300/: -m -s
 OK,Loopz,Audiogenic,Loopz_E.uef,Loopz-1.rom Loopz-2.rom,-a -c ::x:/: -m
-OK,Lunar Rescue,Alligata,LunarRescue_E.uef,LunarRescue.rom,-a -c e00:e00::x -m
+OK,Lunar Rescue,Alligata,Mega_Games_Cartridge/Lunar_Rescue-patched.uef,LunarRescue.rom,-a -c e00:e00::3000 -m
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms_Tape.uef,MagicMushrooms.rom,-a -c e00:.4700 -m
 OK,Maze,Acornsoft,Maze_E.uef,Maze.rom,-a -c e00: -m
 OK,MazezaM,Retro Software,Mega_Games_Cartridge/MazezaM_2.1.uef,MazezaM.rom,-a -c e00:e00::e00 -m

@@ -138,7 +138,7 @@ set -e
 ./UEF2ROM.py -a -c :::58e0:4160:d00/400 -p -w 39f UEFs/LocksOfLuck_E.uef ROMs/LocksOfLuck-1.rom ROMs/LocksOfLuck-2.rom
 ./UEF2ROM.py -a -c e00:1300/: -m -s UEFs/Locomotion_E.uef ROMs/Locomotion-1.rom ROMs/Locomotion-2.rom
 ./UEF2ROM.py -a -c ::x:/: -m UEFs/Loopz_E.uef ROMs/Loopz-1.rom ROMs/Loopz-2.rom
-./UEF2ROM.py -a -c e00:e00::x -m UEFs/LunarRescue_E.uef ROMs/LunarRescue.rom
+./UEF2ROM.py -a -c e00:e00::3000 -m UEFs/Mega_Games_Cartridge/Lunar_Rescue-patched.uef ROMs/LunarRescue.rom
 ./UEF2ROM.py -a -c e00:.4700 -m UEFs/MagicMushrooms_Tape.uef ROMs/MagicMushrooms.rom
 ./UEF2ROM.py -a -c e00: -m UEFs/Maze_E.uef ROMs/Maze.rom
 ./UEF2ROM.py -a -c e00:e00::e00 -m UEFs/Mega_Games_Cartridge/MazezaM_2.1.uef ROMs/MazezaM.rom
