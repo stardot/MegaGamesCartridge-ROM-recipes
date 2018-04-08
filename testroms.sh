@@ -207,6 +207,8 @@ cat ROMs/ReptonATW-1.rom ROMs/ReptonATW-2.rom ROMs/ReptonATW-3.rom ROMs/ReptonAT
 elkulator -rom2 ROMs/ReptonAroundTheWorld_E.rom
 cat ROMs/ReptonTLO-1.rom ROMs/ReptonTLO-2.rom ROMs/ReptonTLO-3.rom ROMs/ReptonTLO-4.rom > ROMs/ReptonTheLifeOf_E.rom
 elkulator -rom2 ROMs/ReptonTheLifeOf_E.rom
+cat ROMs/ReptonTLR-1.rom ROMs/ReptonTLR-2.rom ROMs/ReptonTLR-3.rom > ROMs/ReptonTLR-merged.rom
+elkulator -rom2 ROMs/ReptonTLR-merged.rom
 cat ROMs/ReptonTT-1.rom ROMs/ReptonTT-2.rom ROMs/ReptonTT-3.rom ROMs/ReptonTT-4.rom > ROMs/ReptonThruTime_E.rom
 elkulator -rom2 ROMs/ReptonThruTime_E.rom
 elkulator -rom2 ROMs/Reversi.rom
