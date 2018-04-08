@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -z $1 ] || [ -z $2 ]]; then
+if [ -z $1 ] || [ -z $2 ]; then
     echo "Usage: `basename $0` <Bug Eyes 2 SSD file> <stripped UEF file>"
     exit 1
 fi

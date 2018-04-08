@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -z $1 ] || [ -z $2 ]]; then
+if [ -z $1 ] || [ -z $2 ]; then
     echo "Usage: `basename $0` <The Way Of The Exploding Fist SSD file> <fixed UEF file>"
     exit 1
 fi
