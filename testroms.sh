@@ -85,6 +85,7 @@ elkulator -rom2 ROMs/Empire.rom
 elkulator -rom2 ROMs/Enigma.rom
 elkulator -rom2 ROMs/EMBA.rom
 elkulator -rom2 ROMs/Erbert.rom
+elkulator -rom2 ROMs/EveningStar-1.rom -rom1 ROMs/EveningStar-2.rom
 cat ROMs/Exile-1.rom ROMs/Exile-2.rom ROMs/Exile-3.rom ROMs/Exile-4.rom > ROMs/Exile-EveryGameGoing.rom
 elkulator -rom2 ROMs/Exile-EveryGameGoing.rom
 elkulator -rom2 ROMs/EyeOfZolton-1.rom -rom1 ROMs/EyeOfZolton-2.rom
@@ -228,6 +229,7 @@ elkulator -rom2 ROMs/Shark.rom
 elkulator -rom2 ROMs/Sim.rom
 elkulator -rom2 ROMs/SimCity-1.rom -rom1 ROMs/SimCity-2.rom
 elkulator -rom2 ROMs/SmashAndGrab.rom
+elkulator -rom2 ROMs/SouthernBelle-1.rom -rom1 ROMs/SouthernBelle-2.rom
 elkulator -rom2 ROMs/Snapper.rom
 elkulator -rom2 ROMs/Snooker.rom
 elkulator -rom2 ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom

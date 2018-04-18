@@ -1,0 +1,7 @@
+postload:
+
+lda #210        ; Turn sound off to prevent a constant beep.
+ldx #1          ; The game will turn sound on again.
+jsr $fff4
+
+rts

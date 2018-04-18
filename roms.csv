@@ -83,6 +83,7 @@ OK,Empire,Shards,Empire_BE.uef,Empire.rom,-a -B e00 -c : -m
 OK,Enigma,Brainbox,Enigma_E.uef,Enigma.rom,-a -B e00 -c : -m
 OK,Escape From Moonbase Alpha,Micro Power,EMBA.uef,EMBA.rom,-a -B e00 -c :::e00
 OK,Er*bert,Microbyte,Erbert_E.uef,Erbert.rom,-a -B e00 -c e00
+OK,Evening Star,Hewson,EveningStar_E.uef,EveningStar-1.rom EveningStar-2.rom,-a -c e00:/: -L postload/southern_belle.oph postload -s -w d3f
 OK (patched; paging required),Exile,Superior,Mega_Games_Cartridge/Exile-EveryGameGoing.uef,Exile-1.rom Exile-2.rom Exile-3.rom Exile-4.rom,-a -B e00 -c e00:e00::x -f 1-5 -m -s -P 290 1:2:3:0
 OK,Eye Of Zolton,Softek,EyeOfZolton_BE.uef,EyeOfZolton-1.rom EyeOfZolton-2.rom,-a -B e00 -c :/: -m -s
 OK (paging required),E-Type,4th Dimension,EType_E.uef,EType-1.rom EType-2.rom EType-3.rom,-a -B e00 -c x::x/3041:::3779:x:3f12:/: -f 0-13 -m -s -P 290 1:2:1
@@ -220,6 +221,7 @@ OK,Shark,ASL,Shark_E.uef,Shark.rom,-a -B e00 -c : -m
 OK,Sim,Visions,Sim_Tape.uef,Sim.rom,-a -B e00 -c e00: -w 880
 OK (truncated),Sim City,Superior,SimCity_E.uef,SimCity-1.rom SimCity-2.rom,-a -B e00 -c e00:e00:::3c00/: -f 0-7 -p -s -w 39f
 OK,Smash And Grab,Superior,SmashAndGrab_E.uef,SmashAndGrab.rom,-a -B e00 -c e00::5000
+OK,Southern Belle,Hewson,SouthernBelle_E.uef,SouthernBelle-1.rom SouthernBelle-2.rom,-a -c e00:/: -L postload/southern_belle.oph postload -s -w d3f
 OK,Snapper,Acornsoft,Mega_Games_Cartridge/Snapper-STH-ROM.uef,Snapper.rom,-a -B e00 -c x:e00: -r -w 880
 OK,Snooker,Acornsoft,Snooker-Acornsoft_E.uef,Snooker.rom,-a -B e00 -c e00::.2f8a -m
 OK,Space Agent Zelda Meets The Bug Eyes,Icon,SpaceAgentZeldaMeetsTheBugEyes_E.uef,SpaceAgentZeldaMeetsTheBugEyes.rom,-a -B e00 -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f

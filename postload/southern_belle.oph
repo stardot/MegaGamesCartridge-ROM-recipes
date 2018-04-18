@@ -1,0 +1,14 @@
+postload:
+
+lda #0
+ldx #4
+sei
+
+postload_loop:
+    dex
+    sta $2a0,x
+    cpx #0
+    bne postload_loop
+
+cli
+rts

@@ -82,6 +82,7 @@ set -e
 ./UEF2ROM.py -a -B e00 -c : -m UEFs/Enigma_E.uef ROMs/Enigma.rom
 ./UEF2ROM.py -a -B e00 -c :::e00 UEFs/EMBA.uef ROMs/EMBA.rom
 ./UEF2ROM.py -a -B e00 -c e00 UEFs/Erbert_E.uef ROMs/Erbert.rom
+./UEF2ROM.py -a -c e00:/: -L postload/southern_belle.oph postload -s -w d3f UEFs/EveningStar_E.uef ROMs/EveningStar-1.rom ROMs/EveningStar-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00::x -f 1-5 -m -s -P 290 1:2:3:0 UEFs/Mega_Games_Cartridge/Exile-EveryGameGoing.uef ROMs/Exile-1.rom ROMs/Exile-2.rom ROMs/Exile-3.rom ROMs/Exile-4.rom
 ./UEF2ROM.py -a -B e00 -c :/: -m -s UEFs/EyeOfZolton_BE.uef ROMs/EyeOfZolton-1.rom ROMs/EyeOfZolton-2.rom
 ./UEF2ROM.py -a -B e00 -c x::x/3041:::3779:x:3f12:/: -f 0-13 -m -s -P 290 1:2:1 UEFs/EType_E.uef ROMs/EType-1.rom ROMs/EType-2.rom ROMs/EType-3.rom
@@ -217,6 +218,7 @@ set -e
 ./UEF2ROM.py -a -B e00 -c e00: -w 880 UEFs/Sim_Tape.uef ROMs/Sim.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00:::3c00/: -f 0-7 -p -s -w 39f UEFs/SimCity_E.uef ROMs/SimCity-1.rom ROMs/SimCity-2.rom
 ./UEF2ROM.py -a -B e00 -c e00::5000 UEFs/SmashAndGrab_E.uef ROMs/SmashAndGrab.rom
+./UEF2ROM.py -a -c e00:/: -L postload/southern_belle.oph postload -s -w d3f UEFs/SouthernBelle_E.uef ROMs/SouthernBelle-1.rom ROMs/SouthernBelle-2.rom
 ./UEF2ROM.py -a -B e00 -c x:e00: -r -w 880 UEFs/Mega_Games_Cartridge/Snapper-STH-ROM.uef ROMs/Snapper.rom
 ./UEF2ROM.py -a -B e00 -c e00::.2f8a -m UEFs/Snooker-Acornsoft_E.uef ROMs/Snooker.rom
 ./UEF2ROM.py -a -B e00 -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/SpaceAgentZeldaMeetsTheBugEyes_E.uef ROMs/SpaceAgentZeldaMeetsTheBugEyes.rom
