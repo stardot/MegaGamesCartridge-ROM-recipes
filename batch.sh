@@ -46,7 +46,7 @@ set -e
 ./UEF2ROM.py -a -B e00 -c e00 -m UEFs/ChuckieEgg_E.uef ROMs/ChuckieEgg.rom
 ./UEF2ROM.py -a -B e00 -c e00:3000:5400:1300/: -m -s UEFs/Citadel-PIASRR_E.uef ROMs/Citadel-1.rom ROMs/Citadel-2.rom
 ./UEF2ROM.py -a -B e00 -c :/: -m -r -s UEFs/ClassicAdventure_RUN_BE.uef ROMs/ClassicAdventure-1.rom ROMs/ClassicAdventure-2.rom
-./UEF2ROM.py -a -B e00 -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P 39f 1:2:1 UEFs/Clogger_Tape.uef ROMs/Clogger-1.rom ROMs/Clogger-2.rom ROMs/Clogger-3.rom
+./UEF2ROM.py -a -B e00 -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P 290 1:2:1 UEFs/Clogger_Tape.uef ROMs/Clogger-1.rom ROMs/Clogger-2.rom ROMs/Clogger-3.rom
 ./UEF2ROM.py -a -B e00 -c 600:400/: -f 4-5 -m -r -s UEFs/CodenameDroid_E.uef ROMs/CodenameDroid-1.rom ROMs/CodenameDroid-2.rom
 ./UEF2ROM.py -a -B e00 -c :/: -s -w 39f UEFs/Commando-PIASRR_E.uef ROMs/Commando-1.rom ROMs/Commando-2.rom
 ./UEF2ROM.py -a -B e00 -c e00 -w 39f UEFs/ConditionRed_E.uef ROMs/ConditionRed.rom

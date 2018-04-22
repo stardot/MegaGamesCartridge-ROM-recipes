@@ -44,7 +44,7 @@ OK,Chess,Superior,Chess-Superior_BE.uef,Chess-Superior.rom,-a -B e00 -c e00 -m
 OK,Chuckie Egg,A&F,ChuckieEgg_E.uef,ChuckieEgg.rom,-a -B e00 -c e00 -m
 OK,Citadel,Superior,Citadel-PIASRR_E.uef,Citadel-1.rom Citadel-2.rom,-a -B e00 -c e00:3000:5400:1300/: -m -s
 OK,Classic Adventure,Melbourne House,ClassicAdventure_RUN_BE.uef,ClassicAdventure-1.rom ClassicAdventure-2.rom,-a -B e00 -c :/: -m -r -s
-OK (paging required),Clogger,Impact,Clogger_Tape.uef,Clogger-1.rom Clogger-2.rom Clogger-3.rom,-a -B e00 -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P 39f 1:2:1
+OK (paging required),Clogger,Impact,Clogger_Tape.uef,Clogger-1.rom Clogger-2.rom Clogger-3.rom,-a -B e00 -c :x:x:900:e00:5100:/2983:2983:2983/2983 -f 0-6:s:7-10 -m -s -P 290 1:2:1
 OK (stripped),Codename: Droid,Superior,CodenameDroid_E.uef,CodenameDroid-1.rom CodenameDroid-2.rom,-a -B e00 -c 600:400/: -f 4-5 -m -r -s
 Needs patching,Combat Lynx,Durrell,CombatLynx_E.uef,,
 OK,Commando,Elite,Commando-PIASRR_E.uef,Commando-1.rom Commando-2.rom,-a -B e00 -c :/: -s -w 39f
