@@ -1,14 +1,18 @@
 postload:
 
+; Clear ROM entries from 1-15, including BASIC (11).
 lda #0
-ldx #4
+ldx #15
 sei
 
 postload_loop:
-    dex
     sta $2a0,x
-    cpx #0
+    dex
     bne postload_loop
 
 cli
+
+lda #140        ; *TAPE
+jsr $fff4
+
 rts
