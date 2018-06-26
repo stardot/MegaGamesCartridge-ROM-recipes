@@ -50,7 +50,7 @@ for line in lines:
         d["ROMs"] = " ".join(map(lambda ROM: "ROMs/" + ROM, ROMs))
         d["combined"] = "ROMs/" + os.path.split(d["UEF"])[1].replace(".uef", ".rom")
         bf.write("./UEF2ROM.py %(Options)s UEFs/%(UEF)s %(ROMs)s\n" % d)
-        tf.write("cat %(ROMs)s > %(combined)s\n" % d)
+        bf.write("cat %(ROMs)s > %(combined)s\n" % d)
         tf.write("elkulator -rom2 %(combined)s\n" % d)
     
     roms += len(ROMs)
