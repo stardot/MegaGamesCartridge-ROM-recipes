@@ -15,7 +15,6 @@ elkulator -rom2 ROMs/BalloonBuster.rom
 elkulator -rom2 ROMs/Bandits.rom
 elkulator -rom2 ROMs/Barbarian-Practice-1.rom -rom1 ROMs/Barbarian-Practice-2.rom
 elkulator -rom2 ROMs/Barbarian-Fight-1.rom -rom1 ROMs/Barbarian-Fight-2.rom
-cat ROMs/Barbarian2-1.rom ROMs/Barbarian2-2.rom ROMs/Barbarian2-3.rom ROMs/Barbarian2-4.rom > ROMs/Barbarian2_E.rom
 elkulator -rom2 ROMs/Barbarian2_E.rom
 elkulator -rom2 ROMs/Baron-1.rom -rom1 ROMs/Baron-2.rom
 elkulator -rom2 ROMs/BarBilliards.rom
@@ -23,7 +22,6 @@ elkulator -rom2 ROMs/BeachHead-1.rom -rom1 ROMs/BeachHead-2.rom
 elkulator -rom2 ROMs/BloodOfTheMutineers-1.rom -rom1 ROMs/BloodOfTheMutineers-2.rom
 elkulator -rom2 ROMs/Boffin2-1.rom -rom1 ROMs/Boffin2-2.rom
 elkulator -rom2 ROMs/BoneCruncher-1.rom -rom1 ROMs/BoneCruncher-2.rom
-cat ROMs/BoneCruncher_with_title-1.rom ROMs/BoneCruncher_with_title-2.rom ROMs/BoneCruncher_with_title-3.rom > ROMs/BoneCruncher_E.rom
 elkulator -rom2 ROMs/BoneCruncher_E.rom
 elkulator -rom2 ROMs/Boxer.rom
 elkulator -rom2 ROMs/Breakthrough-1.rom -rom1 ROMs/Breakthrough-2.rom
@@ -48,7 +46,6 @@ elkulator -rom2 ROMs/Chess-Superior.rom
 elkulator -rom2 ROMs/ChuckieEgg.rom
 elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
 elkulator -rom2 ROMs/ClassicAdventure-1.rom -rom1 ROMs/ClassicAdventure-2.rom
-cat ROMs/Clogger-1.rom ROMs/Clogger-2.rom ROMs/Clogger-3.rom > ROMs/Clogger_Tape.rom
 elkulator -rom2 ROMs/Clogger_Tape.rom
 elkulator -rom2 ROMs/CodenameDroid-1.rom -rom1 ROMs/CodenameDroid-2.rom
 elkulator -rom2 ROMs/Commando-1.rom -rom1 ROMs/Commando-2.rom
@@ -86,10 +83,8 @@ elkulator -rom2 ROMs/Enigma.rom
 elkulator -rom2 ROMs/EMBA.rom
 elkulator -rom2 ROMs/Erbert.rom
 elkulator -rom2 ROMs/EveningStar-1.rom -rom1 ROMs/EveningStar-2.rom
-cat ROMs/Exile-1.rom ROMs/Exile-2.rom ROMs/Exile-3.rom ROMs/Exile-4.rom > ROMs/Exile-EveryGameGoing.rom
 elkulator -rom2 ROMs/Exile-EveryGameGoing.rom
 elkulator -rom2 ROMs/EyeOfZolton-1.rom -rom1 ROMs/EyeOfZolton-2.rom
-cat ROMs/EType-1.rom ROMs/EType-2.rom ROMs/EType-3.rom > ROMs/EType_E.rom
 elkulator -rom2 ROMs/EType_E.rom
 elkulator -rom2 ROMs/FelixAndTheFruitMonsters.rom
 elkulator -rom2 ROMs/FelixInTheFactory.rom
@@ -125,7 +120,6 @@ elkulator -rom2 ROMs/HyperViper.rom
 elkulator -rom2 ROMs/Icarus-1.rom -rom1 ROMs/Icarus-2.rom
 elkulator -rom2 ROMs/Impact-1.rom -rom1 ROMs/Impact-2.rom
 elkulator -rom2 ROMs/ImpossibleMission-1.rom -rom1 ROMs/ImpossibleMission-2.rom
-cat ROMs/Imogen-1.rom ROMs/Imogen-2.rom ROMs/Imogen-3.rom ROMs/Imogen-4.rom ROMs/Imogen-5.rom ROMs/Imogen-6.rom > ROMs/Imogen_E.rom
 elkulator -rom2 ROMs/Imogen_E.rom
 elkulator -rom2 ROMs/Inertia-1.rom -rom1 ROMs/Inertia-2.rom
 elkulator -rom2 ROMs/IntergalacticTrader.rom
@@ -204,18 +198,13 @@ elkulator -rom2 ROMs/RebelPlanet-1.rom -rom1 ROMs/RebelPlanet-2.rom
 elkulator -rom2 ROMs/Repton-1.rom -rom1 ROMs/Repton-2.rom
 elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
 elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
-cat ROMs/ReptonATW-1.rom ROMs/ReptonATW-2.rom ROMs/ReptonATW-3.rom ROMs/ReptonATW-4.rom > ROMs/ReptonAroundTheWorld_E.rom
 elkulator -rom2 ROMs/ReptonAroundTheWorld_E.rom
-cat ROMs/ReptonTLO-1.rom ROMs/ReptonTLO-2.rom ROMs/ReptonTLO-3.rom ROMs/ReptonTLO-4.rom > ROMs/ReptonTheLifeOf_E.rom
 elkulator -rom2 ROMs/ReptonTheLifeOf_E.rom
-cat ROMs/ReptonTLR-1.rom ROMs/ReptonTLR-2.rom ROMs/ReptonTLR-3.rom > ROMs/ReptonTLR-merged.rom
 elkulator -rom2 ROMs/ReptonTLR-merged.rom
-cat ROMs/ReptonTT-1.rom ROMs/ReptonTT-2.rom ROMs/ReptonTT-3.rom ROMs/ReptonTT-4.rom > ROMs/ReptonThruTime_E.rom
 elkulator -rom2 ROMs/ReptonThruTime_E.rom
 elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
 elkulator -rom2 ROMs/RickHanson-1.rom -rom1 ROMs/RickHanson-2.rom
-cat ROMs/Ricochet-1.rom ROMs/Ricochet-2.rom ROMs/Ricochet-3.rom ROMs/Ricochet-4.rom ROMs/Ricochet-5.rom > ROMs/Ricochet_E.rom
 elkulator -rom2 ROMs/Ricochet_E.rom
 elkulator -rom2 ROMs/RigAttack.rom
 elkulator -rom2 ROMs/RisingOfSalandraPart1.rom
@@ -237,7 +226,6 @@ elkulator -rom2 ROMs/SpaceJailer.rom
 elkulator -rom2 ROMs/SpacemanSid-1.rom -rom1 ROMs/SpacemanSid-2.rom
 elkulator -rom2 ROMs/SpaceRanger.rom
 elkulator -rom2 ROMs/Spectipede.rom
-cat ROMs/Spellbinder1.rom ROMs/Spellbinder2.rom ROMs/Spellbinder3.rom > ROMs/SpellBinder_E.rom
 elkulator -rom2 ROMs/SpellBinder_E.rom
 elkulator -rom2 ROMs/SphereOfDestiny-1.rom -rom1 ROMs/SphereOfDestiny-2.rom
 elkulator -rom2 ROMs/SphinxAdventure-1.rom -rom1 ROMs/SphinxAdventure-2.rom
@@ -264,7 +252,6 @@ elkulator -rom2 ROMs/Tempest.rom
 elkulator -rom2 ROMs/Terrormolinos-1.rom -rom1 ROMs/Terrormolinos-2.rom
 elkulator -rom2 ROMs/Tetris.rom
 elkulator -rom2 ROMs/TheHunt1 -rom1 ROMs/TheHunt2
-cat ROMs/LastNinja-1.rom ROMs/LastNinja-2.rom ROMs/LastNinja-3.rom ROMs/LastNinja-4.rom > ROMs/LastNinja-EveryGameGoing-patched.rom
 elkulator -rom2 ROMs/LastNinja-EveryGameGoing-patched.rom
 elkulator -rom2 ROMs/TheMine.rom
 elkulator -rom2 ROMs/TheNineDancers.rom
