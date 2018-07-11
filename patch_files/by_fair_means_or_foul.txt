@@ -1,0 +1,3 @@
+# Index     Offset      Span length     Data
+# Adjust the start of the BASIC line to insert VDU28,0,0,31,0 after the MODE.
+  0         0x3         5               4e,eb,31,3a,ef,32,38,2c,30,2c,30,2c,33,31,2c,30,3b

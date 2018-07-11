@@ -29,12 +29,12 @@ OK,Bug Eyes,Icon,BugEyes_E.uef,BugEyes.rom,-a -B e00 -c e00:1900:e00:400:900:100
 OK,Bug Eyes 2,Audiogenic,Mega_Games_Cartridge/BugEyes2-EveryGameGoing.uef,BugEyes2-1.rom BugEyes2-2.rom,-a -B e00 -c e00::1d00/6b00 -m -s
 OK,Bugs,Virgin,Bugs_E.uef,Bugs.rom,-a -B e00 -c :
 OK,Bumble Bee,Micro Power,BumbleBee_E.uef,BumbleBee.rom,-a -B e00 -c e00 -m
-OK (patched),By Fair Means Or Foul,Superior,Mega_Games_Cartridge/ByFairMeansOrFoul-EveryGameGoing.uef,ByFairMeansOrFoul-1.rom ByFairMeansOrFoul-2.rom,-a -B e00 -c :/: -p -s -w 39f
+OK (patched),By Fair Means Or Foul,Superior,Mega_Games_Cartridge/ByFairMeansOrFoul-EveryGameGoing.uef,ByFairMeansOrFoul-1.rom ByFairMeansOrFoul-2.rom,-a -B e00 -c :/: -p -s -w 39f -pf patch_files/by_fair_means_or_foul.txt
 OK (patched),Camelot,Superior,Mega_Games_Cartridge/Camelot-patched.uef,Camelot-1.rom Camelot-2.rom,-a -B e00 -c e00:::/: -s -t -w d3f:ef97
 OK,Castle Assault,Blue Ribbon,CastleAssault_E.uef,CastleAssault.rom,-a -B e00 -c e00:1600: -w 880
 OK,Castle Frankenstein,Epic,CastleFrankenstein_E.uef,CastleFrankenstein-1.rom CastleFrankenstein-2.rom,-a -B e00 -c e00:e00:/: -m -s
 OK,Castlemaze Adventure,Duckworth,EXPLADV-CastlemazeAdventure_E.uef,CastlemazeAdventure.rom,-a -B e00 -c : -m
-OK,Castle Of Riddles,Acornsoft,CastleOfRiddles_E.uef,CastleOfRiddles-1.rom CastleOfRiddles-2.rom,-a -B e00 -c e00:.5ff0/: -m -s
+OK,Castle Of Riddles,Acornsoft,CastleOfRiddles_E.uef,CastleOfRiddles-1.rom CastleOfRiddles-2.rom,-a -B e00 -c e00:.5ff0/: -m -s -pf patch_files/castle_of_riddles.txt
 OK,Caterpillar,Romik,Caterpillar-Romik_E.uef,Caterpillar.rom,-a -B e00 -c :
 OK,Caveman Capers.uef,Icon,CavemanCapers.uef,CavemanCapers.rom,-a -B e00 -c e00:::1900:4000::4500 -w 39f
 OK,Centibug,Superior,Centibug_E.uef,Centibug.rom,-a -B e00 -c e00

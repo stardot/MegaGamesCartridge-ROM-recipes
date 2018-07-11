@@ -33,12 +33,12 @@ cat ROMs/BoneCruncher_with_title-1.rom ROMs/BoneCruncher_with_title-2.rom ROMs/B
 ./UEF2ROM.py -a -B e00 -c e00::1d00/6b00 -m -s UEFs/Mega_Games_Cartridge/BugEyes2-EveryGameGoing.uef ROMs/BugEyes2-1.rom ROMs/BugEyes2-2.rom
 ./UEF2ROM.py -a -B e00 -c : UEFs/Bugs_E.uef ROMs/Bugs.rom
 ./UEF2ROM.py -a -B e00 -c e00 -m UEFs/BumbleBee_E.uef ROMs/BumbleBee.rom
-./UEF2ROM.py -a -B e00 -c :/: -p -s -w 39f UEFs/Mega_Games_Cartridge/ByFairMeansOrFoul-EveryGameGoing.uef ROMs/ByFairMeansOrFoul-1.rom ROMs/ByFairMeansOrFoul-2.rom
+./UEF2ROM.py -a -B e00 -c :/: -p -s -w 39f -pf patch_files/by_fair_means_or_foul.txt UEFs/Mega_Games_Cartridge/ByFairMeansOrFoul-EveryGameGoing.uef ROMs/ByFairMeansOrFoul-1.rom ROMs/ByFairMeansOrFoul-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:::/: -s -t -w d3f:ef97 UEFs/Mega_Games_Cartridge/Camelot-patched.uef ROMs/Camelot-1.rom ROMs/Camelot-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:1600: -w 880 UEFs/CastleAssault_E.uef ROMs/CastleAssault.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00:/: -m -s UEFs/CastleFrankenstein_E.uef ROMs/CastleFrankenstein-1.rom ROMs/CastleFrankenstein-2.rom
 ./UEF2ROM.py -a -B e00 -c : -m UEFs/EXPLADV-CastlemazeAdventure_E.uef ROMs/CastlemazeAdventure.rom
-./UEF2ROM.py -a -B e00 -c e00:.5ff0/: -m -s UEFs/CastleOfRiddles_E.uef ROMs/CastleOfRiddles-1.rom ROMs/CastleOfRiddles-2.rom
+./UEF2ROM.py -a -B e00 -c e00:.5ff0/: -m -s -pf patch_files/castle_of_riddles.txt UEFs/CastleOfRiddles_E.uef ROMs/CastleOfRiddles-1.rom ROMs/CastleOfRiddles-2.rom
 ./UEF2ROM.py -a -B e00 -c : UEFs/Caterpillar-Romik_E.uef ROMs/Caterpillar.rom
 ./UEF2ROM.py -a -B e00 -c e00:::1900:4000::4500 -w 39f UEFs/CavemanCapers.uef ROMs/CavemanCapers.rom
 ./UEF2ROM.py -a -B e00 -c e00 UEFs/Centibug_E.uef ROMs/Centibug.rom
