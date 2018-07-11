@@ -1,0 +1,4 @@
+# Index     Offset      Span length     Data
+  0         0x3e6       6               15,15,15,15,15,15
+# Patches out the creation and clearing of a text window for tape loading with
+# VDU 21 (disable output) codes.

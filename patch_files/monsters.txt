@@ -1,0 +1,4 @@
+# Index     Offset      Span length     Data
+  0         0x83e       7               1c,0,0,0,0,11,00
+# Places a text window at the top-left corner of the screen and sets the text
+# colour to black.

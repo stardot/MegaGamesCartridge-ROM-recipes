@@ -1,0 +1,5 @@
+# Index     Offset      Span length     Data
+# Define a smaller text window under the title.
+  0         0x724       4               0d,0d,19,0a
+# Set the text colour to black.
+  0         0x738       6               11,00,ea,ea,ea,ea

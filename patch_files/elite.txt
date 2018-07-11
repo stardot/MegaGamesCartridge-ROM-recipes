@@ -1,0 +1,11 @@
+# Index     Offset      Span length     Data
+# Define a smaller text window under the title.
+  0         0x3ec       4               0f,0d,17,0f
+# Patches out the creation and clearing of a text window for tape loading with
+  0         0x41e       6               11,00,ea,ea,ea,ea
+# Change the address referring to VDU codes to output (0xea0, $1ca0).
+  1         0xf4f       1               a3
+# Insert code to skip the VDU sequence and the VDU sequence itself.
+  1         0xea0       22              4c,c0,1c,16,04,17,1,0,0,0,0,0,0,0,0,1c,08,13,08,13,11,0
+# Change the length of the VDU sequence to read.
+  1         0xf64       1               16
