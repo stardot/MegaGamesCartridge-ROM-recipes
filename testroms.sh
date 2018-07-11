@@ -25,7 +25,7 @@ elkulator -rom2 ROMs/BoneCruncher-1.rom -rom1 ROMs/BoneCruncher-2.rom
 elkulator -rom2 ROMs/BoneCruncher_E.rom
 elkulator -rom2 ROMs/Boxer.rom
 elkulator -rom2 ROMs/Breakthrough-1.rom -rom1 ROMs/Breakthrough-2.rom
-elkulator -rom2 ROMs/BrianJacksSuperstarChallenge-1.rom -rom1 ROMs/BrianJacksSuperstarChallenge-2.rom
+elkulator -rom2 ROMs/BrianJacksSuperstarChallenge.rom
 elkulator -rom2 ROMs/BugBlast-1.rom -rom1 ROMs/BugBlast-2.rom
 elkulator -rom2 ROMs/BugEyes.rom
 elkulator -rom2 ROMs/BugEyes2-1.rom -rom1 ROMs/BugEyes2-2.rom
@@ -98,13 +98,13 @@ elkulator -rom2 ROMs/Frenzy.rom
 elkulator -rom2 ROMs/Galaforce-1.rom -rom1 ROMs/Galaforce-2.rom
 elkulator -rom2 ROMs/Galaforce2-1.rom -rom1 ROMs/Galaforce2-2.rom
 elkulator -rom2 ROMs/Gauntlet-1.rom -rom1 ROMs/Gauntlet-2.rom
-elkulator -rom2 ROMs/Ghouls-1.rom -rom1 ROMs/Ghouls-2.rom
+elkulator -rom2 ROMs/Ghouls.rom
 elkulator -rom2 ROMs/GisburnesCastle-1.rom -rom1 ROMs/GisburnesCastle-2.rom
 elkulator -rom2 ROMs/Go.rom
 elkulator -rom2 ROMs/Guardian.rom
 elkulator -rom2 ROMs/Gunfighter-1.rom -rom1 ROMs/Gunfighter-2.rom
 elkulator -rom2 ROMs/Gunsmoke.rom
-elkulator -rom2 ROMs/Gyroscope-1.rom -rom1 ROMs/Gyroscope-2.rom
+elkulator -rom2 ROMs/Gyroscope.rom
 elkulator -rom2 ROMs/Hampstead-1.rom -rom1 ROMs/Hampstead-2.rom
 elkulator -rom2 ROMs/HardHatHarry.rom
 elkulator -rom2 ROMs/HauntedHouse.rom
@@ -115,7 +115,7 @@ elkulator -rom2 ROMs/Hobgoblin2-1.rom -rom1 ROMs/Hobgoblin2-2.rom
 elkulator -rom2 ROMs/Hopper.rom
 elkulator -rom2 ROMs/HorseRace.rom
 elkulator -rom2 ROMs/Hunchback.rom
-elkulator -rom2 ROMs/Hunkidory-1.rom -rom1 ROMs/Hunkidory-2.rom
+elkulator -rom2 ROMs/Hunkidory.rom
 elkulator -rom2 ROMs/HyperViper.rom
 elkulator -rom2 ROMs/Icarus-1.rom -rom1 ROMs/Icarus-2.rom
 elkulator -rom2 ROMs/Impact-1.rom -rom1 ROMs/Impact-2.rom
@@ -133,7 +133,7 @@ elkulator -rom2 ROMs/Kayleth-1.rom -rom1 ROMs/Kayleth-2.rom
 elkulator -rom2 ROMs/KillerGorilla.rom
 elkulator -rom2 ROMs/KillerGorilla2-1.rom -rom1 ROMs/KillerGorilla2-2.rom
 elkulator -rom2 ROMs/KingdomOfKlein-1.rom -rom1 ROMs/KingdomOfKlein-2.rom
-elkulator -rom2 ROMs/KissinCousins-1.rom -rom1 ROMs/KissinCousins-2.rom
+elkulator -rom2 ROMs/KissinCousins.rom
 elkulator -rom2 ROMs/Knockout.rom
 elkulator -rom2 ROMs/LastOfTheFree-1.rom -rom1 ROMs/LastOfTheFree-2.rom
 elkulator -rom2 ROMs/LocksOfLuck-1.rom -rom1 ROMs/LocksOfLuck-2.rom
@@ -151,7 +151,7 @@ elkulator -rom2 ROMs/MissileControl.rom
 elkulator -rom2 ROMs/Monsters.rom
 elkulator -rom2 ROMs/MoonBuggy.rom
 elkulator -rom2 ROMs/MoonRaider.rom
-elkulator -rom2 ROMs/MouseTrap-1.rom -rom1 ROMs/MouseTrap-2.rom
+elkulator -rom2 ROMs/MouseTrap.rom
 elkulator -rom2 ROMs/MrWiz.rom
 elkulator -rom2 ROMs/Myorem-1.rom -rom1 ROMs/Myorem-2.rom
 elkulator -rom2 ROMs/Network-1.rom -rom1 ROMs/Network-2.rom

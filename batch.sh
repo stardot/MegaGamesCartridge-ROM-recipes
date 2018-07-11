@@ -27,7 +27,7 @@ cat ROMs/Barbarian2-1.rom ROMs/Barbarian2-2.rom ROMs/Barbarian2-3.rom ROMs/Barba
 cat ROMs/BoneCruncher_with_title-1.rom ROMs/BoneCruncher_with_title-2.rom ROMs/BoneCruncher_with_title-3.rom > ROMs/BoneCruncher_E.rom
 ./UEF2ROM.py -a -B e00 -c e00:.4200 -m -pf patch_files/boxer.txt UEFs/Boxer_E.uef ROMs/Boxer.rom
 ./UEF2ROM.py -a -B e00 -c :x:e00:e00:1100:/:e00:400:400:400:400 -r -s -w 860 -t UEFs/Breakthrough_RUN_E.uef ROMs/Breakthrough-1.rom ROMs/Breakthrough-2.rom
-./UEF2ROM.py -a -B e00 -c e00/: -s -t UEFs/BrianJacksSuperstarChallenge_E.uef ROMs/BrianJacksSuperstarChallenge-1.rom ROMs/BrianJacksSuperstarChallenge-2.rom
+./UEF2ROM.py -a -B e00 -c e00/: -s -t -pf patch_files/brian_jacks.txt UEFs/BrianJacksSuperstarChallenge_E.uef ROMs/BrianJacksSuperstarChallenge.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00:5800:e00:e00/: -w 880 UEFs/BugBlast.uef ROMs/BugBlast-1.rom ROMs/BugBlast-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f UEFs/BugEyes_E.uef ROMs/BugEyes.rom
 ./UEF2ROM.py -a -B e00 -c e00::1d00/6b00 -m -s UEFs/Mega_Games_Cartridge/BugEyes2-EveryGameGoing.uef ROMs/BugEyes2-1.rom ROMs/BugEyes2-2.rom
@@ -103,13 +103,13 @@ cat ROMs/EType-1.rom ROMs/EType-2.rom ROMs/EType-3.rom > ROMs/EType_E.rom
 ./UEF2ROM.py -a -B e00 -c :::1900/: -s -t -w d3f:ef97 UEFs/Galaforce_E.uef ROMs/Galaforce-1.rom ROMs/Galaforce-2.rom
 ./UEF2ROM.py -a -B e00 -c e00::e00::e00:900:1d00/: -p -s -w 39f UEFs/Mega_Games_Cartridge/PIAS6-Galaforce2-EveryGameGoing-fromSSD.uef ROMs/Galaforce2-1.rom ROMs/Galaforce2-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00/: -m -s UEFs/Gauntlet_E.uef ROMs/Gauntlet-1.rom ROMs/Gauntlet-2.rom
-./UEF2ROM.py -a -B e00 -c e00:2200:/: -p -s -w 39f -f 3-5 UEFs/Ghouls-PIASRR_E.uef ROMs/Ghouls-1.rom ROMs/Ghouls-2.rom
+./UEF2ROM.py -a -B e00 -c e00:2200:/: -p -s -w 39f -f 3-5 -pf patch_files/ghouls.txt UEFs/Ghouls-PIASRR_E.uef ROMs/Ghouls.rom
 ./UEF2ROM.py -a -B e00 -c e00/: -s -w 39f UEFs/GisburnesCastle_E.uef ROMs/GisburnesCastle-1.rom ROMs/GisburnesCastle-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:.13b2 -m UEFs/Go_E.uef ROMs/Go.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00: -w 39f -t UEFs/Guardian_E.uef ROMs/Guardian.rom
 ./UEF2ROM.py -a -B e00 -c e00:c00:e00:5bc0/900:b00:5800 -m -s UEFs/Gunfighter_BE.uef ROMs/Gunfighter-1.rom ROMs/Gunfighter-2.rom
 ./UEF2ROM.py -a -B e00 -c : UEFs/Gunsmoke_E.uef ROMs/Gunsmoke.rom
-./UEF2ROM.py -a -B e00 -c e00/: -t -s -w 39f UEFs/Gyroscope_E.uef ROMs/Gyroscope-1.rom ROMs/Gyroscope-2.rom
+./UEF2ROM.py -a -c :/: -f 1-3 -m -r -s UEFs/Gyroscope_E.uef ROMs/Gyroscope.rom
 ./UEF2ROM.py -a -B e00 -c e00/: -m -s UEFs/Hampstead_BE.uef ROMs/Hampstead-1.rom ROMs/Hampstead-2.rom
 ./UEF2ROM.py -a -B e00 -c : -m UEFs/HardHatHarry-ElectronTape.uef ROMs/HardHatHarry.rom
 ./UEF2ROM.py -a -B e00 -c e00 -m UEFs/10Best1-HauntedHouse_E.uef ROMs/HauntedHouse.rom
@@ -120,7 +120,7 @@ cat ROMs/EType-1.rom ROMs/EType-2.rom ROMs/EType-3.rom > ROMs/EType_E.rom
 ./UEF2ROM.py -a -B e00 -c x:e00: -r -w 880 UEFs/Mega_Games_Cartridge/Hopper-STH-ROM.uef ROMs/Hopper.rom
 ./UEF2ROM.py -a -B e00 -c e00 -w 39f UEFs/HorseRace_E.uef ROMs/HorseRace.rom
 ./UEF2ROM.py -a -B e00 -c :900 -m UEFs/Hunchback-Ocean_E.uef ROMs/Hunchback.rom
-./UEF2ROM.py -a -B e00 -c :/: -p -s -w 39f UEFs/Hunkidory_BE.uef ROMs/Hunkidory-1.rom ROMs/Hunkidory-2.rom
+./UEF2ROM.py -a -B 1900 -c :/: -f 1-5 -m -s UEFs/Hunkidory_BE.uef ROMs/Hunkidory.rom
 ./UEF2ROM.py -a -B e00 -c e00 -m UEFs/Mega_Games_Cartridge/HyperViper-fromSSD.uef ROMs/HyperViper.rom
 ./UEF2ROM.py -a -B e00 -c .e00:/: -f 2-4:s:5-24 -r -w 39f UEFs/Mega_Games_Cartridge/Icarus-patched.uef ROMs/Icarus-1.rom ROMs/Icarus-2.rom
 ./UEF2ROM.py -a -B e00 -c e00::x:/: -m -s UEFs/Impact_E.uef ROMs/Impact-1.rom ROMs/Impact-2.rom
@@ -139,7 +139,7 @@ cat ROMs/Imogen-1.rom ROMs/Imogen-2.rom ROMs/Imogen-3.rom ROMs/Imogen-4.rom ROMs
 ./UEF2ROM.py -a -B e00 -c e00: UEFs/KillerGorilla.uef ROMs/KillerGorilla.rom
 ./UEF2ROM.py -a -B e00 -c :/: -s -w 39f UEFs/KillerGorilla2-PIAS_E.uef ROMs/KillerGorilla2-1.rom ROMs/KillerGorilla2-2.rom
 ./UEF2ROM.py -a -B e00 -c :/: -m -s UEFs/KingdomOfKlein_E.uef ROMs/KingdomOfKlein-1.rom ROMs/KingdomOfKlein-2.rom
-./UEF2ROM.py -a -B e00 -c e00::.16b0: -w 120 -s -t UEFs/KissinCousins_E.uef ROMs/KissinCousins-1.rom ROMs/KissinCousins-2.rom
+./UEF2ROM.py -a -B 1600 -c :.16b0: -f 1-3 -s -t -w 120 UEFs/KissinCousins_E.uef ROMs/KissinCousins.rom
 ./UEF2ROM.py -a -B e00 -c e00 -m UEFs/10Best1-Knockout_E.uef ROMs/Knockout.rom
 ./UEF2ROM.py -a -B e00 -c x:/: -m -r -s UEFs/LastOfTheFree_E.uef ROMs/LastOfTheFree-1.rom ROMs/LastOfTheFree-2.rom
 ./UEF2ROM.py -a -B e00 -c :::58e0:4160:d00/400 -p -w 39f UEFs/LocksOfLuck_E.uef ROMs/LocksOfLuck-1.rom ROMs/LocksOfLuck-2.rom
@@ -157,7 +157,7 @@ cat ROMs/Imogen-1.rom ROMs/Imogen-2.rom ROMs/Imogen-3.rom ROMs/Imogen-4.rom ROMs
 ./UEF2ROM.py -a -B e00 -c e00: -w 880 -pf patch_files/monsters.txt UEFs/Monsters_E.uef ROMs/Monsters.rom
 ./UEF2ROM.py -a -B e00 -c e00:1400 -w 39f UEFs/MoonBuggy.uef ROMs/MoonBuggy.rom
 ./UEF2ROM.py -a -B e00 -c :b00 -m UEFs/MoonRaider_E.uef ROMs/MoonRaider.rom
-./UEF2ROM.py -a -B e00 -c e00:/: -m -s UEFs/MouseTrap_E.uef ROMs/MouseTrap-1.rom ROMs/MouseTrap-2.rom
+./UEF2ROM.py -a -B e00 -c e00:/: -m -s -pf patch_files/mouse_trap.txt UEFs/MouseTrap_E.uef ROMs/MouseTrap.rom
 ./UEF2ROM.py -a -B e00 -c e00::x: -p -s -w 39f UEFs/MrWiz.uef ROMs/MrWiz.rom
 ./UEF2ROM.py -a -B e00 -c e00::::/x:x: -s -t -T -w 100 UEFs/RHT3-Myorem_E.uef ROMs/Myorem-1.rom ROMs/Myorem-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f UEFs/Network-PIASRR_E.uef ROMs/Network-1.rom ROMs/Network-2.rom
@@ -250,7 +250,7 @@ cat ROMs/Spellbinder1.rom ROMs/Spellbinder2.rom ROMs/Spellbinder3.rom > ROMs/Spe
 ./UEF2ROM.py -a -B e00 -c e00:3780:900:2000/7620 -m -s UEFs/StarWars_E.uef ROMs/StarWars-1.rom ROMs/StarWars-2.rom
 ./UEF2ROM.py -a -B e00 -c :e00::e00/: UEFs/SteveDavisSnooker-PIASRR_E.uef ROMs/SteveDavisSnooker.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00 UEFs/StockCar.uef ROMs/StockCar.rom
-./UEF2ROM.py -a -B e00 -c :e00/: -s -t UEFs/Stormcycle_E.uef ROMs/Stormcycle-1.rom ROMs/Stormcycle-2.rom
+./UEF2ROM.py -a -B e00 -c e00/: -f 1-7 -m -s UEFs/Stormcycle_E.uef ROMs/Stormcycle-1.rom ROMs/Stormcycle-2.rom
 ./UEF2ROM.py -a -B e00 -c e00: -w 39f -t UEFs/Stranded_E.uef ROMs/Stranded.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00:3a00/: -s -t -w 860 UEFs/StrykersRun-PIASRR_E.uef ROMs/StrykersRun-1.rom ROMs/StrykersRun-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00:/400 -m -s UEFs/SupermanTheGame_BE.uef ROMs/SupermanTheGame-1.rom ROMs/SupermanTheGame-2.rom

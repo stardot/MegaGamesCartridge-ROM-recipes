@@ -23,7 +23,7 @@ OK (paging required),BoneCruncher,Superior,BoneCruncher_E.uef,BoneCruncher_with_
 Too large (can snapshot),Boulder Dash,Tynesoft,Boulderdash_E.uef,,
 OK,Boxer,Acornsoft,Boxer_E.uef,Boxer.rom,-a -B e00 -c e00:.4200 -m -pf patch_files/boxer.txt
 OK,Breakthrough,ASL,Breakthrough_RUN_E.uef,Breakthrough-1.rom Breakthrough-2.rom,-a -B e00 -c :x:e00:e00:1100:/:e00:400:400:400:400 -r -s -w 860 -t
-OK,Brian Jacks Superstar Challenge,Martech,BrianJacksSuperstarChallenge_E.uef,BrianJacksSuperstarChallenge-1.rom BrianJacksSuperstarChallenge-2.rom,-a -B e00 -c e00/: -s -t
+OK,Brian Jacks Superstar Challenge,Martech,BrianJacksSuperstarChallenge_E.uef,BrianJacksSuperstarChallenge.rom,-a -B e00 -c e00/: -s -t -pf patch_files/brian_jacks.txt
 OK,Bug Blaster,Alligata,BugBlast.uef,BugBlast-1.rom BugBlast-2.rom,-a -B e00 -c e00:e00:5800:e00:e00/: -w 880
 OK,Bug Eyes,Icon,BugEyes_E.uef,BugEyes.rom,-a -B e00 -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f
 OK,Bug Eyes 2,Audiogenic,Mega_Games_Cartridge/BugEyes2-EveryGameGoing.uef,BugEyes2-1.rom BugEyes2-2.rom,-a -B e00 -c e00::1d00/6b00 -m -s
@@ -99,13 +99,13 @@ OK,Frenzy,Micro Power,Frenzy_E.uef,Frenzy.rom,-a -B e00 -c e00: -m
 OK,Galaforce,Superior Software,Galaforce_E.uef,Galaforce-1.rom Galaforce-2.rom,-a -B e00 -c :::1900/: -s -t -w d3f:ef97
 OK,Galaforce 2,Superior Software,Mega_Games_Cartridge/PIAS6-Galaforce2-EveryGameGoing-fromSSD.uef,Galaforce2-1.rom Galaforce2-2.rom,-a -B e00 -c e00::e00::e00:900:1d00/: -p -s -w 39f
 OK,Gauntlet,Micro Power,Gauntlet_E.uef,Gauntlet-1.rom Gauntlet-2.rom,-a -B e00 -c e00:e00/: -m -s
-OK (discard files),Ghouls,Micro Power,Ghouls-PIASRR_E.uef,Ghouls-1.rom Ghouls-2.rom,-a -B e00 -c e00:2200:/: -p -s -w 39f -f 3-5
+OK (discard files),Ghouls,Micro Power,Ghouls-PIASRR_E.uef,Ghouls.rom,-a -B e00 -c e00:2200:/: -p -s -w 39f -f 3-5 -pf patch_files/ghouls.txt
 OK,Gisburne's Castle,Martech,GisburnesCastle_E.uef,GisburnesCastle-1.rom GisburnesCastle-2.rom,-a -B e00 -c e00/: -s -w 39f
 OK,Go,Acornsoft,Go_E.uef,Go.rom,-a -B e00 -c e00:.13b2 -m
 OK,Guardian,Alligata,Guardian_E.uef,Guardian.rom,-a -B e00 -c e00:e00: -w 39f -t
 OK,Gunfighter,Atlantis,Gunfighter_BE.uef,Gunfighter-1.rom Gunfighter-2.rom,-a -B e00 -c e00:c00:e00:5bc0/900:b00:5800 -m -s
 OK,Gunsmoke,Software Invasion,Gunsmoke_E.uef,Gunsmoke.rom,-a -B e00 -c :
-OK,Gyroscope,Melbourne House,Gyroscope_E.uef,Gyroscope-1.rom Gyroscope-2.rom,-a -B e00 -c e00/: -t -s -w 39f
+OK,Gyroscope,Melbourne House,Gyroscope_E.uef,Gyroscope.rom,-a -c :/: -f 1-3 -m -r -s
 OK,Hampstead,Melbourne House,Hampstead_BE.uef,Hampstead-1.rom Hampstead-2.rom,-a -B e00 -c e00/: -m -s
 OK,Hard Hat Harry,Retro Software,HardHatHarry-ElectronTape.uef,HardHatHarry.rom,-a -B e00 -c : -m
 OK,Haunted House,Electron User,10Best1-HauntedHouse_E.uef,HauntedHouse.rom,-a -B e00 -c e00 -m
@@ -117,7 +117,7 @@ Needs tuning (paging required; maybe compression workspace?),Holed Out,4th Dimen
 OK,Hopper,Acornsoft,Mega_Games_Cartridge/Hopper-STH-ROM.uef,Hopper.rom,-a -B e00 -c x:e00: -r -w 880
 OK,HorseRace,Dynabyte,HorseRace_E.uef,HorseRace.rom,-a -B e00 -c e00 -w 39f
 OK,Hunchback,Ocean,Hunchback-Ocean_E.uef,Hunchback.rom,-a -B e00 -c :900 -m
-OK,Hunkidory,Bug Byte,Hunkidory_BE.uef,Hunkidory-1.rom Hunkidory-2.rom,-a -B e00 -c :/: -p -s -w 39f
+OK,Hunkidory,Bug Byte,Hunkidory_BE.uef,Hunkidory.rom,-a -B 1900 -c :/: -f 1-5 -m -s
 OK,Hyper Viper,Retro Software,Mega_Games_Cartridge/HyperViper-fromSSD.uef,HyperViper.rom,-a -B e00 -c e00 -m
 OK (patched),Icarus,Mandarin,Mega_Games_Cartridge/Icarus-patched.uef,Icarus-1.rom Icarus-2.rom,-a -B e00 -c .e00:/: -f 2-4:s:5-24 -r -w 39f
 OK,Impact,Audiogenic,Impact_E.uef,Impact-1.rom Impact-2.rom,-a -B e00 -c e00::x:/: -m -s
@@ -135,7 +135,7 @@ OK,Kayleth,U.S. Gold,Kayleth_E.uef,Kayleth-1.rom Kayleth-2.rom,-a -B e00 -c x:/:
 OK,Killer Gorilla,Program Power,KillerGorilla.uef,KillerGorilla.rom,-a -B e00 -c e00:
 OK,Killer Gorilla 2,Superior/Acornsoft,KillerGorilla2-PIAS_E.uef,KillerGorilla2-1.rom KillerGorilla2-2.rom,-a -B e00 -c :/: -s -w 39f
 OK,Kingdom Of Klein,Epic,KingdomOfKlein_E.uef,KingdomOfKlein-1.rom KingdomOfKlein-2.rom,-a -B e00 -c :/: -m -s
-OK,Kissin Cousins,English,KissinCousins_E.uef,KissinCousins-1.rom KissinCousins-2.rom,-a -B e00 -c e00::.16b0: -w 120 -s -t
+OK,Kissin Cousins,English,KissinCousins_E.uef,KissinCousins.rom,-a -B 1600 -c :.16b0: -f 1-3 -s -t -w 120
 OK,Knockout,Electron User,10Best1-Knockout_E.uef,Knockout.rom,-a -B e00 -c e00 -m
 OK,Last Of The Free,ASL,LastOfTheFree_E.uef,LastOfTheFree-1.rom LastOfTheFree-2.rom,-a -B e00 -c x:/: -m -r -s
 OK,Locks Of Luck,Magus,LocksOfLuck_E.uef,LocksOfLuck-1.rom LocksOfLuck-2.rom,-a -B e00 -c :::58e0:4160:d00/400 -p -w 39f
@@ -153,7 +153,7 @@ OK,Missile Control,Gemini,MissileControl_E.uef,MissileControl.rom,-a -B e00 -c e
 OK,Monsters,Acornsoft,Monsters_E.uef,Monsters.rom,-a -B e00 -c e00: -w 880 -pf patch_files/monsters.txt
 OK,Moon Buggy,Kansas,MoonBuggy.uef,MoonBuggy.rom,-a -B e00 -c e00:1400 -w 39f
 OK,MoonRaider,Program Power,MoonRaider_E.uef,MoonRaider.rom,-a -B e00 -c :b00 -m
-OK,Mouse Trap,Tynesoft,MouseTrap_E.uef,MouseTrap-1.rom MouseTrap-2.rom,-a -B e00 -c e00:/: -m -s
+OK,Mouse Trap,Tynesoft,MouseTrap_E.uef,MouseTrap.rom,-a -B e00 -c e00:/: -m -s -pf patch_files/mouse_trap.txt
 OK,Mr Wiz,Superior,MrWiz.uef,MrWiz.rom,-a -B e00 -c e00::x: -p -s -w 39f
 OK,Myorem,Robico,RHT3-Myorem_E.uef,Myorem-1.rom Myorem-2.rom,-a -B e00 -c e00::::/x:x: -s -t -T -w 100
 OK,Network,Superior,Network-PIASRR_E.uef,Network-1.rom Network-2.rom,-a -B e00 -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f
@@ -241,7 +241,7 @@ OK,Starship Command,Acornsoft,Mega_Games_Cartridge/StarshipCommand-STH-ROM.uef,S
 OK (patched),Star Wars,Domark,StarWars_E.uef,StarWars-1.rom StarWars-2.rom,-a -B e00 -c e00:3780:900:2000/7620 -m -s
 OK,Steve Davis Snooker,Blue Ribbon,SteveDavisSnooker-PIASRR_E.uef,SteveDavisSnooker.rom,-a -B e00 -c :e00::e00/:
 OK,Stock Car,Micro Power,StockCar.uef,StockCar.rom,-a -B e00 -c e00:e00
-OK,Stormcycle,Atlantis,Stormcycle_E.uef,Stormcycle-1.rom Stormcycle-2.rom,-a -B e00 -c :e00/: -s -t
+OK,Stormcycle,Atlantis,Stormcycle_E.uef,Stormcycle-1.rom Stormcycle-2.rom,-a -B e00 -c e00/: -f 1-7 -m -s
 OK,Stranded,Superior,Stranded_E.uef,Stranded.rom,-a -B e00 -c e00: -w 39f -t
 Needs patching,Strike Force Harrier,Mirrorsoft,StrikeForceHarrier_E.uef,,
 OK,Strykers Run,Superior,StrykersRun-PIASRR_E.uef,StrykersRun-1.rom StrykersRun-2.rom,-a -B e00 -c e00:e00:3a00/: -s -t -w 860
