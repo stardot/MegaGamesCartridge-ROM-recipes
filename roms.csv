@@ -7,6 +7,7 @@ OK,Alien Dropout,Superior,AlienDropout_E.uef,AlienDropout.rom,-a -B e00 -c e00 -
 OK (patched),Anarchy Zone,Atlantis,Mega_Games_Cartridge/AnarchyZone.uef,AnarchyZone-1.rom AnarchyZone-2.rom,-a -B e00 -c e00::x:/: -m -s
 OK,Arcadians,Acornsoft,Arcadians_E.uef,Arcadians-1.rom Arcadians-2.rom,-a -B e00 -c e00:.5ad0/: -m -s -pf patch_files/arcadians.txt
 OK,Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,-a -B e00 -c e00 -w 39f
+OK (patched),Aviator,Acornsoft,Aviator-v1.1_B.uef,Aviator-1.rom Aviator-2.rom,-a -c :.b00/: -m -s -pf patch_files/aviator.txt
 OK,Ballistix,Superior,Ballistix_E-EveryGameGoing-BlueRibbon.uef,Ballistix-1.rom Ballistix-2.rom,-a -B e00 -c e00:e00:/: -p -s -w 39f
 OK,Balloon Buster,Blue Ribbon,BalloonBuster_E.uef,BalloonBuster.rom,-a -B e00 -c x:1100/: -s -t -w 39f
 OK,Bandits at 3 O'Clock,Micro Power,BanditsAt3OClock_E.uef,Bandits.rom,-a -B e00 -c : -m

@@ -10,6 +10,7 @@ elkulator -rom2 ROMs/AlienDropout.rom
 elkulator -rom2 ROMs/AnarchyZone-1.rom -rom1 ROMs/AnarchyZone-2.rom
 elkulator -rom2 ROMs/Arcadians-1.rom -rom1 ROMs/Arcadians-2.rom
 elkulator -rom2 ROMs/AstroPlumber.rom
+elkulator -rom2 ROMs/Aviator-1.rom -rom1 ROMs/Aviator-2.rom
 elkulator -rom2 ROMs/Ballistix-1.rom -rom1 ROMs/Ballistix-2.rom
 elkulator -rom2 ROMs/BalloonBuster.rom
 elkulator -rom2 ROMs/Bandits.rom

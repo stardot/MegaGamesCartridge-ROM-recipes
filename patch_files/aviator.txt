@@ -1,0 +1,8 @@
+# Index     Offset      Span length     Data
+  0         0x3d7       16              1c,0e,0f,18,0b,0c,0c,87,8d,41,76,69,61,74,6f,72
+# Moves the text window to a blank area of the screen.
+  0         0x41b       3               11,0,ea
+# Fixes the VDU sequence to disable the flashing text cursor.
+  1         0x55        3               1,0,0
+
+

@@ -10,6 +10,7 @@ set -e
 ./UEF2ROM.py -a -B e00 -c e00::x:/: -m -s UEFs/Mega_Games_Cartridge/AnarchyZone.uef ROMs/AnarchyZone-1.rom ROMs/AnarchyZone-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:.5ad0/: -m -s -pf patch_files/arcadians.txt UEFs/Arcadians_E.uef ROMs/Arcadians-1.rom ROMs/Arcadians-2.rom
 ./UEF2ROM.py -a -B e00 -c e00 -w 39f UEFs/AstroPlumber_E.uef ROMs/AstroPlumber.rom
+./UEF2ROM.py -a -c :.b00/: -m -s -pf patch_files/aviator.txt UEFs/Aviator-v1.1_B.uef ROMs/Aviator-1.rom ROMs/Aviator-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00:/: -p -s -w 39f UEFs/Ballistix_E-EveryGameGoing-BlueRibbon.uef ROMs/Ballistix-1.rom ROMs/Ballistix-2.rom
 ./UEF2ROM.py -a -B e00 -c x:1100/: -s -t -w 39f UEFs/BalloonBuster_E.uef ROMs/BalloonBuster.rom
 ./UEF2ROM.py -a -B e00 -c : -m UEFs/BanditsAt3OClock_E.uef ROMs/Bandits.rom
