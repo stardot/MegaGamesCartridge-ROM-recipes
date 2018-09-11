@@ -128,11 +128,14 @@ OK,Inertia,4th Dimension,Inertia_E.uef,Inertia-1.rom Inertia-2.rom,-a -B e00 -c 
 OK,Intergalactic Trader,Micro Power,IntergalacticTrader_E.uef,IntergalacticTrader.rom,-a -B e00 -c :/: -m
 OK,Jet Boot Jack,English,JetBootJack_E.uef,JetBootJack-1.rom JetBootJack-2.rom,-a -B e00 -c e00::.1d00/: -w 39f -t -s
 OK,Jet Power Jack,Micro Power,JetPowerJack_E.uef,JetPowerJack.rom,-a -B e00 -c e00 -m
+OK,Joe Blade,Players,JoeBlade_E.uef,JoeBlade-1.rom JoeBlade-2.rom,-a -c :5940::f00:::3000:5000:::7880:7600:6000:7100:7200:6b00/:6c00:6100:5840: -m -s
+OK,Joe Blade 2,Players,JoeBlade2_E.uef,JoeBlade2-1.rom JoeBlade2-2.rom,-a -c e00:e00:5820:f00/5800 -m -s
 OK (patched),Joey,Blue Ribbon,Mega_Games_Cartridge/Joey-patched.uef,Joey.rom,-a -B e00 -c : -p -s -w 39f
 OK,Joust,Godax,Skirmish_E.uef,Joust.rom,-a -B e00 -c e00 -m
 OK,Jungle Jive,Virgin,JungleJive_Tape.uef,JungleJive.rom,-a -B e00 -c e00 -m
 OK,Karate Combat,Superior,KarateCombat.uef,KarateCombat-1.rom KarateCombat-2.rom,-a -B e00 -c e00:/: -s
 OK,Kayleth,U.S. Gold,Kayleth_E.uef,Kayleth-1.rom Kayleth-2.rom,-a -B e00 -c x:/: -s -w 39f
+OK,Killapede,Players,Killapede_BE.uef,Killapede.rom,-a -c : -s
 OK,Killer Gorilla,Program Power,KillerGorilla.uef,KillerGorilla.rom,-a -B e00 -c e00:
 OK,Killer Gorilla 2,Superior/Acornsoft,KillerGorilla2-PIAS_E.uef,KillerGorilla2-1.rom KillerGorilla2-2.rom,-a -B e00 -c :/: -s -w 39f
 OK,Kingdom Of Klein,Epic,KingdomOfKlein_E.uef,KingdomOfKlein-1.rom KingdomOfKlein-2.rom,-a -B e00 -c :/: -m -s
@@ -141,6 +144,7 @@ OK,Knockout,Electron User,10Best1-Knockout_E.uef,Knockout.rom,-a -B e00 -c e00 -
 OK,Last Of The Free,ASL,LastOfTheFree_E.uef,LastOfTheFree-1.rom LastOfTheFree-2.rom,-a -B e00 -c x:/: -m -r -s
 OK,Locks Of Luck,Magus,LocksOfLuck_E.uef,LocksOfLuck-1.rom LocksOfLuck-2.rom,-a -B e00 -c :::58e0:4160:d00/400 -p -w 39f
 OK,Locomotion,BBCSoft,Locomotion_E.uef,Locomotion-1.rom Locomotion-2.rom,-a -B e00 -c e00:1300/: -m -s
+OK,Loony Loco,Kansas,LoonyLoco_E.uef,LoonyLoco.rom,-a -c : -m -s
 OK,Loopz,Audiogenic,Loopz_E.uef,Loopz-1.rom Loopz-2.rom,-a -B e00 -c ::x:/: -m
 OK,Lunar Rescue,Alligata,Mega_Games_Cartridge/Lunar_Rescue-patched.uef,LunarRescue.rom,-a -B e00 -c e00:e00::3000 -m
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms_Tape.uef,MagicMushrooms.rom,-a -B e00 -c e00:.4700 -m -pf patch_files/magic_mushrooms.txt

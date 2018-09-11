@@ -126,11 +126,14 @@ elkulator -rom2 ROMs/Inertia-1.rom -rom1 ROMs/Inertia-2.rom
 elkulator -rom2 ROMs/IntergalacticTrader.rom
 elkulator -rom2 ROMs/JetBootJack-1.rom -rom1 ROMs/JetBootJack-2.rom
 elkulator -rom2 ROMs/JetPowerJack.rom
+elkulator -rom2 ROMs/JoeBlade-1.rom -rom1 ROMs/JoeBlade-2.rom
+elkulator -rom2 ROMs/JoeBlade2-1.rom -rom1 ROMs/JoeBlade2-2.rom
 elkulator -rom2 ROMs/Joey.rom
 elkulator -rom2 ROMs/Joust.rom
 elkulator -rom2 ROMs/JungleJive.rom
 elkulator -rom2 ROMs/KarateCombat-1.rom -rom1 ROMs/KarateCombat-2.rom
 elkulator -rom2 ROMs/Kayleth-1.rom -rom1 ROMs/Kayleth-2.rom
+elkulator -rom2 ROMs/Killapede.rom
 elkulator -rom2 ROMs/KillerGorilla.rom
 elkulator -rom2 ROMs/KillerGorilla2-1.rom -rom1 ROMs/KillerGorilla2-2.rom
 elkulator -rom2 ROMs/KingdomOfKlein-1.rom -rom1 ROMs/KingdomOfKlein-2.rom
@@ -139,6 +142,7 @@ elkulator -rom2 ROMs/Knockout.rom
 elkulator -rom2 ROMs/LastOfTheFree-1.rom -rom1 ROMs/LastOfTheFree-2.rom
 elkulator -rom2 ROMs/LocksOfLuck-1.rom -rom1 ROMs/LocksOfLuck-2.rom
 elkulator -rom2 ROMs/Locomotion-1.rom -rom1 ROMs/Locomotion-2.rom
+elkulator -rom2 ROMs/LoonyLoco.rom
 elkulator -rom2 ROMs/Loopz-1.rom -rom1 ROMs/Loopz-2.rom
 elkulator -rom2 ROMs/LunarRescue.rom
 elkulator -rom2 ROMs/MagicMushrooms.rom

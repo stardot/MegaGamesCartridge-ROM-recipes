@@ -132,11 +132,14 @@ cat ROMs/Imogen-1.rom ROMs/Imogen-2.rom ROMs/Imogen-3.rom ROMs/Imogen-4.rom ROMs
 ./UEF2ROM.py -a -B e00 -c :/: -m UEFs/IntergalacticTrader_E.uef ROMs/IntergalacticTrader.rom
 ./UEF2ROM.py -a -B e00 -c e00::.1d00/: -w 39f -t -s UEFs/JetBootJack_E.uef ROMs/JetBootJack-1.rom ROMs/JetBootJack-2.rom
 ./UEF2ROM.py -a -B e00 -c e00 -m UEFs/JetPowerJack_E.uef ROMs/JetPowerJack.rom
+./UEF2ROM.py -a -c :5940::f00:::3000:5000:::7880:7600:6000:7100:7200:6b00/:6c00:6100:5840: -m -s UEFs/JoeBlade_E.uef ROMs/JoeBlade-1.rom ROMs/JoeBlade-2.rom
+./UEF2ROM.py -a -c e00:e00:5820:f00/5800 -m -s UEFs/JoeBlade2_E.uef ROMs/JoeBlade2-1.rom ROMs/JoeBlade2-2.rom
 ./UEF2ROM.py -a -B e00 -c : -p -s -w 39f UEFs/Mega_Games_Cartridge/Joey-patched.uef ROMs/Joey.rom
 ./UEF2ROM.py -a -B e00 -c e00 -m UEFs/Skirmish_E.uef ROMs/Joust.rom
 ./UEF2ROM.py -a -B e00 -c e00 -m UEFs/JungleJive_Tape.uef ROMs/JungleJive.rom
 ./UEF2ROM.py -a -B e00 -c e00:/: -s UEFs/KarateCombat.uef ROMs/KarateCombat-1.rom ROMs/KarateCombat-2.rom
 ./UEF2ROM.py -a -B e00 -c x:/: -s -w 39f UEFs/Kayleth_E.uef ROMs/Kayleth-1.rom ROMs/Kayleth-2.rom
+./UEF2ROM.py -a -c : -s UEFs/Killapede_BE.uef ROMs/Killapede.rom
 ./UEF2ROM.py -a -B e00 -c e00: UEFs/KillerGorilla.uef ROMs/KillerGorilla.rom
 ./UEF2ROM.py -a -B e00 -c :/: -s -w 39f UEFs/KillerGorilla2-PIAS_E.uef ROMs/KillerGorilla2-1.rom ROMs/KillerGorilla2-2.rom
 ./UEF2ROM.py -a -B e00 -c :/: -m -s UEFs/KingdomOfKlein_E.uef ROMs/KingdomOfKlein-1.rom ROMs/KingdomOfKlein-2.rom
@@ -145,6 +148,7 @@ cat ROMs/Imogen-1.rom ROMs/Imogen-2.rom ROMs/Imogen-3.rom ROMs/Imogen-4.rom ROMs
 ./UEF2ROM.py -a -B e00 -c x:/: -m -r -s UEFs/LastOfTheFree_E.uef ROMs/LastOfTheFree-1.rom ROMs/LastOfTheFree-2.rom
 ./UEF2ROM.py -a -B e00 -c :::58e0:4160:d00/400 -p -w 39f UEFs/LocksOfLuck_E.uef ROMs/LocksOfLuck-1.rom ROMs/LocksOfLuck-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:1300/: -m -s UEFs/Locomotion_E.uef ROMs/Locomotion-1.rom ROMs/Locomotion-2.rom
+./UEF2ROM.py -a -c : -m -s UEFs/LoonyLoco_E.uef ROMs/LoonyLoco.rom
 ./UEF2ROM.py -a -B e00 -c ::x:/: -m UEFs/Loopz_E.uef ROMs/Loopz-1.rom ROMs/Loopz-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00::3000 -m UEFs/Mega_Games_Cartridge/Lunar_Rescue-patched.uef ROMs/LunarRescue.rom
 ./UEF2ROM.py -a -B e00 -c e00:.4700 -m -pf patch_files/magic_mushrooms.txt UEFs/MagicMushrooms_Tape.uef ROMs/MagicMushrooms.rom
