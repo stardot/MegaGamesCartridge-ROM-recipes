@@ -1,0 +1,4 @@
+# Index     Offset      Span length     Data
+  0         0x78        1               f4
+# Patches out the *FX 178,0,0 call which would disable OS keyboard scanning
+# and which appears to break loading from ROM.

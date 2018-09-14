@@ -1,0 +1,6 @@
+postload:
+
+lda #$b2    ; Turn off keyboard interrupt.
+ldx #0
+ldy #0
+jmp $fff4

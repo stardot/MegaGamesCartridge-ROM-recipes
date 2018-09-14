@@ -26,6 +26,7 @@ cat ROMs/Barbarian2-1.rom ROMs/Barbarian2-2.rom ROMs/Barbarian2-3.rom ROMs/Barba
 ./UEF2ROM.py -a -B e00 -c x::x -t -w d3f -x UEFs/Mega_Games_Cartridge/BoneCruncher-patched.uef ROMs/BoneCruncher-1.rom ROMs/BoneCruncher-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:::x/x:x/x:x:x -P 290 1:2:1 -s -t -w d3f UEFs/BoneCruncher_E.uef ROMs/BoneCruncher_with_title-1.rom ROMs/BoneCruncher_with_title-2.rom ROMs/BoneCruncher_with_title-3.rom
 cat ROMs/BoneCruncher_with_title-1.rom ROMs/BoneCruncher_with_title-2.rom ROMs/BoneCruncher_with_title-3.rom > ROMs/BoneCruncher_E.rom
+./UEF2ROM.py -a -c e00:/: -L postload/keyboard_scan_disable.oph postload -pf patch_files/boulder_dash.txt -s -w 39f UEFs/Mega_Games_Cartridge/Boulder_Dash-EveryGameGoing.uef ROMs/BoulderDash-1.rom ROMs/BoulderDash-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:.4200 -m -pf patch_files/boxer.txt UEFs/Boxer_E.uef ROMs/Boxer.rom
 ./UEF2ROM.py -a -B e00 -c :x:e00:e00:1100:/:e00:400:400:400:400 -r -s -w 860 -t UEFs/Breakthrough_RUN_E.uef ROMs/Breakthrough-1.rom ROMs/Breakthrough-2.rom
 ./UEF2ROM.py -a -B e00 -c e00/: -s -t -pf patch_files/brian_jacks.txt UEFs/BrianJacksSuperstarChallenge_E.uef ROMs/BrianJacksSuperstarChallenge.rom
@@ -63,6 +64,7 @@ cat ROMs/Clogger-1.rom ROMs/Clogger-2.rom ROMs/Clogger-3.rom > ROMs/Clogger_Tape
 ./UEF2ROM.py -a -B e00 -c ::x UEFs/Croaker_E.uef ROMs/Croaker.rom
 ./UEF2ROM.py -a -B e00 -c :::x:x:x:x:dc0:dc0/dc0 -p -t -w 39f UEFs/CrystalCastles_E.uef ROMs/CrystalCastles-1.rom ROMs/CrystalCastles-2.rom
 ./UEF2ROM.py -a -B e00 -c : UEFs/CybertronMission_Tape.uef ROMs/CybertronMission.rom
+./UEF2ROM.py -a -c ::5f80:::6840:7c40:/: -pf patch_files/cyborg_warriors.txt -s -w 39f UEFs/CyborgWarriors_E.uef ROMs/CyborgWarriors-1.rom ROMs/CyborgWarriors-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:/: -m -s UEFs/CylonAttack_E.uef ROMs/CylonAttack-1.rom ROMs/CylonAttack-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:1500: UEFs/DangerUXB_Tape.uef ROMs/DangerUXB.rom
 ./UEF2ROM.py -a -B e00 -c : UEFs/DareDevilDenis.uef ROMs/DareDevilDenis.rom
@@ -174,6 +176,7 @@ cat ROMs/Imogen-1.rom ROMs/Imogen-2.rom ROMs/Imogen-3.rom ROMs/Imogen-4.rom ROMs
 ./UEF2ROM.py -a -B e00 -c e00/: -s UEFs/PalaceOfMagic_E.uef ROMs/PalaceOfMagic-1.rom ROMs/PalaceOfMagic-2.rom
 ./UEF2ROM.py -a -B e00 -c e00::2000/: -f 1-3 -s UEFs/Mega_Games_Cartridge/PalaceOfMagic2016.uef ROMs/PalaceOfMagic2016-1.rom ROMs/PalaceOfMagic2016-2.rom
 ./UEF2ROM.py -a -B e00 -c : -w 39f UEFs/Panik_BE.uef ROMs/Panik
+./UEF2ROM.py -a -c e00:1900:5000:1900:4200/: -L postload/keyboard_scan_disable.oph postload -pf patch_files/paperboy.txt -s -w 39f UEFs/Paperboy_E.uef ROMs/Paperboy-1.rom ROMs/Paperboy-2.rom
 ./UEF2ROM.py -a -B e00 -c : -m UEFs/Pedro_E.uef ROMs/Pedro
 ./UEF2ROM.py -a -B e00 -c e00: -w 120 UEFs/Pengi_E.uef ROMs/Pengi.rom
 ./UEF2ROM.py -a -B e00 -c : -m UEFs/Pengwyn_E.uef ROMs/Pengwyn
@@ -273,6 +276,7 @@ cat ROMs/Spellbinder1.rom ROMs/Spellbinder2.rom ROMs/Spellbinder3.rom > ROMs/Spe
 cat ROMs/LastNinja-1.rom ROMs/LastNinja-2.rom ROMs/LastNinja-3.rom ROMs/LastNinja-4.rom > ROMs/LastNinja-EveryGameGoing-patched.rom
 ./UEF2ROM.py -a -B e00 -c :4000: -m UEFs/TheMine_E.uef ROMs/TheMine.rom
 ./UEF2ROM.py -a -B e00 -c : -m -r UEFs/TheNineDancers_RUN_BE.uef ROMs/TheNineDancers.rom
+./UEF2ROM.py -a -c e00:400:7080:1d00:2400/: -m -s UEFs/Mega_Games_Cartridge/The_Way_Of_The_Exploding_Fist-EveryGameGoing.uef ROMs/ExplodingFist-1.rom ROMs/ExplodingFist-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:/: -s UEFs/Thrust_Tape.uef ROMs/Thrust-1.rom ROMs/Thrust-2.rom
 ./UEF2ROM.py -a -B e00 -c ::::x:/: -r -s -w 39f UEFs/Thunderstruck_E.uef ROMs/Thunderstruck-1.rom ROMs/Thunderstruck-2.rom
 ./UEF2ROM.py -a -B e00 -c x:/: -m -r -s UEFs/Thunderstruck2_E.uef ROMs/Thunderstruck2-1.rom ROMs/Thunderstruck2-2.rom

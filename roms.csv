@@ -21,7 +21,7 @@ OK,Blood Of The Mutineers,Robico,BloodOfTheMutineers_E.uef,BloodOfTheMutineers-1
 OK,Boffin 2,Addictive,Boffin2-modified_BE.uef,Boffin2-1.rom Boffin2-2.rom,-a -B e00 -c :/: -m -r -s
 OK (patched),BoneCruncher,Superior,Mega_Games_Cartridge/BoneCruncher-patched.uef,BoneCruncher-1.rom BoneCruncher-2.rom,-a -B e00 -c x::x -t -w d3f -x
 OK (paging required),BoneCruncher,Superior,BoneCruncher_E.uef,BoneCruncher_with_title-1.rom BoneCruncher_with_title-2.rom BoneCruncher_with_title-3.rom,-a -B e00 -c e00:::x/x:x/x:x:x -P 290 1:2:1 -s -t -w d3f
-Too large (can snapshot),Boulder Dash,Tynesoft,Boulderdash_E.uef,,
+OK,Boulder Dash,Tynesoft,Mega_Games_Cartridge/Boulder_Dash-EveryGameGoing.uef,BoulderDash-1.rom BoulderDash-2.rom,-a -c e00:/: -L postload/keyboard_scan_disable.oph postload -pf patch_files/boulder_dash.txt -s -w 39f
 OK,Boxer,Acornsoft,Boxer_E.uef,Boxer.rom,-a -B e00 -c e00:.4200 -m -pf patch_files/boxer.txt
 OK,Breakthrough,ASL,Breakthrough_RUN_E.uef,Breakthrough-1.rom Breakthrough-2.rom,-a -B e00 -c :x:e00:e00:1100:/:e00:400:400:400:400 -r -s -w 860 -t
 OK,Brian Jacks Superstar Challenge,Martech,BrianJacksSuperstarChallenge_E.uef,BrianJacksSuperstarChallenge.rom,-a -B e00 -c e00/: -s -t -pf patch_files/brian_jacks.txt
@@ -59,7 +59,7 @@ OK,Creepy Cave,Atlantis,CreepyCave_BE.uef,CreepyCave.rom,-a -B e00 -c e00 -m
 OK,Croaker,Program Power,Croaker_E.uef,Croaker.rom,-a -B e00 -c ::x
 OK,Crystal Castles,U.S. Gold,CrystalCastles_E.uef,CrystalCastles-1.rom CrystalCastles-2.rom,-a -B e00 -c :::x:x:x:x:dc0:dc0/dc0 -p -t -w 39f
 OK,Cybertron Mission,Program Power,CybertronMission_Tape.uef,CybertronMission.rom,-a -B e00 -c :
-Needs patching,Cyborg Warriors,Superior,CyborgWarriors_E.uef,,
+OK,Cyborg Warriors,Superior,CyborgWarriors_E.uef,CyborgWarriors-1.rom CyborgWarriors-2.rom,-a -c ::5f80:::6840:7c40:/: -pf patch_files/cyborg_warriors.txt -s -w 39f
 OK,Cylon Attack,A&F,CylonAttack_E.uef,CylonAttack-1.rom CylonAttack-2.rom,-a -B e00 -c e00:/: -m -s
 OK,Danger UXB,Program Power,DangerUXB_Tape.uef,DangerUXB.rom,-a -B e00 -c e00:1500:
 OK,Dare Devil Denis.uef,Visions,DareDevilDenis.uef,DareDevilDenis.rom,-a -B e00 -c :
@@ -170,7 +170,7 @@ OK,Oxbridge,Tynesoft,Oxbridge_E.uef,Oxbridge-1.rom Oxbridge-2.rom,-a -B e00 -c e
 OK,Palace Of Magic (original),Superior,PalaceOfMagic_E.uef,PalaceOfMagic-1.rom PalaceOfMagic-2.rom,-a -B e00 -c e00/: -s
 OK,Palace Of Magic (2016),Superior,Mega_Games_Cartridge/PalaceOfMagic2016.uef,PalaceOfMagic2016-1.rom PalaceOfMagic2016-2.rom,-a -B e00 -c e00::2000/: -f 1-3 -s
 OK,Panik,Atlantis,Panik_BE.uef,Panik,-a -B e00 -c : -w 39f
-Last file needs patching,Paperboy,Elite,Paperboy_E.uef,,
+OK,Paperboy,Elite,Paperboy_E.uef,Paperboy-1.rom Paperboy-2.rom,-a -c e00:1900:5000:1900:4200/: -L postload/keyboard_scan_disable.oph postload -pf patch_files/paperboy.txt -s -w 39f
 OK,Pedro,Imagine,Pedro_E.uef,Pedro,-a -B e00 -c : -m
 OK,Pengi,Visions,Pengi_E.uef,Pengi.rom,-a -B e00 -c e00: -w 120
 OK,Pengwyn,Postern,Pengwyn_E.uef,Pengwyn,-a -B e00 -c : -m
@@ -265,6 +265,7 @@ OK (paging required),The Last Ninja,Superior,Mega_Games_Cartridge/LastNinja-Ever
 Needs patching,The Lost Crystal,Epic,,,
 OK,The Mine,Micro Power,TheMine_E.uef,TheMine.rom,-a -B e00 -c :4000: -m
 OK,The Nine Dancers,Larsoft,TheNineDancers_RUN_BE.uef,TheNineDancers.rom,-a -B e00 -c : -m -r
+OK (patched),The Way Of The Exploding Fist,Melbourne House,Mega_Games_Cartridge/The_Way_Of_The_Exploding_Fist-EveryGameGoing.uef,ExplodingFist-1.rom ExplodingFist-2.rom,-a -c e00:400:7080:1d00:2400/: -m -s
 OK,Thrust,Superior,Thrust_Tape.uef,Thrust-1.rom Thrust-2.rom,-a -B e00 -c e00:/: -s
 OK,Thunderstruck,Audiogenic,Thunderstruck_E.uef,Thunderstruck-1.rom Thunderstruck-2.rom,-a -B e00 -c ::::x:/: -r -s -w 39f
 OK,Thunderstruck 2,Audiogenic,Thunderstruck2_E.uef,Thunderstruck2-1.rom Thunderstruck2-2.rom,-a -B e00 -c x:/: -m -r -s

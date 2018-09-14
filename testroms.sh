@@ -24,6 +24,7 @@ elkulator -rom2 ROMs/BloodOfTheMutineers-1.rom -rom1 ROMs/BloodOfTheMutineers-2.
 elkulator -rom2 ROMs/Boffin2-1.rom -rom1 ROMs/Boffin2-2.rom
 elkulator -rom2 ROMs/BoneCruncher-1.rom -rom1 ROMs/BoneCruncher-2.rom
 elkulator -rom2 ROMs/BoneCruncher_E.rom
+elkulator -rom2 ROMs/BoulderDash-1.rom -rom1 ROMs/BoulderDash-2.rom
 elkulator -rom2 ROMs/Boxer.rom
 elkulator -rom2 ROMs/Breakthrough-1.rom -rom1 ROMs/Breakthrough-2.rom
 elkulator -rom2 ROMs/BrianJacksSuperstarChallenge.rom
@@ -60,6 +61,7 @@ elkulator -rom2 ROMs/CreepyCave.rom
 elkulator -rom2 ROMs/Croaker.rom
 elkulator -rom2 ROMs/CrystalCastles-1.rom -rom1 ROMs/CrystalCastles-2.rom
 elkulator -rom2 ROMs/CybertronMission.rom
+elkulator -rom2 ROMs/CyborgWarriors-1.rom -rom1 ROMs/CyborgWarriors-2.rom
 elkulator -rom2 ROMs/CylonAttack-1.rom -rom1 ROMs/CylonAttack-2.rom
 elkulator -rom2 ROMs/DangerUXB.rom
 elkulator -rom2 ROMs/DareDevilDenis.rom
@@ -168,6 +170,7 @@ elkulator -rom2 ROMs/Oxbridge-1.rom -rom1 ROMs/Oxbridge-2.rom
 elkulator -rom2 ROMs/PalaceOfMagic-1.rom -rom1 ROMs/PalaceOfMagic-2.rom
 elkulator -rom2 ROMs/PalaceOfMagic2016-1.rom -rom1 ROMs/PalaceOfMagic2016-2.rom
 elkulator -rom2 ROMs/Panik
+elkulator -rom2 ROMs/Paperboy-1.rom -rom1 ROMs/Paperboy-2.rom
 elkulator -rom2 ROMs/Pedro
 elkulator -rom2 ROMs/Pengi.rom
 elkulator -rom2 ROMs/Pengwyn
@@ -260,6 +263,7 @@ elkulator -rom2 ROMs/TheHunt1 -rom1 ROMs/TheHunt2
 elkulator -rom2 ROMs/LastNinja-EveryGameGoing-patched.rom
 elkulator -rom2 ROMs/TheMine.rom
 elkulator -rom2 ROMs/TheNineDancers.rom
+elkulator -rom2 ROMs/ExplodingFist-1.rom -rom1 ROMs/ExplodingFist-2.rom
 elkulator -rom2 ROMs/Thrust-1.rom -rom1 ROMs/Thrust-2.rom
 elkulator -rom2 ROMs/Thunderstruck-1.rom -rom1 ROMs/Thunderstruck-2.rom
 elkulator -rom2 ROMs/Thunderstruck2-1.rom -rom1 ROMs/Thunderstruck2-2.rom
