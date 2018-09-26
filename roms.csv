@@ -99,6 +99,7 @@ OK,Freefall,Acornsoft,Freefall_E.uef,Freefall-1.rom Freefall-2.rom,-a -B e00 -c 
 OK,Frenzy,Micro Power,Frenzy_E.uef,Frenzy.rom,-a -B e00 -c e00: -m
 OK,Galaforce,Superior Software,Galaforce_E.uef,Galaforce-1.rom Galaforce-2.rom,-a -B e00 -c :::1900/: -s -t -w d3f:ef97
 OK,Galaforce 2,Superior Software,Mega_Games_Cartridge/PIAS6-Galaforce2-EveryGameGoing-fromSSD.uef,Galaforce2-1.rom Galaforce2-2.rom,-a -B e00 -c e00::e00::e00:900:1d00/: -p -s -w 39f
+OK (patched),Galaxy Wars,Bug Byte,Mega_Games_Cartridge/GalaxyWars.uef,GalaxyWars.rom,-a -c : -m -r
 OK,Gauntlet,Micro Power,Gauntlet_E.uef,Gauntlet-1.rom Gauntlet-2.rom,-a -B e00 -c e00:e00/: -m -s
 OK (discard files),Ghouls,Micro Power,Ghouls-PIASRR_E.uef,Ghouls.rom,-a -B e00 -c e00:2200:/: -p -s -w 39f -f 3-5 -pf patch_files/ghouls.txt
 OK,Gisburne's Castle,Martech,GisburnesCastle_E.uef,GisburnesCastle-1.rom GisburnesCastle-2.rom,-a -B e00 -c e00/: -s -w 39f

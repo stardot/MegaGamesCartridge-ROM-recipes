@@ -105,6 +105,7 @@ cat ROMs/EType-1.rom ROMs/EType-2.rom ROMs/EType-3.rom > ROMs/EType_E.rom
 ./UEF2ROM.py -a -B e00 -c e00: -m UEFs/Frenzy_E.uef ROMs/Frenzy.rom
 ./UEF2ROM.py -a -B e00 -c :::1900/: -s -t -w d3f:ef97 UEFs/Galaforce_E.uef ROMs/Galaforce-1.rom ROMs/Galaforce-2.rom
 ./UEF2ROM.py -a -B e00 -c e00::e00::e00:900:1d00/: -p -s -w 39f UEFs/Mega_Games_Cartridge/PIAS6-Galaforce2-EveryGameGoing-fromSSD.uef ROMs/Galaforce2-1.rom ROMs/Galaforce2-2.rom
+./UEF2ROM.py -a -c : -m -r UEFs/Mega_Games_Cartridge/GalaxyWars.uef ROMs/GalaxyWars.rom
 ./UEF2ROM.py -a -B e00 -c e00:e00/: -m -s UEFs/Gauntlet_E.uef ROMs/Gauntlet-1.rom ROMs/Gauntlet-2.rom
 ./UEF2ROM.py -a -B e00 -c e00:2200:/: -p -s -w 39f -f 3-5 -pf patch_files/ghouls.txt UEFs/Ghouls-PIASRR_E.uef ROMs/Ghouls.rom
 ./UEF2ROM.py -a -B e00 -c e00/: -s -w 39f UEFs/GisburnesCastle_E.uef ROMs/GisburnesCastle-1.rom ROMs/GisburnesCastle-2.rom

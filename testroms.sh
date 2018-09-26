@@ -100,6 +100,7 @@ elkulator -rom2 ROMs/Freefall-1.rom -rom1 ROMs/Freefall-2.rom
 elkulator -rom2 ROMs/Frenzy.rom
 elkulator -rom2 ROMs/Galaforce-1.rom -rom1 ROMs/Galaforce-2.rom
 elkulator -rom2 ROMs/Galaforce2-1.rom -rom1 ROMs/Galaforce2-2.rom
+elkulator -rom2 ROMs/GalaxyWars.rom
 elkulator -rom2 ROMs/Gauntlet-1.rom -rom1 ROMs/Gauntlet-2.rom
 elkulator -rom2 ROMs/Ghouls.rom
 elkulator -rom2 ROMs/GisburnesCastle-1.rom -rom1 ROMs/GisburnesCastle-2.rom
