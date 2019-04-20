@@ -2,7 +2,7 @@
 
 import os, sys
 
-check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options"]
+check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options", "URL", "Files"]
 
 lines = open("roms.csv").readlines()
 
