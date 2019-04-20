@@ -203,6 +203,7 @@ OK,Qwak,Superior/Acornsoft,Qwak_E.uef,Qwak-1.rom Qwak-2.rom,-a -B e00 -c :e00:::
 OK (patched),Ransack!,ASL,Mega_Games_Cartridge/Ransack-EveryGameGoing-fromSSD.uef,Ransack-1.rom Ransack-2.rom,-a -B e00 -c :1800:::::2000:2800:/: -r -s -p -w 380
 OK,Ravage,Blue Ribbon,Ravage_E.uef,Ravage.rom,-a -B e00 -c : -m
 OK (patched),Ravenskull,Superior,Mega_Games_Cartridge/Ravenskull-patched.uef,Ravenskull-1.rom Ravenskull-2.rom,-a -B e00 -c x:::x:/: -m -r -s
+WIP,Red Moon,Level 9,RedMoon_B.uef,RedMoon-1.rom RedMoon-2.rom,-c :/: -f 2:3 -m -M initial/redmoon.oph initial -s
 OK,Rebel Planet,U.S. Gold,RebelPlanet_E.uef,RebelPlanet-1.rom RebelPlanet-2.rom,-a -B e00 -c e00:/: -s -w 39f
 OK,Repton,Superior,Repton.uef,Repton-1.rom Repton-2.rom,-a -B e00 -c e00:/: -s
 OK,Repton 2,Superior,Repton2.uef,Repton2-1.rom Repton2-2.rom,-a -B e00 -c e00:/: -s
