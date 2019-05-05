@@ -34,6 +34,10 @@ for line in lines:
         print "Skipping", d["Name"], "-", d["Status"]
         continue
     
+    elif d["URL"] == "-":
+        print "Skipping", d["Name"]
+        continue
+    
     games += 1
     
     ROMs = d["ROMs"].split()

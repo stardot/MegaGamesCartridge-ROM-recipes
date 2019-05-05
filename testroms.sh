@@ -48,7 +48,7 @@ elkulator -rom2 ROMs/Chess-Superior.rom
 elkulator -rom2 ROMs/ChuckieEgg.rom
 elkulator -rom2 ROMs/Citadel-1.rom -rom1 ROMs/Citadel-2.rom
 elkulator -rom2 ROMs/ClassicAdventure-1.rom -rom1 ROMs/ClassicAdventure-2.rom
-elkulator -rom2 ROMs/Clogger_Tape.rom
+elkulator -rom2 ROMs/Clogger_E.rom
 elkulator -rom2 ROMs/CodenameDroid-1.rom -rom1 ROMs/CodenameDroid-2.rom
 elkulator -rom2 ROMs/Commando-1.rom -rom1 ROMs/Commando-2.rom
 elkulator -rom2 ROMs/ConditionRed.rom
@@ -209,7 +209,6 @@ elkulator -rom2 ROMs/Repton2-1.rom -rom1 ROMs/Repton2-2.rom
 elkulator -rom2 ROMs/Repton3-1.rom -rom1 ROMs/Repton3-2.rom
 elkulator -rom2 ROMs/ReptonAroundTheWorld_E.rom
 elkulator -rom2 ROMs/ReptonTheLifeOf_E.rom
-elkulator -rom2 ROMs/ReptonTLR-merged.rom
 elkulator -rom2 ROMs/ReptonThruTime_E.rom
 elkulator -rom2 ROMs/Reversi.rom
 elkulator -rom2 ROMs/Reversi-Superior.rom
@@ -293,4 +292,3 @@ elkulator -rom2 ROMs/Zalaga-1.rom -rom1 ROMs/Zalaga-2.rom
 elkulator -rom2 ROMs/ZanyKongJunior.rom
 elkulator -rom2 ROMs/Zenon-1.rom -rom1 ROMs/Zenon-2.rom
 elkulator -rom2 ROMs/Ziggy-1.rom -rom1 ROMs/Ziggy-2.rom
-elkulator -rom2 ROMs/ZAOR-1.rom -rom1 ROMs/ZAOR-2.rom
