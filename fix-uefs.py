@@ -60,7 +60,7 @@ for line in lines:
         print "Skipping", d["Name"]
         continue
     
-    file_names = map(lambda s: s.strip(), d["Files"].split())
+    file_names = map(lambda s: os.path.split(s.strip())[1], d["Files"].split())
     
     if os.path.exists(os.path.join(uef_dir, d["UEF"])):
         continue
@@ -84,7 +84,7 @@ for line in lines:
         
         # Find the directory in the Fixes directory for this game.
         name = d["Name"]
-        for c in "()":
+        for c in "()!":
             name = name.replace(c, "")
         
         file_names = map(lambda name: os.path.join(uef_dir, name), file_names)

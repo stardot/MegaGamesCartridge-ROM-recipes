@@ -8,7 +8,7 @@ OK (patched),Anarchy Zone,Atlantis,AnarchyZone-patched.uef,AnarchyZone-1.rom Ana
 OK,Arcadians,Acornsoft,Arcadians_E.uef,Arcadians-1.rom Arcadians-2.rom,-a -B e00 -c e00:.5ad0/: -m -s -pf patch_files/arcadians.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Arcadians_E.zip,Arcadians_E.uef
 OK,Astro Plumber,Blue Ribbon,AstroPlumber_E.uef,AstroPlumber.rom,-a -B e00 -c e00 -w 39f,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/AstroPlumber_E.zip,AstroPlumber_E.uef
 OK (patched),Aviator,Acornsoft,Aviator-v1.1_B.uef,Aviator-1.rom Aviator-2.rom,-a -c :.b00/: -m -s -pf patch_files/aviator.txt,https://www.stairwaytohell.com/bbc/archive/tapeimages/Acornsoft/Aviator-v1.1_B.zip,Aviator-v1.1_B.uef
-OK,Ballistix,Superior,Ballistix_E-EveryGameGoing-BlueRibbon.uef,Ballistix-1.rom Ballistix-2.rom,-a -B e00 -c e00:e00:/: -p -s -w 39f,http://www.everygamegoing.com/download/electron/superior_blue_ribbon/tapes/Ballistix.zip,Ballistix_E-EveryGameGoing-BlueRibbon.uef
+OK,Ballistix,Superior,Ballistix_E.uef,Ballistix-1.rom Ballistix-2.rom,-a -B e00 -c e00:e00:/: -p -s -w 39f,http://www.everygamegoing.com/download/electron/superior_blue_ribbon/tapes/Ballistix.zip,Ballistix_E.uef
 OK,Balloon Buster,Blue Ribbon,BalloonBuster_E.uef,BalloonBuster.rom,-a -B e00 -c x:1100/: -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/BalloonBuster_E.zip,BalloonBuster_E.uef
 OK,Bandits at 3 O'Clock,Micro Power,BanditsAt3OClock_E.uef,Bandits.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/Micropower/BanditsAt3OClock_E.zip,BanditsAt3OClock_E.uef
 OK,Barbarian (practice),Superior,Barbarian_E.uef,Barbarian-Practice-1.rom Barbarian-Practice-2.rom,-a -B e00 -c e00:e00::e00:6700:120/: -p -f 0-8 -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Barbarian_E.zip,Barbarian_E.uef
@@ -25,7 +25,7 @@ OK,Boulder Dash,Tynesoft,Boulder_Dash-EveryGameGoing.uef,BoulderDash-1.rom Bould
 OK,Boxer,Acornsoft,Boxer_E.uef,Boxer.rom,-a -B e00 -c e00:.4200 -m -pf patch_files/boxer.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Boxer_E.zip,Boxer_E.uef
 OK,Breakthrough,ASL,Breakthrough_RUN_E.uef,Breakthrough-1.rom Breakthrough-2.rom,-a -B e00 -c :x:e00:e00:1100:/:e00:400:400:400:400 -r -s -w 860 -t,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/Breakthrough_RUN_E.zip,Breakthrough_RUN_E.uef
 OK,Brian Jacks Superstar Challenge,Martech,BrianJacksSuperstarChallenge_E.uef,BrianJacksSuperstarChallenge.rom,-a -B e00 -c e00/: -s -t -pf patch_files/brian_jacks.txt,https://www.stairwaytohell.com/electron/uefarchive/Martech/BrianJacksSuperstarChallenge_E.zip,BrianJacksSuperstarChallenge_E.uef
-OK,Bug Blaster,Alligata,BugBlast.uef,BugBlast-1.rom BugBlast-2.rom,-a -B e00 -c e00:e00:5800:e00:e00/: -w 880,https://www.stairwaytohell.com/electron/uefarchive/Alligata/BugBlaster_E.zip,BugBlast.uef
+OK,Bug Blaster,Alligata,BugBlaster_E.uef,BugBlast-1.rom BugBlast-2.rom,-a -B e00 -c e00:e00:5800:e00:e00/: -w 880,https://www.stairwaytohell.com/electron/uefarchive/Alligata/BugBlaster_E.zip,BugBlaster_E.uef
 OK,Bug Eyes,Icon,BugEyes_E.uef,BugEyes.rom,-a -B e00 -c e00:1900:e00:400:900:1000:1100:3f00 -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Icon/BugEyes_E.zip,BugEyes_E.uef
 OK,Bug Eyes 2,Audiogenic,BugEyes2-EveryGameGoing.uef,BugEyes2-1.rom BugEyes2-2.rom,-a -B e00 -c e00::1d00/6b00 -m -s,http://www.everygamegoing.com/download/electron/audiogenic/5_25_discs/Bug-Eyes-2.zip,HD-BUG2.ssd
 OK,Bugs,Virgin,Bugs_E.uef,Bugs.rom,-a -B e00 -c :,https://www.stairwaytohell.com/electron/uefarchive/Virgin/Bugs_E.zip,Bugs_E.uef
@@ -51,16 +51,16 @@ OK,Commando,Elite,Commando-PIASRR_E.uef,Commando-1.rom Commando-2.rom,-a -B e00 
 OK,Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,-a -B e00 -c e00 -w 39f,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/ConditionRed_E.zip,ConditionRed_E.uef
 OK (patched),Confuzion,Incentive,Confuzion-EveryGameGoing.uef,Confuzion.rom,-a -B e00 -c x:: -f 1-3 -m -r,http://www.everygamegoing.com/download/electron/incentive/tapes/Confuzion.zip,Confuzion_BE.uef
 OK,Cops n' Robbers,Atlantis,CopsNRobbers_BE.uef,CopsNRobbers.rom,-a -B e00 -c e00 -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Atlantis/CopsNRobbers_BE.zip,CopsNRobbers_BE.uef
-OK,Cosmic Camouflage,Superior/Acornsoft,CosmicCamouflage_Tape.uef,CosmicCamouflage.rom,-a -B e00 -c e00:e00,https://www.stairwaytohell.com/electron/uefarchive/Superior/CosmicCamouflage_E.zip,CosmicCamouflage_Tape.uef
+OK,Cosmic Camouflage,Superior/Acornsoft,CosmicCamouflage_E.uef,CosmicCamouflage.rom,-a -B e00 -c e00:e00,https://www.stairwaytohell.com/electron/uefarchive/Superior/CosmicCamouflage_E.zip,CosmicCamouflage_E.uef
 OK,Crazee Rider,Superior,CrazeeRider_E.uef,CrazeeRider-1.rom CrazeeRider-2.rom,-a -B e00 -c e00::::::1900/: -s -t -w d3f:ef97,https://www.stairwaytohell.com/electron/uefarchive/Superior/CrazeeRider_E.zip,CrazeeRider_E.uef
 OK,Crazy Tracer,Acornsoft,CrazyTracer_E.uef,CrazyTracer.rom,-a -B e00 -c e00:.4543 -m -pf patch_files/crazy_tracer.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/CrazyTracer_E.zip,CrazyTracer_E.uef
 OK,Creepy Cave,Atlantis,CreepyCave_BE.uef,CreepyCave.rom,-a -B e00 -c e00 -m,https://www.stairwaytohell.com/electron/uefarchive/Atlantis/CreepyCave_BE.zip,CreepyCave_BE.uef
 OK,Croaker,Program Power,Croaker_E.uef,Croaker.rom,-a -B e00 -c ::x,https://www.stairwaytohell.com/electron/uefarchive/Micropower/Croaker_E.zip,Croaker_E.uef
 OK,Crystal Castles,U.S. Gold,CrystalCastles_E.uef,CrystalCastles-1.rom CrystalCastles-2.rom,-a -B e00 -c :::x:x:x:x:dc0:dc0/dc0 -p -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/USGold/CrystalCastles_E.zip,CrystalCastles_E.uef
-OK,Cybertron Mission,Program Power,CybertronMission_Tape.uef,CybertronMission.rom,-a -B e00 -c :,https://www.stairwaytohell.com/electron/uefarchive/Micropower/CybertronMission_E.zip,CybertronMission_Tape.uef
+OK,Cybertron Mission,Program Power,CybertronMission_E.uef,CybertronMission.rom,-a -B e00 -c :,https://www.stairwaytohell.com/electron/uefarchive/Micropower/CybertronMission_E.zip,CybertronMission_E.uef
 OK,Cyborg Warriors,Superior,CyborgWarriors_E.uef,CyborgWarriors-1.rom CyborgWarriors-2.rom,-a -c ::5f80:::6840:7c40:/: -pf patch_files/cyborg_warriors.txt -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/CyborgWarriors_E.zip,CyborgWarriors_E.uef
 OK,Cylon Attack,A&F,CylonAttack_E.uef,CylonAttack-1.rom CylonAttack-2.rom,-a -B e00 -c e00:/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/AnF/CylonAttack_E.zip,CylonAttack_E.uef
-OK,Danger UXB,Program Power,DangerUXB_Tape.uef,DangerUXB.rom,-a -B e00 -c e00:1500:,https://www.stairwaytohell.com/electron/uefarchive/Micropower/DangerUXB_E.zip,DangerUXB_Tape.uef
+OK,Danger UXB,Program Power,DangerUXB_E.uef,DangerUXB.rom,-a -B e00 -c e00:1500:,https://www.stairwaytohell.com/electron/uefarchive/Micropower/DangerUXB_E.zip,DangerUXB_E.uef
 OK,Dare Devil Denis,Visions,DareDevilDenis_E.uef,DareDevilDenis.rom,-a -B e00 -c :,https://www.stairwaytohell.com/electron/uefarchive/Visions/DareDevilDenis_E.zip,DareDevilDenis_E.uef
 OK,Death Star,Superior,DeathStar-SCRR_E.uef,DeathStar.rom,-a -B e00 -c e00:::::3000 -p -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/DeathStar-SCRR_E.zip,DeathStar-SCRR_E.uef
 OK,Denis Through The Drinking Glass,Melbourne House,DenisThroughTheDrinkingGlass_E.uef,DenisThroughTheDrinkingGlass-1.rom DenisThroughTheDrinkingGlass-2.rom,-a -B e00 -c e00::x:x/: -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/MelbourneHouse/DenisThroughTheDrinkingGlass_E.zip,DenisThroughTheDrinkingGlass_E.uef
@@ -80,7 +80,7 @@ OK,Elite,Acornsoft,Elite-SRR_E.uef,Elite-1.rom Elite-2.rom,-a -B e00 -c e00:/: -
 OK,Elixir,Superior,Elixir_E.uef,Elixir-1.rom Elixir-2.rom,-a -B e00 -c e00:/: -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/Elixir_E.zip,Elixir_E.uef
 OK,Empire,Shards,Empire_BE.uef,Empire.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/Shards/Empire_BE.zip,Empire_BE.uef
 OK,Enigma,Brainbox,Enigma_E.uef,Enigma.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/Brainbox/Enigma_E.zip,Enigma_E.uef
-OK,Escape From Moonbase Alpha,Micro Power,EMBA.uef,EMBA.rom,-a -B e00 -c :::e00,https://www.stairwaytohell.com/electron/uefarchive/Micropower/EscapeFromMoonbaseAlpha_E.zip,EMBA.uef
+OK,Escape From Moonbase Alpha,Micro Power,EscapeFromMoonbaseAlpha_E.uef,EMBA.rom,-a -B e00 -c :::e00,https://www.stairwaytohell.com/electron/uefarchive/Micropower/EscapeFromMoonbaseAlpha_E.zip,EscapeFromMoonbaseAlpha_E.uef
 OK,Er*bert,Microbyte,Erbert_E.uef,Erbert.rom,-a -B e00 -c e00,https://www.stairwaytohell.com/electron/uefarchive/Microbyte/Erbert_E.zip,Erbert_E.uef
 OK,Evening Star,Hewson,EveningStar_E.uef,EveningStar-1.rom EveningStar-2.rom,-a -c e00:/: -L postload/southern_belle.oph postload -s -w d3f,https://www.stairwaytohell.com/electron/uefarchive/Hewson/EveningStar_E.zip,EveningStar_E.uef
 OK (patched; paging required),Exile,Superior,Exile-EveryGameGoing.uef,Exile-1.rom Exile-2.rom Exile-3.rom Exile-4.rom,-a -B e00 -c e00:e00::x -f 1-5 -m -s -P 290 1:2:3:0,http://www.everygamegoing.com/download/electron/superior_acornsoft/5_25_discs/Exile_V1.zip,Exile.ssd
@@ -131,7 +131,7 @@ OK,Joe Blade 2,Players,JoeBlade2_E.uef,JoeBlade2-1.rom JoeBlade2-2.rom,-a -c e00
 OK (patched),Joey,Blue Ribbon,Joey-patched.uef,Joey.rom,-a -B e00 -c : -p -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/Joey_E.zip,Joey_E.uef
 OK,Joust,Godax,Skirmish_E.uef,Joust.rom,-a -B e00 -c e00 -m,https://www.stairwaytohell.com/electron/uefarchive/Godax/Skirmish_E.zip,Skirmish_E.uef
 OK,Jungle Jive,Virgin,JungleJive_E.uef,JungleJive.rom,-a -B e00 -c e00 -m,https://www.stairwaytohell.com/electron/uefarchive/Virgin/JungleJive_E.zip,JungleJive_E.uef
-OK,Karate Combat,Superior,KarateCombat.uef,KarateCombat-1.rom KarateCombat-2.rom,-a -B e00 -c e00:/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/KarateCombat-SCRR_E.zip,KarateCombat.uef
+OK,Karate Combat,Superior,KarateCombat-SCRR_E.uef,KarateCombat-1.rom KarateCombat-2.rom,-a -B e00 -c e00:/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/KarateCombat-SCRR_E.zip,KarateCombat-SCRR_E.uef
 OK,Kayleth,U.S. Gold,Kayleth_E.uef,Kayleth-1.rom Kayleth-2.rom,-a -B e00 -c x:/: -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/USGold/Kayleth_E.zip,Kayleth_E.uef
 OK,Killapede,Players,Killapede_BE.uef,Killapede.rom,-a -c : -s,https://www.stairwaytohell.com/electron/uefarchive/Players/Killapede_BE.zip,Killapede_BE.uef
 OK,Killer Gorilla,Program Power,KillerGorilla_E.uef,KillerGorilla.rom,-a -B e00 -c e00:,https://www.stairwaytohell.com/electron/uefarchive/Micropower/KillerGorilla_E.zip,KillerGorilla_E.uef
@@ -147,7 +147,7 @@ OK,Loopz,Audiogenic,Loopz_E.uef,Loopz-1.rom Loopz-2.rom,-a -B e00 -c ::x:/: -m,h
 OK,Lunar Rescue,Alligata,Lunar_Rescue-patched.uef,LunarRescue.rom,-a -B e00 -c e00:e00::3000 -m,https://www.stairwaytohell.com/electron/uefarchive/Alligata/LunarRescue_E.zip,LunarRescue_E.uef
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms_E.uef,MagicMushrooms.rom,-a -B e00 -c e00:.4700 -m -pf patch_files/magic_mushrooms.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/MagicMushrooms_E.zip,MagicMushrooms_E.uef
 OK,Maze,Acornsoft,Maze_E.uef,Maze.rom,-a -B e00 -c e00: -m -pf patch_files/maze.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Maze_E.zip,Maze_E.uef
-OK,MazezaM,Retro Software,MazezaM_2.1-fromSSD.uef,MazezaM.rom,-a -B e00 -c e00:e00::e00 -m,http://www.retrosoftware.co.uk/wiki/images/3/3e/MazezaMElk_2_1.zip,MazezaMElk.ssd
+OK,MazezaM,Retro Software,MazezaM_2.1-fromSSD.uef,MazezaM.rom,-a -B e00 -c e00:e00::e00 -m,http://www.retrosoftware.co.uk/wiki/images/3/3e/MazezaMElk_2_1.zip,MazezaMElk_2_1/MazezaMElk.ssd
 OK,Meteors,Acornsoft,Meteors_E.uef,Meteors.rom,-a -B e00 -c e00 -f 0-1 -pf patch_files/meteors.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Meteors_E.zip,Meteors_E.uef
 OK,Microball,Alternative,Microball_BE.uef,Microball.rom,-a -B e00 -c e00:1200:1400 -m,https://www.stairwaytohell.com/electron/uefarchive/Alternative/Microball_BE.zip,Microball_BE.uef
 OK,Mikie,Imagine,Mikie_E.uef,Mikie-1.rom Mikie-2.rom,-a -B e00 -c ::::/::4d00 -p -t -w 39f -s,https://www.stairwaytohell.com/electron/uefarchive/Imagine/Mikie_E.zip,Mikie_E.uef
@@ -197,7 +197,7 @@ OK,Quest,Superior,Quest_E.uef,Quest-1.rom Quest-2.rom,-a -B e00 -c e00:/: -s,htt
 OK,Quest For Freedom,IJK,QuestForFreedom_E.uef,QuestForFreedom-1.rom QuestForFreedom-2.rom,-a -B e00 -c e00:/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/IJK/QuestForFreedom_E.zip,QuestForFreedom_E.uef
 OK,Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail-1.rom QuestForTheHolyGrail-2.rom,-a -B e00 -c :/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/Epic/QuestForTheHolyGrail_E.zip,QuestForTheHolyGrail_E.uef
 OK,Qwak,Superior/Acornsoft,Qwak_E.uef,Qwak-1.rom Qwak-2.rom,-a -B e00 -c :e00:::1400/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Qwak_E.zip,Qwak_E.uef
-OK (patched),Ransack!,ASL,Ransack-EveryGameGoing-fromSSD.uef,Ransack-1.rom Ransack-2.rom,-a -B e00 -c :1800:::::2000:2800:/: -r -s -p -w 380,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/Ransack_E.zip,Ransack_E.uef
+OK (patched),Ransack!,ASL,Ransack-EveryGameGoing-fromSSD.uef,Ransack-1.rom Ransack-2.rom,-a -B e00 -c :1800:::::2000:2800:/: -r -s -p -w 380,http://www.everygamegoing.com/download/electron/audiogenic/5_25_discs/Ransack.zip,HD-RANS.ssd
 OK,Ravage,Blue Ribbon,Ravage_E.uef,Ravage.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/Ravage_E.zip,Ravage_E.uef
 OK (patched),Ravenskull,Superior,Ravenskull-patched.uef,Ravenskull-1.rom Ravenskull-2.rom,-a -B e00 -c x:::x:/: -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Ravenskull_E.zip,Ravenskull_E.uef
 OK,Rebel Planet,U.S. Gold,RebelPlanet_E.uef,RebelPlanet-1.rom RebelPlanet-2.rom,-a -B e00 -c e00:/: -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/USGold/RebelPlanet_E.zip,RebelPlanet_E.uef
@@ -261,8 +261,8 @@ OK,The Hunt - Search For Shauna,Robico,TheHuntSearchForShauna_E.uef,TheHunt1.rom
 OK (paging required),The Last Ninja,Superior,LastNinja-EveryGameGoing-patched.uef,LastNinja-1.rom LastNinja-2.rom LastNinja-3.rom LastNinja-4.rom,-a -B e00 -c :/:/:/: -m -s -P 290 1:2:3:1,http://www.everygamegoing.com/download/electron/superior_acornsoft/5_25_discs/The_Last_Ninja_1_V1.zip,HD-NIN1.ssd
 OK,The Mine,Micro Power,TheMine_E.uef,TheMine.rom,-a -B e00 -c :4000: -m,https://www.stairwaytohell.com/electron/uefarchive/Micropower/TheMine_E.zip,TheMine_E.uef
 OK,The Nine Dancers,Larsoft,TheNineDancers_RUN_BE.uef,TheNineDancers.rom,-a -B e00 -c : -m -r,https://www.stairwaytohell.com/electron/uefarchive/Larsoft/TheNineDancers_RUN_BE.zip,TheNineDancers_RUN_BE.uef
-OK (patched),The Way Of The Exploding Fist,Melbourne House,The_Way_Of_The_Exploding_Fist-EveryGameGoing.uef,ExplodingFist-1.rom ExplodingFist-2.rom,-a -c e00:400:7080:1d00:2400/: -m -s,http://www.everygamegoing.com/download/electron/melbourne/5_25_discs/The-Way-Of-The-Exploding-Fist.zip,HD-EXPL.ssd
-OK,Thrust,Superior,Thrust_Tape.uef,Thrust-1.rom Thrust-2.rom,-a -B e00 -c e00:/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Thrust_E.zip,Thrust_Tape.uef
+OK (patched),The Way Of The Exploding Fist,Melbourne House,The_Way_Of_The_Exploding_Fist-EveryGameGoing.uef,ExplodingFist-1.rom ExplodingFist-2.rom,-a -c e00:400:7080:1d00:2400/: -m -s,http://www.everygamegoing.com/download/electron/melbourne/5_25_discs/The-Way-Of-The-Exploding-Fist.zip,elk_disc_library/melbourne/HD-EXPL.ssd
+OK,Thrust,Superior,Thrust_E.uef,Thrust-1.rom Thrust-2.rom,-a -B e00 -c e00:/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Thrust_E.zip,Thrust_E.uef
 OK,Thunderstruck,Audiogenic,Thunderstruck_E.uef,Thunderstruck-1.rom Thunderstruck-2.rom,-a -B e00 -c ::::x:/: -r -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/Thunderstruck_E.zip,Thunderstruck_E.uef
 OK,Thunderstruck 2,Audiogenic,Thunderstruck2_E.uef,Thunderstruck2-1.rom Thunderstruck2-2.rom,-a -B e00 -c x:/: -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/Thunderstruck2_E.zip,Thunderstruck2_E.uef
 OK,Trapper,Blue Ribbon,Trapper_E.uef,Trapper.rom,-a -B e00 -c e00:/: -w 39f,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/Trapper_E.zip,Trapper_E.uef
