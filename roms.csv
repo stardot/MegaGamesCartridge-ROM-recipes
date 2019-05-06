@@ -49,7 +49,7 @@ OK (paging required),Clogger,Impact,Clogger_E.uef,Clogger-1.rom Clogger-2.rom Cl
 OK (stripped),Codename: Droid,Superior,CodenameDroid_E.uef,CodenameDroid-1.rom CodenameDroid-2.rom,-a -B e00 -c 600:400/: -f 4-5 -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/CodenameDroid_E.zip,CodenameDroid_E.uef
 OK,Commando,Elite,Commando-PIASRR_E.uef,Commando-1.rom Commando-2.rom,-a -B e00 -c :/: -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/SuperiorReRelease/Commando-PIASRR_E.zip,Commando-PIASRR_E.uef
 OK,Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,-a -B e00 -c e00 -w 39f,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/ConditionRed_E.zip,ConditionRed_E.uef
-OK (patched),Confuzion,Incentive,Confuzion-EveryGameGoing.uef,Confuzion.rom,-a -B e00 -c x:: -f 1-3 -m -r,http://www.everygamegoing.com/download/electron/incentive/tapes/Confuzion.zip,Confuzion_BE.uef
+OK (patched),Confuzion,Incentive,Confuzion-EveryGameGoing.uef,Confuzion.rom,-a -B e00 -c x:x:x:: -m -x,http://www.everygamegoing.com/download/electron/incentive/tapes/Confuzion.zip,Confuzion_BE.uef
 OK,Cops n' Robbers,Atlantis,CopsNRobbers_BE.uef,CopsNRobbers.rom,-a -B e00 -c e00 -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Atlantis/CopsNRobbers_BE.zip,CopsNRobbers_BE.uef
 OK,Cosmic Camouflage,Superior/Acornsoft,CosmicCamouflage_E.uef,CosmicCamouflage.rom,-a -B e00 -c e00:e00,https://www.stairwaytohell.com/electron/uefarchive/Superior/CosmicCamouflage_E.zip,CosmicCamouflage_E.uef
 OK,Crazee Rider,Superior,CrazeeRider_E.uef,CrazeeRider-1.rom CrazeeRider-2.rom,-a -B e00 -c e00::::::1900/: -s -t -w d3f:ef97,https://www.stairwaytohell.com/electron/uefarchive/Superior/CrazeeRider_E.zip,CrazeeRider_E.uef

@@ -18,7 +18,8 @@ obtained from [the UEF2ROM repository](https://bitbucket.org/dboddie/uef2rom).
 Some are build from disk images which must first be converted to UEF files.
 This is performed by a collection of scripts in the `Fixes` directory.
 
-Some of these scripts require the `UEFtrans.py` tool which can be obtained from
+Some of these scripts require the `UEFtrans.py` tool and `UEFfile.py` module
+which can be obtained from
 [the UEFfile repository](https://bitbucket.org/dboddie/ueffile).
 
 Other scripts require the `ADF2INF.py` tool which can be obtained from

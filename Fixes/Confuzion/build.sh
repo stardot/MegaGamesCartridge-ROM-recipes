@@ -15,4 +15,5 @@ python patch_checks.py
 # Replace the original CONFUZION file with the patched version.
 UEFtrans.py "$2" remove 1
 UEFtrans.py "$2" insert 1 temp/CONFUZION
+UEFtrans.py "$2" insert 0 temp/LOADER
 rm -r temp

@@ -82,4 +82,4 @@ for line in lines:
     
     new_lines.append(",".join(new_line))
 
-open("roms.csv", "w").write("\n".join(new_lines))
+open("roms.csv", "w").write("\n".join(new_lines) + "\n")
