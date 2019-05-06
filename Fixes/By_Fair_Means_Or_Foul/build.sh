@@ -7,4 +7,4 @@ if [ -z "$1" ] || [ -z "$2" ]; then
     exit 1
 fi
 
-SSD2UEF.py -s C. "$1" "$2" $.LOADER,$.TITLE,$.1,$.2,$.3,$.PB
+SSD2UEF.py "$1" "$2" $.LOADER,$.TITLE,$.1,$.2,$.3,$.PB
