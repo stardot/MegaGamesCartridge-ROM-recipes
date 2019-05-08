@@ -7,4 +7,4 @@ if [ -z "$1" ] || [ -z "$2" ]; then
     exit 1
 fi
 
-SSD2UEF.py -s C. "$1" "$2" $.EDDIE,$.KIDD,$.S
+SSD2UEF.py "$1" "$2" $.EDDIE,$.KIDD,$.S
