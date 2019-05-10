@@ -158,7 +158,7 @@ OK,Moon Buggy,Kansas,MoonBuggy_E.uef,MoonBuggy.rom,-a -B e00 -c e00:1400 -w 39f,
 OK,MoonRaider,Program Power,MoonRaider_E.uef,MoonRaider.rom,-a -B e00 -c :b00 -m,https://www.stairwaytohell.com/electron/uefarchive/Micropower/MoonRaider_E.zip,MoonRaider_E.uef
 OK,Mouse Trap,Tynesoft,MouseTrap_E.uef,MouseTrap.rom,-a -B e00 -c e00:/: -m -s -pf patch_files/mouse_trap.txt,https://www.stairwaytohell.com/electron/uefarchive/Tynesoft/MouseTrap_E.zip,MouseTrap_E.uef
 OK,Mr Wiz,Superior,MrWiz-SCRR_E.uef,MrWiz.rom,-a -B e00 -c e00::x: -p -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/MrWiz-SCRR_E.zip,MrWiz-SCRR_E.uef
-OK,Myorem,Robico,RHT3-Myorem_E.uef,Myorem-1.rom Myorem-2.rom,-a -B e00 -c e00::::/x:x: -s -t -T -w 100,http://www.stairwaytohell.com/electron/uefarchive/Robico/RickHansonTrilogy_E.zip,RHT3-Myorem_E.uef
+OK,Myorem,Robico,RHT3-Myorem_E.uef,Myorem-1.rom Myorem-2.rom,-a -B e00 -c e00::::/x:x: -p1 -s -t -T -w 100,http://www.stairwaytohell.com/electron/uefarchive/Robico/RickHansonTrilogy_E.zip,RHT3-Myorem_E.uef
 OK,Network,Superior,Network-PIASRR_E.uef,Network-1.rom Network-2.rom,-a -B e00 -c e00:e00:1c00:5bc0:6980:::/1c00 -p -s -w 39f,http://www.stairwaytohell.com/electron/uefarchive/SuperiorReRelease/Network-PIASRR_E.zip,Network-PIASRR_E.uef
 OK,Nightmare Maze,MRM,NightmareMaze-MRM_E.uef,NightmareMaze.rom,-a -B e00 -c : -w 39f,https://www.stairwaytohell.com/electron/uefarchive/MRM/NightmareMaze-MRM_E.zip,NightmareMaze-MRM_E.uef
 OK (patched),Omega Orb,Audiogenic,OmegaOrb-EveryGameGoing-fromSSD.uef,OmegaOrb-1.rom OmegaOrb-2.rom,-a -B e00 -c ::60c0:2100:/: -p -s -w 39f,http://www.everygamegoing.com/download/electron/atlantis/5_25_discs/Omega_Orb.zip,HD-OMEG.ssd
@@ -179,7 +179,7 @@ OK,Phantom Combat (2 colours),Doctorsoft,PhantomCombat_E.uef,PhantomCombat-2.rom
 OK,Philosophers Quest,Acornsoft,PhilosophersQuest_E.uef,PhilosophersQuest-1.rom PhilosophersQuest-2.rom,-a -B e00 -c e00:.5fc3/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/PhilosophersQuest_E.zip,PhilosophersQuest_E.uef
 OK,Philosophers Stone,Potter,PhilosophersStone_BE.uef,PhilosophersStone.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/Potter/PhilosophersStone_BE.zip,PhilosophersStone_BE.uef
 OK,Pinball,Microbyte,Pinball-Microbyte_E.uef,Pinball-Microbyte.rom,-a -B e00 -c e00 -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Microbyte/Pinball-Microbyte_E.zip,Pinball-Microbyte_E.uef
-OK,Pinball,Kansas,PinballArcade_E.uef,Pinball.rom,-a -B e00 -c ::x:x -w 120,https://www.stairwaytohell.com/electron/uefarchive/Kansas/PinballArcade_E.zip,PinballArcade_E.uef
+OK,Pinball,Kansas,PinballArcade_E.uef,Pinball.rom,-a -B e00 -c ::x:x -p1 -w 120,https://www.stairwaytohell.com/electron/uefarchive/Kansas/PinballArcade_E.zip,PinballArcade_E.uef
 OK (patched),Pipeline,Superior,Pipeline-patched.uef,Pipeline-1.rom Pipeline-2.rom,-a -B e00 -c x:x/: -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Pipeline_E.zip,Pipeline_E.uef
 OK,Pipemania,Empire,Pipemania_E.uef,Pipemania-1.rom Pipemania-2.rom,-a -B e00 -c :/: -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Empire/Pipemania_E.zip,Pipemania_E.uef
 OK,Plan B,Bug Byte,PlanB_BE.uef,PlanB.rom,-a -B e00 -c :2000 -m,https://www.stairwaytohell.com/electron/uefarchive/BugByte/PlanB_BE.zip,PlanB_BE.uef

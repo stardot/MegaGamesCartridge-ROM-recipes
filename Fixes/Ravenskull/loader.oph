@@ -42,7 +42,9 @@ jsr $fff4
 
 ldx #<command
 ldy #>command
-jmp $fff7
+jsr $fff7
+
+jmp $2717
 
 chars:
 .byte 26,28,0,28,19,11,12,23,1,0,0,0,0,0,0,0,0
@@ -54,4 +56,4 @@ chars:
 chars_end:
 
 command:
-.byte "*RUN SCREEN", 13,10
+.byte "*LOAD SCREEN", 13,10
