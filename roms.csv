@@ -199,7 +199,7 @@ OK,Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail
 OK,Qwak,Superior/Acornsoft,Qwak_E.uef,Qwak-1.rom Qwak-2.rom,-a -B e00 -c :e00:::1400/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Qwak_E.zip,Qwak_E.uef
 OK (patched),Ransack!,ASL,Ransack-EveryGameGoing-fromSSD.uef,Ransack-1.rom Ransack-2.rom,-a -B e00 -c :1800:::::2000:2800:/: -r -s -p -w 380,http://www.everygamegoing.com/download/electron/audiogenic/5_25_discs/Ransack.zip,HD-RANS.ssd
 OK,Ravage,Blue Ribbon,Ravage_E.uef,Ravage.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/Ravage_E.zip,Ravage_E.uef
-OK (patched),Ravenskull,Superior,Ravenskull-patched.uef,Ravenskull-1.rom Ravenskull-2.rom,-a -B e00 -c x:::x:/: -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Ravenskull_E.zip,Ravenskull_E.uef
+OK (patched),Ravenskull,Superior,Ravenskull-patched.uef,Ravenskull-1.rom Ravenskull-2.rom,-a -B e00 -c e00:::x:/: -m -pf patch_files/ravenskull.txt -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Ravenskull_E.zip,Ravenskull_E.uef
 OK,Rebel Planet,U.S. Gold,RebelPlanet_E.uef,RebelPlanet-1.rom RebelPlanet-2.rom,-a -B e00 -c e00:/: -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/USGold/RebelPlanet_E.zip,RebelPlanet_E.uef
 OK,Repton,Superior,Repton_E.uef,Repton-1.rom Repton-2.rom,-a -B e00 -c e00:/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Repton_E.zip,Repton_E.uef
 OK,Repton 2,Superior,Repton2_E.uef,Repton2-1.rom Repton2-2.rom,-a -B e00 -c e00:/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Repton2_E.zip,Repton2_E.uef
