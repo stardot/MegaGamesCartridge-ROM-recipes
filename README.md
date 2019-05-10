@@ -25,6 +25,11 @@ which can be obtained from
 Other scripts require the `ADF2INF.py` tool which can be obtained from
 [the ADFSlib repository](https://bitbucket.org/dboddie/adfslib).
 
+You will need an emulator if you want to test the ROM images on a modern
+machine using the generated `testroms.sh` script. The generated script
+assumes that Elkulator is used and expects the `elkulator` executable to be
+on the `PATH`.
+
 ## Running the Tools
 
 Running the `fetch-uefs.py` tool should cause all publically available files to

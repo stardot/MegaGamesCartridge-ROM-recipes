@@ -1,13 +1,3 @@
-t = (# Disable Plus 1 features that cause problems.
-     "\x0c\x11\x00*FX163,128,1\r"
-     "?&212=&D6\r"
-     "?&213=&F1\r"
-     'CHAIN"CONLOAD"\x11\x01\r'
-     )
-
-open("temp/LOADER", "wb").write(t)
-open("temp/LOADER.inf", "w").write("$.LOADER\t0\t0\t%x" % len(t))
-
 t = open("temp/CONFUZION", "rb").read()
 #t = t[:0x19] + (
 #    "\xa9\x0d\xea" # lda $3cc -> lda #$0d; nop

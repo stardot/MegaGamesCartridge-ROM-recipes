@@ -49,7 +49,7 @@ OK (paging required),Clogger,Impact,Clogger_E.uef,Clogger-1.rom Clogger-2.rom Cl
 OK (stripped),Codename: Droid,Superior,CodenameDroid_E.uef,CodenameDroid-1.rom CodenameDroid-2.rom,-a -B e00 -c 600:400/: -f 4-5 -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/CodenameDroid_E.zip,CodenameDroid_E.uef
 OK,Commando,Elite,Commando-PIASRR_E.uef,Commando-1.rom Commando-2.rom,-a -B e00 -c :/: -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/SuperiorReRelease/Commando-PIASRR_E.zip,Commando-PIASRR_E.uef
 OK,Condition Red,Blue Ribbon,ConditionRed_E.uef,ConditionRed.rom,-a -B e00 -c e00 -w 39f,https://www.stairwaytohell.com/electron/uefarchive/BlueRibbon/ConditionRed_E.zip,ConditionRed_E.uef
-OK (patched),Confuzion,Incentive,Confuzion-EveryGameGoing.uef,Confuzion.rom,-a -B e00 -c x:x:x:: -m -x,http://www.everygamegoing.com/download/electron/incentive/tapes/Confuzion.zip,Confuzion_BE.uef
+OK (patched),Confuzion,Incentive,Confuzion-EveryGameGoing.uef,Confuzion.rom,-a -B e00 -c x:x:x:: -m -p1,http://www.everygamegoing.com/download/electron/incentive/tapes/Confuzion.zip,Confuzion_BE.uef
 OK,Cops n' Robbers,Atlantis,CopsNRobbers_BE.uef,CopsNRobbers.rom,-a -B e00 -c e00 -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Atlantis/CopsNRobbers_BE.zip,CopsNRobbers_BE.uef
 OK,Cosmic Camouflage,Superior/Acornsoft,CosmicCamouflage_E.uef,CosmicCamouflage.rom,-a -B e00 -c e00:e00,https://www.stairwaytohell.com/electron/uefarchive/Superior/CosmicCamouflage_E.zip,CosmicCamouflage_E.uef
 OK,Crazee Rider,Superior,CrazeeRider_E.uef,CrazeeRider-1.rom CrazeeRider-2.rom,-a -B e00 -c e00::::::1900/: -s -t -w d3f:ef97,https://www.stairwaytohell.com/electron/uefarchive/Superior/CrazeeRider_E.zip,CrazeeRider_E.uef
@@ -80,7 +80,7 @@ OK,Elite,Acornsoft,Elite-SRR_E.uef,Elite-1.rom Elite-2.rom,-a -B e00 -c e00:/: -
 OK,Elixir,Superior,Elixir_E.uef,Elixir-1.rom Elixir-2.rom,-a -B e00 -c e00:/: -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/Elixir_E.zip,Elixir_E.uef
 OK,Empire,Shards,Empire_BE.uef,Empire.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/Shards/Empire_BE.zip,Empire_BE.uef
 OK,Enigma,Brainbox,Enigma_E.uef,Enigma.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/Brainbox/Enigma_E.zip,Enigma_E.uef
-OK,Escape From Moonbase Alpha,Micro Power,EscapeFromMoonbaseAlpha_E.uef,EMBA.rom,-a -B e00 -c :::e00,https://www.stairwaytohell.com/electron/uefarchive/Micropower/EscapeFromMoonbaseAlpha_E.zip,EscapeFromMoonbaseAlpha_E.uef
+OK,Escape From Moonbase Alpha,Micro Power,EscapeFromMoonbaseAlpha_E.uef,EMBA.rom,-a -B e00 -c :::e00 -p1,https://www.stairwaytohell.com/electron/uefarchive/Micropower/EscapeFromMoonbaseAlpha_E.zip,EscapeFromMoonbaseAlpha_E.uef
 OK,Er*bert,Microbyte,Erbert_E.uef,Erbert.rom,-a -B e00 -c e00,https://www.stairwaytohell.com/electron/uefarchive/Microbyte/Erbert_E.zip,Erbert_E.uef
 OK,Evening Star,Hewson,EveningStar_E.uef,EveningStar-1.rom EveningStar-2.rom,-a -c e00:/: -L postload/southern_belle.oph postload -s -w d3f,https://www.stairwaytohell.com/electron/uefarchive/Hewson/EveningStar_E.zip,EveningStar_E.uef
 OK (patched; paging required),Exile,Superior,Exile-EveryGameGoing.uef,Exile-1.rom Exile-2.rom Exile-3.rom Exile-4.rom,-a -B e00 -c e00:e00::x -f 1-5 -m -s -P 290 1:2:3:0,http://www.everygamegoing.com/download/electron/superior_acornsoft/5_25_discs/Exile_V1.zip,Exile.ssd
