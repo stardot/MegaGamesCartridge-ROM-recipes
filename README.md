@@ -32,10 +32,11 @@ on the `PATH`.
 
 ## Running the Tools
 
-Running the `fetch-uefs.py` tool should cause all publically available files to
-be downloaded into the `UEFs` directory, which will be created if necessary.
-Some of these will not be in the correct format. Run the `fix-uefs.py` tool to
-produce UEF files for those that require conversion.
+Run the `fetch-uefs.py` tool to download archives for each of the pieces of
+software into the `UEFs` directory, which will be created if necessary.
+
+Some of the download files are not in UEF format. Run the `fix-uefs.py` tool
+to produce UEF files for those that require conversion.
 
 The `csv2scripts.py` tool is then used to create `batch.sh` and `testroms.sh`
 scripts. The `batch.sh` script is run to create ROM files for each game in the
