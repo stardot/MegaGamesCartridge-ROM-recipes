@@ -1,4 +1,6 @@
 # Index     Offset      Span length     Data
-  0         0x41e       6               15,15,15,15,15,15
 # Patches out the creation and clearing of a text window for tape loading with
 # VDU 21 (disable output) codes.
+#  0         0x41e       6               15,15,15,15,15,15
+# Disables *FX 200,3 write and read.
+  2         0x221c      3               ea,ea,ea
