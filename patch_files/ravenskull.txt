@@ -1,0 +1,5 @@
+# Index     Offset      Span length     Data
+# Remove *T.
+  0         0x1b2       2               2a,2a
+# REM out the tape message
+  0         0x3a        1               f4

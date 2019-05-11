@@ -135,7 +135,7 @@ OK,Karate Combat,Superior,KarateCombat-SCRR_E.uef,KarateCombat-1.rom KarateComba
 OK,Kayleth,U.S. Gold,Kayleth_E.uef,Kayleth-1.rom Kayleth-2.rom,-a -B e00 -c x:/: -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/USGold/Kayleth_E.zip,Kayleth_E.uef
 OK,Killapede,Players,Killapede_BE.uef,Killapede.rom,-a -c : -s,https://www.stairwaytohell.com/electron/uefarchive/Players/Killapede_BE.zip,Killapede_BE.uef
 OK,Killer Gorilla,Program Power,KillerGorilla_E.uef,KillerGorilla.rom,-a -B e00 -c e00:,https://www.stairwaytohell.com/electron/uefarchive/Micropower/KillerGorilla_E.zip,KillerGorilla_E.uef
-OK,Killer Gorilla 2,Superior/Acornsoft,KillerGorilla2-PIAS_E.uef,KillerGorilla2-1.rom KillerGorilla2-2.rom,-a -B e00 -c :/: -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/KillerGorilla2-PIAS_E.zip,KillerGorilla2-PIAS_E.uef
+OK,Killer Gorilla 2,Superior/Acornsoft,KillerGorilla2-PIAS_E.uef,KillerGorilla2-1.rom KillerGorilla2-2.rom,-a -B e00 -c :/: -p1 -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/KillerGorilla2-PIAS_E.zip,KillerGorilla2-PIAS_E.uef
 OK,Kingdom Of Klein,Epic,KingdomOfKlein_E.uef,KingdomOfKlein-1.rom KingdomOfKlein-2.rom,-a -B e00 -c :/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/Epic/KingdomOfKlein_E.zip,KingdomOfKlein_E.uef
 OK,Kissin Cousins,English,KissinCousins_E.uef,KissinCousins.rom,-a -B 1600 -c :.16b0: -f 1-3 -s -t -w 120,https://www.stairwaytohell.com/electron/uefarchive/English/KissinCousins_E.zip,KissinCousins_E.uef
 OK,Knockout,Electron User,10Best1-Knockout_E.uef,Knockout.rom,-a -B e00 -c e00 -m,https://www.stairwaytohell.com/electron/uefarchive/Database/10OfTheBestVol1_E.zip,10Best1-Knockout_E.uef
@@ -233,7 +233,7 @@ OK,Spaceman Sid,English,SpacemanSid_E.uef,SpacemanSid-1.rom SpacemanSid-2.rom,-a
 OK (patched),Space Ranger,Audiogenic,SpaceRanger-patched.uef,SpaceRanger.rom,-a -B e00 -c x:/: -m,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/SpaceRanger_E.zip,SpaceRanger_E.uef
 OK,Spectipede,Mastertronic,Spectipede_E.uef,Spectipede.rom,-a -B e00 -c e00:e00:5000: -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Mastertronic/Spectipede_E.zip,Spectipede_E.uef
 OK (paging required),Spellbinder,Superior,SpellBinder_E.uef,Spellbinder1.rom Spellbinder2.rom Spellbinder3.rom,-a -B e00 -c :::x/:/: -f 1-6 -m -s -r -P 290 1:2:0,https://www.stairwaytohell.com/electron/uefarchive/Superior/SpellBinder_E.zip,SpellBinder_E.uef
-OK,Sphere Of Destiny,ASL,SphereOfDestiny_E.uef,SphereOfDestiny-1.rom SphereOfDestiny-2.rom,-a -B e00 -c e00:x:/: -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/SphereOfDestiny_E.zip,SphereOfDestiny_E.uef
+OK,Sphere Of Destiny,ASL,SphereOfDestiny_E.uef,SphereOfDestiny-1.rom SphereOfDestiny-2.rom,-a -B e00 -c e00:x:/: -p1 -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/SphereOfDestiny_E.zip,SphereOfDestiny_E.uef
 OK,Sphinx Adventure,Acornsoft,SphinxAdventure_E.uef,SphinxAdventure-1.rom SphinxAdventure-2.rom,-a -B e00 -c e00:.5775/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/SphinxAdventure_E.zip,SphinxAdventure_E.uef
 OK,Spitfire 40,Mirrorsoft,Spitfire40_E.uef,Spitfire40-1.rom Spitfire40-2.rom,-a -B e00 -c e00::::::e00::/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/Mirrorsoft/Spitfire40_E.zip,Spitfire40_E.uef
 OK (truncated),Spycat,Superior,SpyCat_E.uef,SpyCat-1.rom SpyCat-2.rom,-a -B e00 -c :/: -f 3-6 -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/SpyCat_E.zip,SpyCat_E.uef
@@ -257,7 +257,7 @@ OK,Tales Of The Arabian Nights,Interceptor Micros,TalesOfTheArabianNights_BE.uef
 OK,Tempest,Superior,Tempest_E.uef,Tempest.rom,-a -B e00 -c e00 -p -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/Tempest_E.zip,Tempest_E.uef
 OK,Terrormolinos,Melbourne House,Terrormolinos_BE.uef,Terrormolinos-1.rom Terrormolinos-2.rom,-a -B e00 -c :/: -f 3-6 -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/MelbourneHouse/Terrormolinos_BE.zip,Terrormolinos_BE.uef
 OK,Tetris,Mirrorsoft,Tetris_BE.uef,Tetris.rom,-a -B e00 -c e00:2f00:5800:1200 -m,https://www.stairwaytohell.com/electron/uefarchive/Mirrorsoft/Tetris_BE.zip,Tetris_BE.uef
-OK,The Hunt - Search For Shauna,Robico,TheHuntSearchForShauna_E.uef,TheHunt1.rom TheHunt2.rom,-a -B e00 -c e00:/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/Robico/TheHuntSearchForShauna_E.zip,TheHuntSearchForShauna_E.uef
+OK,The Hunt - Search For Shauna,Robico,TheHuntSearchForShauna_E.uef,TheHunt1.rom TheHunt2.rom,-a -B e00 -c e00:/: -m -p1 -s,https://www.stairwaytohell.com/electron/uefarchive/Robico/TheHuntSearchForShauna_E.zip,TheHuntSearchForShauna_E.uef
 OK (paging required),The Last Ninja,Superior,LastNinja-EveryGameGoing-patched.uef,LastNinja-1.rom LastNinja-2.rom LastNinja-3.rom LastNinja-4.rom,-a -B e00 -c :/:/:/: -m -s -P 290 1:2:3:1,http://www.everygamegoing.com/download/electron/superior_acornsoft/5_25_discs/The_Last_Ninja_1_V1.zip,HD-NIN1.ssd
 OK,The Mine,Micro Power,TheMine_E.uef,TheMine.rom,-a -B e00 -c :4000: -m,https://www.stairwaytohell.com/electron/uefarchive/Micropower/TheMine_E.zip,TheMine_E.uef
 OK,The Nine Dancers,Larsoft,TheNineDancers_RUN_BE.uef,TheNineDancers.rom,-a -B e00 -c : -m -r,https://www.stairwaytohell.com/electron/uefarchive/Larsoft/TheNineDancers_RUN_BE.zip,TheNineDancers_RUN_BE.uef
@@ -285,9 +285,9 @@ OK,Wychwood,Larsoft,Wychwood_RUN_BE.uef,Wychwood.rom,-a -B e00 -c : -m -r,https:
 OK,XOR,Astral Software,XOR_E.uef,XOR-1.rom XOR-2.rom,-a -B e00 -c :::e00/: -s -t -w d3f:ef97,https://www.stairwaytohell.com/electron/uefarchive/Logotron/XOR_E.zip,XOR_E.uef
 OK,XOR (Procyon's Mazes),Astral Software,XOR-Procyon_E.uef,XOR-Procyon-1.rom XOR-Procyon-2.rom,-a -B e00 -c :::e00/: -s -t -w d3f:ef97,https://www.stairwaytohell.com/electron/uefarchive/Logotron/XOR-Procyon_E.zip,XOR-Procyon_E.uef
 OK,Yie Ar Kung Fu,Imagine,YieArKungFu_E.uef,YieArKungFu-1.rom YieArKungFu-2.rom,-a -B e00 -c e00:5300:500:1100/:5200:5f80 -f 1-7 -p -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Imagine/YieArKungFu_E.zip,YieArKungFu_E.uef
-OK (patched),Yie Ar Kung Fu 2,Imagine,YieArKungFu2-EveryGameGoing.uef,YieArKungFu2-1.rom YieArKungFu2-2.rom,-a -B e00 -c e00:1d00:1d00:1d00:2800/2400 -m -s,https://www.stairwaytohell.com/electron/uefarchive/Imagine/YieArKungFu2_E.zip,YieArKungFu2_E.uef
+OK (patched),Yie Ar Kung Fu 2,Imagine,YieArKungFu2-patched.uef,YieArKungFu2-1.rom YieArKungFu2-2.rom,-a -B e00 -c e00:1d00:1d00:1d00:2800/2400 -m -s,http://www.everygamegoing.com/download/electron/imagine/5_25_discs/Yie_Ar_Kung_Fu_2.zip,HD-YIE2.ssd
 OK,Zalaga,Aardvark,Zalaga-ALRR_E.uef,Zalaga-1.rom Zalaga-2.rom,-a -B e00 -c e00:/: -s,http://www.stairwaytohell.com/electron/uefarchive/Alternative/Zalaga-ALRR_E.zip,Zalaga-ALRR_E.uef
-OK,Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,-a -B e00 -c e00,https://www.stairwaytohell.com/electron/uefarchive/Superior/ZanyKongJunior_E.zip,ZanyKongJunior_E.uef
+OK,Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,-a -B e00 -c e00 -p1,https://www.stairwaytohell.com/electron/uefarchive/Superior/ZanyKongJunior_E.zip,ZanyKongJunior_E.uef
 OK,Zenon,Impact,Zenon_E.uef,Zenon-1.rom Zenon-2.rom,-a -B e00 -c :5800:/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/Impact/Zenon_E.zip,Zenon_E.uef
 OK,Ziggy,ASL,Ziggy_E.uef,Ziggy-1.rom Ziggy-2.rom,-a -B e00 -c :/: -m -s -f 0-1,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/Ziggy_E.zip,Ziggy_E.uef
 OK,Zombies Ate Our Roadies,Stuart Johns,zaor.uef,ZAOR-1.rom ZAOR-2.rom,-a -B e00 -c :/: -s -w 39f,-,zaor.uef
