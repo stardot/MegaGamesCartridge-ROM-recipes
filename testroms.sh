@@ -287,6 +287,7 @@ elkulator -rom2 ROMs/Wychwood.rom
 elkulator -rom2 ROMs/XOR-1.rom -rom1 ROMs/XOR-2.rom
 elkulator -rom2 ROMs/XOR-Procyon-1.rom -rom1 ROMs/XOR-Procyon-2.rom
 elkulator -rom2 ROMs/YieArKungFu-1.rom -rom1 ROMs/YieArKungFu-2.rom
+elkulator -rom2 ROMs/Yoyo-2.rom
 elkulator -rom2 ROMs/YieArKungFu2-1.rom -rom1 ROMs/YieArKungFu2-2.rom
 elkulator -rom2 ROMs/Zalaga-1.rom -rom1 ROMs/Zalaga-2.rom
 elkulator -rom2 ROMs/ZanyKongJunior.rom

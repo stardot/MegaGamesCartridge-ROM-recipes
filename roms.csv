@@ -285,6 +285,7 @@ OK,Wychwood,Larsoft,Wychwood_RUN_BE.uef,Wychwood.rom,-a -B e00 -c : -m -r,https:
 OK,XOR,Astral Software,XOR_E.uef,XOR-1.rom XOR-2.rom,-a -B e00 -c :::e00/: -s -t -w d3f:ef97,https://www.stairwaytohell.com/electron/uefarchive/Logotron/XOR_E.zip,XOR_E.uef
 OK,XOR (Procyon's Mazes),Astral Software,XOR-Procyon_E.uef,XOR-Procyon-1.rom XOR-Procyon-2.rom,-a -B e00 -c :::e00/: -s -t -w d3f:ef97,https://www.stairwaytohell.com/electron/uefarchive/Logotron/XOR-Procyon_E.zip,XOR-Procyon_E.uef
 OK,Yie Ar Kung Fu,Imagine,YieArKungFu_E.uef,YieArKungFu-1.rom YieArKungFu-2.rom,-a -B e00 -c e00:5300:500:1100/:5200:5f80 -f 1-7 -p -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Imagine/YieArKungFu_E.zip,YieArKungFu_E.uef
+OK,Yoyo,Top Ten,Yoyo-1.rom,Yoyo-2.rom,-a -B e00 -c e00:::1a00:/: -m -s,http://www.stairwaytohell.com/bbc/archive/tapeimages/TopTen/Yoyo-PST_B.zip,Yoyo-PST_B.uef
 OK (patched),Yie Ar Kung Fu 2,Imagine,YieArKungFu2-patched.uef,YieArKungFu2-1.rom YieArKungFu2-2.rom,-a -B e00 -c e00:1d00:1d00:1d00:2800/2400 -m -s,http://www.everygamegoing.com/download/electron/imagine/5_25_discs/Yie_Ar_Kung_Fu_2.zip,HD-YIE2.ssd
 OK,Zalaga,Aardvark,Zalaga-ALRR_E.uef,Zalaga-1.rom Zalaga-2.rom,-a -B e00 -c e00:/: -s,http://www.stairwaytohell.com/electron/uefarchive/Alternative/Zalaga-ALRR_E.zip,Zalaga-ALRR_E.uef
 OK,Zany Kong Junior,Superior,ZanyKongJunior_E.uef,ZanyKongJunior.rom,-a -B e00 -c e00 -p1,https://www.stairwaytohell.com/electron/uefarchive/Superior/ZanyKongJunior_E.zip,ZanyKongJunior_E.uef
