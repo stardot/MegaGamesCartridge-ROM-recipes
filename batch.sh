@@ -62,7 +62,7 @@ UEF2ROM.py -a -B e00 -c e00::::::1900/: -s -t -w d3f:ef97 UEFs/CrazeeRider_E.uef
 UEF2ROM.py -a -B e00 -c e00:.4543 -m -pf patch_files/crazy_tracer.txt UEFs/CrazyTracer_E.uef ROMs/CrazyTracer.rom
 UEF2ROM.py -a -B e00 -c e00 -m UEFs/CreepyCave_BE.uef ROMs/CreepyCave.rom
 UEF2ROM.py -a -B e00 -c ::x UEFs/Croaker_E.uef ROMs/Croaker.rom
-UEF2ROM.py -a -c 4900:5100:1200 -r -f 1-3 -pf patch_files/crypt_capers.txt -w 39f UEFs/CryptCapers-STH.uef ROMs/CryptCapers.rom
+UEF2ROM.py -a -c 4900:5100:1200 -r -pf patch_files/crypt_capers.txt -w 39f UEFs/CryptCapers-STH.uef ROMs/CryptCapers.rom
 UEF2ROM.py -a -B e00 -c :::x:x:x:x:dc0:dc0/dc0 -p -t -w 39f UEFs/CrystalCastles_E.uef ROMs/CrystalCastles-1.rom ROMs/CrystalCastles-2.rom
 UEF2ROM.py -a -B e00 -c : UEFs/CybertronMission_E.uef ROMs/CybertronMission.rom
 UEF2ROM.py -a -c ::5f80:::6840:7c40:/: -pf patch_files/cyborg_warriors.txt -s -w 39f UEFs/CyborgWarriors_E.uef ROMs/CyborgWarriors-1.rom ROMs/CyborgWarriors-2.rom
