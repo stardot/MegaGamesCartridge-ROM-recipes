@@ -1,0 +1,4 @@
+# Index     Offset      Span length     Data
+  0         0x57e       1               30
+# Adjusts the elapsed time checked for making it longer than that measured on a
+# BBC Micro.

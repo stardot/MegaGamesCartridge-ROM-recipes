@@ -59,6 +59,7 @@ elkulator -rom2 ROMs/CrazeeRider-1.rom -rom1 ROMs/CrazeeRider-2.rom
 elkulator -rom2 ROMs/CrazyTracer.rom
 elkulator -rom2 ROMs/CreepyCave.rom
 elkulator -rom2 ROMs/Croaker.rom
+elkulator -rom2 ROMs/CryptCapers.rom
 elkulator -rom2 ROMs/CrystalCastles-1.rom -rom1 ROMs/CrystalCastles-2.rom
 elkulator -rom2 ROMs/CybertronMission.rom
 elkulator -rom2 ROMs/CyborgWarriors-1.rom -rom1 ROMs/CyborgWarriors-2.rom
