@@ -14,16 +14,16 @@ can be obtained.
 ## Dependencies
 
 Many games are created from UEF files using the `UEF2ROM.py` tool which can be
-obtained from [the UEF2ROM repository](https://bitbucket.org/dboddie/uef2rom).
+obtained from [the UEF2ROM repository](https://github.com/stardot/uef2rom).
 Some are build from disk images which must first be converted to UEF files.
 This is performed by a collection of scripts in the `Fixes` directory.
 
 Some of these scripts require the `UEFtrans.py` tool and `UEFfile.py` module
 which can be obtained from
-[the UEFfile repository](https://bitbucket.org/dboddie/ueffile).
+[the UEFfile repository](https://github.com/dboddie/UEFfile).
 
 Other scripts require the `ADF2INF.py` tool which can be obtained from
-[the ADFSlib repository](https://bitbucket.org/dboddie/adfslib).
+[the ADFSlib repository](https://github.com/dboddie/adfslib).
 
 You will need an emulator if you want to test the ROM images on a modern
 machine using the generated `testroms.sh` script. The generated script
