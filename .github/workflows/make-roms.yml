@@ -1,6 +1,8 @@
 name: Make ROMs
 
 on:
+  push:
+    branches: ['python3-subset']
   workflow_dispatch:
 
 permissions:
