@@ -28,7 +28,9 @@ jobs:
       - name: Fetch resources
         run: python3 fetch-uefs.py
       - name: Fix resources
-        run: python3 fix-uefs.py
+        run: |
+          python3 fix-uefs.py
+          tree UEFs
       - name: Create scripts
         run: python3 csv2scripts.py
       - name: Run the batch script
