@@ -6,7 +6,7 @@ if [ -z "$1" ] || [ -z "$2" ]; then
     echo "Usage: `basename "$0"` <Anarchy Zone UEF file> <stripped UEF file>"
     exit 1
 fi
-
+env
 UEFtrans.py "$1" extract 0,1,2,3,4,5 temp
 
 # Fix the loader to remove attempts to disable keyboard scanning.
