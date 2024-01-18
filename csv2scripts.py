@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 Copyright (C) 2019 David Boddie <david@boddie.org.uk>
@@ -40,7 +40,7 @@ for line in lines:
 
     pieces = line.strip().split(",")
     if len(pieces) != len(check_headings):
-        print "Invalid entry:", pieces
+        print("Invalid entry:", pieces)
         continue
     
     d = {}
@@ -48,11 +48,11 @@ for line in lines:
         d[key] = value
     
     if not d["Status"].startswith("OK"):
-        print "Skipping", d["Name"], "-", d["Status"]
+        print("Skipping", d["Name"], "-", d["Status"])
         continue
     
     elif d["URL"] == "-":
-        print "Skipping", d["Name"]
+        print("Skipping", d["Name"])
         continue
     
     games += 1
@@ -79,5 +79,5 @@ for line in lines:
 bf.close()
 tf.close()
 
-print "%i titles" % games
-print "%i ROMs" % roms
+print("%i titles" % games)
+print("%i ROMs" % roms)

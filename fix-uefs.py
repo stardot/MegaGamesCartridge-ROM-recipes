@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 Copyright (C) 2019 David Boddie <david@boddie.org.uk>
@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import commands, os, shutil, subprocess, sys
+import os, shutil, subprocess, sys
 
 def fix_uef(fix_dir, file_names, uef):
 
@@ -62,7 +62,7 @@ for line in lines:
 
     pieces = line.strip().split(",")
     if len(pieces) != len(check_headings):
-        print "Invalid entry:", pieces
+        print("Invalid entry:", pieces)
         continue
     
     d = {}
@@ -70,14 +70,14 @@ for line in lines:
         d[key] = value
     
     if not d["Status"].startswith("OK"):
-        print "Skipping", d["Name"], "-", d["Status"]
+        print("Skipping", d["Name"], "-", d["Status"])
         continue
     
     elif d["URL"] == "-":
-        print "Skipping", d["Name"]
+        print("Skipping", d["Name"])
         continue
     
-    file_names = map(lambda s: os.path.split(s.strip())[1], d["Files"].split())
+    file_names = list(map(lambda s: os.path.split(s.strip())[1], d["Files"].split()))
     
     if os.path.exists(os.path.join(uef_dir, d["UEF"])):
         continue
@@ -88,32 +88,32 @@ for line in lines:
             for name in file_names:
                 rom_file = os.path.join(rom_dir, name)
                 if not os.path.exists(rom_file):
-                    print "Copying", ",".join(file_names), "to", rom_dir
+                    print("Copying", ",".join(file_names), "to", rom_dir)
                     shutil.copy2(os.path.join(uef_dir, name), rom_file)
         else:
-            if roms_to_uef(map(lambda name: os.path.join(uef_dir, name), file_names),
-                           os.path.join(uef_dir, d["UEF"])) == 0:
-                print "Created", d["UEF"], "from", ",".join(file_names)
+            if roms_to_uef(list(map(lambda name: os.path.join(uef_dir, name), file_names),
+                           os.path.join(uef_dir, d["UEF"]))) == 0:
+                print("Created", d["UEF"], "from", ",".join(file_names))
     
     elif file_names[0] != d["UEF"]:
     
-        print "Finding fix for", d["Name"], "...",
+        print("Finding fix for", d["Name"], "...",)
         
         # Find the directory in the Fixes directory for this game.
         name = d["Name"]
         for c in "()!":
             name = name.replace(c, "")
         
-        file_names = map(lambda name: os.path.join(uef_dir, name), file_names)
+        file_names = list(map(lambda name: os.path.join(uef_dir, name), file_names))
         
         for sep in "_", " ", "":
             fix_dir = name.replace(" ", sep)
             if fix_dir in fixes:
                 if fix_uef(os.path.join(fixes_dir, fix_dir),
                            file_names, os.path.join(uef_dir, d["UEF"])) == 0:
-                    print "OK"
+                    print("OK")
                 else:
-                    print "found but failed"
+                    print("found but failed")
                 break
         else:
-            print "failed"
+            print("failed")

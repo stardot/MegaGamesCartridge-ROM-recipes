@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 Copyright (C) 2019 David Boddie <david@boddie.org.uk>
@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 headings = ["Name", "Publisher", "UEF", "ROM1", "ROM2", "Options"]
 
-print ",".join(headings)
+print(",".join(headings))
 
 for line in open("batch.sh").readlines():
 
@@ -46,4 +46,4 @@ for line in open("batch.sh").readlines():
     uef_file_name = uef_file.split("/")[-1]
     name = uef_file_name.split("_")[0]
     
-    print ",".join([name, "", uef_file_name] + rom_files + [" ".join(options)])
+    print(",".join([name, "", uef_file_name] + rom_files + [" ".join(options)]))

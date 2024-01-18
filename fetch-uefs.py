@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 Copyright (C) 2019 David Boddie <david@boddie.org.uk>
@@ -17,7 +17,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import os, StringIO, sys, time, urllib2, zipfile
+import os, io, sys, time, requests, zipfile
 
 check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options", "URL", "Files"]
 
@@ -40,7 +40,7 @@ for line in lines:
 
     pieces = line.strip().split(",")
     if len(pieces) != len(check_headings):
-        print "Invalid entry:", pieces
+        print("Invalid entry:", pieces)
         continue
     
     d = {}
@@ -48,7 +48,7 @@ for line in lines:
         d[key] = value
     
     if not d["Status"].startswith("OK"):
-        print "Skipping", d["Name"], "-", d["Status"]
+        print("Skipping", d["Name"], "-", d["Status"])
         continue
     
     file_names = d["Files"].split()
@@ -63,11 +63,12 @@ for line in lines:
     
     if not found and url != "-":
     
-        print "Downloading", url
+        print("Downloading", url)
         
-        try:
-            data = StringIO.StringIO(urllib2.urlopen(url).read())
+        resp = requests.get(url)
+        if resp.ok:
             d["URL"] = url
+            data = io.BytesIO(resp.content)
             
             try:
                 zf = zipfile.ZipFile(data)
@@ -84,7 +85,7 @@ for line in lines:
                 if not original_url:
                     d["URL"] = "-"
         
-        except urllib2.HTTPError:
+        else:
             sys.stderr.write("Failed to download %s\n" % file_name)
             
             # Don't try to download this UEF next time.
