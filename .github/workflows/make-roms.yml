@@ -32,7 +32,7 @@ jobs:
       - name: Create scripts
         run: python3 csv2scripts.py
       - name: Run the batch script
-        run: PATH=Ophis/bin:UEF2ROM:$PATH sh batch.sh
+        run: PATH=Ophis/bin:$PWD:UEF2ROM:$PATH sh batch.sh
       - name: Make an index file
         run: python3 make-index.py
       - name: Move the data
