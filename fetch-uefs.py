@@ -17,7 +17,19 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import os, io, sys, time, requests, zipfile
+import os, sys, time, zipfile
+import urllib.error, urllib.request
+from io import BytesIO
+
+args = sys.argv[1:]
+update = "--update" in args
+if update:
+    args.remove("--update")
+
+process_names = []
+
+if len(sys.argv) > 1:
+    process_names += args
 
 check_headings = ["Status", "Name", "Publisher", "UEF", "ROMs", "Options", "URL", "Files"]
 
@@ -51,6 +63,9 @@ for line in lines:
         print("Skipping", d["Name"], "-", d["Status"])
         continue
     
+    elif process_names and d["Name"] not in process_names:
+        continue
+    
     file_names = d["Files"].split()
     original_url = url = d["URL"].strip()
     
@@ -65,28 +80,29 @@ for line in lines:
     
         print("Downloading", url)
         
-        resp = requests.get(url)
-        if resp.ok:
-            d["URL"] = url
-            data = io.BytesIO(resp.content)
-            
-            try:
-                zf = zipfile.ZipFile(data)
-                for file_name in file_names:
-                    data = zf.read(file_name)
-                    open(os.path.join(uef_dir, os.path.split(file_name)[1]),
-                         "wb").write(data)
-            
-            except KeyError:
-                sys.stderr.write("Failed to find %s in the archive.\n" % file_name)
-                sys.stderr.write("Found: %s\n" % " ".join(zf.namelist()))
-                
-                # Don't try to download this UEF next time.
-                if not original_url:
-                    d["URL"] = "-"
-        
-        else:
+        try:
+            resp = urllib.request.urlopen(url)
+
+        except urllib.error.HTTPError:
             sys.stderr.write("Failed to download %s\n" % file_name)
+            
+            # Don't try to download this UEF next time.
+            if not original_url:
+                d["URL"] = "-"
+        
+        data = BytesIO(resp.read())
+        d["URL"] = url
+        
+        try:
+            zf = zipfile.ZipFile(data)
+            for file_name in file_names:
+                data = zf.read(file_name)
+                open(os.path.join(uef_dir, os.path.split(file_name)[1]),
+                     "wb").write(data)
+        
+        except KeyError:
+            sys.stderr.write("Failed to find %s in the archive.\n" % file_name)
+            sys.stderr.write("Found: %s\n" % " ".join(zf.namelist()))
             
             # Don't try to download this UEF next time.
             if not original_url:
@@ -100,4 +116,5 @@ for line in lines:
     
     new_lines.append(",".join(new_line))
 
-open("roms.csv", "w").write("\n".join(new_lines) + "\n")
+if update:
+    open("roms.csv", "w").write("\n".join(new_lines) + "\n")
