@@ -1,0 +1,9 @@
+Ensure that GitHub Pages is enabled in the repository settings.
+
+https://github.com/actions/deploy-pages/blob/main/action.yml
+https://github.com/actions/upload-pages-artifact/blob/main/action.yml
+https://github.com/iwillspeak/on-the-same-page/blob/main/.github/workflows/pages.yml
+https://github.com/glassechidna/ghaoidc/issues/1#issuecomment-938463240
+
+Add a .nojekyll file in the root of the branch configured for the pages deployment in the settings:
+https://www.reddit.com/r/github/comments/tismvn/disable_pagesbuilddeployment/?sort=old

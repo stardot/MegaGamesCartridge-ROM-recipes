@@ -1,0 +1,60 @@
+name: Make ROMs
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v3
+      - name: Install Ophis
+        run: git clone https://github.com/michaelcmartin/Ophis
+      - name: Clone UEF2ROM
+        run: git clone -b python3 https://github.com/stardot/UEF2ROM
+      - name: Fetch resources
+        run: python3 fetch-uefs.py
+      - name: Fix resources
+        run: python3 fix-uefs.py
+      - name: Create scripts
+        run: python3 csv2scripts.py
+      - name: Run the batch script
+        run: PATH=Ophis/bin:UEF2ROM:$PATH sh batch.sh
+      - name: Make an index file
+        run: python3 make-index.py
+      - name: Move the data
+        run: |
+          mkdir -p _site
+          cp index.html _site/index.html
+          mv ROMs _site/
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: Converted ROMs
+          path: ROMs
+      - name: Upload GitHub Pages artifacts
+        uses: actions/upload-pages-artifact@v0
+
+  deploy:
+
+    needs: build
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
