@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 """
 UEFtrans.py - Catalogue UEF archives or add and remove files.
@@ -19,42 +19,22 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-import sys, string, os, gzip
+import struct, sys, string, os, gzip
 
 __version__ = '0.42-3 (Mon 8th January 2024)'
-
-def number(size, n):
-    """string = number(size, bytes)
-    
-    Convert a number to a little endian string of bytes for writing to a
-    binary file.
-    """
-    
-    # Little endian writing
-    
-    s = ""
-    
-    while size > 0:
-        i = n % 256
-        s = s + chr(i)
-#        n = n / 256
-        n = n >> 8
-        size = size - 1
-    
-    return s
 
 
 def str2num(size, s):
     """number = str2num(size, string)
     
-    Convert a string of decimal digits to an integer.
+    Convert a string containing a binary-encoded value to an integer.
     """
     
     i = 0
     n = 0
     while i < size:
     
-        n = n | (ord(s[i]) << (i*8))
+        n = n | (s[i] << (i*8))
         i = i + 1
     
     return n
@@ -84,7 +64,7 @@ def crc(s):
     
     for i in s:
     
-        high = high ^ ord(i)
+        high = high ^ i
         
         for j in range(0,8):
         
@@ -110,9 +90,9 @@ def chunk(f, n, data):
     """
     
     # Chunk ID
-    f.write(number(2, n))
+    f.write(struct.pack("<H", n))
     # Chunk length
-    f.write(number(4, len(data)))
+    f.write(struct.pack("<I", len(data)))
     # Data
     f.write(data)
 
@@ -199,20 +179,21 @@ def read_block(chunk):
             bit_ptr = bit_ptr + 9
     
     # Read the block
-    name = ''
+    name = []
     a = 1
-    while 1:
+    while True:
         c = block[a]
-        if ord(c) != 0:
-            name = name + c
+        if c != 0:
+            name.append(c)
         a = a + 1
-        if ord(c) == 0:
+        if c == 0:
             break
     
+    name = bytes(name)
     load = str2num(4, block[a:a+4])
     exec_addr = str2num(4, block[a+4:a+8])
     block_number = str2num(2, block[a+8:a+10])
-    last = str2num(1, block[a+12])
+    last = block[a+12]
     
     if last & 0x80 != 0:
         last = 1
@@ -252,45 +233,45 @@ def write_block(f, name, load, exe, length, n):
     block = f.read(256)
     
     # Write the alignment character.
-    out = "*"+name[:10]+"\000"
+    out = b"*" + name[:10] + b"\x00"
     
     # Load address
-    out = out + number(4, load)
+    out = out + struct.pack("<I", load)
     
     # Execution address
-    out = out + number(4, exe)
+    out = out + struct.pack("<I", exe)
     
     # Block number
-    out = out + number(2, n)
+    out = out + struct.pack("<H", n)
     
     # Block length
-    out = out + number(2, len(block))
+    out = out + struct.pack("<H", len(block))
     
     # Block flag (last block)
     if f.tell() == length:
-        out = out + number(1, 128)
+        out = out + b"\x80"
         last = 1
     else:
         if len(block) == 256:
-            out = out + number(1, 0)
+            out = out + b"\x00"
             last = 0
         else:
-            out = out + number(1, 128) # shouldn't be needed 
+            out = out + b"\x80" # shouldn't be needed 
             last = 1 
     
     # Next address
-    out = out + number(2, 0)
+    out = out + struct.pack("<H", 0)
     
     # Unknown
-    out = out + number(2, 0)
+    out = out + struct.pack("<H", 0)
     
     # Header CRC
-    out = out + number(2, crc(out[1:]))
+    out = out + struct.pack("<H", crc(out[1:]))
     
     out = out + block
     
     # Block CRC
-    out = out + number(2, crc(block))
+    out = out + struct.pack("<H", crc(block))
     
     return out, last
 
@@ -301,7 +282,7 @@ def get_leafname(path):
     Get the leafname of the specified file.
     """
     
-    pos = string.rfind(path, os.sep)
+    pos = path.rfind(os.sep)
     if pos != -1:
         return path[pos+1:]
     else:
@@ -429,8 +410,8 @@ def read_uef_details(chunks):
         machines = ('BBC Model A', 'Electron', 'BBC Model B', 'BBC Master')
         keyboards = ('Any layout', 'Physical layout', 'Remapped')
         
-        machine = ord(chunk[1][0]) & 0x0f
-        keyboard = (ord(chunk[1][0]) & 0xf0) >> 4
+        machine = chunk[1][0] & 0x0f
+        keyboard = (chunk[1][0] & 0xf0) >> 4
         
         if machine < len(machines):
             machine = machines[machine]
@@ -482,10 +463,10 @@ def write_uef_header(file, major, minor):
     """
     
     # Write the UEF file header
-    file.write('UEF File!\000')
+    file.write(b'UEF File!\000')
     
     # Minor and major version numbers
-    file.write(number(1, minor) + number(1, major))
+    file.write(bytes([minor, major]))
 
 
 def write_uef_creator(file, originator):
@@ -494,10 +475,10 @@ def write_uef_creator(file, originator):
     Write a creator chunk to a file.
     """
     
-    origin = originator + '\000'
+    origin = originator + b'\x00'
     
     if (len(origin) % 4) != 0:
-        origin = origin + ('\000'*(4-(len(origin) % 4)))
+        origin = origin + (b'\x00' * (4-(len(origin) % 4)))
     
     # Write the creator chunk
     chunk(file, 0, origin)
@@ -516,19 +497,17 @@ def write_machine_info(file, machine, keyboard):
         
     keyboards = {'any': 0, 'physical': 1, 'logical': 2}
     
-    if machines.has_key(machine):
-    
+    if machine in machines:
         machine = machines[target_machine]
     else:
         machine = 0
     
-    if keyboards.has_key(keyboard):
-    
+    if keyboard in keyboards:
         keyboard = keyboards[keyboard_layout]
     else:
         keyboard = 0
     
-    chunk(file, 5, number(1, machine | (keyboard << 4) ))
+    chunk(file, 5, bytes([machine | (keyboard << 4)]))
 
 
 def write_chunks(file, chunks):
@@ -539,7 +518,6 @@ def write_chunks(file, chunks):
     """
     
     for c in chunks:
-    
         chunk(file, c[0], c[1])
 
 
@@ -557,9 +535,9 @@ def create_chunks(file_names, gaps = True):
     for name in file_names:
     
         if gaps:
-            new_chunks += [(0x112, "\xdc\x05"),
-                           (0x110, "\xdc\x05"),
-                           (0x100, "\xdc")]
+            new_chunks += [(0x112, b"\xdc\x05"),
+                           (0x110, b"\xdc\x05"),
+                           (0x100, b"\xdc")]
         
         # Find the .inf file and read the details stored within
         try:
@@ -573,7 +551,7 @@ def create_chunks(file_names, gaps = True):
                 sys.exit()
         
         # Parse the details
-        details = [string.rstrip(details)]
+        details = [details.rstrip()]
         
         splitters = [' ', '\011']
         
@@ -585,11 +563,11 @@ def create_chunks(file_names, gaps = True):
             # Split up each substring (list entry)
             for d in details:
             
-                new_details = new_details + string.split(d, s)
+                new_details = new_details + d.split(s)
             
             details = new_details
         
-        details = filter(lambda s: s, details)
+        details = list(filter(lambda s: s, details))
         
         # We should have details about the load and execution addresses
         
@@ -606,7 +584,7 @@ def create_chunks(file_names, gaps = True):
         in_file.seek(0, 0)
         
         # Examine the name entry and take the load and execution addresses.
-        dot_at = string.find(details[0], '.')
+        dot_at = details[0].find('.')
         if dot_at != -1:
             real_name = details[0][dot_at+1:]
             load, exe = details[1], details[2]
@@ -630,19 +608,19 @@ def create_chunks(file_names, gaps = True):
         gap = 1
         
         # Write block details.
-        while 1:
+        while True:
             block, last = write_block(
-                in_file, real_name, load, exe, length, block_number
+                in_file, real_name.encode("ascii"), load, exe, length, block_number
                 )
             
             if gap == 1:
             
-                new_chunks.append((0x110, number(2,0x05dc)))
+                new_chunks.append((0x110, struct.pack("<H", 0x05dc)))
                 gap = 0
             
             else:
             
-                new_chunks.append((0x110, number(2,0x0258)))
+                new_chunks.append((0x110, struct.pack("<H", 0x0258)))
             
             # Write the block to the list of new chunks.
             
@@ -664,8 +642,8 @@ def create_chunks(file_names, gaps = True):
         in_file.close()
     
     # Write some finishing bytes to the list of new chunks
-#    new_chunks.append((0x110, number(2,0x0258)))
-#    new_chunks.append((0x112, number(2,0x0258)))
+#    new_chunks.append((0x110, struct.pack("<H", 0x0258)))
+#    new_chunks.append((0x112, struct.pack("<H", 0x0258)))
     
     # Return the list of new chunks
     return new_chunks
@@ -706,7 +684,7 @@ def encode_chunks(file_names):
     
         leafname = get_leafname(name)
         
-        hexsuffix = string.find(leafname, suffix+'0x')
+        hexsuffix = leafname.find(suffix+'0x')
         
         if hexsuffix != -1:
         
@@ -720,7 +698,7 @@ def encode_chunks(file_names):
         
             # Attempt to convert filename into a chunk number.
             try:
-                number = encode_as[string.lower(leafname)]
+                number = encode_as[leafname.lower()]
                 
                 new_chunks.append( (number, open(name, 'rb').read()) )
             
@@ -779,7 +757,7 @@ def export_file(out_path, chunks, name, write_name, load, exe, length):
     if inf_file != None:
     
         # Write information to the .inf file
-        inf_file.write('$.%s\t%x\t%x\t%x\n' % (name, load, exe, length))
+        inf_file.write('$.%s\t%x\t%x\t%x\n' % (name.decode("ascii"), load, exe, length))
         
         # Read the blocks from the UEF file and write
         # them to the file
@@ -863,10 +841,10 @@ def printable(s):
     new = ''
     for i in s:
     
-        if ord(i) < 32:
-            new = new + '?'
+        if i < 32:
+            new += '?'
         else:
-            new = new + i
+            new += chr(i)
     
     return new
 
@@ -1210,7 +1188,7 @@ if __name__ == '__main__':
             sys.exit()
         
         # Determine the major and minor version numbers to write.
-        numbers = string.split(write_version, '.')
+        numbers = write_version.split('.')
         try:
             major = int(numbers[0])
             minor = int(numbers[1])
@@ -1223,7 +1201,7 @@ if __name__ == '__main__':
         
         # Write the UEF file header.
         write_uef_header(uef, major, minor)
-        write_uef_creator(uef, 'UEFtrans '+version)
+        write_uef_creator(uef, b'UEFtrans ' + version.encode("ascii"))
         write_machine_info(uef, target_machine, keyboard_layout)
         
         # Close the file.
@@ -1241,13 +1219,13 @@ if __name__ == '__main__':
         sys.exit()
     
     # Is it gzipped?
-    if in_f.read(10) != 'UEF File!\000':
+    if in_f.read(10) != b'UEF File!\000':
     
         in_f.close()
         in_f = gzip.open(uef_file, 'rb')
         
         try:
-            if in_f.read(10) != 'UEF File!\000':
+            if in_f.read(10) != b'UEF File!\000':
                 print('The input file, '+uef_file+' is not a UEF file.')
                 in_f.close()
                 sys.exit()
@@ -1257,8 +1235,8 @@ if __name__ == '__main__':
             sys.exit()
     
     # Read version number of the file format.
-    UEF_minor = str2num(1, in_f.read(1))
-    UEF_major = str2num(1, in_f.read(1))
+    UEF_minor = ord(in_f.read(1))
+    UEF_major = ord(in_f.read(1))
     
     # Extract files (directory organisation before the UEF file is actually
     # read).
@@ -1271,7 +1249,7 @@ if __name__ == '__main__':
             sys.exit()
         
         # Check whether the output path is a directory or a UEF file.
-        if string.lower(args[1][-4:]) == suffix+'uef':
+        if args[1][-4:].lower() == suffix+'uef':
         
             # Check whether the file already exists.
             try:
@@ -1376,7 +1354,7 @@ if __name__ == '__main__':
         for c in chunks:
         
             if n % 16 == 0:
-                sys.stdout.write(string.rjust('%i: '% n, 8))
+                sys.stdout.write('{:>8}'.format('%i: ' % n))
             
             if c[0] == 0x0:
             
@@ -1993,7 +1971,7 @@ if __name__ == '__main__':
             sys.exit()
         
         # Names of files to insert (comma-separated list)
-        file_names = string.split(args[0], ',')
+        file_names = args[0].split(',')
         
         # Put the new file chunks after all the other chunks.
         chunks = chunks + create_chunks(file_names)
@@ -2021,7 +1999,7 @@ if __name__ == '__main__':
     if command == 'extract':
     
         # File positions of files to extract
-        positions = string.split(args[0], ',')
+        positions = args[0].split(',')
         
         # Destination path in which to put the files (any directories
         # should have already been created).
@@ -2046,7 +2024,7 @@ if __name__ == '__main__':
                 # Extracting chunk, not file.
                 position = int(position[1:])
                 
-                if string.lower(out_path[-4:]) == suffix+'uef':
+                if out_path[-4:].lower() == suffix+'uef':
                 
                     # Writing a file in the archive to another archive.
                     # Append chunk to the specified output file.
@@ -2090,7 +2068,7 @@ if __name__ == '__main__':
                     start_pos = contents[file_position]['position']
                     end_pos = contents[file_position]['last position']
                     
-                    if string.lower(out_path[-4:]) == suffix+'uef':
+                    if out_path[-4:].lower() == suffix+'uef':
                     
                         # Writing a file in the archive to another archive.
                         try:
@@ -2118,7 +2096,7 @@ if __name__ == '__main__':
                             write_name, load, exe, length
                             )
         
-        if string.lower(out_path[-4:]) == suffix+'uef':
+        if out_path[-4:].lower() == suffix+'uef':
         
             # Close destination UEF file.
             dest_uef.close()
@@ -2141,7 +2119,7 @@ if __name__ == '__main__':
         # is converted to a chunk position first.
         
         # File positions of files to extract.
-        file_positions = string.split(args[0], ',')
+        file_positions = args[0].split(',')
         
 #        # Generate a list of chunk positions based on the file positions
 #        if contents == []:
