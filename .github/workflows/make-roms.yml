@@ -49,7 +49,7 @@ jobs:
           name: Converted ROMs
           path: ROMs
       - name: Upload GitHub Pages artifacts
-        uses: actions/upload-pages-artifact@v0
+        uses: actions/upload-pages-artifact@v2
 
   deploy:
 
@@ -62,4 +62,4 @@ jobs:
     steps:
       - name: Deploy GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
