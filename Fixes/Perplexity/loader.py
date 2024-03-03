@@ -1,5 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 t = open("temp/START", "rb").read()
-t = t.replace("*L.LOADSCR", "*/ LOADSCR")
+t = t.replace(b"*L.LOADSCR", b"*/ LOADSCR")
 open("temp/START", "wb").write(t)

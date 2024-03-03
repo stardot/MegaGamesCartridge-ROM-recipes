@@ -8,7 +8,7 @@ if [ -z "$1" ] || [ -z "$2" ]; then
 fi
 
 UEFtrans.py "$1" extract 0,1,2,3,4 temp
-./loader.py
+python3 loader.py
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/JOEY.E,temp/JLOAD,temp/JOE2,temp/JOE3,temp/JOEY
 rm -r temp

@@ -8,7 +8,7 @@ if [ -z "$1" ] || [ -z "$2" ]; then
 fi
 
 UEFtrans.py "$1" extract 0,1,2,3,4,5,6,7,8 temp
-./loader.py
+python3 loader.py
 distance_pair.py --compress temp/SCREEN temp/SCRDATA
 ophis -o temp/screen screen.oph
 cat temp/screen temp/SCRDATA > temp/SCR

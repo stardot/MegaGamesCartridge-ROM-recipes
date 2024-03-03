@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 t = open("temp/RANGER", "rb").read()
-t = t.replace("*TAPE", "*****")
-t = t.replace("*FX178,0", "********")
+t = t.replace(b"*TAPE", b"*****")
+t = t.replace(b"*FX178,0", b"********")
 open("temp/RANGER", "wb").write(t)
