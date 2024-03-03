@@ -1,17 +1,17 @@
 def unscramble_data(data):
 
-    new_data = ""
+    new_data = []
     for i in range(len(data)):
     
-        new_data += chr(ord(data[i]) ^ ((i + 1) % 256))
+        new_data.append(data[i] ^ ((i + 1) % 256))
     
-    return new_data
+    return bytes(new_data)
 
 for i in range(0, 20):
     s = chr(65 + i)
-    t = open("temp/DECK" + s).read()
+    t = open("temp/DECK" + s, "rb").read()
     u = unscramble_data(t)
-    open("temp/DECK" + s, "w").write(u)
+    open("temp/DECK" + s, "wb").write(u)
 
 #t = open("temp/Game").read()
 #t = ("\xa9"     # lda #$eb      AD lda $3ce
@@ -33,6 +33,6 @@ for i in range(0, 20):
 #     "\xa5") + t[17:] #         03
 #open("temp/Game", "w").write(t)
 
-t = open("temp/Vars").read()
-t = t[:0x290] + "\xea\xea" + t[0x292:]
-open("temp/Vars", "w").write(t)
+t = open("temp/Vars", "rb").read()
+t = t[:0x290] + b"\xea\xea" + t[0x292:]
+open("temp/Vars", "wb").write(t)

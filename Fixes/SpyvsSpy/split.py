@@ -1,6 +1,7 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-import UEFfile, sys
+import sys
+from tools import UEFfile
 
 u = UEFfile.UEFfile(sys.argv[1])
 
@@ -10,10 +11,10 @@ spy1 = u.contents[3].copy()
 spy1a = u.contents[3].copy()
 
 data = spy1['data'][:0x3ff]
-data = data[:0xab] + "\r\r\r" + data[0xae:]
+data = data[:0xab] + b"\r\r\r" + data[0xae:]
 spy1['data'] = data
 
-spy1a['name'] = 'SPYvsS'
+spy1a['name'] = b'SPYvsS'
 spy1a['load'] = 0x1100
 spy1a['exec'] = 0
 spy1a['data'] = spy1a['data'][0x3ff:]

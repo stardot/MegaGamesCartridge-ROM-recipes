@@ -91,8 +91,8 @@ for line in lines:
                     print("Copying", ",".join(file_names), "to", rom_dir)
                     shutil.copy2(os.path.join(uef_dir, name), rom_file)
         else:
-            if roms_to_uef(list(map(lambda name: os.path.join(uef_dir, name), file_names),
-                           os.path.join(uef_dir, d["UEF"]))) == 0:
+            if roms_to_uef(list(map(lambda name: os.path.join(uef_dir, name), file_names)),
+                           os.path.join(uef_dir, d["UEF"])) == 0:
                 print("Created", d["UEF"], "from", ",".join(file_names))
     
     elif file_names[0] != d["UEF"]:

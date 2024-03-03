@@ -12,7 +12,7 @@ UEFtrans.py "$1" extract 3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,2
 
 # Unscramble all the levels to make them easier to compress and patch the
 # loader to skip the level data check.
-python unscramble.py
+python3 unscramble.py
 
 # Replace the original Vars file with the patched version.
 UEFtrans.py "$2" remove 3,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24

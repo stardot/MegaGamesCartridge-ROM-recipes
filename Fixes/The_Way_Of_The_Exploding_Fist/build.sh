@@ -14,7 +14,7 @@ UEFtrans.py ef.uef extract 0,1,2,3,4 temp
 sed -i s/2\\.//g temp/*.inf
 
 # Patch the loader to disable VDU calls and re-enable them after loading.
-python patch_loader.py
+python3 patch_loader.py
 
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/2.FLOAD,temp/2.FIST1,temp/2.FIST2,temp/2.FIST3,temp/2.FIST4

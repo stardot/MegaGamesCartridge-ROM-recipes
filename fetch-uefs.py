@@ -25,6 +25,9 @@ args = sys.argv[1:]
 update = "--update" in args
 if update:
     args.remove("--update")
+if "--help" in args or "-h" in args:
+    sys.stderr.write("usage: %s [--update] [name ...]\n" % sys.argv[0])
+    sys.exit(1)
 
 process_names = []
 
@@ -117,4 +120,4 @@ for line in lines:
     new_lines.append(",".join(new_line))
 
 if update:
-    open("roms.csv", "w").write("\n".join(new_lines) + "\n")
+    open("csv", "w").write("\n".join(new_lines) + "\n")

@@ -10,6 +10,6 @@ fi
 cp "$1" "$2"
 UEFtrans.py "$1" extract 0,1,2,3 temp
 UEFtrans.py "$2" remove 3
-python patch_file.py "$2"
+python3 patch_file.py "$2"
 
 rm -r temp

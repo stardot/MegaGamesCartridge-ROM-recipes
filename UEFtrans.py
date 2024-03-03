@@ -1934,7 +1934,7 @@ if __name__ == '__main__':
                 position = len(chunks)
             
             # Names of files to insert (comma-separated list)
-            file_names = string.split(args[1], ',')
+            file_names = args[1].split(',')
             
             # Insert the chunks in the list at the specified position
             chunks = chunks[:position] + create_chunks(file_names) + \
@@ -2162,10 +2162,10 @@ if __name__ == '__main__':
                 
                     # Add the chunk positions within each file to the list of
                     # positions.
-                    positions = positions + range(
+                    positions = positions + list(range(
                         contents[file_position]['position'],
                         contents[file_position]['last position'] + 1
-                        )
+                        ))
         
         # Create a new list of chunks without those in the positions list.
         new_chunks = []
