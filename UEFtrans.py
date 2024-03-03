@@ -541,11 +541,10 @@ def create_chunks(file_names, gaps = True):
         
         # Find the .inf file and read the details stored within
         try:
-            details = open(name + suffix + 'inf', 'r').readline()
+            details = open(name + suffix + 'inf', 'rb').readline()
         except IOError:
-        
             try:
-                details = open(name + suffix + 'INF', 'r').readline()
+                details = open(name + suffix + 'INF', 'rb').readline()
             except IOError:
                 print("Couldn't open information file, %s" % name+suffix+'inf')
                 sys.exit()
@@ -553,7 +552,7 @@ def create_chunks(file_names, gaps = True):
         # Parse the details
         details = [details.rstrip()]
         
-        splitters = [' ', '\011']
+        splitters = [b' ', b'\011']
         
         # Split the details up where certain whitespace characters occur
         for s in splitters:
@@ -562,7 +561,6 @@ def create_chunks(file_names, gaps = True):
             
             # Split up each substring (list entry)
             for d in details:
-            
                 new_details = new_details + d.split(s)
             
             details = new_details
@@ -584,7 +582,7 @@ def create_chunks(file_names, gaps = True):
         in_file.seek(0, 0)
         
         # Examine the name entry and take the load and execution addresses.
-        dot_at = details[0].find('.')
+        dot_at = details[0].find(b'.')
         if dot_at != -1:
             real_name = details[0][dot_at+1:]
             load, exe = details[1], details[2]
@@ -597,7 +595,7 @@ def create_chunks(file_names, gaps = True):
         
         if load == None or exe == None:
             print('Problem with %s: information is possibly incorrect.' % \
-                name+suffix+'inf')
+                  name+suffix+'inf')
             
             sys.exit()
         
@@ -609,17 +607,12 @@ def create_chunks(file_names, gaps = True):
         
         # Write block details.
         while True:
-            block, last = write_block(
-                in_file, real_name.encode("ascii"), load, exe, length, block_number
-                )
+            block, last = write_block(in_file, real_name, load, exe, length, block_number)
             
             if gap == 1:
-            
                 new_chunks.append((0x110, struct.pack("<H", 0x05dc)))
                 gap = 0
-            
             else:
-            
                 new_chunks.append((0x110, struct.pack("<H", 0x0258)))
             
             # Write the block to the list of new chunks.
@@ -747,7 +740,7 @@ def export_file(out_path, chunks, name, write_name, load, exe, length):
         try:
         
             inf_file = open(
-                out_path + os.sep + write_name + suffix + 'inf', 'w'
+                out_path + os.sep + write_name + suffix + 'inf', 'wb'
                 )
         
         except IOError:
@@ -757,7 +750,7 @@ def export_file(out_path, chunks, name, write_name, load, exe, length):
     if inf_file != None:
     
         # Write information to the .inf file
-        inf_file.write('$.%s\t%x\t%x\t%x\n' % (name.decode("ascii"), load, exe, length))
+        inf_file.write(b'$.%s\t%x\t%x\t%x\n' % (name, load, exe, length))
         
         # Read the blocks from the UEF file and write
         # them to the file
