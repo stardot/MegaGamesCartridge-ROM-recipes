@@ -13,7 +13,7 @@ UEFtrans.py "$1" extract 0,1,2,3,4,5,6,7 temp
 #ophis -o temp/screen screen.oph
 #ophis -o temp/LOADER loader.oph
 #cat temp/screen temp/SCRDATA > temp/SCREEN
-python -c 'open("temp/SCREEN.inf", "w").write("$.SCREEN\t2700\t2717\t2900")'
+python3 -c 'open("temp/SCREEN.inf", "w").write("$.SCREEN\t2700\t2717\t2900")'
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/CONTROL,temp/SCREEN,temp/DATA,temp/DAT1,temp/DAT2,temp/MAIN
 rm -r temp

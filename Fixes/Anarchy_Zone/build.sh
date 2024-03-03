@@ -10,7 +10,7 @@ fi
 UEFtrans.py "$1" extract 0,1,2,3,4,5 temp
 
 # Fix the loader to remove attempts to disable keyboard scanning.
-python -c 't = open("temp/ZONE", "rb").read(); t = t.replace("FX178", "*****"); open("temp/ZONE", "wb").write(t)'
+python3 -c 't = open("temp/ZONE", "rb").read(); t = t.replace(b"FX178", b"*****"); open("temp/ZONE", "wb").write(t)'
 
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/ZONE,temp/ZONE#1,temp/ZONE#2,temp/ZONE#3,temp/ZONE#4,temp/ZONE#5

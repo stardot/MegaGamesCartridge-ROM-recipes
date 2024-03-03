@@ -8,7 +8,7 @@ if [ -z "$1" ] || [ -z "$2" ]; then
 fi
 
 UEFtrans.py "$1" extract 0,1,2,3,4,5 temp
-python -c 't = open("temp/QLOAD").read(); t = t.replace("FX178,255,255", "*************"); open("temp/QLOAD", "w").write(t)'
+python3 -c 't = open("temp/QLOAD", "rb").read(); t = t.replace(b"FX178,255,255", b"*************"); open("temp/QLOAD", "wb").write(t)'
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/CAMELOT,temp/QLOAD,temp/SCREEN,temp/QUEST21,temp/QUEST22,temp/QUEST23
 rm -r temp

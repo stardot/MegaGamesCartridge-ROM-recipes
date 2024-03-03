@@ -9,7 +9,7 @@ fi
 
 UEFtrans.py "$1" extract 0,1,2,3,4 temp
 ./loader.py
-python -c 'open("temp/SCREEN.inf", "w").write("$.SCREEN\t5800\t5800\t2800")'
+python3 -c 'open("temp/SCREEN.inf", "w").write("$.SCREEN\t5800\t5800\t2800")'
 ./split.py "$1" "$2"
 
 UEFtrans.py "$2" new Electron 0

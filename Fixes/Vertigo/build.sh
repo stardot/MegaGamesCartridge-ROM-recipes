@@ -16,7 +16,7 @@ sed -i s/$.// temp/*.inf
 sed -i s/D./$./ temp/*.inf
 
 # Patch the loader.
-python -c 't = open("temp/D.LOADER", "rb").read(); t = t[:4] + "\xe5\x8d\x74\x74\x40:\xf4" + t[11:]; t = t.replace("0,3,15,0", "0,8,00,8"); open("temp/D.LOADER", "wb").write(t)'
+python3 -c 't = open("temp/D.LOADER", "rb").read(); t = t[:4] + b"\xe5\x8d\x74\x74\x40:\xf4" + t[11:]; t = t.replace(b"0,3,15,0", b"0,8,00,8"); open("temp/D.LOADER", "wb").write(t)'
 
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/D.LOADER,temp/D.VERTPAN,temp/D.VERTLEV

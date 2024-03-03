@@ -15,8 +15,8 @@ ophis -o temp/screen screen.oph
 ophis -o temp/2e 2loader.oph
 cat temp/screen temp/SCRDATA > temp/SCREEN
 cat temp/2e temp/2DATA > temp/2c
-python -c 'open("temp/SCREEN.inf", "w").write("$.1\t3000\t3000\t%x" % len(open("temp/SCREEN").read()))'
-python -c 'open("temp/2c.inf", "w").write("$.2\t1100\t1100\t%x" % len(open("temp/2c").read()))'
+python3 -c 'open("temp/SCREEN.inf", "w").write("$.1\t3000\t3000\t%x" % len(open("temp/SCREEN").read()))'
+python3 -c 'open("temp/2c.inf", "w").write("$.2\t1100\t1100\t%x" % len(open("temp/2c").read()))'
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/Inertia,temp/SCREEN,temp/2c,temp/3
 rm -r temp

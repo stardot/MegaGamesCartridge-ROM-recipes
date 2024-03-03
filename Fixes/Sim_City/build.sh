@@ -15,9 +15,9 @@ ophis -o temp/screen screen.oph
 ophis -o temp/sim2 sim2.oph
 cat temp/screen temp/SCRDATA > temp/SIMSCRc
 cat temp/sim2 temp/SIM2D > temp/SIM2c
-python -c 'open("temp/SIMSCRc.inf", "w").write("$.SIMSCR1\t4100\t4100\t%x" % len(open("temp/SIMSCRc").read()))'
+python3 -c 'open("temp/SIMSCRc.inf", "w").write("$.SIMSCR1\t4100\t4100\t%x" % len(open("temp/SIMSCRc").read()))'
 # Place the compressed file above HIMEM of 0x4000 as set in SIM_CITY.
-python -c 'open("temp/SIM2c.inf", "w").write("$.SIM2\t4000\t4000\t%x" % len(open("temp/SIM2c").read()))'
+python3 -c 'open("temp/SIM2c.inf", "w").write("$.SIM2\t4000\t4000\t%x" % len(open("temp/SIM2c").read()))'
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/SIM_CITY,temp/SIMSCRc,temp/SIM1,temp/SIMCIT2,temp/SIM2c,temp/SIM3,temp/SIM4
 rm -r temp
