@@ -1,7 +1,7 @@
 import sys
 
-t = open(sys.argv[1]).read()
-t = t.replace("FX178,0", "*******")
+t = open(sys.argv[1], "rb").read()
+t = t.replace(b"FX178,0", b"*******")
 
 #s = ""
 #i = 0x2a1
@@ -26,4 +26,4 @@ t = t.replace("FX178,0", "*******")
 #
 #t = t[:0x2a1] + s + t[0x2f9:]
 
-open(sys.argv[1], "w").write(t)
+open(sys.argv[1], "wb").write(t)

@@ -14,7 +14,7 @@ fi
 SSD2UEF.py "$1" "$2" $.LOADER,$.LOADSCR,$.NINJA-1,$.NINJA-2,$.NINJA-3,1.LEVEL-A,1.LEVEL-B,2.LEVEL-A,2.LEVEL-B,3.LEVEL-A,3.LEVEL-B,4.LEVEL-A,4.LEVEL-B,5.LEVEL-A,5.LEVEL-B,6.LEVEL-A,6.LEVEL-B
 
 UEFtrans.py "$2" extract 0 temp
-python patch.py temp/LOADER
+python3 patch.py temp/LOADER
 
 UEFtrans.py "$2" remove 0
 UEFtrans.py "$2" insert 0 temp/LOADER

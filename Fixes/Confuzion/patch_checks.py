@@ -8,16 +8,16 @@ t = open("temp/CONFUZION", "rb").read()
 #    ) + t[0x2c:]
 
 t = (# Update CFS checks.
-     "\xa9\x91"     # lda #$91
-     "\x8d\xca\x03" # sta $3ca
-     "\xa9\x0e"     # lda #$0e
-     "\x8d\xcb\x03" # sta $3cb
-     "\xa9\x0d"     # lda #$0d
-     "\x8d\xcc\x03" # sta $3cc
-     "\xa9\x22"     # lda #$22
-     "\x8d\xcd\x03" # sta $3cd
-     "\xa9\x42"     # lda #$42
-     "\x8d\xce\x03" # sta $3ce
+     b"\xa9\x91"     # lda #$91
+     b"\x8d\xca\x03" # sta $3ca
+     b"\xa9\x0e"     # lda #$0e
+     b"\x8d\xcb\x03" # sta $3cb
+     b"\xa9\x0d"     # lda #$0d
+     b"\x8d\xcc\x03" # sta $3cc
+     b"\xa9\x22"     # lda #$22
+     b"\x8d\xcd\x03" # sta $3cd
+     b"\xa9\x42"     # lda #$42
+     b"\x8d\xce\x03" # sta $3ce
      ) + t
 
 open("temp/CONFUZION", "wb").write(t)

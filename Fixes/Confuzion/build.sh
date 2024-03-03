@@ -10,7 +10,7 @@ fi
 cp "$1" "$2"
 UEFtrans.py "$1" extract 1 temp
 
-python patch_checks.py
+python3 patch_checks.py
 
 # Replace the original CONFUZION file with the patched version.
 UEFtrans.py "$2" remove 1

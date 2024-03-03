@@ -10,7 +10,7 @@ fi
 SSD2UEF.py "$1" temp.uef $.!BOOT,$.Loader,$.Pom2016,$.PlcOMgc
 UEFtrans.py temp.uef extract 0,1,2,3 temp
 
-python patch_loader.py
+python3 patch_loader.py
 
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/\!BOOT,temp/Loader,temp/Pom2016,temp/PlcOMgc

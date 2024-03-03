@@ -11,7 +11,7 @@ UEFtrans.py "$1" extract 0,1,2,3 temp
 #SSD2UEF.py "$1" "$2" $.ZAOR,$.ZAOR1
 
 # Fix the loader and screen.
-python fix_loader.py temp/LOADER temp/ZAORCV temp/INST
+python3 fix_loader.py temp/LOADER temp/ZAORCV temp/INST
 
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/LOADER,temp/ZAORCV,temp/INST,temp/BIBM

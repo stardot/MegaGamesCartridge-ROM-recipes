@@ -10,7 +10,7 @@ fi
 UEFtrans.py "$1" extract 0 temp
 
 # Patch the game.
-python patch_file.py
+python3 patch_file.py
 
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/WARS

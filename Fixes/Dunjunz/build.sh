@@ -14,7 +14,7 @@ sed -i s/6b/3b/g temp/Level*.inf
 
 # Unscramble all the levels to make them easier to compress and patch the
 # loader to skip the level data check.
-python unscramble.py
+python3 unscramble.py
 
 UEFtrans.py "$2" new Electron 0
 UEFtrans.py "$2" append temp/DUNK,temp/LOADER,temp/TITLE,temp/Dunjunz,temp/Level1,temp/Level2,temp/Level3,temp/Level4,temp/Level5,temp/Level6,temp/Level7,temp/Level8,temp/Level9,temp/Level10,temp/Level11,temp/Level12,temp/Level13,temp/Level14,temp/Level15,temp/Level16,temp/Level17,temp/Level18,temp/Level19,temp/Level20,temp/Level21,temp/Level22,temp/Level23,temp/Level24,temp/Level25

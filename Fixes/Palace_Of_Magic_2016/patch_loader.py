@@ -1,11 +1,11 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-t = open("temp/Loader").read()
+t = open("temp/Loader", "rb").read()
 t = t.replace(
-    "*FX 200 1",
-    "\xef 21     "
+    b"*FX 200 1",
+    b"\xef 21     "
     ).replace(
-    ' 3000"',
-    '" : \xef6'
+    b' 3000"',
+    b'" : \xef6'
     )
-open("temp/Loader", "w").write(t)
+open("temp/Loader", "wb").write(t)
