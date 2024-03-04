@@ -30,7 +30,8 @@ jobs:
       - name: Fix resources
         run: |
           export PATH=$PATH:$PWD
-          PYTHONPATH=. python3 fix-uefs.py
+          export PYTHONPATH=$PYTHONPATH:$PWD
+          python3 fix-uefs.py
           tree UEFs
       - name: Create scripts
         run: python3 csv2scripts.py
