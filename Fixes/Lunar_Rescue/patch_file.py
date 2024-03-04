@@ -14,6 +14,5 @@ t = t[:0x261e] + b"\x04\x04\x04" + t[0x2621:]
 open("temp/Lunar33", "wb").write(t)
 
 t = open("temp/Lunar3\xc3.inf", "rb").read()
+t = t.replace(b"\xc3", b"3")
 open("temp/Lunar33.inf", "wb").write(t)
-
-os.system("UEFtrans.py " + shlex.quote(sys.argv[1]) + " insert 3 temp/Lunar33")

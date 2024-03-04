@@ -9,7 +9,9 @@ fi
 
 cp "$1" "$2"
 UEFtrans.py "$1" extract 0,1,2,3 temp
-UEFtrans.py "$2" remove 3
+UEFtrans.py "$2" remove 2,3
 python3 patch_file.py "$2"
+UEFtrans.py "$2" append temp/Lunar2
+UEFtrans.py "$2" append temp/Lunar33
 
-rm -r temp
+#rm -r temp
