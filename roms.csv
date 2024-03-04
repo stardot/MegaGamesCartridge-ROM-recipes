@@ -183,7 +183,7 @@ OK,Pinball,Microbyte,Pinball-Microbyte_E.uef,Pinball-Microbyte.rom,-b -B e00 -c 
 OK,Pinball,Kansas,PinballArcade_E.uef,Pinball.rom,-b -B e00 -c ::x:x -p1 -w 120,https://www.stairwaytohell.com/electron/uefarchive/Kansas/PinballArcade_E.zip,PinballArcade_E.uef
 OK (patched),Pipeline,Superior,Pipeline-patched.uef,Pipeline-1.rom Pipeline-2.rom,-b -B e00 -c x:x/: -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Pipeline_E.zip,Pipeline_E.uef
 OK,Pipemania,Empire,Pipemania_E.uef,Pipemania-1.rom Pipemania-2.rom,-b -B e00 -c :/: -m -r -s,https://www.stairwaytohell.com/electron/uefarchive/Empire/Pipemania_E.zip,Pipemania_E.uef
-OK,Plan B,Bug Byte,PlanB_BE.uef,PlanB-1.rom PlanB-2.rom,-b -B e00 -c :2000 -m,https://www.stairwaytohell.com/electron/uefarchive/BugByte/PlanB_BE.zip,PlanB_BE.uef
+OK,Plan B,Bug Byte,PlanB_BE.uef,PlanB-1.rom PlanB-2.rom,-b -B e00 -c :2000:/: -m,https://www.stairwaytohell.com/electron/uefarchive/BugByte/PlanB_BE.zip,PlanB_BE.uef
 OK,Plan B 2,Bug Byte,PlanB2_BE.uef,PlanB2.rom,-b -B e00 -c e00,https://www.stairwaytohell.com/electron/uefarchive/BugByte/PlanB2_BE.zip,PlanB2_BE.uef
 OK,Planetoid,Acornsoft,Planetoid_E.uef,Planetoid.rom,-b -B e00 -c e00: -m,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Planetoid_E.zip,Planetoid_E.uef
 OK,Plunder,CCS,Plunder_E.uef,Plunder.rom,-b -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/Cases/Plunder_E.zip,Plunder_E.uef
