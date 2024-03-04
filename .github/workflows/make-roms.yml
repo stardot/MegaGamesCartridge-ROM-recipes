@@ -29,7 +29,7 @@ jobs:
         run: python3 fetch-uefs.py
       - name: Fix resources
         run: |
-          export PATH=$PATH:$PWD
+          export PATH=$PATH:$PWD/Ophis/bin:$PWD
           export PYTHONPATH=$PYTHONPATH:$PWD
           python3 fix-uefs.py
           tree UEFs
