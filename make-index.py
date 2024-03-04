@@ -57,7 +57,7 @@ for heading in index_headings:
 
 new_lines += ["</tr>"]
 
-rom_base_url = "https://dboddie.github.io/MegaGamesCartridge-ROM-recipes/ROMs/"
+rom_base_url = "/MegaGamesCartridge-ROM-recipes/ROMs/"
 
 for line in lines:
 
