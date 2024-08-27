@@ -96,20 +96,23 @@ for line in lines:
         data = BytesIO(resp.read())
         d["URL"] = url
         
-        try:
-            zf = zipfile.ZipFile(data)
-            for file_name in file_names:
-                data = zf.read(file_name)
-                open(os.path.join(uef_dir, os.path.split(file_name)[1]),
-                     "wb").write(data)
-        
-        except KeyError:
-            sys.stderr.write("Failed to find %s in the archive.\n" % file_name)
-            sys.stderr.write("Found: %s\n" % " ".join(zf.namelist()))
-            
-            # Don't try to download this UEF next time.
-            if not original_url:
-                d["URL"] = "-"
+        if url.endswith(".zip"):
+            try:
+                zf = zipfile.ZipFile(data)
+                for file_name in file_names:
+                    data = zf.read(file_name)
+                    open(os.path.join(uef_dir, os.path.split(file_name)[1]),
+                         "wb").write(data)
+
+            except KeyError:
+                sys.stderr.write("Failed to find %s in the archive.\n" % file_name)
+                sys.stderr.write("Found: %s\n" % " ".join(zf.namelist()))
+
+                # Don't try to download this UEF next time.
+                if not original_url:
+                    d["URL"] = "-"
+        else:
+            open(os.path.join(uef_dir, os.path.split(file_name)[1]), "wb").write(data.read())
         
         time.sleep(1)
     
