@@ -76,7 +76,10 @@ OK,Draughts,Computer Concepts,Draughts-ComputerConcepts_BE.uef,Draughts-Computer
 OK,Draughts,Superior,Draughts-Superior_E.uef,Draughts-Superior.rom,-a -B e00 -c e00,https://www.stairwaytohell.com/electron/uefarchive/Superior/Draughts-Superior_E.zip,Draughts-Superior_E.uef
 OK (patched),Dunjunz,Bug Byte,Dunjunz-patched.uef,Dunjunz-1.rom Dunjunz-2.rom,-a -B e00 -c :/: -f 1-28 -r -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/BugByte/Dunjunz_E.zip,Dunjunz_E.uef
 OK (patched),Eddie Kidd Jump Challenge,Martech,EddieKiddJumpChallenge-EveryGameGoing.uef,EddieKiddJumpChallenge-1.rom EddieKiddJumpChallenge-2.rom,-a -B e00 -c :1e00/: -m -s,http://www.everygamegoing.com/download/electron/martech/5_25_discs/Eddie_Kidd_Jump_Challenge.zip,HD-EDDI.ssd
+OK,Electrobots,0xC0DE,electrobots.uef,Electrobots-1.rom Electrobots-2.rom,-a -B 1900 -c :1f00:::1f00/1f00 -m -s,https://github.com/0xC0DE6502/electrobots-releases/raw/main/electrobots.uef,electrobots.uef
+OK,Electrobots Going Underground,0xC0DE,electrobots-going-underground.uef,ElectrobotsGoingUnderground.rom,-a -B 1900 -c :1f00/1f00 -m -s,https://github.com/0xC0DE6502/electrobots-going-underground-releases/raw/main/electrobots-going-underground.uef,electrobots-going-underground.uef
 OK,Electron Invaders,Program Power,ElectronInvaders_E.uef,ElectronInvaders.rom,-a -B e00 -c e00: -m,https://www.stairwaytohell.com/electron/uefarchive/Micropower/ElectronInvaders_E.zip,ElectronInvaders_E.uef
+OK,Elementum,0xC0DE,elementum.uef,Elementum-1.rom Elementum-2.rom,-a -B 1900 -c :1f00:::1f00/1f00 -m -s,https://github.com/0xC0DE6502/elementum-releases/raw/main/elementum.uef,elementum.uef
 OK,Elite,Acornsoft,Elite-SRR_E.uef,Elite-1.rom Elite-2.rom,-a -B e00 -c e00:/: -s -pf patch_files/elite.txt,https://www.stairwaytohell.com/electron/uefarchive/SuperiorReRelease/Elite-SRR_E.zip,Elite-SRR_E.uef
 OK,Elixir,Superior,Elixir_E.uef,Elixir-1.rom Elixir-2.rom,-a -B e00 -c e00:/: -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Superior/Elixir_E.zip,Elixir_E.uef
 OK,Empire,Shards,Empire_BE.uef,Empire.rom,-a -B e00 -c : -m,https://www.stairwaytohell.com/electron/uefarchive/Shards/Empire_BE.zip,Empire_BE.uef
@@ -92,6 +95,7 @@ OK,Felix In The Factory,Micro Power,FelixInTheFactory_E.uef,FelixInTheFactory.ro
 OK,Felix Meets The Evil Weevils,Micro Power,FelixMeetsTheEvilWeevils_E.uef,FelixMeetsTheEvilWeevils.rom,-a -B e00 -c e00 -m,https://www.stairwaytohell.com/electron/uefarchive/Micropower/FelixMeetsTheEvilWeevils_E.zip,FelixMeetsTheEvilWeevils_E.uef
 OK,Firebug,Acornsoft,Firebug_E.uef,Firebug.rom,-a -B e00 -c e00:.5700 -m -pf patch_files/firebug.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Firebug_E.zip,Firebug_E.uef
 OK,Firetrack,Superior,Firetrack_E.uef,Firetrack-1.rom Firetrack-2.rom,-a -B e00 -c e00:::::c00:600/315b -t -w 880 -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Firetrack_E.zip,Firetrack_E.uef
+OK,Flappy Bird,0xC0DE,flappy-bird.uef,FlappyBird.rom,-a -B e00 -c x:2000:x -m,https://github.com/0xC0DE6502/flappy-bird-releases/raw/main/flappy-bird.uef,flappy-bird.uef
 OK,Frak,Aardvark,FrakV2_E.uef,Frak-1.rom Frak-2.rom,-a -B e00 -c e00/: -s,https://www.stairwaytohell.com/electron/uefarchive/Aardvark/FrakV2_E.zip,FrakV2_E.uef
 OK,Frankenstein 2000,Icon,Frankenstein2000_E.uef,Frankenstein2000.rom,-a -B e00 -c e00:1900:e00:e00:::::e00 -p -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Icon/Frankenstein2000_E.zip,Frankenstein2000_E.uef
 OK,Freefall,Acornsoft,Freefall_E.uef,Freefall-1.rom Freefall-2.rom,-a -B e00 -c e00:.21bb/: -m -s -pf patch_files/free_fall.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Freefall_E.zip,Freefall_E.uef
@@ -147,6 +151,7 @@ OK,Loony Loco,Kansas,LoonyLoco_E.uef,LoonyLoco.rom,-a -c : -m -s,https://www.sta
 OK,Loopz,Audiogenic,Loopz_E.uef,Loopz-1.rom Loopz-2.rom,-a -B e00 -c ::x:/: -m,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/Loopz_E.zip,Loopz_E.uef
 OK,Lunar Rescue,Alligata,Lunar_Rescue-patched.uef,LunarRescue.rom,-a -B e00 -c e00:e00::3000 -m,https://www.stairwaytohell.com/electron/uefarchive/Alligata/LunarRescue_E.zip,LunarRescue_E.uef
 OK,Magic Mushrooms,Acornsoft,MagicMushrooms_E.uef,MagicMushrooms.rom,-a -B e00 -c e00:.4700 -m -pf patch_files/magic_mushrooms.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/MagicMushrooms_E.zip,MagicMushrooms_E.uef
+OK,Manic Miner,0xC0DE,ManicMiner2021-0.08b.uef,ManicMiner-1.rom ManicMiner-2.rom,-a -B 1f00 -c :/: -m -s,https://github.com/0xC0DE6502/manic-miner-2021-releases/raw/main/ManicMiner2021-0.08b.uef,ManicMiner2021-0.08b.uef
 OK,Maze,Acornsoft,Maze_E.uef,Maze.rom,-a -B e00 -c e00: -m -pf patch_files/maze.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Maze_E.zip,Maze_E.uef
 OK,MazezaM,Retro Software,MazezaM_2.1-fromSSD.uef,MazezaM.rom,-a -B e00 -c e00:e00::e00 -m,http://www.retrosoftware.co.uk/wiki/images/3/3e/MazezaMElk_2_1.zip,MazezaMElk_2_1/MazezaMElk.ssd
 OK,Meteors,Acornsoft,Meteors_E.uef,Meteors.rom,-a -B e00 -c e00 -f 0-1 -pf patch_files/meteors.txt,https://www.stairwaytohell.com/electron/uefarchive/Acornsoft/Meteors_E.zip,Meteors_E.uef
@@ -194,6 +199,7 @@ OK,Predator,Superior,Predator_E.uef,Predator-1.rom Predator-2.rom,-a -B e00 -c e
 OK,Project Thesius,Robico,RHT2-ProjectThesius_E.uef,ProjectThesius-1.rom ProjectThesius-2.rom,-a -B e00 -c :2d00/: -s -t -T -w d60,http://www.stairwaytohell.com/electron/uefarchive/Robico/RickHansonTrilogy_E.zip,RHT2-ProjectThesius_E.uef
 OK,Psycastria,ASL,Psycastria_E.uef,Psycastria-1.rom Psycastria-2.rom,-a -B e00 -c e00:x:/: -w 39f -s -t,https://www.stairwaytohell.com/electron/uefarchive/Audiogenic/Psycastria_E.zip,Psycastria_E.uef
 OK,Puppet Man,Larsoft,PuppetMan_RUN_BE.uef,PuppetMan.rom,-a -B e00 -c : -m -r,https://www.stairwaytohell.com/electron/uefarchive/Larsoft/PuppetMan_RUN_BE.zip,PuppetMan_RUN_BE.uef
+OK,Python,0xC0DE,python.uef,Python.rom,-a -B e00 -c x:x:2000 -m,https://github.com/0xC0DE6502/python-releases/raw/main/python.ssd,python.ssd
 OK,Quest,Superior,Quest_E.uef,Quest-1.rom Quest-2.rom,-a -B e00 -c e00:/: -s,https://www.stairwaytohell.com/electron/uefarchive/Superior/Quest_E.zip,Quest_E.uef
 OK,Quest For Freedom,IJK,QuestForFreedom_E.uef,QuestForFreedom-1.rom QuestForFreedom-2.rom,-a -B e00 -c e00:/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/IJK/QuestForFreedom_E.zip,QuestForFreedom_E.uef
 OK,Quest For The Holy Grail,Epic,QuestForTheHolyGrail_E.uef,QuestForTheHolyGrail-1.rom QuestForTheHolyGrail-2.rom,-a -B e00 -c :/: -m -s,https://www.stairwaytohell.com/electron/uefarchive/Epic/QuestForTheHolyGrail_E.zip,QuestForTheHolyGrail_E.uef
