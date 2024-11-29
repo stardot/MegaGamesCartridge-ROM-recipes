@@ -132,4 +132,4 @@ for line in lines:
     new_lines.append(",".join(new_line))
 
 if update:
-    open("csv", "w").write("\n".join(new_lines) + "\n")
+    open("roms.csv", "w").write("\n".join(new_lines) + "\n")
