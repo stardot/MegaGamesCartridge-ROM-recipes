@@ -63,7 +63,7 @@ for heading in index_headings:
 new_lines += ["</tr>"]
 
 rom_base_url = "/MegaGamesCartridge-ROM-recipes/ROMs/"
-full_rom_base_url = "https://stardot.github.io/MegaGamesCartridge-ROM-recipes/"
+full_rom_base_url = "https://stardot.github.io/MegaGamesCartridge-ROM-recipes/ROMs/"
 emulator_url = "https://0xc0de6502.github.io/electroniq/"
 
 for line in lines:
