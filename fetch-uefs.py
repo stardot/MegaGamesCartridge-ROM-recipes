@@ -92,6 +92,8 @@ for line in lines:
             # Don't try to download this UEF next time.
             if not original_url:
                 d["URL"] = "-"
+            
+            continue
         
         data = BytesIO(resp.read())
         d["URL"] = url

@@ -26,7 +26,7 @@ jobs:
       - name: Clone UEF2ROM
         run: git clone -b python3 https://github.com/stardot/UEF2ROM
       - name: Fetch resources
-        run: python3 fetch-uefs.py
+        run: python3 fetch-uefs.py --update
       - name: Fix resources
         run: |
           export PATH=$PATH:$PWD/Ophis/bin:$PWD
