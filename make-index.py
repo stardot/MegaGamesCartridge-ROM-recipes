@@ -63,6 +63,8 @@ for heading in index_headings:
 new_lines += ["</tr>"]
 
 rom_base_url = "/MegaGamesCartridge-ROM-recipes/ROMs/"
+full_rom_base_url = "https://stardot.github.io/MegaGamesCartridge-ROM-recipes/"
+emulator_url = "https://0xc0de6502.github.io/electroniq/"
 
 for line in lines:
 
@@ -81,15 +83,26 @@ for line in lines:
 
     rom_urls = []
     js_urls = []
-    for rom in d["ROMs"].split():
+    i = 2
+    roms = d["ROMs"].split()
+    for rom in roms:
         if os.path.exists(os.path.join("ROMs", rom)):
             rom_urls.append((rom, rom_base_url + rom))
-            js_urls.append("rom=" + rom_base_url + rom)
+            if len(roms) <= 2:
+                # Only 1 or 2 ROMs will work on a regular Electron.
+                # Titles with more ROMs are configured to use the MGC's bank
+                # switching mechanism.
+                js_urls.append("rom%i=%s" % (i, full_rom_base_url + rom))
+                i -= 1
 
     if not rom_urls:
         continue
 
-    new_lines += ["<tr>", '<td>' + d["Name"] + '</td>']
+    if js_urls:
+        link = emulator_url + "?" + "&".join(js_urls)
+        new_lines += ["<tr>", '<td><a href="' + link + '">' + d["Name"] + '</a></td>']
+    else:
+        new_lines += ["<tr>", '<td>' + d["Name"] + '</td>']
 
     new_lines += ['<td>' + "<br>".join([
         ('<a href="' + url + '">' + name + '</a>') for name, url in rom_urls
