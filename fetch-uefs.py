@@ -111,6 +111,13 @@ for line in lines:
                 # Don't try to download this UEF next time.
                 if not original_url:
                     d["URL"] = "-"
+
+            except zipfile.error:
+                sys.stderr.write("Not a zip file: %s\n" % file_name)
+
+                # Don't try to download this UEF next time.
+                if not original_url:
+                    d["URL"] = "-"
         else:
             open(os.path.join(uef_dir, os.path.split(file_name)[1]), "wb").write(data.read())
         
