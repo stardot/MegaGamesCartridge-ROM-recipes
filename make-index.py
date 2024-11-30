@@ -28,7 +28,7 @@ The order of the ROMs is important because the first will have a higher
 priority than the second.</p>
 
 <p>
-The <tt>*MGC</tt> command is used to run the contents of each ROM.
+The ROMs have been configured to auto-boot.
 """
 
 def md5sum(path):
