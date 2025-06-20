@@ -39,7 +39,7 @@ jobs:
       - name: Make an index file
         run: python3 make-index.py
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Converted ROMs
           path: ROMs
@@ -49,7 +49,7 @@ jobs:
           cp index.html _site/index.html
           mv ROMs _site/
       - name: Upload GitHub Pages artifacts
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
 
   deploy:
 
@@ -62,4 +62,4 @@ jobs:
     steps:
       - name: Deploy GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
