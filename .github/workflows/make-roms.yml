@@ -39,7 +39,7 @@ jobs:
       - name: Make an index file
         run: python3 make-index.py
       - name: Upload artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Converted ROMs
           path: ROMs
