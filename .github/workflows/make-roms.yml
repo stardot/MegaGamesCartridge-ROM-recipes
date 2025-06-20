@@ -2,7 +2,7 @@ name: Make ROMs
 
 on:
   push:
-    branches: ['python3']
+    branches: ['python3', 'origami-camera']
   workflow_dispatch:
 
 permissions:
