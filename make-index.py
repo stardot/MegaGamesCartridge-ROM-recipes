@@ -83,7 +83,7 @@ for line in lines:
 
     rom_urls = []
     js_urls = []
-    i = 2
+    i = 1
     roms = d["ROMs"].split()
     for rom in roms:
         if os.path.exists(os.path.join("ROMs", rom)):
