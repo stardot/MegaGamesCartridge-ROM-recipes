@@ -1508,7 +1508,7 @@ if __name__ == '__main__':
     if command == 'info':
     
         # Split the string at paragraph breaks.
-        originator = string.split(originator, '\012')
+        originator = originator.split('\012')
         
         print('File originator:')
         for line in originator:
@@ -1643,18 +1643,13 @@ if __name__ == '__main__':
                 # to ? symbols
                 new_name = printable(file['name'])
                 
-                print(string.expandtabs(
-                    string.ljust(str(file_number), 3)+': ' +
-                    string.ljust(new_name, 16) +
-                    string.upper(
-                        string.ljust("%x" % file['load'], 10) +'\t' +
-                        string.ljust("%x" % file['exec'], 10) +'\t' +
-                        string.ljust("%x" % len(file['data']), 6)
-                        ) +'\t' +
-                    'chunks %i to %i' % (
+                print("{:<3}: {:<16}".format(str(file_number), new_name), end="")
+                print("{:<10x} {:<10x} {:<6x}".format(file['load'],
+                            file['exec'], len(file['data'])).upper(), end=' ')
+                print('chunks %i to %i' % (
                         file['position'], file['last position']
                         )
-                    ))
+                    )
                 
                 file_number = file_number + 1
         
