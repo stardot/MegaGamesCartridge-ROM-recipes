@@ -171,7 +171,8 @@ OK (patched),Omega Orb,Audiogenic,OmegaOrb-EveryGameGoing-fromSSD.uef,OmegaOrb-1
 OK,Orbital,Impact,Orbital-EveryGameGoing.uef,Orbital.rom,-a -B e00 -c e00: -m,http://www.everygamegoing.com/download/electron/impact/5_25_discs/Orbital.zip,HD-ORBI.ssd
 OK,Overdrive,Superior,Overdrive_E.uef,Overdrive.rom,-a -B e00 -c e00::2300,https://www.stairwaytohell.com/electron/uefarchive/Superior/Overdrive_E.zip,Overdrive_E.uef
 OK,Oxbridge,Tynesoft,Oxbridge_E.uef,Oxbridge-1.rom Oxbridge-2.rom,-a -B e00 -c e00:/: -s -t -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Tynesoft/Oxbridge_E.zip,Oxbridge_E.uef
-OK,Palace Of Magic (original),Superior,PalaceOfMagic_E.uef,PalaceOfMagic-1.rom PalaceOfMagic-2.rom,-a -B e00 -c e00/: -s,https://www.everygamegoing.com/download/electron/egg/5_25_discs/Palace-Of-Magic-2016.zip,PalaceOfMagic_E.uef
+OK,Palace Of Magic (original),Superior,PalaceOfMagic_E.uef,PalaceOfMagic-1.rom PalaceOfMagic-2.rom,-a -B e00 -c e00/: -s,https://www.stairwaytohell.c
+om/electron/uefarchive/Superior/PalaceOfMagic_E.zip,PalaceOfMagic_E.uef
 OK,Palace Of Magic (2016),Superior,PalaceOfMagic2016-fromSSD.uef,PalaceOfMagic2016-1.rom PalaceOfMagic2016-2.rom,-a -B e00 -c e00::2000/: -f 1-3 -s,https://www.everygamegoing.com/download/electron/egg/5_25_discs/Palace-Of-Magic-2016.zip,Palace_Of_Magic_2016.ssd
 OK,Panik,Atlantis,Panik_BE.uef,Panik.rom,-a -B e00 -c : -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Atlantis/Panik_BE.zip,Panik_BE.uef
 OK,Paperboy,Elite,Paperboy_E.uef,Paperboy-1.rom Paperboy-2.rom,-a -c e00:1900:5000:1900:4200/: -L postload/keyboard_scan_disable.oph postload -pf patch_files/paperboy.txt -s -w 39f,https://www.stairwaytohell.com/electron/uefarchive/Elite/Paperboy_E.zip,Paperboy_E.uef
